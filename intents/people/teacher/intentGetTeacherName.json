@@ -1,0 +1,14 @@
+[
+"- Ce profesor are curs în sala [Cx](classroom)?",
+"- Ce profesor are laborator în sala [Cx](classroom)?",
+"- Cine ține cursul în sala [Cx](classroom)?",
+"- Cine ține laboratorul în sala [Cx](classroom)?",
+"- Caută-mi numele profesorului ce are curs în sala [Cx](classroom)!",
+"- Caută-mi numele profesorului ce ține laboratorul din sala [Cx](classroom)!",
+"- Spune-mi, te rog, numele profesorului ce are curs în sala [Cx](classroom)!",
+"- Spune-mi, te rog, numele profesorului ce are laborator în sala [Cx](classroom)!",
+"- Îmi poți spune, te rog, numele profesorului ce are laborator în sala [Cx](classroom)?",
+"- Îmi poți spune, te rog, numele profesorului ce are curs în sala [Cx](classroom)?",
+"- Cine predă cursul în sala [Cx](classroom)?",
+"- Cine predă laboratorul în sala [Cx](classroom)?"
+]

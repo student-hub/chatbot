@@ -1,0 +1,72 @@
+{
+    "M2": {
+        "name": "Matematică 2",
+        "year": 1,
+        "sem": 1
+    },
+    "Mat2": {
+        "name": "Matematică 2",
+        "year": 1,
+        "sem": 1
+    },
+    "PL": {
+        "name": "Proiectare Logică",
+        "year": 1,
+        "sem": 1
+    },
+    "IR": {
+        "name": "Istoria Religiilor",
+        "year": 1,
+        "sem": 1
+    },
+    "II": {
+        "name": "Introducere în informatică",
+        "year": 1,
+        "sem": 1
+    },
+    "USO": {
+        "name": "Utilizarea sistemelor de operare",
+        "year": 1,
+        "sem": 1
+    },
+    "PC": {
+        "name": "Programarea calculatoarelor",
+        "year": 1,
+        "sem": 1
+    },
+    "Mat1": {
+        "name": "Matematică 1",
+        "year": 1,
+        "sem": 1
+    },
+    "M1": {
+        "name": "Matematică 1",
+        "year": 1,
+        "sem": 1
+    },
+    "EN": {
+        "name": "Engleză",
+        "year": 1,
+        "sem": 1
+    },
+    "GI": {
+        "name": "Grafică inginerească",
+        "year": 1,
+        "sem": 1
+    },
+    "MEC": {
+        "name": "Mecanică",
+        "year": 1,
+        "sem": 1
+    },
+    "LOGICA": {
+        "name": "Logică",
+        "year": 1,
+        "sem": 1
+    },
+    "IF": {
+        "name": "Istoria Filozofiei",
+        "year": 1,
+        "sem": 1
+    }
+}
