@@ -1,8 +1,8 @@
 import json
 import os
 
-with open('intentGroupLeader.json') as intentGetTeacherNameWithDay:
-    intent = json.load(intentGetTeacherNameWithDay)
+with open('intentGroupLeader.json') as intentGroupLeader:
+    intent = json.load(intentGroupLeader)
 with open('../../../resources/nrGroup.json') as nrGroupModel:
     nrGroup = json.load(nrGroupModel)
 with open('../../../resources/nrSR.json') as nrSRModel:
