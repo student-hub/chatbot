@@ -1,5 +1,6 @@
 [
 "- Când se termină [Ex](event)?",
+"- Când se încheie [Ex](event)?",
 "- Îmi poți spune, te rog, când se termină [Ex](event)?",
 "- Îmi poți spune când se termină [Ex](event)?",
 "- Poți să îmi spui dacă s-a terminat [Ex](event)?",
@@ -8,7 +9,12 @@
 "- Spune-mi, când se termină [Ex](event)!",
 "- Ai idee când se termină [Ex](event)?",
 "- Știi când se termină [Ex](event)?",
+"- Știi când se încheie [Ex](event)?",
 "- Pe la ce oră se termină [Ex](event)?",
+"- Pe la ce oră se încheie [Ex](event)?",
 "- La cât se termină [Ex](event)?",
-"- S-a terminat [Ex](event)?"
+"- La cât se încheie [Ex](event)?",
+"- S-a terminat [Ex](event)?",
+"- Mai are loc [Ex](event)?",
+"- Se mai ține [Ex](event)?"
 ]

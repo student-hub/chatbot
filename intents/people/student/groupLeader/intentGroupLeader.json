@@ -1,8 +1,14 @@
 [
 "- Cine este șeful grupei [Gx](groupNr) [Sx](srNr)?",
+"- Cine este șef de grupă la [Gx](groupNr) [Sx](srNr)?",
 "- Cine este șef la grupa [Gx](groupNr) [Sx](srNr)?",
+"- Cum se numește șeful grupei [Gx](groupNr) [Sx](srNr)?",
+"- Cum se numește șeful de grupă la [Gx](groupNr) [Sx](srNr)?",
 "- Ai idee cine este șeful grupei [Gx](groupNr) [Sx](srNr)?",
+"- Ai idee cine este șeful de grupă la [Gx](groupNr) [Sx](srNr)?",
+"- Ai idee ce șef are grupa [Gx](groupNr) [Sx](srNr)?",
 "- Ai idee cine este șef la grupa [Gx](groupNr) [Sx](srNr)?",
-"- Ce șef are grupa [Gx](groupNr) [Sx](srNr)?",
-"- Ai idee ce șef are grupa [Gx](groupNr) [Sx](srNr)?"
+"- Ai idee cum se numește șeful grupei [Gx](groupNr) [Sx](srNr)?",
+"- Ai idee cum se numește șeful de grupă la [Gx](groupNr) [Sx](srNr)?",
+"- Ce șef are grupa [Gx](groupNr) [Sx](srNr)?"
 ]
