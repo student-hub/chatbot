@@ -1,0 +1,11 @@
+- intent: faq/ask_connectMoodle
+  examples: |
+    - Cum depun actele la secretariat?
+    - Cum trimit actele la secretariat?
+    - Cum las actele la secretariat?
+    - Nu știu cum să depun actele la secretariat.
+    - Ai idee cum pot să depun actele la secretariat?
+    - Care sunt modalitățile pentru depunerea actelor la secretariat?
+    - Explică-mi cum să depun actele la secretariat!
+    - Știi cum să trimit actele la secretariat?
+    - Aș vrea să predau actele la secretariat!
