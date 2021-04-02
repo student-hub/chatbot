@@ -1,0 +1,11 @@
+- intent: faq/ask_changeGroup
+  examples: |
+    - Îmi pot schimba grupa?
+    - Există vreo modalitate să îmi schimb grupa?
+    - Există vreun regulament pentru schimbarea grupei?
+    - Există vreo procedură pentru schimbarea grupei?
+    - Știi cum îmi pot schimba grupa?
+    - Știi care este modalitatea de schimbare a grupei?
+    - Care este modalitatea de schimbare a grupei?
+    - Știi care este procedura pentru schimbarea grupei?
+    - Cum îmi pot schimba grupa?

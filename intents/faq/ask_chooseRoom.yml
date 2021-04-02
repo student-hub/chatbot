@@ -1,0 +1,17 @@
+- intent: faq/ask_chooseRoom
+  examples: |
+    - Îmi pot selecta camera?
+    - Îmi pot selecta camera de cămin?
+    - Îmi pot alege camera?
+    - Îmi pot alege camera de cămin?
+    - Ne putem alege camera?
+    - Ne putem alege camera de cămin?
+    - Pot să îmi aleg camera?
+    - Pot să îmi aleg camera de cămin?
+    - Știi cum pot să îmi aleg camera?
+    - Știi cum pot să îmi aleg camera de cămin?
+    - Pot să aleg ce cameră vreau eu?
+    - Pot să aleg ce cameră de cămin vreau eu?
+    - Știi dacă pot să aleg ce cameră vreau eu?
+    - Știi dacă pot să aleg ce cameră de cămin vreau eu?
+    - Am opțiunea de a îmi alege camera?
