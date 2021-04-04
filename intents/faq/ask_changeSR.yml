@@ -1,11 +1,22 @@
 - intent: faq/ask_changeSR
   examples: |
     - Îmi pot schimba seria?
+    - Pot schimba seria?
+    - Pot să schimb seria?
+    - Pot să îmi schimb seria?
     - Există vreo modalitate să îmi schimb seria?
-    - Există vreun regulament pentru schimbarea seriei?
-    - Există vreo procedură pentru schimbarea seriei?
-    - Știi cum îmi pot schimba seria?
-    - Știi care este modalitatea de schimbare a seriei?
+    - Există vreun regulament pentru schimbarea seriei? 
+    - Există vreo procedură pentru schimbarea seriei? 
+    - Știi cum îmi pot schimba seria?   
+    - Știi care este procedura pentru schimbarea seriei? 
+    - Știi care este modalitatea de schimbare a seria? 
     - Care este modalitatea de schimbare a seriei?
-    - Știi care este procedura pentru schimbarea seriei?
+    - Care este procedura de transfer intre seriei?
     - Cum îmi pot schimba seria?
+    - Cum îmi schimb seria?
+    - Cum schimb seria?
+    - Ajută-mă să aflu cum îmi schimb seria!
+    - Ajută-mă să aflu cum îmi pot schimba seria!
+    - Spune-mi cum îmi schimb seria!
+    - Nu imi place seria mea, cum pot sa o schimb?
+    - Nu imi place seria mea, vreau să o schimb!

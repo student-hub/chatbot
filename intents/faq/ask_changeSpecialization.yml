@@ -1,6 +1,9 @@
 - intent: faq/ask_changeSpecialization
   examples: |
     - Îmi pot schimba specializarea?
+    - Pot schimba specializarea?
+    - Pot să schimb specializarea?
+    - Pot să îmi schimb specializarea?
     - Există vreo modalitate să îmi schimb specializarea?
     - Există vreun regulament pentru schimbarea specializării?
     - Există vreo procedură pentru schimbarea specializării?
@@ -9,5 +12,12 @@
     - Care este modalitatea de schimbare a specializării?
     - Știi care este procedura pentru schimbarea specializării?
     - Cum îmi pot schimba specializarea?
+    - Cum îmi schimb specializarea?
+    - Cum schimb specializarea?
     - Care este procedura de transfer intre specializari?
+    - Ajută-mă să aflu cum îmi schimb specializarea!
+    - Ajută-mă să aflu cum îmi pot schimba specializarea!
+    - Spune-mi cum îmi schimb specializarea!
+    - Nu imi place specializarea mea, cum pot sa o schimb?
+    - Nu imi place specializarea mea, vreau să o schimb?
     
