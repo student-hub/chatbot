@@ -1,8 +1,7 @@
-- intent: faq/ask_becomeSRLeader
+- intent: faq/ask_getGrades
   examples: |
     - Unde îmi văd notele?
     - Unde îmi pot vedea notele?
     - Unde îmi pot vizualiza notele?
     - Unde sunt trecute notele?
     - Există vreun catalog online?
-    
