@@ -1,0 +1,10 @@
+- intent: faq/ask_openSupportTicket
+  examples: |
+    - Cum pot deschide un tichet?
+    - Cum pot face un tichet?
+    - Îmi poți explica cum să deschid un tichet?
+    - Știi să deschizi un ticket?
+    - Știi să faci un tichet?
+    - Mă poți ajuta să deschid un tichet?
+    - Mă poți ajuta să fac un tichet?
+    
