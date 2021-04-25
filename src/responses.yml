@@ -1,0 +1,12 @@
+responses:
+    utter_faq/ask_accommodationTaxes:
+       - text: |
+           Test
+       - text: |
+           Test
+   utter_faq/ask_explainStudyContract:
+       - text: |
+           Test
+   utter_faq/ask_becomeGroupLeader:
+       - text: |
+           Test

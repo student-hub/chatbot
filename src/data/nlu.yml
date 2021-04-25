@@ -1,0 +1,77 @@
+nlu:
+  - intent: faq/ask_accommodationTaxes
+    examples: |
+      - Cât este taxa pentru cămin?
+      - Cât costă căminul?
+      - Cât mă costă lunar căminul?
+      - Cât mă costă căminul?
+      - Cât trebuie să plătesc pentru cămin?
+      - Câți bani trebuie să dau pe cămin?
+      - Știi cât costă căminul?
+      - Ai idee cât de mult costă căminul?
+      - Ai idee cât costă taxa de cămin?
+      - Aș vrea să știu cam cât costă căminul!
+      - Nu găsesc nicăieri specificat cât este taxa de cămin.
+      - Nu găsesc nicăieri cât trebuie să dau pe cămin.
+      - Poți să mă ajuți să aflu cât costă căminul?
+      - Vreau să știu cât costă căminul!
+      - Vreau să știu cât este taxa pentru cămin!
+      - Pot afla cât este taxa pentru cămin?
+      - Știi cât este taxa de cămin?
+      - Am nevoie de ajutor să aflu cât costă căminul!
+      - Putem afla cât costă căminul?
+      - De unde aflu cât costă căminul?
+
+  - intent: faq/ask_explainStudyContract
+    examples: |
+      - Cui mă adresez dacă am o problemă cu căminul?
+      - Pe cine contactez dacă am o întrebare în legătură cu căminul?
+      - Știi să îmi răspunzi la câteva întrebări despre cămin?
+      - Pe cine să întreb de cămin?
+      - De la cine pot să aflu informații despre cămin?
+
+  - intent: faq/ask_becomeGroupLeader
+    examples: |
+      - Cum pot să devin șef de grupă?
+      - Știi procedura pentru a deveni șef de grupă?
+      - Care sunt pașii pentru a deveni șef de grupă?
+      - Ai idee cum pot să devin șef de grupă?
+      - Care sunt regulile pentru a deveni șef de grupă?
+
+  - intent: locate_classroom
+    examples: |
+      - Unde se află sala [EG 106](classroom)?
+      - Unde se află sala [CANTI CTI](classroom)?
+      - Unde se află sala [EG 205](classroom)?
+      - Unde se află sala [EG 311](classroom)?
+      - Unde se află sala [EG 302](classroom)?
+      - Unde se află sala [PR 001](classroom)?
+      - Unde se află sala [EC 105](classroom)?
+      - Unde se află sala [EC 105](classroom)?
+      - Unde se află sala [EG 301](classroom)?
+      - Unde este localizată sala [CANTI EG](classroom)?
+      - Unde este localizată sala [EG 410](classroom)?
+      - Unde este localizată sala [ED 202](classroom)?
+      - Unde este localizată sala [AN 203](classroom)?
+      - Unde este localizată sala [PR 002](classroom)?
+      - Unde este localizată sala [ED 112](classroom)?
+      - Unde este localizată sala [EG 405](classroom)?
+      - Unde este localizată sala [PR 106](classroom)?
+      - Unde este localizată sala [EG 405A](classroom)?
+      - Unde este localizată sala [EG 405B](classroom)?
+      - Unde este localizată sala [BN 026](classroom)?
+      - Unde este localizată sala [EG 404](classroom)?
+      - Unde este localizată sala [ED 203](classroom)?
+      - Unde este localizată sala [PR 506](classroom)?
+      - Unde este localizată sala [ED 220](classroom)?
+      - Unde este localizată sala [ED 011](classroom)?
+      - Unde este localizată sala [PR 703](classroom)?
+      - Unde este localizată sala [EG 206](classroom)?
+      - Unde este localizată sala [EF 001](classroom)?
+      - Unde este localizată sala [EG 103b](classroom)?
+      - Unde este localizată sala [EG 103](classroom)?
+      - Unde este localizată sala [PR 606](classroom)?
+      - Unde este localizată sala [EG 304A](classroom)?
+      - Unde este localizată sala [EG 304B](classroom)?
+      - Unde este localizată sala [EG 403](classroom)?
+      - Unde este localizată sala [EG 208](classroom)?

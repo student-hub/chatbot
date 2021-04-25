@@ -1,0 +1,23 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq
+- locate_classroom
+entities:
+- classroom
+actions:
+- utter_faq
+responses:
+  utter_faq/ask_accommodationTaxes:
+  - text: |
+      Test
+  - text: |
+      Test
+  utter_faq/ask_explainStudyContract:
+  - text: |
+      Test
+  utter_faq/ask_becomeGroupLeader:
+  - text: |
+      Test
