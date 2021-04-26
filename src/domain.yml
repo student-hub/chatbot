@@ -10,14 +10,95 @@ entities:
 actions:
 - utter_faq
 responses:
-  utter_faq/ask_accommodationTaxes:
-  - text: |
-      Test
-  - text: |
-      Test
-  utter_faq/ask_explainStudyContract:
-  - text: |
-      Test
-  utter_faq/ask_becomeGroupLeader:
-  - text: |
-      Test
+    utter_faq/ask_accommodationTaxes:
+        - text: |
+            Test
+        - text: |
+            Test
+    utter_faq/ask_accomodationIssues:
+        - text: |
+            Test
+    utter_faq/ask_becomeGroupLeader:
+        - text: |
+            Test
+    utter_faq/ask_becomeSRLeader:
+        - text: |
+            Test
+    utter_faq/ask_changeGroup:
+        - text: |
+            Test
+    utter_faq/ask_changeGroupSem2:
+        - text: |
+            Test
+    utter_faq/ask_changeSpecialization:
+        - text: |
+            Test
+    utter_faq/ask_changeSR:
+        - text: |
+            Test
+    utter_faq/ask_changeSRSem2:
+        - text: |
+            Test
+    utter_faq/ask_chooseRoom:
+        - text: |
+            Test
+    utter_faq/ask_chooseRoomate:
+        - text: |
+            Test
+    utter_faq/ask_connectEduroamWiFi:
+        - text: |
+            Test
+    utter_faq/ask_connectMoodle:
+        - text: |
+            Test
+    utter_faq/ask_connectOutlook:
+        - text: |
+            Test
+    utter_faq/ask_docsSubmission:
+        - text: |
+            Test
+    utter_faq/ask_downgradeToTaxe:
+        - text: |
+            Test
+    utter_faq/ask_explainStudyContract:
+        - text: |
+            Test
+    utter_faq/ask_getContactSecretariat:
+        - text: |
+            Test
+    utter_faq/ask_getCriteriaScholarship:
+        - text: |
+            Test
+    utter_faq/ask_getGrades:
+        - text: |
+            Test
+    utter_faq/ask_getScheduleSecretariat:
+        - text: |
+            Test
+    utter_faq/ask_getStudentCertificate:
+        - text: |
+            Test
+    utter_faq/ask_getTemplateApplication:
+        - text: |
+            Test
+    utter_faq/ask_getTools:
+        - text: |
+            Test
+    utter_faq/ask_groupLeaderTasks:
+        - text: |
+            Test
+    utter_faq/ask_openSupportTicket:
+        - text: |
+            Test
+    utter_faq/ask_SRLeaderTasks:
+        - text: |
+            Test
+    utter_faq/ask_tuitionFees:
+        - text: |
+            Test
+    utter_faq/ask_typesOfScholarship:
+        - text: |
+            Test
+    utter_faq/ask_whoCanSubmitDocs:
+        - text: |
+            Test

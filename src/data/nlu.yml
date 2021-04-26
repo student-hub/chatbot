@@ -22,7 +22,7 @@ nlu:
       - Putem afla cât costă căminul?
       - De unde aflu cât costă căminul?
 
-  - intent: faq/ask_explainStudyContract
+  - intent: faq/ask_accomodationIssues
     examples: |
       - Cui mă adresez dacă am o problemă cu căminul?
       - Pe cine contactez dacă am o întrebare în legătură cu căminul?
@@ -37,7 +37,443 @@ nlu:
       - Care sunt pașii pentru a deveni șef de grupă?
       - Ai idee cum pot să devin șef de grupă?
       - Care sunt regulile pentru a deveni șef de grupă?
+    
+  - intent: faq/ask_becomeSRLeader
+    examples: |
+      - Cum pot să devin șef de serie?
+      - Știi procedura pentru a deveni șef de serie?
+      - Care sunt pașii pentru a deveni șef de serie?
+      - Ai idee cum pot să devin șeful de serie?
+      - Care sunt regulile pentru a deveni șef de serie?
 
+  - intent: faq/ask_changeGroup
+    examples: |
+      - Îmi pot schimba grupa?
+      - Ce trebuie să fac ca să imi schimb grupa?
+      - Există vreo modalitate să îmi schimb grupa?
+      - Există vreun regulament pentru schimbarea grupei?
+      - Există vreo procedură pentru schimbarea grupei?
+      - Știi cum îmi pot schimba grupa?
+      - Știi cum îmi schimb grupa?
+      - Știi care este modalitatea de schimbare a grupei?
+      - Care este modalitatea de schimbare a grupei?
+      - Știi care este procedura pentru schimbarea grupei?
+      - Cum îmi pot schimba grupa?
+      - Cum îmi schimb grupa?
+
+  - intent: faq/ask_changeGroupSem2
+    examples: |
+      - Îmi pot schimba grupa pe semestrul al doilea?
+      - Îmi pot schimba grupa pe semestrul 2?
+      - Îmi pot schimba grupa în semestrul 2?
+      - Pot schimba grupa pe semestrul al doilea?
+      - Pot schimba grupa pe semestrul 2?
+      - Pot schimba grupa în semestrul 2?
+      - Pot să schimb grupa pe semestrul al doilea?
+      - Pot să schimb grupa pe semestrul 2?
+      - Pot să schimb grupa în semestrul 2?
+      - Pot să îmi schimb grupa pe semestrul al doilea?
+      - Pot să îmi schimb grupa pe semestrul 2?
+      - Pot să îmi schimb grupa în semestrul 2?
+      - Există vreo modalitate să îmi schimb grupa pe semestrul al doilea?
+      - Există vreun regulament pentru schimbarea grupei pe semestrul 2?
+      - Există vreun regulament pentru schimbarea grupei în semestrul 2?
+      - Există vreo procedură pentru schimbarea grupei pe semestrul al doilea?
+      - Există vreo procedură pentru schimbarea grupei pe semestrul 2?
+      - Există vreo procedură pentru schimbarea grupei în semestrul 2?
+      - Știi cum îmi pot schimba grupa pe semestrul al doilea?
+      - Știi cum îmi pot schimba grupa pe semestrul 2?
+      - Știi cum îmi pot schimba grupa în semestrul 2?
+      - Știi care este modalitatea de schimbare a grupei pe semestrul al doilea?
+      - Știi care este modalitatea de schimbare a grupei pe semestrul 2?
+      - Știi care este modalitatea de schimbare a grupei în semestrul 2?
+      - Care este modalitatea de schimbare a grupei pe semestrul al doilea?
+      - Care este modalitatea de schimbare a grupei pe semestrul 2?
+      - Care este modalitatea de schimbare a grupei în semestrul 2?
+      - Știi care este procedura pentru schimbarea grupei pe semestrul al doilea?
+      - Știi care este procedura pentru schimbarea grupei pe semestrul 2?
+      - Știi care este procedura pentru schimbarea grupei în semestrul 2?
+      - Cum îmi pot schimba grupa pe semestrul al doilea?
+      - Cum îmi pot schimba grupa pe semestrul 2?
+      - Cum îmi pot schimba grupa în semestrul 2?
+      - Cum îmi schimb grupa pe semestrul 2?
+      - Cum îmi schimb grupa în semestrul 2?
+      - Cum schimb grupa pe semestrul 2?
+      - Cum schimb grupa în semestrul 2?
+
+  - intent: faq/ask_changeSpecialization
+    examples: |
+      - Îmi pot schimba specializarea?
+      - Pot schimba specializarea?
+      - Pot să schimb specializarea?
+      - Pot să îmi schimb specializarea?
+      - Există vreo modalitate să îmi schimb specializarea?
+      - Există vreun regulament pentru schimbarea specializării?
+      - Există vreo procedură pentru schimbarea specializării?
+      - Știi cum îmi pot schimba specializarea?
+      - Știi care este modalitatea de schimbare a specializării?
+      - Care este modalitatea de schimbare a specializării?
+      - Știi care este procedura pentru schimbarea specializării?
+      - Cum îmi pot schimba specializarea?
+      - Cum îmi schimb specializarea?
+      - Cum schimb specializarea?
+      - Care este procedura de transfer intre specializari?
+      - Ajută-mă să aflu cum îmi schimb specializarea!
+      - Ajută-mă să aflu cum îmi pot schimba specializarea!
+      - Spune-mi cum îmi schimb specializarea!
+      - Nu imi place specializarea mea, cum pot sa o schimb?
+      - Nu imi place specializarea mea, vreau să o schimb?
+    
+  - intent: faq/ask_changeSR
+    examples: |
+      - Îmi pot schimba seria?
+      - Pot schimba seria?
+      - Pot să schimb seria?
+      - Pot să îmi schimb seria?
+      - Există vreo modalitate să îmi schimb seria?
+      - Există vreun regulament pentru schimbarea seriei? 
+      - Există vreo procedură pentru schimbarea seriei? 
+      - Știi cum îmi pot schimba seria?   
+      - Știi care este procedura pentru schimbarea seriei? 
+      - Știi care este modalitatea de schimbare a seria? 
+      - Care este modalitatea de schimbare a seriei?
+      - Care este procedura de transfer între serii?
+      - Cum îmi pot schimba seria?
+      - Cum îmi schimb seria?
+      - Cum schimb seria?
+      - Ajută-mă să aflu cum îmi schimb seria!
+      - Ajută-mă să aflu cum îmi pot schimba seria!
+      - Spune-mi cum îmi schimb seria!
+      - Nu imi place seria mea, cum pot să o schimb?
+      - Nu imi place seria mea, vreau să o schimb!
+
+  - intent: faq/ask_changeSRSem2
+    examples: |
+      - Îmi pot schimba seria pe semestrul al doilea?
+      - Îmi pot schimba seria pe semestrul 2?
+      - Îmi pot schimba seria în semestrul 2?
+      - Pot schimba seria pe semestrul al doilea?
+      - Pot schimba seria pe semestrul 2?
+      - Pot schimba seria în semestrul 2?
+      - Pot să schimb seria pe semestrul al doilea?
+      - Pot să schimb seria pe semestrul 2?
+      - Pot să schimb seria în semestrul 2?
+      - Pot să îmi schimb seria pe semestrul al doilea?
+      - Pot să îmi schimb seria pe semestrul 2?
+      - Pot să îmi schimb seria în semestrul 2?
+      - Există vreo modalitate să îmi schimb seria pe semestrul al doilea?
+      - Există vreun regulament pentru schimbarea seriei pe semestrul 2?
+      - Există vreun regulament pentru schimbarea seriei în semestrul 2?
+      - Există vreo procedură pentru schimbarea seriei pe semestrul al doilea?
+      - Există vreo procedură pentru schimbarea seriei pe semestrul 2?
+      - Există vreo procedură pentru schimbarea seriei în semestrul 2?
+      - Știi cum îmi pot schimba seria pe semestrul al doilea?
+      - Știi cum îmi pot schimba seria pe semestrul 2?
+      - Știi cum îmi pot schimba seria în semestrul 2?
+      - Știi care este modalitatea de schimbare a seriei pe semestrul al doilea?
+      - Știi care este modalitatea de schimbare a seriei pe semestrul 2?
+      - Știi care este modalitatea de schimbare a seriei în semestrul 2?
+      - Care este modalitatea de schimbare a seriei pe semestrul al doilea?
+      - Care este modalitatea de schimbare a seriei pe semestrul 2?
+      - Care este modalitatea de schimbare a seriei în semestrul 2?
+      - Știi care este procedura pentru schimbarea seriei pe semestrul al doilea?
+      - Știi care este procedura pentru schimbarea seriei pe semestrul 2?
+      - Știi care este procedura pentru schimbarea seriei în semestrul 2?
+      - Cum îmi pot schimba seria pe semestrul al doilea?
+      - Cum îmi pot schimba seria pe semestrul 2?
+      - Cum îmi pot schimba seria în semestrul 2?
+      - Cum îmi schimb seria pe semestrul 2?
+      - Cum îmi schimb seria în semestrul 2?
+      - Cum schimb seria pe semestrul 2?
+      - Cum schimb seria în semestrul 2?
+
+  - intent: faq/ask_chooseRoom
+    examples: |
+      - Îmi pot selecta camera?
+      - Îmi pot selecta camera de cămin?
+      - Îmi pot alege camera?
+      - Îmi pot alege camera de cămin?
+      - Ne putem alege camera?
+      - Ne putem alege camera de cămin?
+      - Pot să aleg camera?
+      - Pot să îmi aleg camera?
+      - Pot să îmi aleg camera de cămin?
+      - Știi cum pot să îmi aleg camera?
+      - Știi cum pot să îmi aleg camera de cămin?
+      - Pot să aleg ce cameră vreau eu?
+      - Pot să aleg ce cameră de cămin vreau eu?
+      - Știi dacă pot să aleg ce cameră vreau eu?
+      - Știi dacă pot să aleg ce cameră de cămin vreau eu?
+      - Am opțiunea de a îmi alege camera?
+      - Cum îmi selectez camera?
+      - Cum îmi aleg camera?
+      - Cum îmi pot alege camera?
+      
+  - intent: faq/ask_chooseRoomate
+    examples: |
+      - Îmi pot selecta colegul de cameră?
+      - Îmi pot selecta colega de cameră?
+      - Îmi pot selecta colegii de cameră?
+      - Îmi pot alege colegul de cameră?
+      - Îmi pot alege colega de cameră?
+      - Îmi pot alege colegii de cameră?
+      - Ne putem alege colegii de cameră?
+      - Ne putem alege colegul de cameră?
+      - Ne putem alege colega de cameră?
+      - Pot să îmi aleg colegul de cameră?
+      - Pot să îmi aleg colega de cameră?
+      - Pot să îmi aleg colegii de cameră?
+      - Știi cum pot să îmi aleg colegul de cameră?
+      - Știi cum pot să îmi aleg colega de cameră?
+      - Știi cum pot să îmi aleg colegii de cameră?
+      - Pot să aleg cu cine vreau să stau în cameră?
+      - Știi dacă pot să aleg cu cine vreau să stau în cameră?
+      - Am opțiunea de a îmi alege colegul de cameră?
+      - Am opțiunea de a îmi alege colega de cameră?
+      - Am opțiunea de a îmi alege colegii de cameră?
+      - Cum pot să îmi aleg colegul de cameră?
+      - Cum pot să îmi aleg colega de cameră?
+      - Cum pot să îmi aleg colegii de cameră?
+      
+  - intent: faq/ask_connectEduroamWiFi
+    examples: |
+      - Cum mă conectez la rețelele Wi-Fi Eduroam?
+      - Cum pot să mă conectez la rețelele Wi-Fi Eduroam?
+      - Știi cum pot să mă conectez la rețelele Wi-Fi Eduroam?
+      - Ai idee cum pot să mă conectez la rețelele Wi-Fi Eduroam?
+      - Îmi poți explica cum pot să mă conectez la rețelele Wi-Fi Eduroam?
+      
+  - intent: faq/ask_connectMoodle
+    examples: |
+      - Cum mă conectez pe Moodle?
+      - Cum mă pot conecta pe Moodle?
+      - Care sunt credențialele pentru a mă conecta pe Moodle?
+      - Ai idee cum mă pot conecta pe Moodle?
+      - Ai idee cum mă conectez pe Moodle?
+      - Știi cum mă conectez pe Moodle?
+      - Știi cum mă pot conecta pe Moodle?
+      - Nu știu cum să mă conectez pe Moodle!
+      - Nu îmi cunosc credentialele pentru a mă loga pe Moodle!
+      - Mă poți ajută să mă conectez pe Moodle?
+      
+  - intent: faq/ask_connectOutlook
+    examples: |
+      - Cum mă conectez pe Outlook?
+      - Cum mă pot conecta pe Outlook?
+      - Care sunt credentialele pentru a mă conecta pe Outlook?
+      - Ai idee cum mă pot conecta pe Outlook?
+      - Ai idee cum mă conectez pe Outlook?
+      - Știi cum mă conectez pe Outlook?
+      - Știi cum mă pot conecta pe Outlook?
+      - Nu știu cum să mă conectez pe Outlook!
+      - Nu îmi cunosc credentialele pentru a mă loga pe Outlook!
+      - Mă poți ajută să mă conectez pe Outlook?
+      
+  - intent: faq/ask_docsSubmission
+    examples: |
+      - Cum depun actele la secretariat? 
+      - Cum îmi depun actele la secretariat?
+      - Cum trimit actele la secretariat?
+      - Cum las actele la secretariat?
+      - Nu știu cum să depun actele la secretariat.
+      - Ai idee cum pot să depun actele la secretariat?
+      - Care sunt modalitățile pentru depunerea actelor la secretariat?
+      - Explică-mi cum să depun actele la secretariat!
+      - Știi cum să trimit actele la secretariat?
+      - Aș vrea să predau actele la secretariat!
+      
+  - intent: faq/ask_downgradeToTaxe
+    examples: |
+      - Îmi pot pierde locul la buget?
+      - Există posibilitatea să îmi pierd locul la buget?
+      - Ai idee dacă îmi pot pierde locul la buget?
+      - Cum îmi pot pierde locul la buget?
+      - Știi dacă îmi pot pierde locul la buget?
+      - Pot pica la taxă?
+      - Există posibilitatea să pic la taxa?
+      - Ai idee dacă pot pica la taxă?
+      - Știi dacă pot pica la taxă?
+      
+  - intent: faq/ask_explainStudyContract
+    examples: |
+      - Ce este contractul de studii?
+      - Îmi poți explica ce este contractul de studii?
+      - Știi ce este contractul de studii?
+      - Ai idee ce este contractul de studii?
+      - Care este rolul contractului de studii?
+      - Ce fac cu contractul de studii?
+      - Tu înțelegi contractul de studii?
+      - Ce informații găsesc în contractul de studii?
+      - Mă poți ajuta să înțeleg contractul de studii?
+      - Ajută-mă să înțeleg contractul de studii!
+    
+  - intent: faq/ask_getContactSecretariat
+    examples: |
+      - Cum pot contacta secretariatul? 
+      - Cum contactez secretariatul? 
+      - Cum dau de secretară?
+      - Cum pot să contactez secretariatul?
+      - Care este numărul de telefon de la secretariat?
+      - Care sunt datele de contact pentru secretariat?
+      - Care este mail-ul secretarei?
+      - Care e mail-ul secretarei?
+      - La ce adresă de email pot contacta secretariatul?
+      - Mă ajuți să contactez secretariatul?
+      - Știi cum pot să contactez secretariatul?
+      - Știi care este mail-ul secretarei ?
+      - Ai idee cum pot să contactez secretariatul?
+      - Există vreo modalitate prin care pot contacta secretariatul?
+      - Ajută-mă să contactez secretariatul.
+      - Unde pot contacta secretariatul?
+      
+  - intent: faq/ask_getCriteriaScholarship
+    examples: |
+      - Care sunt condițiile pentru a obține bursă?
+      - Care sunt condițiile minime pentru a obține bursă?
+      - Ai idee care sunt condițiile minime pentru a obține bursă?
+      - Știi care sunt condițiile minime pentru a obține bursă?
+      - Vreau să știu care sunt condițiile minime pentru a obține bursă?
+      - Există niște criterii după care se oferă bursele?
+      - Care este regulamentul burselor?
+      - Știi care este regulamentul burselor?
+      - Cum pot obține o bursă?
+      - Cum iau bursă?
+      - Cum pot să aflu care sunt criteriile pentru obținerea burselor?
+      - Știi ce criterii sunt astfel încât să pot obține o bursă?
+      - Ce trebuie să îndeplinească un elev pentru a obține bursă?
+      - Unde sunt specificate condițiile pentru burse?
+      
+  - intent: faq/ask_getGrades
+    examples: |
+      - Unde îmi văd notele?
+      - Unde îmi pot vedea notele?
+      - Unde îmi pot vizualiza notele?
+      - Unde sunt trecute notele?
+      - Există vreun catalog online?
+
+  - intent: faq/ask_getScheduleSecretariat
+    examples: |
+      - Care este programul secretariatului?
+      - Știi cumva care este programul secretariatului?
+      - Ai idee care este programul secretariatului?
+      - Ce program are secretariatul?
+      - Știi intervalul orar când mă pot duce la secretariat?
+      - Între ce ore pot găsi disponibil secretariatul?
+      - Când găsesc secretarele în birou?
+      - Când se deschide secretariatul?
+      - Cam când aș putea să dau de secretare?
+      - Când pot să mă duc la secretariat?
+      - La ce oră se deschide secretariatul?
+      
+  - intent: faq/ask_getStudentCertificate
+    examples: |
+      - Cum pot obține adeverință de student?
+      - De unde pot să iau adeverință de student?
+      - De unde pot să fac rost de o adeverință de student?
+      - Cui îi cer o adeverință de student?
+      - Cum pot să fac rost de o adeverință de student?
+      - Știi cui trebuie să îi cer o adeverință de student?
+      - Știi cum pot să cer o adeverință de student?
+    
+  - intent: faq/ask_getTemplateApplication
+    examples: |
+      - Cum fac o cerere?
+      - Ai un model de cerere pentru secretariat?
+      - Există vreun model de cerere pentru secretariat?
+      - Îmi poți arâta un model de cerere?
+      - Îmi poți trimite un model de cerere?
+      
+  - intent: faq/ask_getTools
+    examples: |
+      - De ce resurse am nevoie pentru a învăța online?
+      - Ce resurse trebuie să folosesc pentru a învăța online?
+      - Ce programe trebuie să îmi instalez pentru a-mi desfășura activitatea online?
+      - Ce trebuie să îmi instalez pentru a-mi desfășura activitatea online?
+      - De ce am nevoie pentru a învăța online?
+      
+  - intent: faq/ask_groupLeaderTasks
+    examples: |
+      - Care sunt sarcinile unui șef de grupă?
+      - Care sunt atribuțiile unui șef de grupă?
+      - Cunoști sarcinile unui șef de grupă?
+      - Cunoști atribuțiile unui șef de grupă?
+      - Ai idee care sunt sarcinile unui șef de grupă?
+      - Ai idee care sunt atribuțiile unui șef de grupă?
+      - Știi care sunt sarcinile unui șef de grupă?
+      - Știi care sunt atribuțiile unui șef de grupă?
+      - Ce trebuie să facă un șef de grupă?
+
+  - intent: faq/ask_openSupportTicket
+    examples: |
+      - Cum pot deschide un tichet?
+      - Cum pot face un tichet?
+      - Îmi poți explica cum să deschid un tichet?
+      - Știi să deschizi un ticket?
+      - Știi să faci un tichet?
+      - Mă poți ajuta să deschid un tichet?
+      - Mă poți ajuta să fac un tichet?
+      
+  - intent: faq/ask_SRLeaderTasks
+    examples: |
+      - Care sunt sarcinile unui șef de serie?
+      - Care sunt atribuțiile unui șef de serie?
+      - Cunoști sarcinile unui șef de serie?
+      - Cunoști atribuțiile unui șef de serie?
+      - Ai idee care sunt sarcinile unui șef de serie?
+      - Ai idee care sunt atribuțiile unui șef de serie?
+      - Știi care sunt sarcinile unui șef de serie?
+      - Știi care sunt atribuțiile unui șef de serie?
+      - Ce trebuie să facă un șef de serie?
+      
+  - intent: faq/ask_tuitionFees
+    examples: |
+      - Cât este taxa de școlarizare în acest an?
+      - Îmi poți spune cât este taxa de școlarizare în acest an?
+      - Spune-mi cât este taxa de școlarizare în acest an!
+      - Zi-mi cât este taxa de școlarizare în acest an!
+      - Ai idee cât este taxa de școlarizare în acest an?
+      - Ai idee cât este taxa de școlarizare?
+      - Cam cât este taxa de școlarizare?
+      - Nu știu cât este taxa de școlarizare.
+      - Nu găsesc cât este taxa de școlarizare
+      - Vreau să știu cam cât este taxa de școlarizare.
+      - Caută și tu cât este taxa de școlarizare!
+      - Unde găsesc cât este taxa de școlarizare?
+      - Cât trebuie să plătesc pentru taxa de școlarizare?
+      - Cât trebuie să dau pe an pentru taxă?
+
+  - intent: faq/ask_typesOfScholarship
+    examples: |
+      - Care sunt tipurile de burse?
+      - Ce burse sunt definite pentru un an universitar?
+      - Ai idee care sunt tipurile de burse pe care le poate obține un student?
+      - Ai idee care sunt tipurile de burse?
+      - Nu stiu ce burse există în facultatea noastră.
+      - Ce fel de burse poate obține un student?
+      - Îmi poți spune care sunt tipurile de burse?
+      - Explică-mi tipurile de burse!
+      - Ai informații despre burse?
+      - Prezintă-mi tipurile de burse posibile!
+      - Specifică tipurile de burse existente!
+      - Poți să îmi spui ce tipuri de burse există?
+      - Mi-aș dori să știu care sunt tipurile de bursă!
+      - Cum stă treaba cu bursele ?
+      
+  - intent: faq/ask_whoCanSubmitDocs
+    examples: |
+      - Cine poate depune actele la secretariat?
+      - Cine poate face o cerere la secretariat?
+      - Poate să ducă altcineva actele pentru mine la secretariat?
+      - Pot să trimit pe cineva in locul meu pentru a depune actele la secretariat?
+      - Pot să trimit pe cineva în locul meu pentru a face o cerere la secretariat?
+      - Poate să facă cineva cerere în locul meu la secretariat?
+      - Ai idee cine poate depune actele la secretariat?
+      - Ai idee cine poate face o cerere la secretariat?
+      - Știi cine poate depune actele la secretariat?
+      - Știi cine poate face o cerere la secretariat?
+      - Vreau să știu dacă poate depune altcineva actele pentru mine la secretariat!
+      - Vreau să știu dacă poate să facă cineva o cerere pentru mine la secretariat?
+    
   - intent: locate_classroom
     examples: |
       - Unde se află sala [EG 106](classroom)?
