@@ -1,0 +1,22 @@
+- intent: faq/ask_accommodationTaxes
+  examples: |
+    - Cât este taxa pentru cămin?
+    - Cât costă căminul?
+    - Cât mă costă lunar căminul?
+    - Cât mă costă căminul?
+    - Cât trebuie să plătesc pentru cămin?
+    - Câți bani trebuie să dau pe cămin?
+    - Știi cât costă căminul?
+    - Ai idee cât de mult costă căminul?
+    - Ai idee cât costă taxa de cămin?
+    - Aș vrea să știu cam cât costă căminul!
+    - Nu găsesc nicăieri specificat cât este taxa de cămin.
+    - Nu găsesc nicăieri cât trebuie să dau pe cămin.
+    - Poți să mă ajuți să aflu cât costă căminul?
+    - Vreau să știu cât costă căminul!
+    - Vreau să știu cât este taxa pentru cămin!
+    - Pot afla cât este taxa pentru cămin?
+    - Știi cât este taxa de cămin?
+    - Am nevoie de ajutor să aflu cât costă căminul!
+    - Putem afla cât costă căminul?
+    - De unde aflu cât costă căminul?

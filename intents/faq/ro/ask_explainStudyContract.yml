@@ -1,0 +1,13 @@
+- intent: faq/ask_explainStudyContract
+  examples: |
+    - Ce este contractul de studii?
+    - Îmi poți explica ce este contractul de studii?
+    - Știi ce este contractul de studii?
+    - Ai idee ce este contractul de studii?
+    - Care este rolul contractului de studii?
+    - Ce fac cu contractul de studii?
+    - Tu înțelegi contractul de studii?
+    - Ce informații găsesc în contractul de studii?
+    - Mă poți ajuta să înțeleg contractul de studii?
+    - Ajută-mă să înțeleg contractul de studii!
+    

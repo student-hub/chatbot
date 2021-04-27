@@ -1,0 +1,26 @@
+- intent: faq/ask_chooseRoomate
+  examples: |
+    - Îmi pot selecta colegul de cameră?
+    - Îmi pot selecta colega de cameră?
+    - Îmi pot selecta colegii de cameră?
+    - Îmi pot alege colegul de cameră?
+    - Îmi pot alege colega de cameră?
+    - Îmi pot alege colegii de cameră?
+    - Ne putem alege colegii de cameră?
+    - Ne putem alege colegul de cameră?
+    - Ne putem alege colega de cameră?
+    - Pot să îmi aleg colegul de cameră?
+    - Pot să îmi aleg colega de cameră?
+    - Pot să îmi aleg colegii de cameră?
+    - Știi cum pot să îmi aleg colegul de cameră?
+    - Știi cum pot să îmi aleg colega de cameră?
+    - Știi cum pot să îmi aleg colegii de cameră?
+    - Pot să aleg cu cine vreau să stau în cameră?
+    - Știi dacă pot să aleg cu cine vreau să stau în cameră?
+    - Am opțiunea de a îmi alege colegul de cameră?
+    - Am opțiunea de a îmi alege colega de cameră?
+    - Am opțiunea de a îmi alege colegii de cameră?
+    - Cum pot să îmi aleg colegul de cameră?
+    - Cum pot să îmi aleg colega de cameră?
+    - Cum pot să îmi aleg colegii de cameră?
+    

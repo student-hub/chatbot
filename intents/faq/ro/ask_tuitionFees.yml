@@ -1,0 +1,17 @@
+- intent: faq/ask_tuitionFees
+  examples: |
+    - Cât este taxa de școlarizare în acest an?
+    - Îmi poți spune cât este taxa de școlarizare în acest an?
+    - Spune-mi cât este taxa de școlarizare în acest an!
+    - Zi-mi cât este taxa de școlarizare în acest an!
+    - Ai idee cât este taxa de școlarizare în acest an?
+    - Ai idee cât este taxa de școlarizare?
+    - Cam cât este taxa de școlarizare?
+    - Nu știu cât este taxa de școlarizare.
+    - Nu găsesc cât este taxa de școlarizare
+    - Vreau să știu cam cât este taxa de școlarizare.
+    - Caută și tu cât este taxa de școlarizare!
+    - Unde găsesc cât este taxa de școlarizare?
+    - Cât trebuie să plătesc pentru taxa de școlarizare?
+    - Cât trebuie să dau pe an pentru taxă?
+    
