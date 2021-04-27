@@ -1,0 +1,8 @@
+- intent: faq/ask_connectEduroamWiFi
+  examples: |
+    - How do I connect to Eduroam Wi-Fi networks?
+    - How can I connect to Eduroam Wi-Fi networks?
+    - Do you know how I can connect to Eduroam Wi-Fi networks?
+    - Do you have any idea how I can connect to Eduroam Wi-Fi networks?
+    - Can you explain to me how I can connect to Eduroam Wi-Fi networks?
+    

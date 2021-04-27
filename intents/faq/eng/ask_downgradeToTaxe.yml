@@ -1,0 +1,12 @@
+- intent: faq/ask_downgradeToTaxe
+  examples: |
+    - Can I lose my budget?
+    - Is it possible to lose my place in the budget?
+    -  Do you have any idea if I can lose my budget?
+    - How can I lose my budget?
+    - Do you know if I can lose my budget?
+    - Can I drop the fee?
+    - Is it possible to drop the fee?
+    - Do you have any idea if I can pay the fee?
+    - Do you know if I can pay the fee?
+    
