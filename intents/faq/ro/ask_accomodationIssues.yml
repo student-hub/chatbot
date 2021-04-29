@@ -1,4 +1,4 @@
-- intent: faq/ask_explainStudyContract
+- intent: faq/ask_accomodationIssues
   examples: |
     - Cui mă adresez dacă am o problemă cu căminul?
     - Pe cine contactez dacă am o întrebare în legătură cu căminul?
