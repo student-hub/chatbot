@@ -1,8 +1,8 @@
 - intent: faq/ask_getTemplateApplication
   examples: |
-    - Cum fac o cerere?
-    - Ai un model de cerere pentru secretariat?
-    - Există vreun model de cerere pentru secretariat?
-    - Îmi poți arâta un model de cerere?
-    - Îmi poți trimite un model de cerere?
+    - How do I make an application request?
+    - Do you have a secretarial application form?
+    - Is there a model application for the secretariat?
+    - Can you show me an application form?
+    - Can you send me an application form?
     

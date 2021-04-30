@@ -1,11 +1,10 @@
 - intent: faq/ask_groupLeaderTasks
   examples: |
-    - Care sunt sarcinile unui șef de grupă?
-    - Care sunt atribuțiile unui șef de grupă?
-    - Cunoști sarcinile unui șef de grupă?
-    - Cunoști atribuțiile unui șef de grupă?
-    - Ai idee care sunt sarcinile unui șef de grupă?
-    - Ai idee care sunt atribuțiile unui șef de grupă?
-    - Știi care sunt sarcinile unui șef de grupă?
-    - Știi care sunt atribuțiile unui șef de grupă?
-    - Ce trebuie să facă un șef de grupă?
+    - What are the tasks of a group leader?
+    - What are the responsibilities of a group leader?
+    - Do you know the tasks of a group leader?
+    - Do you have any idea what the tasks of a group leader are?
+    - Do you have any idea what the duties of a group leader are?
+    - Do you know what the tasks of a group leader are?
+    - Do you know the duties of a group leader?
+    - What does a group leader have to do?

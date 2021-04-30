@@ -1,39 +1,15 @@
 - intent: faq/ask_changeSRSem2
   examples: |
-    - Îmi pot schimba seria pe semestrul al doilea?
-    - Îmi pot schimba seria pe semestrul 2?
-    - Îmi pot schimba seria în semestrul 2?
-    - Pot schimba seria pe semestrul al doilea?
-    - Pot schimba seria pe semestrul 2?
-    - Pot schimba seria în semestrul 2?
-    - Pot să schimb seria pe semestrul al doilea?
-    - Pot să schimb seria pe semestrul 2?
-    - Pot să schimb seria în semestrul 2?
-    - Pot să îmi schimb seria pe semestrul al doilea?
-    - Pot să îmi schimb seria pe semestrul 2?
-    - Pot să îmi schimb seria în semestrul 2?
-    - Există vreo modalitate să îmi schimb seria pe semestrul al doilea?
-    - Există vreun regulament pentru schimbarea seriei pe semestrul 2?
-    - Există vreun regulament pentru schimbarea seriei în semestrul 2?
-    - Există vreo procedură pentru schimbarea seriei pe semestrul al doilea?
-    - Există vreo procedură pentru schimbarea seriei pe semestrul 2?
-    - Există vreo procedură pentru schimbarea seriei în semestrul 2?
-    - Știi cum îmi pot schimba seria pe semestrul al doilea?
-    - Știi cum îmi pot schimba seria pe semestrul 2?
-    - Știi cum îmi pot schimba seria în semestrul 2?
-    - Știi care este modalitatea de schimbare a seriei pe semestrul al doilea?
-    - Știi care este modalitatea de schimbare a seriei pe semestrul 2?
-    - Știi care este modalitatea de schimbare a seriei în semestrul 2?
-    - Care este modalitatea de schimbare a seriei pe semestrul al doilea?
-    - Care este modalitatea de schimbare a seriei pe semestrul 2?
-    - Care este modalitatea de schimbare a seriei în semestrul 2?
-    - Știi care este procedura pentru schimbarea seriei pe semestrul al doilea?
-    - Știi care este procedura pentru schimbarea seriei pe semestrul 2?
-    - Știi care este procedura pentru schimbarea seriei în semestrul 2?
-    - Cum îmi pot schimba seria pe semestrul al doilea?
-    - Cum îmi pot schimba seria pe semestrul 2?
-    - Cum îmi pot schimba seria în semestrul 2?
-    - Cum îmi schimb seria pe semestrul 2?
-    - Cum îmi schimb seria în semestrul 2?
-    - Cum schimb seria pe semestrul 2?
-    - Cum schimb seria în semestrul 2?
+    - Can I change my series in the second semester?
+    - Can I change the series in the second semester?
+    - Is there any way to change my series in the second semester?
+    - Are there any regulations for changing the series in the second semester?
+    - Is there a procedure for changing series in the second semester?
+    - Do you know how I can change my series in the second semester?
+    - Do you know how to change series in the second semester?
+    - What is the way to change series in the second semester?
+    - Do you know the procedure for changing the series in the second semester?
+    - How can I change my series in the second semester?
+    - How can I change series in the second semester?
+    - How do I change series in the second semester?
+    - How do I change series in the second semester?

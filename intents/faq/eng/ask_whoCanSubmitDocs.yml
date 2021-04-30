@@ -1,15 +1,16 @@
 - intent: faq/ask_whoCanSubmitDocs
   examples: |
-    - Cine poate depune actele la secretariat?
-    - Cine poate face o cerere la secretariat?
-    - Poate să ducă altcineva actele pentru mine la secretariat?
-    - Pot să trimit pe cineva in locul meu pentru a depune actele la secretariat?
-    - Pot să trimit pe cineva în locul meu pentru a face o cerere la secretariat?
-    - Poate să facă cineva cerere în locul meu la secretariat?
-    - Ai idee cine poate depune actele la secretariat?
-    - Ai idee cine poate face o cerere la secretariat?
-    - Știi cine poate depune actele la secretariat?
-    - Știi cine poate face o cerere la secretariat?
-    - Vreau să știu dacă poate depune altcineva actele pentru mine la secretariat!
-    - Vreau să știu dacă poate să facă cineva o cerere pentru mine la secretariat?
+    - Who can submit the documents to the secretary?
+    - Who can make a request to the secretary?
+    - Can someone else take the papers for me to the secretary?
+    - Can I send someone in my place to submit the documents to the secretary?
+    - Can I send someone in my place to make a request to the secretary?
+    - Can anyone apply for me in the secretary?
+    - Do you have any idea who can submit the documents to the secretary?
+    - Do you have any idea who can make a request to the secretary?
+    - Do you know who can submit the documents to the secretary?
+    - Do you know who can make a request to the secretary?
+    - I want to know if anyone else can file the documents for me at the secretary!
+    - I want to know if anyone can apply for me at the secretary?
+    
     

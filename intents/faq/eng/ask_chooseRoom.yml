@@ -1,22 +1,22 @@
 - intent: faq/ask_chooseRoom
   examples: |
-    - Îmi pot selecta camera?
-    - Îmi pot selecta camera de cămin?
-    - Îmi pot alege camera?
-    - Îmi pot alege camera de cămin?
-    - Ne putem alege camera?
-    - Ne putem alege camera de cămin?
-    - Pot să aleg camera?
-    - Pot să îmi aleg camera?
-    - Pot să îmi aleg camera de cămin?
-    - Știi cum pot să îmi aleg camera?
-    - Știi cum pot să îmi aleg camera de cămin?
-    - Pot să aleg ce cameră vreau eu?
-    - Pot să aleg ce cameră de cămin vreau eu?
-    - Știi dacă pot să aleg ce cameră vreau eu?
-    - Știi dacă pot să aleg ce cameră de cămin vreau eu?
-    - Am opțiunea de a îmi alege camera?
-    - Cum îmi selectez camera?
-    - Cum îmi aleg camera?
-    - Cum îmi pot alege camera?
+    - Can I select my room?
+    - Can I select my dorm room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Can we choose our room?
+    - Can we choose our dorm room?
+    - Can I choose the room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Do you know how I can choose my room?
+    - Do you know how I can choose my dorm room?
+    - Can I choose which room I want?
+    - Can I choose which dorm room I want?
+    - Do you know if I can choose which room I want?
+    - Do you know if I can choose which dorm room I want?
+    - Do I have the option to choose my room?
+    - How do I select my room?
+    - How do I choose my room?
+    - How can I choose my room?
     

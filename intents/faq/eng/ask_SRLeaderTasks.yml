@@ -1,12 +1,11 @@
 - intent: faq/ask_SRLeaderTasks
   examples: |
-    - Care sunt sarcinile unui șef de serie?
-    - Care sunt atribuțiile unui șef de serie?
-    - Cunoști sarcinile unui șef de serie?
-    - Cunoști atribuțiile unui șef de serie?
-    - Ai idee care sunt sarcinile unui șef de serie?
-    - Ai idee care sunt atribuțiile unui șef de serie?
-    - Știi care sunt sarcinile unui șef de serie?
-    - Știi care sunt atribuțiile unui șef de serie?
-    - Ce trebuie să facă un șef de serie?
+    - What are the tasks of a series leader?
+    - What are the duties of a series leader?
+    - Do you know the tasks of a series leader?
+    - Do you know the duties of a series leader?
+    - Do you have any idea what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - What does a series leader have to do?
     

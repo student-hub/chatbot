@@ -1,13 +1,13 @@
 - intent: faq/ask_connectOutlook
   examples: |
-    - Cum mă conectez pe Outlook?
-    - Cum mă pot conecta pe Outlook?
-    - Care sunt credentialele pentru a mă conecta pe Outlook?
-    - Ai idee cum mă pot conecta pe Outlook?
-    - Ai idee cum mă conectez pe Outlook?
-    - Știi cum mă conectez pe Outlook?
-    - Știi cum mă pot conecta pe Outlook?
-    - Nu știu cum să mă conectez pe Outlook!
-    - Nu îmi cunosc credentialele pentru a mă loga pe Outlook!
-    - Mă poți ajută să mă conectez pe Outlook?
+    - How do I connect to Outlook?
+    - How do I connect to Outlook?
+    - What are the credentials to connect to Outlook?
+    - Do you have any idea how I can connect to Outlook?
+    - Do you have any idea how I connect to Outlook?
+    - Do you know how to connect to Outlook?
+    - Do you know how I can connect to Outlook?
+    - I don't know how to connect to Outlook!
+    - I don't know my credentials to log in to Outlook!
+    - Can you help me connect to Outlook?
     

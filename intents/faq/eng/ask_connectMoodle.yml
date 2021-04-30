@@ -1,13 +1,13 @@
 - intent: faq/ask_connectMoodle
   examples: |
-    - Cum mă conectez pe Moodle?
-    - Cum mă pot conecta pe Moodle?
-    - Care sunt credențialele pentru a mă conecta pe Moodle?
-    - Ai idee cum mă pot conecta pe Moodle?
-    - Ai idee cum mă conectez pe Moodle?
-    - Știi cum mă conectez pe Moodle?
-    - Știi cum mă pot conecta pe Moodle?
-    - Nu știu cum să mă conectez pe Moodle!
-    - Nu îmi cunosc credentialele pentru a mă loga pe Moodle!
-    - Mă poți ajută să mă conectez pe Moodle?
+    - How do I connect to Moodle?
+    - How can I connect to Moodle?
+    - What are the credentials to connect to Moodle?
+    - Do you have any idea how I can connect to Moodle?
+    - Do you have any idea how I connect to Moodle?
+    - Do you know how I connect to Moodle?
+    - Do you know how I can connect to Moodle?
+    - I don't know how to connect to Moodle!
+    - I don't know my credentials to log in to Moodle!
+    - Can you help me connect to Moodle?
     

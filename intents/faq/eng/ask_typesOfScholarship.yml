@@ -1,17 +1,17 @@
 - intent: faq/ask_typesOfScholarship
   examples: |
-    - Care sunt tipurile de burse?
-    - Ce burse sunt definite pentru un an universitar?
-    - Ai idee care sunt tipurile de burse pe care le poate obține un student?
-    - Ai idee care sunt tipurile de burse?
-    - Nu stiu ce burse există în facultatea noastră.
-    - Ce fel de burse poate obține un student?
-    - Îmi poți spune care sunt tipurile de burse?
-    - Explică-mi tipurile de burse!
-    - Ai informații despre burse?
-    - Prezintă-mi tipurile de burse posibile!
-    - Specifică tipurile de burse existente!
-    - Poți să îmi spui ce tipuri de burse există?
-    - Mi-aș dori să știu care sunt tipurile de bursă!
-    - Cum stă treaba cu bursele ?
+    - What are the types of scholarships?
+    - What scholarships are defined for an academic year?
+    - Do you have any idea what types of scholarships a student can get?
+    - Do you have any idea what types of scholarships are?
+    - I don't know what scholarships exist in our faculty.
+    - What kind of scholarships can a student get?
+    - Can you tell me what the types of scholarships are?
+    - Explain the types of scholarships!
+    - Do you have information about scholarships?
+    - Show me the possible types of scholarships!
+    - Specify the types of scholarships available!
+    - Can you tell me what types of scholarships there are?
+    - I would like to know what the types of scholarships are!
+    - How's the scholarship?
     

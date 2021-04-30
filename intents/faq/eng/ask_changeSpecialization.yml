@@ -1,23 +1,23 @@
 - intent: faq/ask_changeSpecialization
   examples: |
-    - Îmi pot schimba specializarea?
-    - Pot schimba specializarea?
-    - Pot să schimb specializarea?
-    - Pot să îmi schimb specializarea?
-    - Există vreo modalitate să îmi schimb specializarea?
-    - Există vreun regulament pentru schimbarea specializării?
-    - Există vreo procedură pentru schimbarea specializării?
-    - Știi cum îmi pot schimba specializarea?
-    - Știi care este modalitatea de schimbare a specializării?
-    - Care este modalitatea de schimbare a specializării?
-    - Știi care este procedura pentru schimbarea specializării?
-    - Cum îmi pot schimba specializarea?
-    - Cum îmi schimb specializarea?
-    - Cum schimb specializarea?
-    - Care este procedura de transfer intre specializari?
-    - Ajută-mă să aflu cum îmi schimb specializarea!
-    - Ajută-mă să aflu cum îmi pot schimba specializarea!
-    - Spune-mi cum îmi schimb specializarea!
-    - Nu imi place specializarea mea, cum pot sa o schimb?
-    - Nu imi place specializarea mea, vreau să o schimb?
+    - Can I change my specialization?
+    - Can I change the specialization?
+    - Can I change the specialization?
+    - Can I change my specialization?
+    - Is there any way to change my specialization?
+    - Are there any regulations for changing the specialization?
+    - Is there a procedure for changing the specialization?
+    - Do you know how I can change my specialization?
+    - Do you know how to change the specialization?
+    - What is the way to change the specialization?
+    - Do you know the procedure for changing the specialization?
+    - How can I change my specialization?
+    - How do I change my specialization?
+    - How do I change my specialization?
+    - What is the transfer procedure between specializations?
+    - Help me find out how I change my specialization!
+    - Help me find out how I can change my specialization!
+    - Tell me how I change my specialization!
+    - I don't like my specialization, how can I change it?
+    - I don't like my specialization, do I want to change it?
     

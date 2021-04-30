@@ -1,7 +1,7 @@
 - intent: faq/ask_getGrades
   examples: |
-    - Unde îmi văd notele?
-    - Unde îmi pot vedea notele?
-    - Unde îmi pot vizualiza notele?
-    - Unde sunt trecute notele?
-    - Există vreun catalog online?
+    - Where do I see my grades?
+    - Where can I see my grades?
+    - Where can I view my grades?
+    - Where are the grades written?
+    - Is there an online catalogue?
