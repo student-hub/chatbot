@@ -1,0 +1,8 @@
+- intent: faq/ask_getTemplateApplication
+  examples: |
+    - How do I make an application request?
+    - Do you have a secretarial application form?
+    - Is there a model application for the secretariat?
+    - Can you show me an application form?
+    - Can you send me an application form?
+    

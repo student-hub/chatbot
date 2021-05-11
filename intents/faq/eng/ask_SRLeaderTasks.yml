@@ -1,0 +1,11 @@
+- intent: faq/ask_SRLeaderTasks
+  examples: |
+    - What are the tasks of a series leader?
+    - What are the duties of a series leader?
+    - Do you know the tasks of a series leader?
+    - Do you know the duties of a series leader?
+    - Do you have any idea what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - What does a series leader have to do?
+    

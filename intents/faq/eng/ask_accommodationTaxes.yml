@@ -1,0 +1,22 @@
+- intent: faq/ask_accommodationTaxes
+  examples: |
+    - How much is the dorm tax?
+    - How much is the dorm?
+    - How much does my dorm cost me a month?
+    - How much is my dorm?
+    - How much do I have to pay for the dorm?
+    - How much money do I have to spend on the fireplace?
+    - Do you know how much the dorm costs?
+    - Do you have any idea how much the dorm costs?"
+    - Do you have any idea how much the dorm tax costs?
+    - I'd like to know how much the dorm costs!
+    - I can't find anywhere what the dorm tax is.
+    - I can't find how much to spend on the fireplace.
+    - Can you help me find out how much the dorm costs?
+    - I want to know how much the dorm costs!
+    - I want to know what the dorm tax is!
+    - Can I find out what the dorm tax is?
+    - Do you know what the dorm tax is?
+    - I need help finding out how much the dorm costs!
+    - Can we find out how much the dorm costs?
+    - How do I know how much the dorm costs?

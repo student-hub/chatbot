@@ -1,0 +1,13 @@
+- intent: faq/ask_connectMoodle
+  examples: |
+    - How do I connect to Moodle?
+    - How can I connect to Moodle?
+    - What are the credentials to connect to Moodle?
+    - Do you have any idea how I can connect to Moodle?
+    - Do you have any idea how I connect to Moodle?
+    - Do you know how I connect to Moodle?
+    - Do you know how I can connect to Moodle?
+    - I don't know how to connect to Moodle!
+    - I don't know my credentials to log in to Moodle!
+    - Can you help me connect to Moodle?
+    
