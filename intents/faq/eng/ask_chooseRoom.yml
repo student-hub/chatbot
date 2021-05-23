@@ -1,0 +1,22 @@
+- intent: faq/ask_chooseRoom
+  examples: |
+    - Can I select my room?
+    - Can I select my dorm room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Can we choose our room?
+    - Can we choose our dorm room?
+    - Can I choose the room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Do you know how I can choose my room?
+    - Do you know how I can choose my dorm room?
+    - Can I choose which room I want?
+    - Can I choose which dorm room I want?
+    - Do you know if I can choose which room I want?
+    - Do you know if I can choose which dorm room I want?
+    - Do I have the option to choose my room?
+    - How do I select my room?
+    - How do I choose my room?
+    - How can I choose my room?
+    

@@ -1,0 +1,16 @@
+- intent: faq/ask_chooseRoomate
+  examples: |
+    - Can I select my roommate?
+    - Can I select my roommates?
+    - Can I choose my roommate?
+    - Can I choose my roommates?
+    - Can we choose our roommates?
+    - Do you know how I can choose my roommate?
+    - Do you know how I can choose my roommates?
+    - Can I choose who I want to stay in the room with?
+    - Do you know if I can choose who I want to stay in the room with?
+    - Do I have the option to choose my roommate?
+    - Do I have the option to choose my roommates?
+    - How can I choose my roommate?
+    - How can I choose my roommates?
+    

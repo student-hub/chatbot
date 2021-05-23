@@ -1,9 +1,12 @@
 - intent: faq/ask_getStudentCertificate
   examples: |
     - Cum pot obține adeverință de student?
+    - De unde pot iau adeverință de student?
     - De unde pot să iau adeverință de student?
     - De unde pot să fac rost de o adeverință de student?
     - Cui îi cer o adeverință de student?
     - Cum pot să fac rost de o adeverință de student?
+    - Cum iau adeverință de student?
+    - Cum cer o adeverință de student?
     - Știi cui trebuie să îi cer o adeverință de student?
     - Știi cum pot să cer o adeverință de student?
