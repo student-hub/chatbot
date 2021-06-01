@@ -1,0 +1,7 @@
+utter_faq/ask_getTools:
+    - text: |
+        Pentru învățarea în regim online se fololește moodle(https://curs.upb.ro/) și Microsoft Teams. Pentru rezolvarea unor anumite laboratoare este necesar
+        un sistem de operare Unix, așa că recomand, dacă nu ai, crearea unei mașini virtuale sau un dual-boot, in caz ca ai Windows.
+    - text: |
+        Facultatea online necesită folosirea Microsft Teams și moodle(https://curs.upb.ro/). Unele laboratoare necesită folosirea unui sistem de operare Unix, așa că
+        recomand dacă lucrezi pe Windows să-ți faci un dual-boot sau să-ti faci o mașină virtuală.

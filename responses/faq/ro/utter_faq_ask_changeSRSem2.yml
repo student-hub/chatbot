@@ -1,0 +1,5 @@
+utter_faq/ask_changeSRSem2:
+    - text: |
+        Seria nu se poate schimba decât în primul semestru.
+    - text: |
+        Nu se poate schimba seria în semestrul 2. Este posibil acest lucru doar în primul semestru.

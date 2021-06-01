@@ -1,0 +1,11 @@
+utter_faq/ask_connectMoodle:
+    - text: |
+        Pentru a accesa platformele de cursuri online (Moodle) din cadrul Universității Politehnica București
+        se deschide un browser (Google Chrome, Internet Explorer, Mozilla Firefox, etc.) și se accesează pagina https://curs.upb.ro,
+        unde se regasesc cursuri pentru ﬁecare facultate din cadrul UPB. (Figura 1). Platforma poate ﬁ accesată atât de pe dispozitive desktop/laptop
+        cât și de pe dispozitive mobile (tabletă, smartphone). Contul de utilizator și parola ar trebui sa fie disponibile pe studenti.pub.ro.
+        Pentru eventualele nelămuriri puteți contacta secretariatul sau profesorul îndrumător de an.
+    - text: |
+        Platforma de cursuri online este https://curs.upb.ro, fiind disponibilă atât pe web cât și e mobile.
+        Contul de utilizator și parola ar trebui sa fie disponibile pe studenti.pub.ro.
+        Pentru eventualele nelămuriri puteți contacta secretariatul sau profesorul îndrumător de an.

@@ -1,0 +1,20 @@
+utter_faq/ask_getTemplateApplication:
+    - text: |
+        Model de cerere:
+        Domnule Decan,
+        Subsemnatul, [NUME şi PRENUME], student în anul X la Facultatea de Automatică şi Calculatoare,
+        la secţia Calculatoare şi Tehnologia Informaţiei/ Ingineria Sistemelor, în grupa Y, seria Z,
+        vă rog să-mi aprobaţi cererea prin care solicit eliberarea a [câte vreţi] adeverinţe de student.
+        Menţionez că acestea îmi sunt necesare pentru [motive].Vă mulţumesc anticipat!
+        Data Semnătura
+        Domnului Decan a Facultăţii de Automatică şi Calculatoare din Bucureşti
+    - text: |
+        Model de cerere:
+        Domnule Decan,
+        Subsemnatul, [NUME şi PRENUME], posesor al cărţii de identitate cu seria X nr Y, CNP …,
+        student/ înmatriculat în anul Z la Facultatea de Automatică şi Calculatoare, la secţia Calculatoare şi Tehnologia Informaţiei/ Ingineria Sistemelor,
+        vă rog să-mi aprobaţi cererea prin care solicit eliberarea a [câte vreţi] adeverinţe de student.
+        Menţionez că acestea îmi sunt necesare pentru [motive].
+        Vă mulţumesc anticipat!
+        Data Semnătura
+        Doamnului Decan a Facultăţii de Automatică şi Calculatoare din Bucureşti

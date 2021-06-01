@@ -1,0 +1,5 @@
+utter_faq/ask_connectOutlook:
+    - text: |
+        Pentru a te conecta la Outlook ai nevoie de contul tau de student, găsit pe studenti.pub.ro, pe care să-l folosești la autentificare.
+    - text: |
+        Conectarea la Outlook se face folosind contul de student, pe care îl găsești pe studenti.pub.ro.

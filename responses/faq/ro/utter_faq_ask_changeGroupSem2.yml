@@ -1,0 +1,5 @@
+utter_faq/ask_changeGroupSem2:
+    - text: |
+        Grupa nu se poate schimba decât în primul semestru.
+    - text: |
+        Nu se poate schimba grupa în semestrul 2. Este posibil acest lucru doar în primul semestru.
