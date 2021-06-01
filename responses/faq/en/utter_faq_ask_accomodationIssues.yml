@@ -1,5 +1,7 @@
 utter_faq/ask_accommodationIssues:
     - text: |
-        Test
+        For questions about the dormitory you can contact the administrator or the head of the dormitory,
+        but you will find the best reviews about the dormitory from the students staying there.
     - text: |
-        Test
+        For opinions about a particular dormitory, I recommend asking some students who live / have lived there.
+        For administrative problems you can contact the administrator or the head of the dormitory.

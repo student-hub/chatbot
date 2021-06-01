@@ -1,5 +1,5 @@
 utter_faq/ask_changeSRSem2:
     - text: |
-        Test
+        The series can only change in the first semester.
     - text: |
-        Test
+        The group cannot be changed in semester 2. This is only possible in the first semester.

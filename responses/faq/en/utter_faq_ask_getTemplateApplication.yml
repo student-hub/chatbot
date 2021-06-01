@@ -1,5 +1,20 @@
 utter_faq/ask_getTemplateApplication:
     - text: |
-        Test
+        Application form:
+        Mr. Dean,
+        The undersigned, [NAME and SURNAME], 10th year student at the Faculty of Automatic Control and Computers,
+        in the Computers and Information Technology / Systems Engineering section, in group Y, Z series,
+        please approve my request for the issuance of [as many] student certificates as you want.
+        I mention that I need them for [reasons]. Thank you in advance!
+        Date Signature
+        Mr. Dean of the Faculty of Automatic Control and Computers from Bucharest
     - text: |
-        Test
+        Application form:
+        Mr. Dean,
+        The undersigned, [NAME and SURNAME], holder of the identity card with X series no Y, CNP…,
+        student / enrolled in year Z at the Faculty of Automatic Control and Computers, at the Computer and Information Technology / Systems Engineering department,
+        please approve my request for the issuance of [as many] student certificates as you want.
+        I mention that I need them for [reasons].
+        Thank you in advance!
+        Date Signature
+        Mr. Dean of the Faculty of Automatic Control and Computers from Bucharest

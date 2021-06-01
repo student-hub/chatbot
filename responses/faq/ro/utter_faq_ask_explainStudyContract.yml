@@ -1,6 +1,6 @@
 utter_faq/ask_explainStudyContract:
     - text: |
-        Cu ajutorul datelor pe care voi le completezi pe studenti.pub.ro, se va crea un contract de studii în care sunt trecute datele tale personale,
+        Cu ajutorul datelor pe care le completezi pe studenti.pub.ro, se va crea un contract de studii în care sunt trecute datele tale personale,
         materiile pe care le vei urma în anul respectiv şi obligaţiile tale.
         El va fi tipizat în două exemplare de către secretariat (unul rămâne la voi şi unul la facultate).
     - text: |

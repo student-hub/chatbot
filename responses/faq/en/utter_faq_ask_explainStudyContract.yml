@@ -1,5 +1,8 @@
 utter_faq/ask_explainStudyContract:
     - text: |
-        Test
+        With the help of the data you fill in studenti.pub.ro, a study contract will be created in which your personal data are entered,
+        the subjects you will follow in that year and your obligations.
+        It will be typed in two copies by the secretariat (one remains with you and one with the faculty).
     - text: |
-        Test
+        The study contract contains your personal data, the subjects you will follow in that year (including the remaining subjects) and your obligations.
+        It is typed at the secretariat in two copies and the student has the obligation to sign it and will receive an original copy.

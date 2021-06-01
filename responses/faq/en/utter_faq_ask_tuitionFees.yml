@@ -1,5 +1,7 @@
 utter_faq/ask_tuitionFees:
     - text: |
-        Test
+        The fee is 4000 lei. For any clarifications you can contact the secretariat.
     - text: |
-        Test
+        The tuition fee is 4000 lei. You can contact the secretariat for more questions.
+    - text: |
+        Normally, the fee is 4,000 lei. For clear details, you can contact the secretariat.

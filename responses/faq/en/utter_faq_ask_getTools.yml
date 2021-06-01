@@ -1,5 +1,7 @@
 utter_faq/ask_getTools:
     - text: |
-        Test
+        Moodle (https://curs.upb.ro/) and Microsoft Teams are used for online learning. It is necessary to solve certain laboratories
+        a Unix operating system, so I recommend, if you don't have one, creating a virtual machine or a dual-boot, in case you have Windows.
     - text: |
-        Test
+        The online faculty requires the use of Microsft Teams and moodle (https://curs.upb.ro/). Some labs require the use of a Unix operating system, so
+        I recommend if you work on Windows to do a dual-boot or to make a virtual machine.

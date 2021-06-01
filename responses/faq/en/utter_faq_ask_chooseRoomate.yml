@@ -1,5 +1,7 @@
 utter_faq/ask_chooseRoomate:
     - text: |
-        Test
+        You can opt for certain roommates. These preferences are added in the accommodation request (studenti.pub.ro). For 1st year students, preferences
+        they must be communicated by a request to the dean's office, before the distributions on the dormitories, and then they will be analyzed.
     - text: |
-        Test
+        If you are in first year, you must submit an application to the dean's office specifying your accommodation preferences, before allocating them to the dormitories.
+        If you are older, the preferences are written in the accommodation request (studenti.pub.ro)

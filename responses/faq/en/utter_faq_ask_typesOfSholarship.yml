@@ -1,5 +1,9 @@
 utter_faq/ask_typesOfScholarship:
     - text: |
-        Test
+        There are two types of scholarships: social and scholarship based on the average of the grades. The social scholarship is granted according to the income per family member, of a student,
+        there is a decided threshold at university level. Scholarship based on the average of the grades is awarded according to the student's  grades average, within the limit established by the faculty.
+        For more details about scholarships (exact figures, number of places in previous years, etc.) it is good to contact the secretariat.
     - text: |
-        Test
+        The scholarship can be social (depending on the income per family member) or based on the average of grades. For each there are thresholds set by the university
+        which varies from year to year.
+        For clarifications related to scholarships (exact figures, number of places in previous years, etc.) you can contact the secretariat.

@@ -1,5 +1,5 @@
 utter_faq/ask_connectOutlook:
     - text: |
-        Test
+        To connect to Outlook you need your student account, found on studenti.pub.ro, which you can use for authentication.
     - text: |
-        Test
+       The connection to Outlook is made using the student account, which you can find on studenti.pub.ro.

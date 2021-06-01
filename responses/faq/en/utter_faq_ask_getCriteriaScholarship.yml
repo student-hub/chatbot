@@ -1,5 +1,11 @@
 utter_faq/ask_getCriteriaScholarship:
     - text: |
-        Test
+        In order to obtain a merit scholarship, you must strive to be among the first averages in college.
+        The number of scholarships differs from year to year.
+        For social scholarships or details on the number of scholarship places in the previous year and the last average who obtained the scholarship
+        you can contact the secretariat for the year.
     - text: |
-        Test
+        Only the first highest averages in college receive a scholarship, their number being limited, so you have to learn very well.
+        Their number may change compared to previous academic years.
+        For social scholarships or details on the number of scholarship places in the previous year and the last average who obtained the scholarship
+        you can contact the secretariat for the year.

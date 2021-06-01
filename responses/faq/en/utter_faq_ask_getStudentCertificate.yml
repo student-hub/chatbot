@@ -1,5 +1,9 @@
 utter_faq/ask_getStudentCertificate:
     - text: |
-        Test
+        You must submit a request to the secretariat stating the reason why you need it.
+        The secretary will tell you when you need to come back to pick her up (probably 1-3 days).
+        If you want more certificates, you can submit a single application stating the reasons for each one.
     - text: |
-        Test
+        In order to issue a student certificate, an application must be submitted to the secretariat stating the reason why you need it.
+        The secretary will tell you when you need to come back to pick her up (probably 1-3 days).
+        For several certificates, you can submit a single application stating the reasons for each one.

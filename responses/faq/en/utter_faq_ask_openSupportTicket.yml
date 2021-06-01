@@ -1,5 +1,5 @@
 utter_faq/ask_openSupportTicket:
     - text: |
-        Test
+        A ticket can be made on https://ticketing.upb.ro/index.php. There choose the option to open a new ticket and fill in the corresponding fields.
     - text: |
-        Test
+        To open a ticket use https://ticketing.upb.ro/. Select the option to open a new ticket and fill in the fields in the application.

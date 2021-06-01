@@ -1,5 +1,7 @@
 utter_faq/ask_SRLeaderTasks:
     - text: |
-        Test
+        The series leader must check that the group leaders have fulfilled their duties.
+        At the same time, he must deal with the planning of the exams in the session, consulting with teachers and group leaders.
     - text: |
-        Test
+        The series leader supervises the activity of the group leaders and communicates the new tasks to them.
+        Another responsibility of the group leaders is to plan the exams in the session, in accordance with the options of the teachers and students.

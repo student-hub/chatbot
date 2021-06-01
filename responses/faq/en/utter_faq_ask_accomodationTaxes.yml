@@ -1,5 +1,7 @@
 utter_faq/ask_accommodationTaxes:
     - text: |
-        Test
+        Accommodation taxes are displayed at the entrance to the dormitory at the end of the current month. These also include maintenance costs.
+        The approximate price varies between 165-230 lei (more expensive in the cold months) for budget students and 400 lei for fee students.
     - text: |
-        Test
+        The dormitory costs between 165-230 lei (more expensive in the cold months) for budget students and 400 lei for fee-paying students.
+        The price is displayed on the notice board or at the front door and includes maintenance.
