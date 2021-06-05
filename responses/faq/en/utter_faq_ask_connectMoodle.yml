@@ -1,0 +1,11 @@
+utter_faq/ask_connectMoodle:
+    - text: |
+        To access the online course platforms (Moodle) within the Polytechnic University of Bucharest
+        open a browser (Google Chrome, Internet Explorer, Mozilla Firefox, etc.) and access the page https://curs.upb.ro,
+        where there are courses for each faculty within UPB. The platform can be accessed from both desktop / laptop devices
+        as well as from mobile devices (tablet, smartphone). The user account and password should be available on students.pub.ro.
+        For any questions you can contact the secretariat or the tutor of the year.
+    - text: |
+        The online course platform is https://curs.upb.ro, being available both on the web and mobile.
+        The user account and password should be available on students.pub.ro.
+        For any questions you can contact the secretariat or the tutor of the year.

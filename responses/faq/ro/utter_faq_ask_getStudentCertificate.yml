@@ -1,0 +1,9 @@
+utter_faq/ask_getStudentCertificate:
+    - text: |
+        Trebuie să depui o cerere la secretariat în care să menţionezi motivul pentru care ai nevoie de ea.
+        Secretara o să îți spună când trebuie să revii pentru a o ridica (probabil 1-3 zile).
+        Dacă dorești mai multe adeverinţe, poți depune o singură cerere în care să menţionezi motivele pentru fiecare în parte.
+    - text: |
+        Pentru eliberarea unei adeverințe de student, trebuie depusă o cerere la secretariat în care să menţionezi motivul pentru care ai nevoie de ea.
+        Secretara o să îți spună când trebuie să revii pentru a o ridica (probabil 1-3 zile).
+        Pentru mai multe adeverinţe, poți depune o singură cerere în care să menţionezi motivele pentru fiecare în parte.

@@ -1,0 +1,5 @@
+utter_faq/ask_chooseRoom:
+    - text: |
+        Studenții de anul 1 pot face o cerere la decanat pentru anumite preferințe de cazare. Studenții mai mari le pot completa pe studenti.pub.ro în cererea de cazare.
+    - text: |
+        Preferințele se pun în cererea de cazare de pe studenti.pub.ro. Studenții de anul 1 trebuie să depună o cerere la secretariat cu preferințele de cazare. 

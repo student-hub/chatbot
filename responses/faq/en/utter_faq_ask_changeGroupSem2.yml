@@ -1,0 +1,5 @@
+utter_faq/ask_changeGroupSem2:
+    - text: |
+        The group can only change in the first semester.
+    - text: |
+        The group cannot be changed in semester 2. This is only possible in the first semester.

@@ -1,0 +1,5 @@
+utter_faq/ask_becomeSRLeader:
+    - text: |
+        Șeful de serie se alege dintre șefii de grupă din acea serie. Alegerea este facută prin vot, de către reprezentanții grupei.
+    - text: |
+        Pentru a fi șef de serie, trebuie să fii ales șef de grupă. Dintre șefii de grupă se alege șeful de serie.

@@ -1,0 +1,7 @@
+utter_faq/ask_getGrades:
+    - text: |
+        The final grades are passed by the secretariat on pupils.pub.ro, after their communication by the teachers.
+        Notes from colloquia, homework, partial should be published on moodle (https://curs.upb.ro/).
+    - text: |
+        In order to see the final situation of the notes, students can be accessed.pub.ro, where they are passed by the secretariat after
+        taking the exam. Notes along the way (colloquia, partials, homework) should be placed on moodle (https://curs.upb.ro/).

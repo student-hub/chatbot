@@ -1,0 +1,17 @@
+utter_faq/ask_connectEduroam:
+    - text: |
+        The connection in the eduroam network is made on the basis of the same account used on the course site.
+         For the eduroam network the identification data will be of the form:
+         eduroam user: <course-user> @ pub.ro
+         password: <course-p>
+         Before logging in to the eduroam network, your login data needs to be synchronized with the authentication server.
+         This can be done by changing the password within the course site.
+         You can make two password changes to return to the original password.
+    - text: |
+        The connection is made with the account on the course site.
+        For the eduroam network the identification data will be of the form:
+        eduroam user: <course-user> @ pub.ro
+        password: <course-password>
+        Before logging in to the eduroam network, your login data needs to be synchronized with the authentication server.
+        This can be done by changing the password within the course site.
+        You can make two password changes to return to the original password.

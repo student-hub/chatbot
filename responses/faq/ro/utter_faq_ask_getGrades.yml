@@ -1,0 +1,7 @@
+utter_faq/ask_getGrades:
+    - text: |
+        Notele finale se trec de către secretariat pe studenti.pub.ro, după comunicarea acestora de catre cadrele didactice.
+        Notele de la colocvii, teme, parțiale ar trebui să fie publicate pe moodle (https://curs.upb.ro/)
+    - text: |
+        Pentru a vedea situația finală a notelor se poate accesa studenti.pub.ro, unde sunt trecute de catre secretariat după
+        susținerea examenului. Notele de pe parcurs(colocvii, parțiale, teme) ar trebui să fie puse pe moodle (https://curs.upb.ro/)

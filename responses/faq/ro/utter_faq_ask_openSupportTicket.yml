@@ -1,0 +1,5 @@
+utter_faq/ask_openSupportTicket:
+    - text: |
+        Un tichet se poate face pe https://ticketing.upb.ro/index.php. Acolo se alege opțiunea de a deschide un tichet nou și se completează câmpurile corespunzătoare.
+    - text: |
+        Pentru a deschide un tichet se foloseste https://ticketing.upb.ro/. Se selectează opțiunea de deschidere tichet nou și se completează câmpurile din cerere.
