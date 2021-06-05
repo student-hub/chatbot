@@ -4,7 +4,7 @@ utter_faq/ask_connectEduroam:
         Pentru rețeaua eduroam datele de identificare vor fi de forma:
         utilizator eduroam: <utilizator-cursuri>@pub.ro
         parola: <parola-cursuri>
-        Înainte de prima autentificare în rețeaua eduroam este nevoie ca date dvs. de conectare să fie sincronizate cu serverul de autentificare.
+        Înainte de prima autentificare în rețeaua eduroam este nevoie ca datele dvs. de conectare să fie sincronizate cu serverul de autentificare.
         Acest lucru se poate face printr-o schimbare a parolei în cadrul site-ului de cursuri.
         Puteți efectua două schimbări ale parolei, pentru a reveni la parola inițială.
     - text: |
@@ -12,6 +12,6 @@ utter_faq/ask_connectEduroam:
         Pentru rețeaua eduroam datele de identificare vor fi de forma:
         utilizator eduroam: <utilizator-cursuri>@pub.ro
         parola: <parola-cursuri>
-        Înainte de prima autentificare în rețeaua eduroam este nevoie ca date dvs. de conectare să fie sincronizate cu serverul de autentificare.
+        Înainte de prima autentificare în rețeaua eduroam este nevoie ca datele dvs. de conectare să fie sincronizate cu serverul de autentificare.
         Acest lucru se poate face printr-o schimbare a parolei în cadrul site-ului de cursuri.
         Puteți efectua două schimbări ale parolei, pentru a reveni la parola inițială.
