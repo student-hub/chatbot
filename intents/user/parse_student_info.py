@@ -1,14 +1,14 @@
 import json
 import os
 
-with open('intentInitStudentInfoRO.json') as intentSRLeaderRO:
-    intentRO = json.load(intentSRLeaderRO)
-with open('intentInitStudentInfoEN.json') as intentSRLeaderEN:
-    intentEN = json.load(intentSRLeaderEN)
+with open('intentInitStudentInfoRO.json') as intentInitStudentInfoRO:
+    intentRO = json.load(intentInitStudentInfoRO)
+with open('intentInitStudentInfoEN.json') as intentInitStudentInfoEN:
+    intentEN = json.load(intentInitStudentInfoEN)
 with open('../../../resources/nrSR.json') as nrSRModel:
     nrSR = json.load(nrSRModel)
-f = open("generatedIntentSRLeaderRO.yml", "w")
-fEN = open("generatedIntentSRLeaderEN.yml", "w")
+f = open("generatedIntentInitStudentInfoRO.yml", "w")
+fEN = open("generatedIntentInitStudentInfoEN.yml", "w")
 
 for i in intentRO:
     for n in nrSR:

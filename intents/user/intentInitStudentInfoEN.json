@@ -1,10 +1,10 @@
 [
-    "Hi! I am [StudX]. I am a student in group [Gx], series [Sx], semigroup [SmX]. The current semester is [SemX] and the week is [WTx].",
-    "Hello! My name is [StudX]. I am a student in group [Gx], series [Sx], semigroup [SmX]. The semester is [SemX], and the week is [WTx].",
-    "Hi! My name is [StudX], student in group [Gx], series [Sx], semigroup [SmX]. The current semester is [SemX], and the study week is [WTx].",
-    "Hi! I am [StudX], I am a student in the group [Gx] [SmX], series [Sx]. The current semester is [SemX] and the parity is [WTx].",
-    "Hi! My name is [StudX]. I am a student in the group [Gx] [Sx] [SmX]. It is the semester [SemX], and the week is [WTx].",
-    "Hello! My name is [StudX]. I am a student in group [Gx], series [Sx], semigroup [SmX]. The semester is [SemX], and the week is [WTx].",
-    "Hello! My name is [StudX]. I am a student in the group [Gx] [Sx] [SmX]. The semester is [SemX], and the week is [WTx].",
-    "Hello! I am [StudX], a student in the group [Gx] [Sx] [SmX]. The semester is [SemX], and the week is [WTx]."
+    "Hi! I am [StudX](student). I am a student in group [Gx](groupNr), series [Sx](SrNr), semigroup [SmX](semigroup). The current semester is [SemX](semester) and the week is [WTx](weekType).",
+    "Hello! My name is [StudX](student). I am a student in group [Gx](groupNr), series [Sx](SrNr), semigroup [SmX](semigroup). The semester is [SemX](semester), and the week is [WTx](weekType).",
+    "Hi! My name is [StudX](student), student in group [Gx](groupNr), series [Sx](SrNr), semigroup [SmX](semigroup). The current semester is [SemX](semester), and the study week is [WTx](weekType).",
+    "Hi! I am [StudX](student), I am a student in the group [Gx](groupNr)[SmX](semigroup), series [Sx](SrNr). The current semester is [SemX](semester) and the parity is [WTx](weekType).",
+    "Hi! My name is [StudX](student). I am a student in the group [Gx](groupNr) [Sx](SrNr) [SmX](semigroup). It is the semester [SemX](semester), and the week is [WTx](weekType).",
+    "Hello! My name is [StudX](student). I am a student in group [Gx](groupNr), series [Sx](SrNr), semigroup [SmX](semigroup). The semester is [SemX](semester), and the week is [WTx](weekType).",
+    "Hello! My name is [StudX](student). I am a student in the group [Gx](groupNr)[Sx](SrNr) [SmX](semigroup). The semester is [SemX](semester), and the week is [WTx](weekType).",
+    "Hello! I am [StudX](student), a student in the group [Gx](groupNr)[Sx](SrNr)[SmX](semigroup). The semester is [SemX](semester), and the week is [WTx](weekType)."
 ]
