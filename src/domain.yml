@@ -12,93 +12,248 @@ actions:
 responses:
     utter_faq/ask_accommodationTaxes:
         - text: |
-            Test
+            Taxele de cazare sunt afișate la intrarea în cămin, la sfârșitul lunii in curs. Acestea includ și cheltuielile de întreținere.
+            Costul aproximativ variază intre 165-230 lei (mai scump în lunile reci) pentru studenții la buget și 400 lei pentru studenții la taxă.
         - text: |
-            Test
+            Căminul costă intre 165-230 lei (mai scump în lunile reci) pentru studenții la buget și 400 lei pentru studenții la taxă.
+            Costul este afișat la avizierul căminului sau la ușa de la intrare, și include cheltuielile de întreținere.
     utter_faq/ask_accomodationIssues:
         - text: |
-            Test
+            Pentru întrebările legate de cămin poți contacta administratorul sau șeful de cămin, dar recenziile cele mai bune despre cămin
+            le vei afla de la studenții cazați acolo.
+        - text: |
+            Pentru păreri legate de un anumit cămin, recomand să întrebi niște studenți care stau/au stat acolo.
+            Pentru probleme administrative poți contacta administratorul sau șeful de cămin.
     utter_faq/ask_becomeGroupLeader:
         - text: |
-            Test
+            Șeful de grupă este hotărât de membrii grupei, de obicei prin vot.
+            Pentru a putea candida ca șef de grupă este de ajuns să le spui colegilor de intenția ta la începutul anului universitar.
+            Alegerea facută de grupă este comunicată apoi către secretariat.
+        - text: |
+            Pentru a fi șef de grupă trebuie să te voteze colegii tăi la începutul anului universitar, atunci când se alege șeful de grupă.
+            Pentru a avea șanse bune să fii ales trebuie sa fii o fire sociabilă, descurcăreață și bine organizată.
     utter_faq/ask_becomeSRLeader:
         - text: |
-            Test
+            Șeful de serie se alege dintre șefii de grupă din acea serie. Alegerea este facută prin vot, de către reprezentanții grupei.
+        - text: |
+            Pentru a fi șef de serie, trebuie să fii ales șef de grupă. Dintre șefii de grupă se alege șeful de serie.
     utter_faq/ask_changeGroup:
         - text: |
-            Test
+            Pentru a schimba grupa trebuie facută o cerere la început de an, la decanat. Aceasta poate fi acceptată sau nu, depinzând în mare parte de locurile disponibile.
+            Șansele cele mai mari de acceptare le au studenții care își gasesc persoane cu care să facă schimb de grupă.
+        - text: |
+            Grupa se poate schimba doar la începutul anului univeristar. Trebuie depusă o cerere la decanat pentru schimbarea grupei, care va fi analizată ulterior.
+            Pentru a avea șanse cât mai mari trebuie să-ți găsești o persoana cu care să faci schimb de grupă.
     utter_faq/ask_changeGroupSem2:
         - text: |
-            Test
+            Grupa nu se poate schimba decât în primul semestru.
+        - text: |
+            Nu se poate schimba grupa în semestrul 2. Este posibil acest lucru doar în primul semestru.
     utter_faq/ask_changeSpecialization:
         - text: |
-            Test
+            Transferul de la CTI la IS se poate face printr-o cerere depusă la începutul primului semestru la secretariat.
+            Transferul de la IS la CTI se poate face prin contactarea secretariatului și înscrierea la admitere. 
+            Condițiile de transfer sunt:
+            -Obținerea unei note de admitere mai bună decât ultimul elev admis la CTI
+            -Totalul creditelor să depășească pragul de trecere al anului.
+            **Important**
+            Materiile identice între specializări se pot echivala (inclusiv SD echivalat de SDA, sau reciproc), însă cele diferite trebuie făcute și plătite (ca o restanță, dar care nu are efect asupra cazării la un cămin).
+            În consecință, creditele pentru materiile de recuperat trebuie obținute și înlocuiesc cele două materii diferite din contractul vechi (Proiectare Logică și Metode Numerice pentru CTI).
+            Transferurile trebuie aprobate de decanat, însă, în cazul în care  un transfer nu este acceptat, candidatul nu își pierde locul deja avut.
+            **Procedura poate suferi modificări, așa că nu ezitați să contactați secretariatul sau decanatul pentru mai multe detalii.**.
+        - text: |
+            Pentru a te putea transfera de la CTI la IS, se face o cerere la începutul primului semestru la secretariat.
+            Pentru transferul de la IS la CTI este necesară contactarea secretariatului și înscrierea la admitere.
+            Condiții de transfer:
+            -Obținerea unei note de admitere mai bună decât ultimul elev admis la CTI
+            -Totalul creditelor să depășească pragul de trecere al anului.
+            **Important**
+            Materiile identice între specializări se pot echivala (inclusiv SD echivalat de SDA, sau reciproc), însă cele diferite trebuie făcute și plătite (ca o restanță, dar care nu are efect asupra cazării la un cămin).
+            În consecință, creditele pentru materiile de recuperat trebuie obținute și înlocuiesc cele două materii diferite din contractul vechi (Proiectare Logică și Metode Numerice pentru CTI).
+            Transferurile trebuie aprobate de decanat, însă, în cazul în care  un transfer nu este acceptat, candidatul nu își pierde locul deja avut.
+            **Procedura poate suferi modificări, așa că nu ezitați să contactați secretariatul sau decanatul pentru mai multe detalii.**.
     utter_faq/ask_changeSR:
         - text: |
-            Test
+            Pentru a schimba seria trebuie facută o cerere la început de an, la decanat. Aceasta poate fi respinsă, depinde în mare parte de locurile disponibile.
+            Șansele cele mai mari de acceptare le au studenții care își gasesc persoane cu care să facă schimb de grupe.
+        - text: |
+            Seria se poate schimba doar la începutul anului univeristar. Trebuie depusă o cerere la decanat pentru schimbarea seriei, care va fi analizată ulterior.
+            Pentru a avea șanse cât mai mari trebuie să-ți găsești o persoana cu care să faci schimb de serie.
     utter_faq/ask_changeSRSem2:
         - text: |
-            Test
+            Seria nu se poate schimba decât în primul semestru.
+        - text: |
+            Nu se poate schimba seria în semestrul 2. Este posibil acest lucru doar în primul semestru.        
     utter_faq/ask_chooseRoom:
         - text: |
-            Test
+            Studenții de anul 1 pot face o cerere la decanat pentru anumite preferințe de cazare. Studenții mai mari le pot completa pe studenti.pub.ro în cererea de cazare.
+        - text: |
+            Preferințele se pun în cererea de cazare de pe studenti.pub.ro. Studenții de anul 1 trebuie să depună o cerere la secretariat cu preferințele de cazare. 
     utter_faq/ask_chooseRoomate:
         - text: |
-            Test
+            Se poate opta pentru anumiți colegi de cameră. Aceste preferințe se adaugă în cererea de cazare (studenti.pub.ro). Pentru studenții de anul 1, preferințele
+            trebuie comunicate printr-o cerere, decanatului, înaintea repartizărilor pe cămine, urmând ca apoi să fie analizate. 
+        - text: |
+            Daca ești anul 1 trebuie sa depui o cerere la decanat în care să specifici preferințele tale de cazare, înainte de a se face repartizarea pe cămine.
+            Daca ești an mai mare, preferințele se scriu în cererea de cazare (studenti.pub.ro).
     utter_faq/ask_connectEduroamWiFi:
         - text: |
-            Test
+            Conectarea în rețeaua eduroam se face pe baza aceluiași cont folosit și pe site-ul de cursuri.
+            Pentru rețeaua eduroam datele de identificare vor fi de forma:
+            utilizator eduroam: <utilizator-cursuri>@pub.ro
+            parola: <parola-cursuri>
+            Înainte de prima autentificare în rețeaua eduroam este nevoie ca datele dvs. de conectare să fie sincronizate cu serverul de autentificare.
+            Acest lucru se poate face printr-o schimbare a parolei în cadrul site-ului de cursuri.
+            Puteți efectua două schimbări ale parolei, pentru a reveni la parola inițială.
+        - text: |
+            Conectarea se face cu contul de pe site-ul de cursuri.
+            Pentru rețeaua eduroam datele de identificare vor fi de forma:
+            utilizator eduroam: <utilizator-cursuri>@pub.ro
+            parola: <parola-cursuri>
+            Înainte de prima autentificare în rețeaua eduroam este nevoie ca datele dvs. de conectare să fie sincronizate cu serverul de autentificare.
+            Acest lucru se poate face printr-o schimbare a parolei în cadrul site-ului de cursuri.
+            Puteți efectua două schimbări ale parolei, pentru a reveni la parola inițială.
     utter_faq/ask_connectMoodle:
         - text: |
-            Test
+            Pentru a accesa platformele de cursuri online (Moodle) din cadrul Universității Politehnica București
+            se deschide un browser (Google Chrome, Internet Explorer, Mozilla Firefox, etc.) și se accesează pagina https://curs.upb.ro,
+            unde se regăsesc cursuri pentru ﬁecare facultate din cadrul UPB. (Figura 1). Platforma poate ﬁ accesată atât de pe dispozitive desktop/laptop
+            cât și de pe dispozitive mobile (tabletă, smartphone). Contul de utilizator și parola ar trebui sa fie disponibile pe studenti.pub.ro.
+            Pentru eventualele nelămuriri puteți contacta secretariatul sau profesorul îndrumător de an.
+        - text: |
+            Platforma de cursuri online este https://curs.upb.ro, fiind disponibilă atât pe web cât și e mobile.
+            Contul de utilizator și parola ar trebui sa fie disponibile pe studenti.pub.ro.
+            Pentru eventualele nelămuriri puteți contacta secretariatul sau profesorul îndrumător de an.
     utter_faq/ask_connectOutlook:
         - text: |
-            Test
+            Pentru a te conecta la Outlook ai nevoie de contul tău de student, găsit pe studenti.pub.ro, pe care să-l folosești la autentificare.
+        - text: |
+            Conectarea la Outlook se face folosind contul de student, pe care îl găsești pe studenti.pub.ro.
     utter_faq/ask_docsSubmission:
         - text: |
-            Test
+            Actele se depun la secretariat în timpul programului de funcționare (9 - 11 am). În contextul pandemiei de COVID-19, actele pot fi depuse și online, la adresa de email secretariat.acs@upb.ro.
+        - text: |
+            Actele se depun fie fizic, în timpul programului de la secretariat (9 - 11 am), fie online la adresa secretariat.acs@upb.ro.
+        - text: |
+            Actele le poți depune la secretariat (9 - 11 am) sau pe mail la adresa secretariat.acs@upb.ro.   
     utter_faq/ask_downgradeToTaxe:
         - text: |
-            Test
+            Nu, studenții care au intrat la această facultate la buget, rămân la buget până la terminarea ei.
+        - text: |
+            Nu, un student odată admis la buget, va rămâne la buget până când își termină studiile.
     utter_faq/ask_explainStudyContract:
         - text: |
-            Test
+            Cu ajutorul datelor pe care le completezi pe studenti.pub.ro, se va crea un contract de studii în care sunt trecute datele tale personale,
+            materiile pe care le vei urma în anul respectiv şi obligaţiile tale.
+            El va fi tipizat în două exemplare de către secretariat (unul rămâne la voi şi unul la facultate).
+        - text: |
+            Contractul de studii conține datele tale personale, materiile pe care le vei urma în anul respectiv (inclusiv materiile restante) şi obligaţiile tale.
+            El este tipizat la secretariat în doua exemplare, iar studentul are obligația de a-l semna și va primi un exemplar în original.
     utter_faq/ask_getContactSecretariat:
         - text: |
-            Test
+            Detalii legate de secretariat găsești pe https://acs.pub.ro/contact/. Programul de lucru de la facultate este 9-11 am.
+        - text: |
+            Pentru detaliile legate de secretarii de an, se poate accesa https://acs.pub.ro/contact/. La facultate, programul este 9-11 am.
     utter_faq/ask_getCriteriaScholarship:
         - text: |
-            Test
+            Pentru a obține bursă de merit, trebuie să te străduiești să ai printre primele medii din facultate.
+            Numărul burselor diferă de la an la an.
+            Pentru bursele sociale sau detalii despre numărul de locuri de bursă din anul precedent și ultima medie care a obținut bursă
+            se poate contacta secretariatul de an.
+        - text: |
+            Doar primele medii din facultate primesc bursă, numărul lor fiind limitat, de aceea trebuie să înveți foarte bine.
+            Numărul acestora se poate schimba față de anii universitari precedenți.
+            Pentru bursele sociale sau detalii despre numărul de locuri de bursă din anul precedent și ultima medie care a obținut bursă
+            se poate contacta secretariatul de an.
     utter_faq/ask_getGrades:
         - text: |
-            Test
+            Notele finale se trec de către secretariat pe studenti.pub.ro, după comunicarea acestora de catre cadrele didactice.
+            Notele de la colocvii, teme, parțiale ar trebui să fie publicate pe moodle (https://curs.upb.ro/)
+        - text: |
+            Pentru a vedea situația finală a notelor se poate accesa studenti.pub.ro, unde sunt trecute de catre secretariat după
+            susținerea examenului. Notele de pe parcurs(colocvii, parțiale, teme) ar trebui să fie puse pe moodle (https://curs.upb.ro/)
     utter_faq/ask_getScheduleSecretariat:
         - text: |
-            Test
+            Programul de la secretariat este între 9:00 și 11:00 am, de luni până vineri.
+        - text: |
+            Secretariatul este deschis în timpul săptămânii între orele 09:00 și 11:00.
     utter_faq/ask_getStudentCertificate:
         - text: |
-            Test
+            Trebuie să depui o cerere la secretariat în care să menţionezi motivul pentru care ai nevoie de ea.
+            Secretara o să îți spună când trebuie să revii pentru a o ridica (probabil 1-3 zile).
+            Dacă dorești mai multe adeverinţe, poți depune o singură cerere în care să menţionezi motivele pentru fiecare în parte.
+        - text: |
+            Pentru eliberarea unei adeverințe de student, trebuie depusă o cerere la secretariat în care să menţionezi motivul pentru care ai nevoie de ea.
+            Secretara o să îți spună când trebuie să revii pentru a o ridica (probabil 1-3 zile).
+            Pentru mai multe adeverinţe, poți depune o singură cerere în care să menţionezi motivele pentru fiecare în parte.
     utter_faq/ask_getTemplateApplication:
         - text: |
-            Test
+            Model de cerere:
+            Domnule Decan,
+            Subsemnatul, [NUME şi PRENUME], student în anul X la Facultatea de Automatică şi Calculatoare,
+            la secţia Calculatoare şi Tehnologia Informaţiei/ Ingineria Sistemelor, în grupa Y, seria Z,
+            vă rog să-mi aprobaţi cererea prin care solicit eliberarea a [câte vreţi] adeverinţe de student.
+            Menţionez că acestea îmi sunt necesare pentru [motive]. Vă mulţumesc anticipat!
+            Data Semnătura
+            Domnului Decan a Facultăţii de Automatică şi Calculatoare din Bucureşti
+        - text: |
+            Model de cerere:
+            Domnule Decan,
+            Subsemnatul, [NUME şi PRENUME], posesor al cărţii de identitate cu seria X nr Y, CNP …,
+            student/ înmatriculat în anul Z la Facultatea de Automatică şi Calculatoare, la secţia Calculatoare şi Tehnologia Informaţiei/ Ingineria Sistemelor,
+            vă rog să-mi aprobaţi cererea prin care solicit eliberarea a [câte vreţi] adeverinţe de student.
+            Menţionez că acestea îmi sunt necesare pentru [motive].
+            Vă mulţumesc anticipat!
+            Data Semnătura
+            Domnului Decan a Facultăţii de Automatică şi Calculatoare din Bucureşti
     utter_faq/ask_getTools:
         - text: |
-            Test
+            Pentru învățarea în regim online se fololește moodle (https://curs.upb.ro/) și Microsoft Teams. Pentru rezolvarea unor anumite laboratoare este necesar
+            un sistem de operare Unix, așa că recomand, dacă nu ai, crearea unei mașini virtuale sau un dual-boot, dacă folosești Windows.
+        - text: |
+            Facultatea online necesită folosirea Microsft Teams și moodle (https://curs.upb.ro/). Unele laboratoare necesită folosirea unui sistem de operare Unix, așa că
+            recomand dacă lucrezi pe Windows să-ți faci un dual-boot sau să-ti faci o mașină virtuală.
     utter_faq/ask_groupLeaderTasks:
         - text: |
-            Test
+            Iată câteva exemple:
+            - să duceți la secretariat diverse documente: la început de an documentele pentru alegerea opționalelor, pozele, contractele de studii etc.
+            - să țineți legătura cu unii profesori (seminariști) pe mail: le trimiteți lista cu cei din grupă (în caz ca v-o cer), îi întrebați de note etc.
+            - o dată pe semestru să stabiliți planificarea examenelor pentru grupa voastră, împreună cu ceilalți șefi din seria voastră și cu șeful de serie.
+        - text: |
+            Cele mai dese sarcini pe care le poate avea un șef de grupă sunt următoarele:
+            - să ducă la secretariat diverse documente: la început de an documentele pentru alegerea opționalelor, pozele, contractele de studii etc.
+            - să țină legătura cu unii profesori (seminariști) pe mail: le trimite lista cu cei din grupă(în caz că o cer), îi întreabă de note etc.
+            - o dată pe semestru să stabilească planificarea examenelor pentru grupa voastră, împreună cu ceilalți șefi din seria voastră și cu șeful de serie.
     utter_faq/ask_openSupportTicket:
         - text: |
-            Test
+            Un tichet se poate face pe https://ticketing.upb.ro/index.php. Acolo se alege opțiunea de a deschide un tichet nou și se completează câmpurile corespunzătoare.
+        - text: |
+            Pentru a deschide un tichet se foloseste https://ticketing.upb.ro/. Se selectează opțiunea de deschidere tichet nou și se completează câmpurile din cerere.
     utter_faq/ask_SRLeaderTasks:
         - text: |
-            Test
+            Șeful de serie trebuie să verifice dacă șefii de grupă și-au îndeplinit atribuțiunile.
+            Totodată, acesta trebuie să se ocupe cu planificarea examenelor din sesiune, consultându-se cu cadrele didactice și cu șefii de grupă.
+        - text: |
+            Șeful de serie supraveghează activitatea șefilor de grupă și le comunică noile sarcini apărute.
+            O altă responsabilitate a șefilor de grupă este planificarea examenelor din sesiune, în concordanță cu opțiunile profesorilor și ale studenților.
     utter_faq/ask_tuitionFees:
         - text: |
-            Test
+            Taxa este 4000 lei. Pentru eventualele clarificări puteți contacta secretariatul.
+        - text: |
+            Taxa de școlarizare este 4000 lei. Pentru mai multe întrebări puteți contacta secretariatul.
+        - text: |
+            În mod normal, taxa este 4000 lei. Pentru detalii clare, puteți contacta secretariatul.
     utter_faq/ask_typesOfScholarship:
         - text: |
-            Test
+            Există două tipuri de burse: socială și de merit. Bursa socială se acordă în funcție de venitul pe membru de famile, al unui student,
+            existând un prag hotărât la nivel de universitate. Bursa de merit se acordă in funcție de media studentului, în limita numărului stabilit de facultate.
+            Pentru mai multe detalii legate despre burse (cifre exacte, numarul de locuri din anii trecuți etc.) este bine să contactați secretariatul.
+        - text: |
+            Bursa poate fi socială (în funcție de venitul pe membru de familie) sau de merit (în funcție de medie). Pentru fiecare sunt praguri stabilite de universitate
+            care variază de la an la an.
+            Pentru clarificări legate de burse (cifre exacte, numarul de locuri din anii trecuți etc.) se poate contacta secreatariatul
     utter_faq/ask_whoCanSubmitDocs:
         - text: |
-            Test
+            Cererile (trebuie făcute personal) sau alte documente pot fi depuse și de alte persoane la secretariat.
+        - text: |
+            Documentele pot fi depuse și de alte persoane la secretariat, dar cererea trebuie redactată de titular.
