@@ -1,0 +1,397 @@
+{
+    "classrooms": [
+        {
+            "name": "EG 301"
+        },
+        {
+            "name": "EG405"
+        },
+        {
+            "name": "ED120"
+        },
+        {
+            "name": "PR103b"
+        },
+        {
+            "name": "AN 213"
+        },
+        {
+            "name": "EC002"
+        },
+        {
+            "name": "PR103a"
+        },
+        {
+            "name": "Sala sport"
+        },
+        {
+            "name": "EG303"
+        },
+        {
+            "name": "EG305"
+        },
+        {
+            "name": "AN034"
+        },
+        {
+            "name": "ED313"
+        },
+        {
+            "name": "EG 405"
+        },
+        {
+            "name": "EG306"
+        },
+        {
+            "name": "EG 303"
+        },
+        {
+            "name": "EG410"
+        },
+        {
+            "name": "PR001"
+        },
+        {
+            "name": "EG105"
+        },
+        {
+            "name": "AN030"
+        },
+        {
+            "name": "A04 Leu"
+        },
+        {
+            "name": "AN 210"
+        },
+        {
+            "name": "AN213"
+        },
+        {
+            "name": "AN210"
+        },
+        {
+            "name": "ED202"
+        },
+        {
+            "name": "EG302"
+        },
+        {
+            "name": "ED 310"
+        },
+        {
+            "name": "EC 001S"
+        },
+        {
+            "name": "EC 002"
+        },
+        {
+            "name": "EG105B"
+        },
+        {
+            "name": "123"
+        },
+        {
+            "name": "PR 001"
+        },
+        {
+            "name": "PR 106"
+        },
+        {
+            "name": "ED 012a"
+        },
+        {
+            "name": "BN 034"
+        },
+        {
+            "name": "EG304"
+        },
+        {
+            "name": "EG311"
+        },
+        {
+            "name": "EG105A"
+        },
+        {
+            "name": "A04"
+        },
+        {
+            "name": "BN026"
+        },
+        {
+            "name": "ED308"
+        },
+        {
+            "name": "EC 004"
+        },
+        {
+            "name": "CB106"
+        },
+        {
+            "name": "EG106"
+        },
+        {
+            "name": "ED217"
+        },
+        {
+            "name": "EC101"
+        },
+        {
+            "name": "EC004"
+        },
+        {
+            "name": "ED015"
+        },
+        {
+            "name": "PR003"
+        },
+        {
+            "name": "ED112"
+        },
+        {
+            "name": "BN 034"
+        },
+        {
+            "name": "EG205"
+        },
+        {
+            "name": "ED 220"
+        },
+        {
+            "name": "A02Leu"
+        },
+        {
+            "name": "EG204"
+        },
+        {
+            "name": "CANTI CTI"
+        },
+        {
+            "name": "EG404"
+        },
+        {
+            "name": "ED013,ED014"
+        },
+        {
+            "name": "EG 205"
+        },
+        {
+            "name": "EG 207"
+        },
+        {
+            "name": "EC 105"
+        },
+        {
+            "name": "EG 105"
+        },
+        {
+            "name": "ED 120"
+        },
+        {
+            "name": "PR 003"
+        },
+        {
+            "name": "EG 302"
+        },
+        {
+            "name": "EG301"
+        },
+        {
+            "name": "A 04"
+        },
+        {
+            "name": "PR002"
+        },
+        {
+            "name": "EG 306"
+        },
+        {
+            "name": "PR 506"
+        },
+        {
+            "name": "ED 012a"
+        },
+        {
+            "name": "eg101"
+        },
+        {
+            "name": "BN 033"
+        },
+        {
+            "name": "AN 034"
+        },
+        {
+            "name": "PR106"
+        },
+        {
+            "name": "PR103"
+        },
+        {
+            "name": "AN 030"
+        },
+        {
+            "name": "EC105"
+        },
+        {
+            "name": "A02 Leu"
+        },
+        {
+            "name": "EG 304a"
+        },
+        {
+            "name": "EG 304b"
+        },
+        {
+            "name": "EG405 B"
+        },
+        {
+            "name": "EG105 A"
+        },
+        {
+            "name": "BN 219"
+        },
+        {
+            "name": "PR 103b"
+        },
+        {
+            "name": "PR 103a"
+        },
+        {
+            "name": "ED 313"
+        },
+        {
+            "name": "EG207"
+        },
+        {
+            "name": "BN034"
+        },
+        {
+            "name": "EG209"
+        },
+        {
+            "name": "PR704"
+        },
+        {
+            "name": "ED 310a"
+        },
+        {
+            "name": "EC 102"
+        },
+        {
+            "name": "ED007a"
+        },
+        {
+            "name": "EG 311"
+        },
+        {
+            "name": "BN 034"
+        },
+        {
+            "name": "EG105 B"
+        },
+        {
+            "name": "EC S001"
+        },
+        {
+            "name": "googe.com"
+        },
+        {
+            "name": "PR 103a"
+        },
+        {
+            "name": "ED220"
+        },
+        {
+            "name": "ED 310a"
+        },
+        {
+            "name": "EG 106"
+        },
+        {
+            "name": "EG405"
+        },
+        {
+            "name": "BN033"
+        },
+        {
+            "name": "AN203"
+        },
+        {
+            "name": "ED 203"
+        },
+        {
+            "name": "ED310b"
+        },
+        {
+            "name": "EG 303 "
+        },
+        {
+            "name": "ED314"
+        },
+        {
+            "name": "ED302"
+        },
+        {
+            "name": "EG101"
+        },
+        {
+            "name": "EG 304"
+        },
+        {
+            "name": "EG 101"
+        },
+        {
+            "name": "PR 701"
+        },
+        {
+            "name": "ED310a"
+        },
+        {
+            "name": "EG004"
+        },
+        {
+            "name": "PR 002"
+        },
+        {
+            "name": "EC105A"
+        },
+        {
+            "name": "ED204"
+        },
+        {
+            "name": "A02"
+        },
+        {
+            "name": "ED205"
+        },
+        {
+            "name": "PR103A"
+        },
+        {
+            "name": "EG304b"
+        },
+        {
+            "name": "ED008b"
+        },
+        {
+            "name": "EG304a"
+        },
+        {
+            "name": "EC102"
+        },
+        {
+            "name": "AN203"
+        },
+        {
+            "name": "BN129"
+        },
+        {
+            "name": "BN033"
+        },
+        {
+            "name": "EC101"
+        },
+        {
+            "name": "EG120"
+        }
+    ]
+}
