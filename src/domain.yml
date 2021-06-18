@@ -5,10 +5,33 @@ session_config:
 intents:
 - faq
 - locate_classroom
+- get_date_event
+- get_end_time_event
+- locate_event
+- get_min_conditions
+- get_min_nr_of_attendings
+- get_start_time_event
+- get_teacher_name
+- get_group_leader_name
+- get_SR_leader_name
 entities:
 - classroom
+- event
+- typeEvent
+- groupNr
+- srNr
 actions:
 - utter_faq
+- action_locate_classroom
+- action_get_date_event
+- action_get_end_time_event
+- action_locate_event
+- action_get_min_conditions
+- action_get_min_nr_of_attendings
+- action_get_start_time_event
+- action_get_teacher_name
+- action_get_group_leader_name
+- action_get_SR_leader_name
 responses:
     utter_faq/ask_accommodationTaxes:
         - text: |
