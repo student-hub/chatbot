@@ -1,0 +1,41 @@
+stories:
+ - story: locate the classroom in the faculty
+   steps:
+   - intent: locate_classroom
+   - action: action_locate_classroom
+ - story: get the date of the event
+   steps:
+   - intent: get_date_event
+   - action: action_get_date_event
+ - story: get the end time of the event
+   steps:
+   - intent: get_end_time_event
+   - action: action_get_end_time_event
+ - story: locate the event
+   steps:
+   - intent: locate_event
+   - action: action_locate_event
+ - story: get the min conditions for the event
+   steps:
+   - intent: get_min_conditions
+   - action: action_get_min_conditions
+ - story: get the min nr of attendings for the event
+   steps:
+   - intent: get_min_nr_of_attendings
+   - action: action_get_min_nr_of_attendings
+ - story: get the start time of the event
+   steps:
+   - intent: get_start_time_event
+   - action: action_get_start_time_event
+ - story: find out the name of the teacher who teaches in a certain classroom
+   steps:
+   - intent: get_teacher_name
+   - action: action_get_teacher_name
+ - story: get the group leader name
+   steps:
+   - intent: get_group_leader_name
+   - action: action_get_group_leader_name
+ - story: get the SR leader name
+   steps:
+   - intent: get_SR_leader_name
+   - action: action_get_SR_leader_name
