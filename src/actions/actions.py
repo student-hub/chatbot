@@ -71,9 +71,11 @@ class ActionGetDateEvent(Action):
         words = classFields[3].split('-')
         year = words[0]
         serie = words[1]
+        group = classFields[4]
+        semigroup = classFields[5]
         event = event + "-A" + year + "-S1"
         if(len(eventEntity) < 6):
-            event = event + "-" + entity.upper() + "-" + serie
+            event = event + "-" + eventEntity.upper() + "-" + serie
         else:
             abreviation = ""
             for x in eventEntity.split():
@@ -84,23 +86,32 @@ class ActionGetDateEvent(Action):
             event = event + "-" + abreviation.upper() + "-" + serie
         print(event)
         events = firestore_db.collection(u'events').get()
+        find = False
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
                 if currentEvent["class"] == event:
+                    temp = pd.Timestamp(currentEvent["start"])
+                    type = currentEvent["type"]
+                    if(type == "lecture"):
+                        type = "curs"
+                    index = currentEvent["rrule"].find("BYDAY=")
+                    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+                    hour = temp.hour + 3 #timezone
+                    minute = temp.minute
+                    h = str(hour) + str(minute) if minute > 0 else str(hour)
+
                     if len(typeEventEntity) == 0:
-                        temp = pd.Timestamp(currentEvent["start"])
-                        type = currentEvent["type"]
-                        if(type == "lecture"):
-                            type = "curs"
-                        day = temp.day_name()
-                        hour = temp.hour + 3 #timezone
-                        minute = temp.minute
-                        h = str(hour) + str(minute) if minute > 0 else str(hour)
-                        dispatcher.utter_message(text=eventEntity + "-" + type + " are loc " + utils.getDayRo(day) + ", la ora " + h)
-                        return []
+                        dispatcher.utter_message(text=eventEntity + "-" + type + "-" + currentEvent["relevance"][0] +" are loc " + utils.getDayRo(day) + ", la ora " + h)
+                        find = True
                     else:
-                        if typeEventEntity == ""
+                        if ((typeEventEntity == "seminarul" and currentEvent["type"] == "seminar" and group == currentEvent["relevance"][0])
+                            or (typeEventEntity == "laboratorul" and currentEvent["type"] == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0])
+                            or (typeEventEntity == "cursul" and currentEvent["type"] == "lecture"))):
+                            dispatcher.utter_message(text=typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h)
+                            find = True
+        if find:
+            return []
         dispatcher.utter_message(text="Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!") 
         return []
 

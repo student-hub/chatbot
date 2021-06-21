@@ -12,12 +12,17 @@ def getClassroomLocation(name):
 
 def getDayRo(dayName):
     days = {
-        "Monday":"luni",
-        "Tuesday":"marți",
-        "Wednesday":"miercuri",
-        "Thursday":"joi",
-        "Friday":"vineri",
-        "Saturday":"sâmbată",
-        "Sunday":"duminică",
+        "MO":"luni",
+        "TU":"marți",
+        "WE":"miercuri",
+        "TH":"joi",
+        "FR":"vineri",
+        "SA":"sâmbată",
+        "SU":"duminică",
     }
-    return days.get(dayName, lambda: "zi invalidă")
+
+    if days.get(dayName) is not None:
+        return days.get(dayName)
+    else:
+        return "(Nu știu)"
+
