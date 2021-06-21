@@ -550,6 +550,39 @@ nlu:
       - Știi în ce dată se ține [Matematică 1](event)?
       - Știi în ce dată se ține [EN](event)?
       - Știi în ce dată se ține [Engleză](event)?
+      - Ai idee în ce sală pot participa la laboratorul(typeEvent) de [LS2](event)?
+      - Ai idee unde se desfășoară laboratorul(typeEvent) de [Managementul incidentelor de securitate cibernetica](event)?
+      - Unde trebuie să mă duc pentru a participa la cursul(typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Unde se predă seminarul(typeEvent) de [M1](event)?
+      - În ce loc se ține laboratorul(typeEvent) de [CSP](event)?
+      - Știi unde se desfășoară laboratorul(typeEvent) de [ELD](event)?
+      - Ai idee unde are loc [EFS1](event)?
+      - Ai idee unde se desfășoară seminarul(typeEvent) de [Activitate de voluntariat](event)?
+      - Îmi poți spune, te rog, unde va avea loc laboratorul(typeEvent) de [CSP](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la seminarul(typeEvent) de [SCADA, HIL, SIL](event)?
+      - Ai idee în ce sală pot participa la [Cercetare stiintifica si practica](event)?
+      - În ce sală are loc laboratorul(typeEvent) de [Electronica](event)?
+      - Spune-mi, te rog, în ce sală se va ține laboratorul(typeEvent) de [M1](event)?
+      - Spune-mi, te rog, în ce sală se va ține [Securitatea in sistemele grid si cloud](event)?
+      - Ai idee unde se desfășoară seminarul(typeEvent) de [Fizica](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la seminarul(typeEvent) de [EEA](event)?
+      - Unde trebuie să mă duc pentru a participa la seminarul(typeEvent) de [CSP](event)?
+      - Unde trebuie să mă duc pentru a participa la cursul(typeEvent) de [IntI](event)?
+      - Îmi poți spune, te rog, unde va avea loc seminarul(typeEvent) de [APD](event)?
+      - Știi unde va avea loc [Ssi](event)?
+      - Ai idee unde se desfășoară seminarul(typeEvent) de [Elaborare lucrare de disertatie](event)?
+      - Știi unde se desfășoară seminarul(typeEvent) de [CSPED](event)?
+      - În ce sală se predă laboratorul(typeEvent) de [Tehnici de calcul in automatica si informatica](event)?
+      - Unde trebuie să mă duc pentru a participa la [Elemente de electronica analogica](event)?
+      - În ce sală pot participa la cursul(typeEvent) de [Testare software si asigurarea calitatii](event)?
+      - Știi unde se va ține [ED](event)?
+      - Unde trebuie să mă duc pentru a participa la seminarul(typeEvent) de [EGC](event)?
+      - Știi unde se desfășoară [Teoria sistemelor automate](event)?
+      - Îmi poți spune, te rog, unde se desfășoară laboratorul(typeEvent) de [ILAM](event)?
+      - În ce sală pot participa la laboratorul(typeEvent) de [EG](event)?
+      - Spune-mi, te rog, în ce sală se va ține seminarul(typeEvent) de [MAT5](event)?
+      - Unde se predă seminarul(typeEvent) de [SHS](event)?
+      - Știi unde va avea loc seminarul(typeEvent) de [Pregatire proiect de licenta](event)?
 
   - intent: get_end_time_event
     examples: |

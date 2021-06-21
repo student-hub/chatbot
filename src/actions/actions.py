@@ -6,7 +6,7 @@
 
 
 from typing import Any, Text, Dict, List
-import classroomLocation
+import utils
 import pandas as pd
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -30,7 +30,7 @@ class ActionLocateClassroom(Action):
         #remove whitespaces from string and make capital letters
         entity = entity.replace(" ", "").upper()
     
-        location = classroomLocation.getClassroomLocation(entity)
+        location = utils.getClassroomLocation(entity)
         if(len(location)):
             if(location["floor"] > 0):
                 dispatcher.utter_message(text="Sala este locatalizată în " + location["building"] + ", etajul " + str(location["floor"]))
@@ -52,11 +52,18 @@ class ActionGetDateEvent(Action):
         doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
         print(doc)
         id = tracker.current_state()['sender_id']
-        classFields = doc["class"];
+        classFields = doc["class"]
         event = ""
-        entity = ""
+        eventEntity = ""
+        typeEventEntity = ""
         try:
-            entity = tracker.latest_message['entities'][0]['value']
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "event":
+                        eventEntity = ent['value']
+                    if ent['entity'] == "typeEvent":
+                        typeEventEntity = ent['value']
         except:
             dispatcher.utter_message(text="Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!")
             return []
@@ -65,15 +72,15 @@ class ActionGetDateEvent(Action):
         year = words[0]
         serie = words[1]
         event = event + "-A" + year + "-S1"
-        if(len(entity) < 6):
+        if(len(eventEntity) < 6):
             event = event + "-" + entity.upper() + "-" + serie
         else:
             abreviation = ""
-            for x in entity.split():
+            for x in eventEntity.split():
                 if x[0].isalpha():
                     abreviation = abreviation + x[0]
-            if(entity[-1].isnumeric()):
-                abreviation = abreviation + entity[-1]
+            if(eventEntity[-1].isnumeric()):
+                abreviation = abreviation + eventEntity[-1]
             event = event + "-" + abreviation.upper() + "-" + serie
         print(event)
         events = firestore_db.collection(u'events').get()
@@ -81,14 +88,20 @@ class ActionGetDateEvent(Action):
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
                 if currentEvent["class"] == event:
-                    print(currentEvent["start"])
-                    temp = pd.Timestamp(currentEvent["start"])
-                    day = temp.day_name()
-                    hour = temp.hour + 3 #timezone
-                    minute = temp.minute
-                    h = str(hour) + str(minute) if minute > 0 else str(hour)
-        dispatcher.utter_message(text=entity + " are loc " + day + ", la ora " + h)
-
+                    if len(typeEventEntity) == 0:
+                        temp = pd.Timestamp(currentEvent["start"])
+                        type = currentEvent["type"]
+                        if(type == "lecture"):
+                            type = "curs"
+                        day = temp.day_name()
+                        hour = temp.hour + 3 #timezone
+                        minute = temp.minute
+                        h = str(hour) + str(minute) if minute > 0 else str(hour)
+                        dispatcher.utter_message(text=eventEntity + "-" + type + " are loc " + utils.getDayRo(day) + ", la ora " + h)
+                        return []
+                    else:
+                        if typeEventEntity == ""
+        dispatcher.utter_message(text="Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!") 
         return []
 
 class ActionGetEndTimeEvent(Action):
