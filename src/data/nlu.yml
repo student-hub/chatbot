@@ -511,3 +511,945 @@ nlu:
       - Unde este localizată sala [EG 304B](classroom)?
       - Unde este localizată sala [EG 403](classroom)?
       - Unde este localizată sala [EG 208](classroom)?
+
+  - intent: get_date_event
+    examples: |
+      - Vreau să știu când se ține [PC](event)!
+      - Vreau să știu când se ține [Programarea calculatoarelor](event)!
+      - Vreau să știu când se ține [Mat1](event)!
+      - Vreau să știu când se ține [Matematică 1](event)!
+      - Vreau să știu când se ține [M1](event)!
+      - Vreau să știu când se ține [Matematică 1](event)!
+      - Vreau să știu când se ține [EN](event)!
+      - Vreau să știu când se ține [Engleză](event)!
+      - Vreau să știu când se ține [GI](event)!
+      - Vreau să știu când se ține [Grafică inginerească](event)!
+      - Vreau să știu când se ține [MEC](event)!
+      - Vreau să știu când se ține [Mecanică](event)!
+      - Vreau să știu când se ține [LOGICA](event)!
+      - Vreau să știu când se ține [Logică](event)!
+      - Vreau să știu când se ține [IF](event)!
+      - Vreau să știu când se ține [Istoria Filozofiei](event)!
+      - Știi în ce dată se ține [M2](event)?
+      - Știi în ce dată se ține [Matematică 2](event)?
+      - Știi în ce dată se ține [Mat2](event)?
+      - Știi în ce dată se ține [Matematică 2](event)?
+      - Știi în ce dată se ține [PL](event)?
+      - Știi în ce dată se ține [Proiectare Logică](event)?
+      - Știi în ce dată se ține [IR](event)?
+      - Știi în ce dată se ține [Istoria Religiilor](event)?
+      - Știi în ce dată se ține [II](event)?
+      - Știi în ce dată se ține [Introducere în informatică](event)?
+      - Știi în ce dată se ține [USO](event)?
+      - Știi în ce dată se ține [Utilizarea sistemelor de operare](event)?
+      - Știi în ce dată se ține [PC](event)?
+      - Știi în ce dată se ține [Programarea calculatoarelor](event)?
+      - Știi în ce dată se ține [Mat1](event)?
+      - Știi în ce dată se ține [Matematică 1](event)?
+      - Știi în ce dată se ține [M1](event)?
+      - Știi în ce dată se ține [Matematică 1](event)?
+      - Știi în ce dată se ține [EN](event)?
+      - Știi în ce dată se ține [Engleză](event)?
+
+  - intent: get_end_time_event
+    examples: |
+      - Când se sfârsește [Istoria Religiilor](event)?
+      - Când se sfârsește [II](event)?
+      - Când se sfârsește [Introducere în informatică](event)?
+      - Când se sfârsește [USO](event)?
+      - Când se sfârsește [Utilizarea sistemelor de operare](event)?
+      - Când se sfârsește [PC](event)?
+      - Când se sfârsește [Programarea calculatoarelor](event)?
+      - Când se sfârsește [Mat1](event)?
+      - Când se sfârsește [Matematică 1](event)?
+      - Când se sfârsește [M1](event)?
+      - Când se sfârsește [Matematică 1](event)?
+      - Când se sfârsește [EN](event)?
+      - Când se sfârsește [Engleză](event)?
+      - Când se sfârsește [GI](event)?
+      - Când se sfârsește [Grafică inginerească](event)?
+      - Când se sfârsește [MEC](event)?
+      - Când se sfârsește [Mecanică](event)?
+      - Când se sfârsește [LOGICA](event)?
+      - Când se sfârsește [Logică](event)?
+      - Când se sfârsește [IF](event)?
+      - Când se sfârsește [Istoria Filozofiei](event)?
+      - Îmi poți spune când este gata [M2](event)?
+      - Îmi poți spune când este gata [Matematică 2](event)?
+      - Îmi poți spune când este gata [Mat2](event)?
+      - Îmi poți spune când este gata [Matematică 2](event)?
+      - Îmi poți spune când este gata [PL](event)?
+      - Îmi poți spune când este gata [Proiectare Logică](event)?
+      - Îmi poți spune când este gata [IR](event)?
+      - Îmi poți spune când este gata [Istoria Religiilor](event)?
+      - Îmi poți spune când este gata [II](event)?
+      - Îmi poți spune când este gata [Introducere în informatică](event)?
+      - Îmi poți spune când este gata [USO](event)?
+      - Îmi poți spune când este gata [Utilizarea sistemelor de operare](event)?
+      - Îmi poți spune când este gata [PC](event)?
+      - Îmi poți spune când este gata [Programarea calculatoarelor](event)?
+      - Îmi poți spune când este gata [Mat1](event)?
+      - Îmi poți spune când este gata [Matematică 1](event)?
+      - Îmi poți spune când este gata [M1](event)?
+      - Îmi poți spune când este gata [Matematică 1](event)?
+      - Îmi poți spune când este gata [EN](event)?
+      - Îmi poți spune când este gata [Engleză](event)?
+      - Îmi poți spune când este gata [GI](event)?
+      - Îmi poți spune când este gata [Grafică inginerească](event)?
+
+  - intent: locate_event
+    examples: |
+      - În ce sală se predă [LOGICA](event)?
+      - În ce sală se predă [Logică](event)?
+      - În ce sală se predă [IF](event)?
+      - În ce sală se predă [Istoria Filozofiei](event)?
+      - În ce loc se ține [M2](event)?
+      - În ce loc se ține [Matematică 2](event)?
+      - În ce loc se ține [Mat2](event)?
+      - În ce loc se ține [Matematică 2](event)?
+      - În ce loc se ține [PL](event)?
+      - În ce loc se ține [Proiectare Logică](event)?
+      - În ce loc se ține [IR](event)?
+      - În ce loc se ține [Istoria Religiilor](event)?
+      - În ce loc se ține [II](event)?
+      - În ce loc se ține [Introducere în informatică](event)?
+      - În ce loc se ține [USO](event)?
+      - În ce loc se ține [Utilizarea sistemelor de operare](event)?
+      - În ce loc se ține [PC](event)?
+      - În ce loc se ține [Programarea calculatoarelor](event)?
+      - În ce loc se ține [Mat1](event)?
+      - În ce loc se ține [Matematică 1](event)?
+      - În ce loc se ține [M1](event)?
+      - În ce loc se ține [Matematică 1](event)?
+      - În ce loc se ține [EN](event)?
+      - În ce loc se ține [Engleză](event)?
+      - În ce loc se ține [GI](event)?
+      - În ce loc se ține [Grafică inginerească](event)?
+      - În ce loc se ține [MEC](event)?
+      - În ce loc se ține [Mecanică](event)?
+      - În ce loc se ține [LOGICA](event)?
+      - În ce loc se ține [Logică](event)?
+      - În ce loc se ține [IF](event)?
+      - În ce loc se ține [Istoria Filozofiei](event)?
+      - În ce sală pot participa la [M2](event)?
+      - În ce sală pot participa la [Matematică 2](event)?
+      - În ce sală pot participa la [Mat2](event)?
+      - În ce sală pot participa la [Matematică 2](event)?
+      - În ce sală pot participa la [PL](event)?
+      - În ce sală pot participa la [Proiectare Logică](event)?
+      - În ce sală pot participa la [IR](event)?
+      - În ce sală pot participa la [Istoria Religiilor](event)?
+      - În ce sală pot participa la [II](event)?
+      - În ce sală pot participa la [Introducere în informatică](event)?
+      - În ce sală pot participa la [USO](event)?
+      - În ce sală pot participa la [Utilizarea sistemelor de operare](event)?
+      - În ce sală pot participa la [PC](event)?
+      - În ce sală pot participa la [Programarea calculatoarelor](event)?
+      - În ce sală pot participa la [Mat1](event)?
+      - În ce sală pot participa la [Matematică 1](event)?
+      - În ce sală pot participa la [M1](event)?
+      - În ce sală pot participa la [Matematică 1](event)?
+      - În ce sală pot participa la [EN](event)?
+      - În ce sală pot participa la [Engleză](event)?
+      - În ce sală pot participa la [GI](event)?
+      - În ce sală pot participa la [Grafică inginerească](event)?
+      - În ce sală pot participa la [MEC](event)?
+      - În ce sală pot participa la [Mecanică](event)?
+      - În ce sală pot participa la [LOGICA](event)?
+      - În ce sală pot participa la [Logică](event)?
+      - În ce sală pot participa la [IF](event)?
+      - În ce sală pot participa la [Istoria Filozofiei](event)?
+
+  - intent: get_min_conditions
+    examples: |
+      - Care este punctajul minim pe curs la [USO](event)?
+      - Care este punctajul minim pe curs la [Utilizarea sistemelor de operare](event)?
+      - Care este punctajul minim pe curs la [PC](event)?
+      - Care este punctajul minim pe curs la [Programarea calculatoarelor](event)?
+      - Care este punctajul minim pe curs la [Mat1](event)?
+      - Care este punctajul minim pe curs la [Matematică 1](event)?
+      - Care este punctajul minim pe curs la [M1](event)?
+      - Care este punctajul minim pe curs la [Matematică 1](event)?
+      - Care este punctajul minim pe curs la [EN](event)?
+      - Care este punctajul minim pe curs la [Engleză](event)?
+      - Care este punctajul minim pe curs la [GI](event)?
+      - Care este punctajul minim pe curs la [Grafică inginerească](event)?
+      - Care este punctajul minim pe curs la [MEC](event)?
+      - Care este punctajul minim pe curs la [Mecanică](event)?
+      - Care este punctajul minim pe curs la [LOGICA](event)?
+      - Care este punctajul minim pe curs la [Logică](event)?
+      - Care este punctajul minim pe curs la [IF](event)?
+      - Care este punctajul minim pe curs la [Istoria Filozofiei](event)?
+      - Care este punctajul minim de promovare la [M2](event)?
+      - Care este punctajul minim de promovare la [Matematică 2](event)?
+      - Care este punctajul minim de promovare la [Mat2](event)?
+      - Care este punctajul minim de promovare la [Matematică 2](event)?
+      - Care este punctajul minim de promovare la [PL](event)?
+      - Care este punctajul minim de promovare la [Proiectare Logică](event)?
+      - Care este punctajul minim de promovare la [IR](event)?
+      - Care este punctajul minim de promovare la [Istoria Religiilor](event)?
+      - Care este punctajul minim de promovare la [II](event)?
+      - Care este punctajul minim de promovare la [Introducere în informatică](event)?
+      - Care este punctajul minim de promovare la [USO](event)?
+      - Care este punctajul minim de promovare la [Utilizarea sistemelor de operare](event)?
+      - Care este punctajul minim de promovare la [PC](event)?
+      - Care este punctajul minim de promovare la [Programarea calculatoarelor](event)?
+      - Care este punctajul minim de promovare la [Mat1](event)?
+      - Care este punctajul minim de promovare la [Matematică 1](event)?
+      - Care este punctajul minim de promovare la [M1](event)?
+      - Care este punctajul minim de promovare la [Matematică 1](event)?
+      - Care este punctajul minim de promovare la [EN](event)?
+      - Care este punctajul minim de promovare la [Engleză](event)?
+      - Care este punctajul minim de promovare la [GI](event)?
+      - Care este punctajul minim de promovare la [Grafică inginerească](event)?
+      - Care este punctajul minim de promovare la [MEC](event)?
+      - Care este punctajul minim de promovare la [Mecanică](event)?
+      - Care este punctajul minim de promovare la [LOGICA](event)?
+      - Care este punctajul minim de promovare la [Logică](event)?
+      - Care este punctajul minim de promovare la [IF](event)?
+      - Care este punctajul minim de promovare la [Istoria Filozofiei](event)?
+      - Care este punctajul minim pe laborator la [M2](event)?
+      - Care este punctajul minim pe laborator la [Matematică 2](event)?
+      - Care este punctajul minim pe laborator la [Mat2](event)?
+      - Care este punctajul minim pe laborator la [Matematică 2](event)?
+      - Care este punctajul minim pe laborator la [PL](event)?
+      - Care este punctajul minim pe laborator la [Proiectare Logică](event)?
+
+  - intent: get_min_nr_of_attendings
+    examples: |
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Istoria Religiilor](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [II](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Introducere în informatică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [USO](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [PC](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Mat1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Matematică 1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [M1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Matematică 1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [EN](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Engleză](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [GI](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Grafică inginerească](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [MEC](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Mecanică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [LOGICA](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Logică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [IF](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece materia [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [IF](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IF](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IF](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Logică](event)?
+
+  - intent: get_start_time_event
+    examples: |
+      - Ai idee la cât începe [EN](event)?
+      - Ai idee la cât începe [Engleză](event)?
+      - Ai idee la cât începe [GI](event)?
+      - Ai idee la cât începe [Grafică inginerească](event)?
+      - Ai idee la cât începe [MEC](event)?
+      - Ai idee la cât începe [Mecanică](event)?
+      - Ai idee la cât începe [LOGICA](event)?
+      - Ai idee la cât începe [Logică](event)?
+      - Ai idee la cât începe [IF](event)?
+      - Ai idee la cât începe [Istoria Filozofiei](event)?
+      - La ce oră este [M2](event)?
+      - La ce oră este [Matematică 2](event)?
+      - La ce oră este [Mat2](event)?
+      - La ce oră este [Matematică 2](event)?
+      - La ce oră este [PL](event)?
+      - La ce oră este [Proiectare Logică](event)?
+      - La ce oră este [IR](event)?
+      - La ce oră este [Istoria Religiilor](event)?
+      - La ce oră este [II](event)?
+      - La ce oră este [Introducere în informatică](event)?
+      - La ce oră este [USO](event)?
+      - La ce oră este [Utilizarea sistemelor de operare](event)?
+      - La ce oră este [PC](event)?
+      - La ce oră este [Programarea calculatoarelor](event)?
+      - La ce oră este [Mat1](event)?
+      - La ce oră este [Matematică 1](event)?
+      - La ce oră este [M1](event)?
+      - La ce oră este [Matematică 1](event)?
+      - La ce oră este [EN](event)?
+      - La ce oră este [Engleză](event)?
+      - La ce oră este [GI](event)?
+      - La ce oră este [Grafică inginerească](event)?
+      - La ce oră este [MEC](event)?
+      - La ce oră este [Mecanică](event)?
+      - La ce oră este [LOGICA](event)?
+      - La ce oră este [Logică](event)?
+      - La ce oră este [IF](event)?
+      - La ce oră este [Istoria Filozofiei](event)?
+      - Ai idee la ce oră este [M2](event)?
+      - Ai idee la ce oră este [Matematică 2](event)?
+      - Ai idee la ce oră este [Mat2](event)?
+      - Ai idee la ce oră este [Matematică 2](event)?
+      - Ai idee la ce oră este [PL](event)?
+      - Ai idee la ce oră este [Proiectare Logică](event)?
+      - Ai idee la ce oră este [IR](event)?
+      - Ai idee la ce oră este [Istoria Religiilor](event)?
+      - Ai idee la ce oră este [II](event)?
+      - Ai idee la ce oră este [Introducere în informatică](event)?
+      - Ai idee la ce oră este [USO](event)?
+      - Ai idee la ce oră este [Utilizarea sistemelor de operare](event)?
+      - Ai idee la ce oră este [PC](event)?
+      - Ai idee la ce oră este [Programarea calculatoarelor](event)?
+      - Ai idee la ce oră este [Mat1](event)?
+      - Ai idee la ce oră este [Matematică 1](event)?
+      - Ai idee la ce oră este [M1](event)?
+      - Ai idee la ce oră este [Matematică 1](event)?
+      - Ai idee la ce oră este [EN](event)?
+      - Ai idee la ce oră este [Engleză](event)?
+      - Ai idee la ce oră este [GI](event)?
+      - Ai idee la ce oră este [Grafică inginerească](event)?
+      - Ai idee la ce oră este [MEC](event)?
+      - Ai idee la ce oră este [Mecanică](event)?
+      - Ai idee la ce oră este [LOGICA](event)?
+      - Ai idee la ce oră este [Logică](event)?
+      - Ai idee la ce oră este [IF](event)?
+      - Ai idee la ce oră este [Istoria Filozofiei](event)?`
+
+  - intent: get_teacher_name
+    examples: |
+      - Cine este profesorul care predă în sala [EG 405](classroom)?
+      - Cine este profesorul care predă în sala [PR 106](classroom)?
+      - Cine este profesorul care predă în sala [EG 405A](classroom)?
+      - Cine este profesorul care predă în sala [EG 405B](classroom)?
+      - Cine este profesorul care predă în sala [BN 026](classroom)?
+      - Cine este profesorul care predă în sala [EG 404](classroom)?
+      - Cine este profesorul care predă în sala [ED 203](classroom)?
+      - Cine este profesorul care predă în sala [PR 506](classroom)?
+      - Cine este profesorul care predă în sala [ED 220](classroom)?
+      - Cine este profesorul care predă în sala [ED 011](classroom)?
+      - Cine este profesorul care predă în sala [PR 703](classroom)?
+      - Cine este profesorul care predă în sala [EG 206](classroom)?
+      - Cine este profesorul care predă în sala [EF 001](classroom)?
+      - Cine este profesorul care predă în sala [EG 103b](classroom)?
+      - Cine este profesorul care predă în sala [EG 103](classroom)?
+      - Cine este profesorul care predă în sala [PR 606](classroom)?
+      - Cine este profesorul care predă în sala [EG 304A](classroom)?
+      - Cine este profesorul care predă în sala [EG 304B](classroom)?
+      - Cine este profesorul care predă în sala [EG 403](classroom)?
+      - Cine este profesorul care predă în sala [EG 208](classroom)?
+      - Cine ține cursul în sala [ED 120](classroom)?
+      - Cine ține cursul în sala [EG 106](classroom)?
+      - Cine ține cursul în sala [CANTI CTI](classroom)?
+      - Cine ține cursul în sala [EG 205](classroom)?
+      - Cine ține cursul în sala [EG 311](classroom)?
+      - Cine ține cursul în sala [EG 302](classroom)?
+      - Cine ține cursul în sala [PR 001](classroom)?
+      - Cine ține cursul în sala [EC 105](classroom)?
+      - Cine ține cursul în sala [EC 105](classroom)?
+      - Cine ține cursul în sala [EG 301](classroom)?
+      - Cine ține cursul în sala [EG 303](classroom)?
+      - Cine ține cursul în sala [PR 301](classroom)?
+      - Cine ține cursul în sala [EG 213](classroom)?
+      - Cine ține cursul în sala [PR 103b](classroom)?
+      - Cine ține cursul în sala [EG 306](classroom)?
+      - Cine ține cursul în sala [EC 004](classroom)?
+      - Cine ține cursul în sala [AN 034](classroom)?
+      - Cine ține cursul în sala [BN 033](classroom)?
+      - Cine ține cursul în sala [BN 033](classroom)?
+      - Cine ține cursul în sala [A04 Leu](classroom)?
+      - Cine ține cursul în sala [EG 105](classroom)?
+      - Cine ține cursul în sala [EG 305](classroom)?
+      - Cine ține cursul în sala [AN 210](classroom)?
+      - Cine ține cursul în sala [EC 101](classroom)?
+      - Cine ține cursul în sala [PR 103a](classroom)?
+      - Cine ține cursul în sala [EG 105A](classroom)?
+      - Cine ține cursul în sala [EG 105B](classroom)?
+      - Cine ține cursul în sala [A02 Leu](classroom)?
+      - Cine ține cursul în sala [EC 102](classroom)?
+      - Cine ține cursul în sala [EC 002](classroom)?
+      - Cine ține cursul în sala [ED 314](classroom)?
+      - Cine ține cursul în sala [ED 313](classroom)?
+      - Cine ține cursul în sala [ED 217](classroom)?
+      - Cine ține cursul în sala [EG 209](classroom)?
+      - Cine ține cursul în sala [CANTI EG](classroom)?
+      - Cine ține cursul în sala [EG 410](classroom)?
+      - Cine ține cursul în sala [ED 202](classroom)?
+      - Cine ține cursul în sala [AN 203](classroom)?
+      - Cine ține cursul în sala [PR 002](classroom)?
+      - Cine ține cursul în sala [ED 112](classroom)?
+      - Cine ține cursul în sala [EG 405](classroom)?
+      - Cine ține cursul în sala [PR 106](classroom)?
+      - Cine ține cursul în sala [EG 405A](classroom)?
+      - Cine ține cursul în sala [EG 405B](classroom)?
+      - Cine ține cursul în sala [BN 026](classroom)?
+      - Cine ține cursul în sala [EG 404](classroom)?
+      - Cine ține cursul în sala [ED 203](classroom)?
+      - Cine ține cursul în sala [PR 506](classroom)?
+      - Cine ține cursul în sala [ED 220](classroom)?
+      - Cine ține cursul în sala [ED 011](classroom)?
+      - Cine ține cursul în sala [PR 703](classroom)?
+      - Cine ține cursul în sala [EG 206](classroom)?
+      - Cine ține cursul în sala [EF 001](classroom)?
+      - Cine ține cursul în sala [EG 103b](classroom)?
+      - Cine ține cursul în sala [EG 103](classroom)?
+      - Cine ține cursul în sala [PR 606](classroom)?
+      - Cine ține cursul în sala [EG 304A](classroom)?
+      - Cine ține cursul în sala [EG 304B](classroom)?
+      - Cine ține cursul în sala [EG 403](classroom)?
+      - Cine ține cursul în sala [EG 208](classroom)?
+      - Știi ce profesor predă în [ED 120](classroom)?
+      - Știi ce profesor predă în [EG 106](classroom)?
+      - Știi ce profesor predă în [CANTI CTI](classroom)?
+      - Știi ce profesor predă în [EG 205](classroom)?
+      - Știi ce profesor predă în [EG 311](classroom)?
+      - Știi ce profesor predă în [EG 302](classroom)?
+      - Știi ce profesor predă în [PR 001](classroom)?
+      - Știi ce profesor predă în [EC 105](classroom)?
+      - Știi ce profesor predă în [EC 105](classroom)?
+      - Știi ce profesor predă în [EG 301](classroom)?
+      - Știi ce profesor predă în [EG 303](classroom)?
+      - Știi ce profesor predă în [PR 301](classroom)?
+      - Știi ce profesor predă în [EG 213](classroom)?
+      - Știi ce profesor predă în [PR 103b](classroom)?
+      - Știi ce profesor predă în [EG 306](classroom)?
+      - Știi ce profesor predă în [EC 004](classroom)?
+      - Știi ce profesor predă în [AN 034](classroom)?
+      - Știi ce profesor predă în [BN 033](classroom)?
+      - Știi ce profesor predă în [BN 033](classroom)?
+      - Știi ce profesor predă în [A04 Leu](classroom)?
+      - Știi ce profesor predă în [EG 105](classroom)?
+      - Știi ce profesor predă în [EG 305](classroom)?
+      - Știi ce profesor predă în [AN 210](classroom)?
+      - Știi ce profesor predă în [EC 101](classroom)?
+      - Știi ce profesor predă în [PR 103a](classroom)?
+      - Știi ce profesor predă în [EG 105A](classroom)?
+      - Știi ce profesor predă în [EG 105B](classroom)?
+      - Știi ce profesor predă în [A02 Leu](classroom)?
+      - Știi ce profesor predă în [EC 102](classroom)?
+      - Știi ce profesor predă în [EC 002](classroom)?
+      - Știi ce profesor predă în [ED 314](classroom)?
+      - Știi ce profesor predă în [ED 313](classroom)?
+      - Știi ce profesor predă în [ED 217](classroom)?
+      - Știi ce profesor predă în [EG 209](classroom)?
+      - Știi ce profesor predă în [CANTI EG](classroom)?
+      - Știi ce profesor predă în [EG 410](classroom)?
+      - Știi ce profesor predă în [ED 202](classroom)?
+      - Știi ce profesor predă în [AN 203](classroom)?
+      - Știi ce profesor predă în [PR 002](classroom)?
+      - Știi ce profesor predă în [ED 112](classroom)?
+      - Știi ce profesor predă în [EG 405](classroom)?
+      - Știi ce profesor predă în [PR 106](classroom)?
+      - Știi ce profesor predă în [EG 405A](classroom)?
+      - Știi ce profesor predă în [EG 405B](classroom)?
+      - Știi ce profesor predă în [BN 026](classroom)?
+      - Știi ce profesor predă în [EG 404](classroom)?
+      - Știi ce profesor predă în [ED 203](classroom)?
+      - Știi ce profesor predă în [PR 506](classroom)?
+      - Știi ce profesor predă în [ED 220](classroom)?
+      - Știi ce profesor predă în [ED 011](classroom)?
+      - Știi ce profesor predă în [PR 703](classroom)?
+      - Știi ce profesor predă în [EG 206](classroom)?
+      - Știi ce profesor predă în [EF 001](classroom)?
+      - Știi ce profesor predă în [EG 103b](classroom)?
+      - Știi ce profesor predă în [EG 103](classroom)?
+      - Știi ce profesor predă în [PR 606](classroom)?
+      - Știi ce profesor predă în [EG 304A](classroom)?
+      - Știi ce profesor predă în [EG 304B](classroom)?
+      - Știi ce profesor predă în [EG 403](classroom)?
+      - Știi ce profesor predă în [EG 208](classroom)?
+
+  - intent: get_group_leader_name
+    examples: |
+      - Spune-mi, te rog, cine este șeful grupei [332](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [332](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [332](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [333](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [334](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [335](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [341](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [342](groupNr) [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful grupei [343](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [311](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [312](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [313](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [314](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [315](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [321](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [322](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [323](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [324](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [325](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [331](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [332](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [333](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [334](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [335](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [341](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [342](groupNr) [C5](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [CA](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [CB](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [CC](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [CD](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [C1](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [C2](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [C3](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [C4](srNr)?
+      - Îmi poți spune cine este șeful grupei [343](groupNr) [C5](srNr)?
+
+  - intent: get_SR_leader_name
+    examples: |
+      - Care este șeful seriei la [CA](srNr)?
+      - Care este șeful seriei la [CB](srNr)?
+      - Care este șeful seriei la [CC](srNr)?
+      - Care este șeful seriei la [CD](srNr)?
+      - Care este șeful seriei la [C1](srNr)?
+      - Care este șeful seriei la [C2](srNr)?
+      - Care este șeful seriei la [C3](srNr)?
+      - Care este șeful seriei la [C4](srNr)?
+      - Care este șeful seriei la [C5](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [CA](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [CB](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [CC](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [CD](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [C1](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [C2](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [C3](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [C4](srNr)?
+      - Spune-mi, te rog, cine este șeful seriei [C5](srNr)?
+      - Îmi poți spune cine este șeful seriei [CA](srNr)?
+      - Îmi poți spune cine este șeful seriei [CB](srNr)?
+      - Îmi poți spune cine este șeful seriei [CC](srNr)?
+      - Îmi poți spune cine este șeful seriei [CD](srNr)?
+      - Îmi poți spune cine este șeful seriei [C1](srNr)?
+      - Îmi poți spune cine este șeful seriei [C2](srNr)?
+      - Îmi poți spune cine este șeful seriei [C3](srNr)?
+      - Îmi poți spune cine este șeful seriei [C4](srNr)?
+      - Îmi poți spune cine este șeful seriei [C5](srNr)?
+  

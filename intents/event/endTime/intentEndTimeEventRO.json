@@ -79,6 +79,7 @@
 "- Cand se sfârsește [cursul](typeEvent) de [Ex](event)?",
 "- Cand se sfârsește [laboratorul](typeEvent) de [Ex](event)?",
 "- Cand se sfârsește [seminarul](typeEvent) de [Ex](event)?",
+"- Când se sfârsește [Ex](event)?",
 "- Îmi poți spune când este gata [Ex](event)?",
 "- Îmi poți spune când este gata [cursul](typeEvent) de [Ex](event)?",
 "- Îmi poți spune când este gata [laboratorul](typeEvent) de [Ex](event)?",
