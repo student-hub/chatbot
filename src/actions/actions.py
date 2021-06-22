@@ -86,7 +86,11 @@ class ActionGetDateEvent(Action):
             event = event + "-" + abreviation.upper() + "-" + serie
         print(event)
         events = firestore_db.collection(u'events').get()
-        find = False
+        eventFound = False
+        typeNotFound = False
+        another_hour = 0
+        another_day = ""
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
@@ -102,17 +106,23 @@ class ActionGetDateEvent(Action):
                     h = str(hour) + str(minute) if minute > 0 else str(hour)
 
                     if len(typeEventEntity) == 0:
-                        dispatcher.utter_message(text=eventEntity + "-" + type + "-" + currentEvent["relevance"][0] +" are loc " + utils.getDayRo(day) + ", la ora " + h)
-                        find = True
+                        if currentEvent["relevance"] is not None:
+                            dispatcher.utter_message(text=eventEntity + "-" + type + "-" + currentEvent["relevance"][0] +" are loc " + utils.getDayRo(day) + ", la ora " + h)
+                            typeNotFound = True
                     else:
                         if ((typeEventEntity == "seminarul" and currentEvent["type"] == "seminar" and group == currentEvent["relevance"][0])
                             or (typeEventEntity == "laboratorul" and currentEvent["type"] == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0])
                             or (typeEventEntity == "cursul" and currentEvent["type"] == "lecture"))):
-                            dispatcher.utter_message(text=typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h)
-                            find = True
-        if find:
+                            if(eventFound):
+                                message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h + " și " + utils.getDayRo(another_day) + " la ora " + another_hour
+                                break
+                            message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h
+                            another_hour = h
+                            another_day = day
+                            eventFound = True
+        if typeNotFound:
             return []
-        dispatcher.utter_message(text="Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!") 
+        dispatcher.utter_message(text=message) 
         return []
 
 class ActionGetEndTimeEvent(Action):
