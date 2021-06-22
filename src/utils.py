@@ -26,3 +26,14 @@ def getDayRo(dayName):
     else:
         return "(Nu știu)"
 
+def getTypeRo(type):
+    types = {
+        "cursul": "lecture",
+        "seminarul": "seminar",
+        "laboratorul": "lab",
+        "labul":"lab"
+    }
+    if types.get(type) is not None:
+        return types.get(type)
+    else:
+        return "eveniment-nerecunoscut"

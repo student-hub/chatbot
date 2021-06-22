@@ -51,6 +51,7 @@ class ActionGetDateEvent(Action):
 
         doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
         print(doc)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
         id = tracker.current_state()['sender_id']
         classFields = doc["class"]
         event = ""
@@ -65,8 +66,11 @@ class ActionGetDateEvent(Action):
                     if ent['entity'] == "typeEvent":
                         typeEventEntity = ent['value']
         except:
-            dispatcher.utter_message(text="Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!")
+            #if something bad happens
+            dispatcher.utter_message(text=message)
             return []
+        
+        #compute classes name
         event = "L" if classFields[0] == "BSc" else "M"
         words = classFields[3].split('-')
         year = words[0]
@@ -85,43 +89,45 @@ class ActionGetDateEvent(Action):
                 abreviation = abreviation + eventEntity[-1]
             event = event + "-" + abreviation.upper() + "-" + serie
         print(event)
+        
         events = firestore_db.collection(u'events').get()
         eventFound = False
-        typeNotFound = False
-        another_hour = 0
+        another_hour = ""
         another_day = ""
-        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        expectedType = ""
+
+        #if it's not mentioned -> default event - curs
+        if len(typeEventEntity) == 0:
+            typeEventEntity = "cursul"
+        expectedType = utils.getTypeRo(typeEventEntity)
+
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
                 if currentEvent["class"] == event:
-                    temp = pd.Timestamp(currentEvent["start"])
                     type = currentEvent["type"]
-                    if(type == "lecture"):
-                        type = "curs"
+
+                    #find day
                     index = currentEvent["rrule"].find("BYDAY=")
                     day = currentEvent["rrule"][(index + 6) : (index + 8)]
-                    hour = temp.hour + 3 #timezone
+
+                    #timezone
+                    temp = pd.Timestamp(currentEvent["start"])
+                    hour = temp.hour + 3
                     minute = temp.minute
                     h = str(hour) + str(minute) if minute > 0 else str(hour)
-
-                    if len(typeEventEntity) == 0:
-                        if currentEvent["relevance"] is not None:
-                            dispatcher.utter_message(text=eventEntity + "-" + type + "-" + currentEvent["relevance"][0] +" are loc " + utils.getDayRo(day) + ", la ora " + h)
-                            typeNotFound = True
-                    else:
-                        if ((typeEventEntity == "seminarul" and currentEvent["type"] == "seminar" and group == currentEvent["relevance"][0])
-                            or (typeEventEntity == "laboratorul" and currentEvent["type"] == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0])
-                            or (typeEventEntity == "cursul" and currentEvent["type"] == "lecture"))):
-                            if(eventFound):
-                                message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h + " și " + utils.getDayRo(another_day) + " la ora " + another_hour
-                                break
-                            message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h
-                            another_hour = h
-                            another_day = day
-                            eventFound = True
-        if typeNotFound:
-            return []
+                    if currentEvent["relevance"] is not None:
+                        if(expectedType == type):
+                            if  ((type == "seminar" and group == currentEvent["relevance"][0])
+                                or type == "lecture"
+                                or (type == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0]))):
+                                if(eventFound):
+                                    message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h + " și " + utils.getDayRo(another_day) + " la ora " + another_hour
+                                    break
+                                message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", la ora " + h
+                                another_hour = h
+                                another_day = day
+                                eventFound = True
         dispatcher.utter_message(text=message) 
         return []
 
@@ -134,8 +140,89 @@ class ActionGetEndTimeEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Evenimentul se termină la ora...")
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
+        print(doc)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        id = tracker.current_state()['sender_id']
+        classFields = doc["class"]
+        event = ""
+        eventEntity = ""
+        typeEventEntity = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "event":
+                        eventEntity = ent['value']
+                    if ent['entity'] == "typeEvent":
+                        typeEventEntity = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        
+        #compute classes name
+        event = "L" if classFields[0] == "BSc" else "M"
+        words = classFields[3].split('-')
+        year = words[0]
+        serie = words[1]
+        group = classFields[4]
+        semigroup = classFields[5]
+        event = event + "-A" + year + "-S1"
+        if(len(eventEntity) < 6):
+            event = event + "-" + eventEntity.upper() + "-" + serie
+        else:
+            abreviation = ""
+            for x in eventEntity.split():
+                if x[0].isalpha():
+                    abreviation = abreviation + x[0]
+            if(eventEntity[-1].isnumeric()):
+                abreviation = abreviation + eventEntity[-1]
+            event = event + "-" + abreviation.upper() + "-" + serie
+        print(event)
+        
+        events = firestore_db.collection(u'events').get()
+        eventFound = False
+        another_hour = ""
+        another_day = ""
+        expectedType = ""
+        duration = 2
 
+        #if it's not mentioned -> default event - curs
+        if len(typeEventEntity) == 0:
+            typeEventEntity = "cursul"
+        expectedType = utils.getTypeRo(typeEventEntity)
+
+        for e in events:
+            currentEvent = e.to_dict()
+            if "class" in currentEvent.keys():
+                if currentEvent["class"] == event:
+                    type = currentEvent["type"]
+
+                    #find day
+                    index = currentEvent["rrule"].find("BYDAY=")
+                    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+
+                    #timezone
+                    temp = pd.Timestamp(currentEvent["start"])
+                    if currentEvent["duration"] is not None:
+                        duration = currentEvent["duration"]["hours"]
+                    hour = temp.hour + 3 + duration
+                    minute = temp.minute
+                    h = str(hour) + str(minute) if minute > 0 else str(hour)
+                    if currentEvent["relevance"] is not None:
+                        if(expectedType == type):
+                            if  ((type == "seminar" and group == currentEvent["relevance"][0])
+                                or type == "lecture"
+                                or (type == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0]))):
+                                if(eventFound):
+                                    message = typeEventEntity.capitalize() + " de " + eventEntity + " se termină " + utils.getDayRo(day) + ", la ora " + h + " și " + utils.getDayRo(another_day) + " la ora " + another_hour
+                                    break
+                                message = typeEventEntity.capitalize() + " de " + eventEntity + " se termină " + utils.getDayRo(day) + ", la ora " + h
+                                another_hour = h
+                                another_day = day
+                                eventFound = True
+        dispatcher.utter_message(text=message) 
         return []
 
 class ActionLocateEvent(Action):
@@ -147,8 +234,83 @@ class ActionLocateEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Evenimentul se desfășoară...")
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
+        print(doc)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        id = tracker.current_state()['sender_id']
+        classFields = doc["class"]
+        event = ""
+        eventEntity = ""
+        typeEventEntity = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "event":
+                        eventEntity = ent['value']
+                    if ent['entity'] == "typeEvent":
+                        typeEventEntity = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        
+        #compute classes name
+        event = "L" if classFields[0] == "BSc" else "M"
+        words = classFields[3].split('-')
+        year = words[0]
+        serie = words[1]
+        group = classFields[4]
+        semigroup = classFields[5]
+        event = event + "-A" + year + "-S1"
+        if(len(eventEntity) < 6):
+            event = event + "-" + eventEntity.upper() + "-" + serie
+        else:
+            abreviation = ""
+            for x in eventEntity.split():
+                if x[0].isalpha():
+                    abreviation = abreviation + x[0]
+            if(eventEntity[-1].isnumeric()):
+                abreviation = abreviation + eventEntity[-1]
+            event = event + "-" + abreviation.upper() + "-" + serie
+        print(event)
+        
+        events = firestore_db.collection(u'events').get()
+        eventFound = False
+        another_day = ""
+        expectedType = ""
+        location = ""
+        another_location =""
 
+        #if it's not mentioned -> default event - curs
+        if len(typeEventEntity) == 0:
+            typeEventEntity = "cursul"
+        expectedType = utils.getTypeRo(typeEventEntity)
+
+        for e in events:
+            currentEvent = e.to_dict()
+            if "class" in currentEvent.keys():
+                if currentEvent["class"] == event:
+                    type = currentEvent["type"]
+
+                    #find day
+                    index = currentEvent["rrule"].find("BYDAY=")
+                    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+                    if currentEvent["location"] is not None:
+                        location = currentEvent["location"]
+                    if currentEvent["relevance"] is not None:
+                        if expectedType == type and len(location) > 0:
+                            if  ((type == "seminar" and group == currentEvent["relevance"][0])
+                                or type == "lecture"
+                                or (type == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0]))):
+                                if eventFound and len(another_location):
+                                    message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", în " + location + " și " + utils.getDayRo(another_day) + ", în " + another_location
+                                    break
+                                message = typeEventEntity.capitalize() + " de " + eventEntity + " are loc " + utils.getDayRo(day) + ", în " + location
+                                another_day = day
+                                another_location = location
+                                eventFound = True
+        dispatcher.utter_message(text=message) 
         return []
 
 class ActionGetMinConditions(Action):
@@ -186,8 +348,86 @@ class ActionGetStartTimeEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Evenimentul începe la ora...")
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
+        print(doc)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        id = tracker.current_state()['sender_id']
+        classFields = doc["class"]
+        event = ""
+        eventEntity = ""
+        typeEventEntity = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "event":
+                        eventEntity = ent['value']
+                    if ent['entity'] == "typeEvent":
+                        typeEventEntity = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        
+        #compute classes name
+        event = "L" if classFields[0] == "BSc" else "M"
+        words = classFields[3].split('-')
+        year = words[0]
+        serie = words[1]
+        group = classFields[4]
+        semigroup = classFields[5]
+        event = event + "-A" + year + "-S1"
+        if(len(eventEntity) < 6):
+            event = event + "-" + eventEntity.upper() + "-" + serie
+        else:
+            abreviation = ""
+            for x in eventEntity.split():
+                if x[0].isalpha():
+                    abreviation = abreviation + x[0]
+            if(eventEntity[-1].isnumeric()):
+                abreviation = abreviation + eventEntity[-1]
+            event = event + "-" + abreviation.upper() + "-" + serie
+        print(event)
+        
+        events = firestore_db.collection(u'events').get()
+        eventFound = False
+        another_hour = ""
+        another_day = ""
+        expectedType = ""
 
+        #if it's not mentioned -> default event - curs
+        if len(typeEventEntity) == 0:
+            typeEventEntity = "cursul"
+        expectedType = utils.getTypeRo(typeEventEntity)
+
+        for e in events:
+            currentEvent = e.to_dict()
+            if "class" in currentEvent.keys():
+                if currentEvent["class"] == event:
+                    type = currentEvent["type"]
+
+                    #find day
+                    index = currentEvent["rrule"].find("BYDAY=")
+                    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+
+                    #timezone
+                    temp = pd.Timestamp(currentEvent["start"])
+                    hour = temp.hour + 3
+                    minute = temp.minute
+                    h = str(hour) + str(minute) if minute > 0 else str(hour)
+                    if currentEvent["relevance"] is not None:
+                        if(expectedType == type):
+                            if  ((type == "seminar" and group == currentEvent["relevance"][0])
+                                or type == "lecture"
+                                or (type == "lab" and (semigroup == currentEvent["relevance"][0] or group == currentEvent["relevance"][0]))):
+                                if(eventFound):
+                                    message = typeEventEntity.capitalize() + " de " + eventEntity + " începe la ora " + h + ", " + utils.getDayRo(day) + ", " + "și la ora " + another_hour + ", " + utils.getDayRo(another_day)
+                                    break
+                                message = typeEventEntity.capitalize() + " de " + eventEntity + " începe la ora " + h + ", " + utils.getDayRo(day)
+                                another_hour = h
+                                another_day = day
+                                eventFound = True
+        dispatcher.utter_message(text=message) 
         return []
 
 class ActionGetTeacherName(Action):
