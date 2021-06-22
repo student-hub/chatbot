@@ -1,0 +1,316 @@
+{
+    "people": [
+        {
+            "name": "Emil Ioan Slusanschi"
+        },
+        {
+            "name": "Mihai Dascalu"
+        },
+        {
+            "name": "Adina Magda Florea"
+        },
+        {
+            "name": "Alin Dragos Bogdan Moldoveanu"
+        },
+        {
+            "name": "Florin Pop"
+        },
+        {
+            "name": "Florin Radulescu"
+        },
+        {
+            "name": "Razvan Rughinis"
+        },
+        {
+            "name": "Nicolae Tapus"
+        },
+        {
+            "name": "Stefan Trausan Matu"
+        },
+        {
+            "name": "Mihai Carabas"
+        },
+        {
+            "name": "Mihai Daniel Chiroiu"
+        },
+        {
+            "name": "Razvan Deaconescu"
+        },
+        {
+            "name": "Irina Mocanu"
+        },
+        {
+            "name": "Iuliu Vasilescu"
+        },
+        {
+            "name": "Costin-Anton Boiangiu"
+        },
+        {
+            "name": "Valentin Cristea"
+        },
+        {
+            "name": "Ciprian Dobre"
+        },
+        {
+            "name": "Francisc Iacob"
+        },
+        {
+            "name": "Constantin Ilas"
+        },
+        {
+            "name": "Mariana Mocanu"
+        },
+        {
+            "name": "Florica Moldoveanu"
+        },
+        {
+            "name": "Lorina Negreanu"
+        },
+        {
+            "name": "Decebal Popescu"
+        },
+        {
+            "name": "George Pantelimon Popescu"
+        },
+        {
+            "name": "Nirvana Popescu"
+        },
+        {
+            "name": "Elena Simona Apostol"
+        },
+        {
+            "name": "Alexandru Boicea"
+        },
+        {
+            "name": "Costin Gabriel Chiru"
+        },
+        {
+            "name": "Sorin Ciureanu"
+        },
+        {
+            "name": "Marius Leordeanu"
+        },
+        {
+            "name": "Andrei Olaru"
+        },
+        {
+            "name": "Cornel Popescu"
+        },
+        {
+            "name": "Costin Raiciu"
+        },
+        {
+            "name": "Traian Rebedea"
+        },
+        {
+            "name": "Daniel Rosner"
+        },
+        {
+            "name": "Adrian Surpateanu"
+        },
+        {
+            "name": "Dan Stefan Tudose"
+        },
+        {
+            "name": "Marius Dorian Zaharia"
+        },
+        {
+            "name": "Eliana Dina Andreica"
+        },
+        {
+            "name": "Victor Asavei"
+        },
+        {
+            "name": "Mircea Bardac"
+        },
+        {
+            "name": "Dumitru Clementin Cercel"
+        },
+        {
+            "name": "Marios Omar Choudary"
+        },
+        {
+            "name": "Vlad Ciobanu"
+        },
+        {
+            "name": "Laura Cristina Ruse"
+        },
+        {
+            "name": "Gavril Godza"
+        },
+        {
+            "name": "Liliana Grigoriu"
+        },
+        {
+            "name": "Voichita Iancu"
+        },
+        {
+            "name": "Catalin Leordeanu"
+        },
+        {
+            "name": "Valentin Lungu"
+        },
+        {
+            "name": "George Milescu"
+        },
+        {
+            "name": "Oana Mitrut"
+        },
+        {
+            "name": "Andrei Horia Mogos"
+        },
+        {
+            "name": "Anca Morar"
+        },
+        {
+            "name": "Mihnea Muraru"
+        },
+        {
+            "name": "Dragos Stefan Niculescu"
+        },
+        {
+            "name": "Carmen Odubasteanu"
+        },
+        {
+            "name": "Alexandru Olteanu"
+        },
+        {
+            "name": "Matei Popovici"
+        },
+        {
+            "name": "Vlad Posea"
+        },
+        {
+            "name": "Emilian Radoi"
+        },
+        {
+            "name": "Alexandru Radovici"
+        },
+        {
+            "name": "Serban Radu"
+        },
+        {
+            "name": "Dan Schrager"
+        },
+        {
+            "name": "Dumitru-Cristian Tranca"
+        },
+        {
+            "name": "Ciprian-Octavian Truica"
+        },
+        {
+            "name": "Liviana Nicoleta Tudor"
+        },
+        {
+            "name": "Andreea Urzica"
+        },
+        {
+            "name": "Adela Almasi"
+        },
+        {
+            "name": "Mihaela Balint"
+        },
+        {
+            "name": "Tudor Berariu"
+        },
+        {
+            "name": "Cristian Chilipirea"
+        },
+        {
+            "name": "Sorin N. Ciolofan"
+        },
+        {
+            "name": "Dragos Georgian Corlatescu"
+        },
+        {
+            "name": "Sergiu Costea"
+        },
+        {
+            "name": "Adriana Cristina Draghici"
+        },
+        {
+            "name": "Dan Dragomir"
+        },
+        {
+            "name": "Laurentiu-Cristian Duca"
+        },
+        {
+            "name": "Alexandru Egner"
+        },
+        {
+            "name": "Oana Ferche"
+        },
+        {
+            "name": "Alexandra Stefania Ghita"
+        },
+        {
+            "name": "Alexandru Gradinaru"
+        },
+        {
+            "name": "Cristian Gratie"
+        },
+        {
+            "name": "Octavian Grigorescu"
+        },
+        {
+            "name": "Alexandru Herisanu"
+        },
+        {
+            "name": "Radu Iacob"
+        },
+        {
+            "name": "Claudia Ifrim"
+        },
+        {
+            "name": "George Iordache"
+        },
+        {
+            "name": "Andrei Cristian Lambru"
+        },
+        {
+            "name": "Lucian Mogosanu"
+        },
+        {
+            "name": "Catalin Morosan"
+        },
+        {
+            "name": "Razvan Musaloiu"
+        },
+        {
+            "name": "George Cristian Patru"
+        },
+        {
+            "name": "Daniel Popeanga"
+        },
+        {
+            "name": "Traian Popeea"
+        },
+        {
+            "name": "Alexandru Predescu"
+        },
+        {
+            "name": "Stefan Ruseti"
+        },
+        {
+            "name": "George Sarbu"
+        },
+        {
+            "name": "Constantin Eduard Staniloiu"
+        },
+        {
+            "name": "Silvia Cristina Stegaru"
+        },
+        {
+            "name": "Razvan Tataroiu"
+        },
+        {
+            "name": "Laura Mihaela Vasilescu"
+        },
+        {
+            "name": "Giorgiana Violeta Vlasceanu"
+        },
+        {
+            "name": "Andrei Voinescu"
+        }
+    ]
+}
