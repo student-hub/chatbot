@@ -322,8 +322,63 @@ class ActionGetCourseGrading(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Punctajul este...")
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
+        print(doc)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        id = tracker.current_state()['sender_id']
+        classFields = doc["class"]
+        event = ""
+        eventEntity = ""
+        typeEventEntity = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "event":
+                        eventEntity = ent['value']
+                    if ent['entity'] == "typeEvent":
+                        typeEventEntity = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        
+        #compute classes name
+        event = "L" if classFields[0] == "BSc" else "M"
+        words = classFields[3].split('-')
+        year = words[0]
+        serie = words[1]
+        group = classFields[4]
+        semigroup = classFields[5]
+        event = event + "-A" + year + "-S1"
+        if(len(eventEntity) < 6):
+            event = event + "-" + eventEntity.upper() + "-" + serie
+        else:
+            abreviation = ""
+            for x in eventEntity.split():
+                if x[0].isalpha():
+                    abreviation = abreviation + x[0]
+            if(eventEntity[-1].isnumeric()):
+                abreviation = abreviation + eventEntity[-1]
+            event = event + "-" + abreviation.upper() + "-" + serie
+        print(event)
+        
+        events = firestore_db.collection(u'classes').get()
 
+        #if it's not mentioned -> default event - curs
+        if len(typeEventEntity) == 0:
+            typeEventEntity = "cursul"
+        expectedType = utils.getTypeRo(typeEventEntity)
+
+        for e in events:
+            currentEventName = e.id
+            currentEvent = e.to_dict()
+            if currentEventName == event :
+                if "grading" in currentEvent.keys():
+                    message = "Punctajul la " + eventEntity + " este: "
+                    for grade in currentEvent["grading"]:
+                        message = message + grade + ": " + str(currentEvent["grading"][grade]) + "; "
+        dispatcher.utter_message(text=message) 
         return []
 
 class ActionGetMinConditions(Action):
