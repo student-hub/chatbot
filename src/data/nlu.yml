@@ -1621,4 +1621,84 @@ nlu:
       - Îmi poți spune cine este șeful seriei [C3](srNr)?
       - Îmi poți spune cine este șeful seriei [C4](srNr)?
       - Îmi poți spune cine este șeful seriei [C5](srNr)?
-  
+
+  - intent: get_course_grading
+    examples: |
+      - Zi-mi și mie care este notarea la [cursul](typeEvent) [Mi](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [AR](event)?
+      - Poți să îmi spui care este notarea la [Programarea calculatoarelor](event)?
+      - Ai idee cum este notarea la [cursul](typeEvent) [ClCo](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [DP](event)?
+      - Ai idee care este punctajul la [IOT si Tehnologii SCADA](event)?
+      - Zi-mi și mie care este punctajul la [cursul](typeEvent) [Psihopedagogia adolescentilor, tinerilor si adultilor](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [ED](event)?
+      - Ai idee care este punctajul la [Aplicatii web semantice](event)?
+      - Spune-mi și mie care este punctajul la materia [SiE](event)?
+      - Ai idee cum este notarea la materia [Practica pedagogica in invatamantul preuniversitar obligatoriu](event)?
+      - Care este punctajul la [seminarul](typeEvent) [Arhitectura si controlul circuitelor electronice de putere](event)?
+      - Zi-mi și mie care este punctajul la materia [Cultura si civilizatie](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [Sisteme CAD/CASE](event)?
+      - Zi-mi și mie care este punctajul la [EAN1](event)?
+      - Poți să îmi spui care este punctajul la [EFS2](event)?
+      - Știi care este punctajul la [cursul](typeEvent) [SDA](event)?
+      - Care este punctajul la materia [PPedI](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [Sdbd](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [EEA](event)?
+      - Ai idee cum este notarea la [cursul](typeEvent) [Securitatea in sistemele grid si cloud](event)?
+      - Știi care este punctajul la [laboratorul](typeEvent) [LS3](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [CSP](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [CSP](event)?
+      - Știi care este punctajul la materia [PAJ2](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [SSppi](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [Cercetare stiintifica](event)?
+      - Poți să îmi spui care este notarea la [seminarul](typeEvent) [Structuri de date](event)?
+      - Zi-mi și mie care este punctajul la [laboratorul](typeEvent) [Sisteme de tipuri si programare functionala](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [Elaborare lucrare de disertatie](event)?
+      - Ai idee cum este notarea la [POO](event)?
+      - Care este punctajul la [seminarul](typeEvent) [SCADA, HIL, SIL](event)?
+      - Spune-mi și mie care este notarea la [Planificarea aplicatiilor si management de proiect](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [PDCFF](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [Mecanica](event)?
+      - Poți să îmi spui care este notarea la [SDi](event)?
+      - Poți să îmi spui care este notarea la [Programare orientata pe obiecte](event)?
+      - Ai idee care este punctajul la [seminarul](typeEvent) [Idmpmis](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [IRA](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [Activitate de voluntariat](event)?
+      - Ai idee cum este notarea la materia [Programarea calculatoarelor](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [Teoria sistemelor](event)?
+      - Zi-mi și mie care este notarea la [Ipsi](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [Introducere in organizarea calculatoarelor si limbaj de asamblare](event)?
+      - Care este punctajul la [seminarul](typeEvent) [Testare software si asigurarea calitatii](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [AA](event)?
+      - Spune-mi și mie care este notarea la [cursul](typeEvent) [MN](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [Achizitii de date si instrumentatie virtuala](event)?
+      - Ai idee cum este notarea la [TSA](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [SCI](event)?
+      - Poți să îmi spui care este notarea la [laboratorul](typeEvent) [AV](event)?
+      - Spune-mi și mie care este notarea la [Prelucrarea informatiei](event)?
+      - Spune-mi și mie care este notarea la materia [AR](event)?
+      - Zi-mi și mie care este punctajul la [cursul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Ai idee cum este notarea la materia [Managementul lanturilor de aprovizionare si logistica](event)?
+      - Care este punctajul la [CSP](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [Programare orientata pe obiecte](event)?
+      - Care este punctajul la [Inginerie dirijata de modele pentru managementul informatiilor si al serviciilor](event)?
+      - Zi-mi și mie care este notarea la [cursul](typeEvent) [Optimizare si decizii de conducere](event)?
+      - Spune-mi și mie care este notarea la [AV](event)?
+      - Poți să îmi spui care este notarea la [cursul](typeEvent) [Cercetare stiintifica, practica si elaborare disertatie](event)?
+      - Poți să îmi spui care este punctajul la [Elaborare lucrare de disertatie](event)?
+      - Poți să îmi spui care este notarea la materia [Cercetare](event)?
+      - Știi care este punctajul la [laboratorul](typeEvent) [M3](event)?
+      - Știi care este punctajul la [NaSS](event)?
+      - Spune-mi și mie care este notarea la [Structuri de date si algoritmi](event)?
+      - Care este punctajul la [Elaborare lucrare de disertatie](event)?
+      - Care este punctajul la [Ce](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [Fundamentele si analitici Big Data](event)?
+      - Zi-mi și mie care este notarea la [Practica pentru elaborare disertatie](event)?
+      - Ai idee care este punctajul la [seminarul](typeEvent) [Prelucrari complexe in imagistica medicala](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [MPIT](event)?
+      - Spune-mi și mie care este punctajul la [SE](event)?
+      - Știi care este punctajul la [seminarul](typeEvent) [CSP](event)?
+      - Poți să îmi spui care este punctajul la [seminarul](typeEvent) [SDED](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [SDM](event)?

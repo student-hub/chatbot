@@ -313,6 +313,19 @@ class ActionLocateEvent(Action):
         dispatcher.utter_message(text=message) 
         return []
 
+class ActionGetCourseGrading(Action):
+
+    def name(self) -> Text:
+        return "action_get_course_grading"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Punctajul este...")
+
+        return []
+
 class ActionGetMinConditions(Action):
 
     def name(self) -> Text:

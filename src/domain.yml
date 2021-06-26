@@ -8,6 +8,7 @@ intents:
 - get_date_event
 - get_end_time_event
 - locate_event
+- get_course_grading
 - get_min_conditions
 - get_min_nr_of_attendings
 - get_start_time_event
