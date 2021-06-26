@@ -33,6 +33,7 @@ actions:
 - action_get_teacher_name
 - action_get_group_leader_name
 - action_get_SR_leader_name
+- action_get_course_grading
 responses:
     utter_faq/ask_accommodationTaxes:
         - text: |
