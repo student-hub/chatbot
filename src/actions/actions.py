@@ -507,7 +507,26 @@ class ActionGetTeacherName(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Numele profesorului este...")
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele sălii este scris corect!"
+        classroomName = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['entity'] == "classroom":
+                    classroomName = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        if len(classroomName) > 0:
+            #remove whitespaces from string and make capital letters
+            classroomName = classroomName.replace(" ", "").upper()
+
+            teacherName = utils.getTeacherName(classroomName)
+            print(entity)
+            if len(teacherName) > 0:
+                message = teacherName + " predă în " + classroomName
+        dispatcher.utter_message(text=message)
 
         return []
 
@@ -519,9 +538,34 @@ class ActionGetGroupLeaderName(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Numele șefului de grupă este...")
-
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele grupei este corect!"
+        srNr = ""
+        groupNr = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    if ent['entity'] == "groupNr":
+                        groupNr = ent['value']
+                    if ent['entity'] == "srNr":
+                        srNr = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        if len(groupNr) > 0:
+            groupName = groupNr + srNr
+        else:
+            groupName = tracker.latest_message['entities'][0]['value']
+        #remove whitespaces from string and make capital letters
+        groupName = groupName.replace(" ", "").upper()
+        print(groupName)
+        groupLeader = utils.getGroupLeader(groupName)
+        if len(groupLeader) > 0:
+            message = "Șeful de grupă la " + groupName + " este " + groupLeader
+        else:
+            message = "Scuze!Momentan nu știu cine este șef de grupă la " + groupName
+        dispatcher.utter_message(text=message)
         return []
 
 class ActionGetSRLeaderName(Action):
@@ -533,6 +577,28 @@ class ActionGetSRLeaderName(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Numele șefului de serie este...")
-
-        return []
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
+        year = doc["class"][3][0]
+        print(year)
+        message = "Scuze, nu dețin această informație. Te rog verifică daca numele grupei este corect!"
+        srNr = ""
+        try:
+            entity = tracker.latest_message['entities']
+            for ent in entity:
+                if ent['confidence_entity'] > 0.7:
+                    srNr = ent['value']
+        except:
+            #if something bad happens
+            dispatcher.utter_message(text=message)
+            return []
+        #remove whitespaces from string and make capital letters
+        srNr =srNr.replace(" ", "").upper()
+        if srNr[0].isalpha():
+            srNr = year + "-"+ srNr
+        print(srNr)
+        srLeader = utils.getSrLeader(srNr)
+        if len(srLeader) > 0:
+            message = "Șeful de serie la " + srNr + " este " + srLeader
+        else:
+            message = "Scuze!Momentan nu știu cine este șef de serie la " + srNr
+        dispatcher.utter_message(text=message)
