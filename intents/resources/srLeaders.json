@@ -1,0 +1,50 @@
+{
+    "1-CA":{
+        "leader": "Test Testulescu1"
+    },
+    "1-CB":{
+        "leader": "Test Testulescu2"
+    },
+    "1-CC":{
+        "leader": "Test Testulescu3"
+    },
+    "1-CD":{
+        "leader": "Test Testulescu4"
+    },
+    "2-CA":{
+        "leader": "Test Testulescu1"
+    },
+    "2-CB":{
+        "leader": "Test Testulescu2"
+    },
+    "2-CC":{
+        "leader": "Test Testulescu3"
+    },
+    "2-CD":{
+        "leader": "Test Testulescu4"
+    },
+    "3-CA":{
+        "leader": "Test Testulescu1"
+    },
+    "3-CB":{
+        "leader": "Test Testulescu2"
+    },
+    "3-CC":{
+        "leader": "Test Testulescu3"
+    },
+    "4-C1":{
+        "leader": "Test Testulescu1"
+    },
+    "4-C2":{
+        "leader": "Test Testulescu2"
+    },
+    "4-C3":{
+        "leader": "Test Testulescu3"
+    },
+    "4-C4":{
+        "leader": "Test Testulescu4"
+    },
+    "4-C5":{
+        "leader": "Test Testulescu4"
+    }
+}
