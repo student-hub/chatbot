@@ -39,3 +39,7 @@ stories:
    steps:
    - intent: get_SR_leader_name
    - action: action_get_SR_leader_name
+ - story: get course grading
+   steps:
+   - intent: get_course_grading
+   - action: action_get_course_grading

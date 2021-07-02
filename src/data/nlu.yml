@@ -550,6 +550,39 @@ nlu:
       - Știi în ce dată se ține [Matematică 1](event)?
       - Știi în ce dată se ține [EN](event)?
       - Știi în ce dată se ține [Engleză](event)?
+      - Ai idee în ce sală pot participa la [laboratorul](typeEvent) de [LS2](event)?
+      - Ai idee unde se desfășoară [laboratorul](typeEvent) de [Managementul incidentelor de securitate cibernetica](event)?
+      - Unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Unde se predă [seminarul](typeEvent) de [M1](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [CSP](event)?
+      - Știi unde se desfășoară [laboratorul](typeEvent) de [ELD](event)?
+      - Ai idee unde are loc [EFS1](event)?
+      - Ai idee unde se desfășoară [seminarul](typeEvent) de [Activitate de voluntariat](event)?
+      - Îmi poți spune, te rog, unde va avea loc [laboratorul](typeEvent) de [CSP](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [SCADA, HIL, SIL](event)?
+      - Ai idee în ce sală pot participa la [Cercetare stiintifica si practica](event)?
+      - În ce sală are loc [laboratorul](typeEvent) de [Electronica](event)?
+      - Spune-mi, te rog, în ce sală se va ține [laboratorul](typeEvent) de [M1](event)?
+      - Spune-mi, te rog, în ce sală se va ține [Securitatea in sistemele grid si cloud](event)?
+      - Ai idee unde se desfășoară [seminarul](typeEvent) de [Fizica](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [EEA](event)?
+      - Unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [CSP](event)?
+      - Unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [IntI](event)?
+      - Îmi poți spune, te rog, unde va avea loc [seminarul](typeEvent) de [APD](event)?
+      - Știi unde va avea loc [Ssi](event)?
+      - Ai idee unde se desfășoară [seminarul](typeEvent) de [Elaborare lucrare de disertatie](event)?
+      - Știi unde se desfășoară [seminarul](typeEvent) de [CSPED](event)?
+      - În ce sală se predă [laboratorul](typeEvent) de [Tehnici de calcul in automatica si informatica](event)?
+      - Unde trebuie să mă duc pentru a participa la [Elemente de electronica analogica](event)?
+      - În ce sală pot participa la [cursul](typeEvent) de [Testare software si asigurarea calitatii](event)?
+      - Știi unde se va ține [ED](event)?
+      - Unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [EGC](event)?
+      - Știi unde se desfășoară [Teoria sistemelor automate](event)?
+      - Îmi poți spune, te rog, unde se desfășoară [laboratorul](typeEvent) de [ILAM](event)?
+      - În ce sală pot participa la [laboratorul](typeEvent) de [EG](event)?
+      - Spune-mi, te rog, în ce sală se va ține [seminarul](typeEvent) de [MAT5](event)?
+      - Unde se predă [seminarul](typeEvent) de [SHS](event)?
+      - Știi unde va avea loc [seminarul](typeEvent) de [Pregatire proiect de licenta](event)?
 
   - intent: get_end_time_event
     examples: |
@@ -596,6 +629,38 @@ nlu:
       - Îmi poți spune când este gata [Engleză](event)?
       - Îmi poți spune când este gata [GI](event)?
       - Îmi poți spune când este gata [Grafică inginerească](event)?
+      - Știi când se încheie [seminarul](typeEvent) de [Metode numerice](event)?
+      - Se mai ține [cursul](typeEvent) de [Matematica 3](event)?
+      - Știi când se termină [cursul](typeEvent) de [Limbaje formale si automate](event)?
+      - La cât se încheie [seminarul](typeEvent) de [Politologie](event)?
+      - Cand se sfârsește [laboratorul](typeEvent) de [Proiectare arhitecturi pentru informatizarea sistemelor de afaceri](event)?
+      - Cand se sfârsește [cursul](typeEvent) de [AOSTW](event)?
+      - Ai idee când se termină [seminarul](typeEvent) de [Structuri de date si algoritmi](event)?
+      - Mai are loc [cursul](typeEvent) de [Traductoare si sisteme de masurare](event)?
+      - Până la cât ține [Tehnici de comunicare si scriere tehnica](event)?
+      - Mai are loc [laboratorul](typeEvent) de [DS](event)?
+      - Când se încheie [seminarul](typeEvent) de [Managementul comunicarii si psihologia cognitiva](event)?
+      - Se mai ține [cursul](typeEvent) de [Pregatire proiect de licenta](event)?
+      - Până la cât ține [seminarul](typeEvent) de [Complemente de teoria sistemelor si semnalelor](event)?
+      - Mai are loc [Infrastructura si servicii pentru retele mobile](event)?
+      - Când se încheie [cursul](typeEvent) de [Prelucrari paralele in aplicatii multimedia](event)?
+      - Pe la ce oră se încheie [laboratorul](typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Îmi poți spune când se termină [seminarul](typeEvent) de [EAN1](event)?
+      - Se mai ține [cursul](typeEvent) de [SINF](event)?
+      - Când se termină [AAIT](event)?
+      - Poți să îmi spui, te rog, dacă s-a terminat [cursul](typeEvent) de [Activitate de voluntariat](event)?
+      - Pe la ce oră se termină [ELD](event)?
+      - Știi când se încheie [Filosofie cognitivista](event)?
+      - Știi când se încheie [TSM](event)?
+      - Poți să îmi spui, te rog, dacă s-a terminat [Protocoale de comunicatii](event)?
+      - Știi când se încheie [seminarul](typeEvent) de [Cercetare stiintifica, practica si elaborare disertatie](event)?
+      - Cand se sfârsește [Educatie fizica si sport 1](event)?
+      - Când se încheie [NLP](event)?
+      - Pe la ce oră se încheie [seminarul](typeEvent) de [DS](event)?
+      - Poți să îmi spui, te rog, dacă s-a terminat [cursul](typeEvent) de [AV](event)?
+      - S-a terminat [seminarul](typeEvent) de [Dezvoltarea aplicatiilor grafice pentru dispozitive mobile](event)?
+      - Știi când se încheie [laboratorul](typeEvent) de [EEA](event)?
+      - La cât se termină [seminarul](typeEvent) de [LS3](event)?
 
   - intent: locate_event
     examples: |
@@ -659,6 +724,55 @@ nlu:
       - În ce sală pot participa la [Logică](event)?
       - În ce sală pot participa la [IF](event)?
       - În ce sală pot participa la [Istoria Filozofiei](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [Sisteme fizico-cibernetice](event)?
+      - Îmi poți spune, te rog, unde va avea loc [laboratorul](typeEvent) de [SADC](event)?
+      - Știi unde se va ține [laboratorul](typeEvent) de [Matematica 4](event)?
+      - Ai idee în ce sală pot participa la [cursul](typeEvent) de [Managementul resurselor umane si tehnici de comunicare](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [Proiectarea sistemelor integrate - cyber physical systems](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [Cercetare](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [ELD](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [CSP](event)?
+      - Spune-mi, te rog, în ce sală se va ține [laboratorul](typeEvent) de [SDA](event)?
+      - Îmi poți spune, te rog, unde va avea loc [laboratorul](typeEvent) de [Limba straina 4](event)?
+      - Știi unde se desfășoară [ADIV](event)?
+      - Spune-mi, te rog, în ce sală pot participa la [seminarul](typeEvent) de [Sipmri](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [APD](event)?
+      - Ai idee în ce sală pot participa la [seminarul](typeEvent) de [POO](event)?
+      - Unde se predă [seminarul](typeEvent) de [AR](event)?
+      - În ce sală pot participa la [seminarul](typeEvent) de [Tehnici de testare si asigurarea calitatii pentru aplicatii software](event)?
+      - În ce sală pot participa la [cursul](typeEvent) de [M1](event)?
+      - Spune-mi, te rog, în ce sală se va ține [laboratorul](typeEvent) de [Psi](event)?
+      - Știi unde se va ține [Retele locale](event)?
+      - Unde trebuie să mă duc pentru a participa la [laboratorul](typeEvent) de [Dm](event)?
+      - Unde va avea loc [cursul](typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Ai idee în ce sală pot participa la [laboratorul](typeEvent) de [ELD](event)?
+      - Ai idee în ce sală pot participa la [cursul](typeEvent) de [Sisteme de operare](event)?
+      - Unde are loc [PATA](event)?
+      - Unde se predă [cursul](typeEvent) de [Introducere in Big Data](event)?
+      - Spune-mi, te rog, în ce sală se va ține [seminarul](typeEvent) de [Tehnici de comunicare](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [Inginerie concurenta si managementul inovarii](event)?
+      - În ce loc se ține [cursul](typeEvent) de [Proiectare logica](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [SEd](event)?
+      - Îmi poți spune, te rog, unde se va ține [Etica](event)?
+      - În ce loc se ține [SCGC](event)?
+      - Îmi poți spune, te rog, unde se va ține [laboratorul](typeEvent) de [GCO](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Sisteme de mari dimensiuni](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [Sisteme de operare](event)?
+      - Unde va avea loc [Ciclul de viata al sistemelor software bancare](event)?
+      - Unde se predă [cursul](typeEvent) de [Sri](event)?
+      - Îmi poți spune, te rog, unde se va ține [cursul](typeEvent) de [AR](event)?
+      - Știi unde se desfășoară [laboratorul](typeEvent) de [BE](event)?
+      - Știi unde se desfășoară [laboratorul](typeEvent) de [ACI](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Tehnici de comunicare si scriere tehnica](event)?
+      - În ce sală are loc [cursul](typeEvent) de [LS1](event)?
+      - Ai idee în ce sală pot participa la [Sisteme informatice in industria chimica si biochimica](event)?
+      - Unde va avea loc [seminarul](typeEvent) de [SIADS](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [Cercetare](event)?
+      - Îmi poți spune, te rog, unde se va ține [cursul](typeEvent) de [PUES](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [Asac](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Cercetare](event)?
+      - În ce loc se ține [seminarul](typeEvent) de [Sisteme Avansate de Baze de Date](event)?
+      - Unde are loc [seminarul](typeEvent) de [Managementul proiectelor](event)?
 
   - intent: get_min_conditions
     examples: |
@@ -717,27 +831,27 @@ nlu:
 
   - intent: get_min_nr_of_attendings
     examples: |
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Istoria Religiilor](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [II](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Introducere în informatică](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [USO](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [PC](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Programarea calculatoarelor](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Mat1](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Matematică 1](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [M1](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Matematică 1](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [EN](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Engleză](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [GI](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Grafică inginerească](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [MEC](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Mecanică](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [LOGICA](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Logică](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [IF](event)?
-      - Ai idee câte prezențe sunt necesare pentru a promova seminarul(typeEvent) [Istoria Filozofiei](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Istoria Religiilor](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [II](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Introducere în informatică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [USO](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [PC](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Mat1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Matematică 1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [M1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Matematică 1](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [EN](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Engleză](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [GI](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Grafică inginerească](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [MEC](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Mecanică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [LOGICA](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Logică](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [IF](event)?
+      - Ai idee câte prezențe sunt necesare pentru a promova [seminarul](typeEvent) [Istoria Filozofiei](event)?
       - Știi care este numărul minim de prezențe pentru a trece [M2](event)?
       - Știi care este numărul minim de prezențe pentru a trece [Matematică 2](event)?
       - Știi care este numărul minim de prezențe pentru a trece [Mat2](event)?
@@ -766,90 +880,90 @@ nlu:
       - Știi care este numărul minim de prezențe pentru a trece [Logică](event)?
       - Știi care este numărul minim de prezențe pentru a trece [IF](event)?
       - Știi care este numărul minim de prezențe pentru a trece [Istoria Filozofiei](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PL](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Proiectare Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IR](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Religiilor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [II](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Introducere în informatică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [USO](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Programarea calculatoarelor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [EN](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Engleză](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [GI](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Grafică inginerească](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [MEC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mecanică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [LOGICA](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IF](event)?
-      - Știi care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Filozofiei](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PL](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Proiectare Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IR](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Religiilor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [II](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Introducere în informatică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [USO](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Programarea calculatoarelor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [EN](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Engleză](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [GI](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Grafică inginerească](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [MEC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mecanică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [LOGICA](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IF](event)?
-      - Știi care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Filozofiei](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PL](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Proiectare Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IR](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Religiilor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [II](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Introducere în informatică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [USO](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Programarea calculatoarelor](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [EN](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Engleză](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [GI](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Grafică inginerească](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [MEC](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mecanică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [LOGICA](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Logică](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IF](event)?
-      - Știi care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Istoria Filozofiei](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [M2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mat2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 2](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [PL](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Proiectare Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [IR](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Istoria Religiilor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [II](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Introducere în informatică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [USO](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [PC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Programarea calculatoarelor](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mat1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [M1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 1](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [EN](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Engleză](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [GI](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Grafică inginerească](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [MEC](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mecanică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [LOGICA](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Logică](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [IF](event)?
+      - Știi care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Istoria Filozofiei](event)?
       - Știi care este numărul minim de prezențe pentru a trece materia [M2](event)?
       - Știi care este numărul minim de prezențe pentru a trece materia [Matematică 2](event)?
       - Știi care este numărul minim de prezențe pentru a trece materia [Mat2](event)?
@@ -906,88 +1020,88 @@ nlu:
       - Ai idee care este numărul minim de prezențe pentru a trece [Logică](event)?
       - Ai idee care este numărul minim de prezențe pentru a trece [IF](event)?
       - Ai idee care este numărul minim de prezențe pentru a trece [Istoria Filozofiei](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PL](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Proiectare Logică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IR](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Religiilor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [II](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Introducere în informatică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [USO](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [PC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Programarea calculatoarelor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mat1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [M1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [EN](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Engleză](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [GI](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Grafică inginerească](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [MEC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Mecanică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [LOGICA](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Logică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [IF](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece cursul(typeEvent) [Istoria Filozofiei](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PL](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Proiectare Logică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IR](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Religiilor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [II](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Introducere în informatică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [USO](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [PC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Programarea calculatoarelor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mat1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [M1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [EN](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Engleză](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [GI](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Grafică inginerească](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [MEC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Mecanică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [LOGICA](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Logică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [IF](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece laboratorul(typeEvent) [Istoria Filozofiei](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 2](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PL](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Proiectare Logică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [IR](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Istoria Religiilor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [II](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Introducere în informatică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [USO](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Utilizarea sistemelor de operare](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [PC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Programarea calculatoarelor](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mat1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [M1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Matematică 1](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [EN](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Engleză](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [GI](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Grafică inginerească](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [MEC](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Mecanică](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [LOGICA](event)?
-      - Ai idee care este numărul minim de prezențe pentru a trece seminarul(typeEvent) [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [IF](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [IF](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Istoria Filozofiei](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [M2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mat2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 2](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [PL](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Proiectare Logică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [IR](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Istoria Religiilor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [II](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Introducere în informatică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [USO](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Utilizarea sistemelor de operare](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [PC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Programarea calculatoarelor](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mat1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [M1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Matematică 1](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [EN](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Engleză](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [GI](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Grafică inginerească](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [MEC](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Mecanică](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [LOGICA](event)?
+      - Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Logică](event)?
 
   - intent: get_start_time_event
     examples: |
@@ -1056,7 +1170,62 @@ nlu:
       - Ai idee la ce oră este [LOGICA](event)?
       - Ai idee la ce oră este [Logică](event)?
       - Ai idee la ce oră este [IF](event)?
-      - Ai idee la ce oră este [Istoria Filozofiei](event)?`
+      - Ai idee la ce oră este [Istoria Filozofiei](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [Sisteme fizico-cibernetice](event)?
+      - Îmi poți spune, te rog, unde va avea loc [laboratorul](typeEvent) de [SADC](event)?
+      - Știi unde se va ține [laboratorul](typeEvent) de [Matematica 4](event)?
+      - Ai idee în ce sală pot participa la [cursul](typeEvent) de [Managementul resurselor umane si tehnici de comunicare](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [Proiectarea sistemelor integrate - cyber physical systems](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [Cercetare](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [ELD](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [CSP](event)?
+      - Spune-mi, te rog, în ce sală se va ține [laboratorul](typeEvent) de [SDA](event)?
+      - Îmi poți spune, te rog, unde va avea loc [laboratorul](typeEvent) de [Limba straina 4](event)?
+      - Știi unde se desfășoară [ADIV](event)?
+      - Spune-mi, te rog, în ce sală pot participa la [seminarul](typeEvent) de [Sipmri](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [APD](event)?
+      - Ai idee în ce sală pot participa la [seminarul](typeEvent) de [POO](event)?
+      - Unde se predă [seminarul](typeEvent) de [AR](event)?
+      - În ce sală pot participa la [seminarul](typeEvent) de [Tehnici de testare si asigurarea calitatii pentru aplicatii software](event)?
+      - În ce sală pot participa la [cursul](typeEvent) de [M1](event)?
+      - Spune-mi, te rog, în ce sală se va ține [laboratorul](typeEvent) de [Psi](event)?
+      - Știi unde se va ține [Retele locale](event)?
+      - Unde trebuie să mă duc pentru a participa la [laboratorul](typeEvent) de [Dm](event)?
+      - Unde va avea loc [cursul](typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Ai idee în ce sală pot participa la [laboratorul](typeEvent) de [ELD](event)?
+      - Ai idee în ce sală pot participa la [cursul](typeEvent) de [Sisteme de operare](event)?
+      - Unde are loc [PATA](event)?
+      - Unde se predă [cursul](typeEvent) de [Introducere in Big Data](event)?
+      - Spune-mi, te rog, în ce sală se va ține [seminarul](typeEvent) de [Tehnici de comunicare](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [Inginerie concurenta si managementul inovarii](event)?
+      - În ce loc se ține [cursul](typeEvent) de [Proiectare logica](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [SEd](event)?
+      - Îmi poți spune, te rog, unde se va ține [Etica](event)?
+      - În ce loc se ține [SCGC](event)?
+      - Îmi poți spune, te rog, unde se va ține [laboratorul](typeEvent) de [GCO](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Sisteme de mari dimensiuni](event)?
+      - În ce loc se ține [laboratorul](typeEvent) de [Sisteme de operare](event)?
+      - Unde va avea loc [Ciclul de viata al sistemelor software bancare](event)?
+      - Unde se predă [cursul](typeEvent) de [Sri](event)?
+      - Îmi poți spune, te rog, unde se va ține [cursul](typeEvent) de [AR](event)?
+      - Știi unde se desfășoară [laboratorul](typeEvent) de [BE](event)?
+      - Știi unde se desfășoară [laboratorul](typeEvent) de [ACI](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Tehnici de comunicare si scriere tehnica](event)?
+      - În ce sală are loc [cursul](typeEvent) de [LS1](event)?
+      - Ai idee în ce sală pot participa la [Sisteme informatice in industria chimica si biochimica](event)?
+      - Unde va avea loc [seminarul](typeEvent) de [SIADS](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [Cercetare](event)?
+      - Îmi poți spune, te rog, unde se va ține [cursul](typeEvent) de [PUES](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [seminarul](typeEvent) de [Asac](event)?
+      - Ai idee pe unde trebuie să mă duc pentru a participa la [cursul](typeEvent) de [Cercetare](event)?
+      - În ce loc se ține [seminarul](typeEvent) de [Sisteme Avansate de Baze de Date](event)?
+      - Unde are loc [seminarul](typeEvent) de [Managementul proiectelor](event)?
+      - Ai idee unde se desfășoară [cursul](typeEvent) de [Cercetare stiintifica si practica](event)?
+      - Unde are loc [cursul](typeEvent) de [EFS1](event)?
+      - Spune-mi, te rog, în ce sală pot participa la [cursul](typeEvent) de [Bchim](event)?
+      - Știi pe unde trebuie să mă duc pentru a participa la [Electronica digitala](event)?
+      - Știi unde se va ține [cursul](typeEvent) de [P](event)?
+      - Știi unde se va ține [cursul](typeEvent) de [Cercetare stiintifica](event)?
 
   - intent: get_teacher_name
     examples: |
@@ -1080,66 +1249,66 @@ nlu:
       - Cine este profesorul care predă în sala [EG 304B](classroom)?
       - Cine este profesorul care predă în sala [EG 403](classroom)?
       - Cine este profesorul care predă în sala [EG 208](classroom)?
-      - Cine ține cursul în sala [ED 120](classroom)?
-      - Cine ține cursul în sala [EG 106](classroom)?
-      - Cine ține cursul în sala [CANTI CTI](classroom)?
-      - Cine ține cursul în sala [EG 205](classroom)?
-      - Cine ține cursul în sala [EG 311](classroom)?
-      - Cine ține cursul în sala [EG 302](classroom)?
-      - Cine ține cursul în sala [PR 001](classroom)?
-      - Cine ține cursul în sala [EC 105](classroom)?
-      - Cine ține cursul în sala [EC 105](classroom)?
-      - Cine ține cursul în sala [EG 301](classroom)?
-      - Cine ține cursul în sala [EG 303](classroom)?
-      - Cine ține cursul în sala [PR 301](classroom)?
-      - Cine ține cursul în sala [EG 213](classroom)?
-      - Cine ține cursul în sala [PR 103b](classroom)?
-      - Cine ține cursul în sala [EG 306](classroom)?
-      - Cine ține cursul în sala [EC 004](classroom)?
-      - Cine ține cursul în sala [AN 034](classroom)?
-      - Cine ține cursul în sala [BN 033](classroom)?
-      - Cine ține cursul în sala [BN 033](classroom)?
-      - Cine ține cursul în sala [A04 Leu](classroom)?
-      - Cine ține cursul în sala [EG 105](classroom)?
-      - Cine ține cursul în sala [EG 305](classroom)?
-      - Cine ține cursul în sala [AN 210](classroom)?
-      - Cine ține cursul în sala [EC 101](classroom)?
-      - Cine ține cursul în sala [PR 103a](classroom)?
-      - Cine ține cursul în sala [EG 105A](classroom)?
-      - Cine ține cursul în sala [EG 105B](classroom)?
-      - Cine ține cursul în sala [A02 Leu](classroom)?
-      - Cine ține cursul în sala [EC 102](classroom)?
-      - Cine ține cursul în sala [EC 002](classroom)?
-      - Cine ține cursul în sala [ED 314](classroom)?
-      - Cine ține cursul în sala [ED 313](classroom)?
-      - Cine ține cursul în sala [ED 217](classroom)?
-      - Cine ține cursul în sala [EG 209](classroom)?
-      - Cine ține cursul în sala [CANTI EG](classroom)?
-      - Cine ține cursul în sala [EG 410](classroom)?
-      - Cine ține cursul în sala [ED 202](classroom)?
-      - Cine ține cursul în sala [AN 203](classroom)?
-      - Cine ține cursul în sala [PR 002](classroom)?
-      - Cine ține cursul în sala [ED 112](classroom)?
-      - Cine ține cursul în sala [EG 405](classroom)?
-      - Cine ține cursul în sala [PR 106](classroom)?
-      - Cine ține cursul în sala [EG 405A](classroom)?
-      - Cine ține cursul în sala [EG 405B](classroom)?
-      - Cine ține cursul în sala [BN 026](classroom)?
-      - Cine ține cursul în sala [EG 404](classroom)?
-      - Cine ține cursul în sala [ED 203](classroom)?
-      - Cine ține cursul în sala [PR 506](classroom)?
-      - Cine ține cursul în sala [ED 220](classroom)?
-      - Cine ține cursul în sala [ED 011](classroom)?
-      - Cine ține cursul în sala [PR 703](classroom)?
-      - Cine ține cursul în sala [EG 206](classroom)?
-      - Cine ține cursul în sala [EF 001](classroom)?
-      - Cine ține cursul în sala [EG 103b](classroom)?
-      - Cine ține cursul în sala [EG 103](classroom)?
-      - Cine ține cursul în sala [PR 606](classroom)?
-      - Cine ține cursul în sala [EG 304A](classroom)?
-      - Cine ține cursul în sala [EG 304B](classroom)?
-      - Cine ține cursul în sala [EG 403](classroom)?
-      - Cine ține cursul în sala [EG 208](classroom)?
+      - Cine ține [cursul] în sala [ED 120](classroom)?
+      - Cine ține [cursul] în sala [EG 106](classroom)?
+      - Cine ține [cursul] în sala [CANTI CTI](classroom)?
+      - Cine ține [cursul] în sala [EG 205](classroom)?
+      - Cine ține [cursul] în sala [EG 311](classroom)?
+      - Cine ține [cursul] în sala [EG 302](classroom)?
+      - Cine ține [cursul] în sala [PR 001](classroom)?
+      - Cine ține [cursul] în sala [EC 105](classroom)?
+      - Cine ține [cursul] în sala [EC 105](classroom)?
+      - Cine ține [cursul] în sala [EG 301](classroom)?
+      - Cine ține [cursul] în sala [EG 303](classroom)?
+      - Cine ține [cursul] în sala [PR 301](classroom)?
+      - Cine ține [cursul] în sala [EG 213](classroom)?
+      - Cine ține [cursul] în sala [PR 103b](classroom)?
+      - Cine ține [cursul] în sala [EG 306](classroom)?
+      - Cine ține [cursul] în sala [EC 004](classroom)?
+      - Cine ține [cursul] în sala [AN 034](classroom)?
+      - Cine ține [cursul] în sala [BN 033](classroom)?
+      - Cine ține [cursul] în sala [BN 033](classroom)?
+      - Cine ține [cursul] în sala [A04 Leu](classroom)?
+      - Cine ține [cursul] în sala [EG 105](classroom)?
+      - Cine ține [cursul] în sala [EG 305](classroom)?
+      - Cine ține [cursul] în sala [AN 210](classroom)?
+      - Cine ține [cursul] în sala [EC 101](classroom)?
+      - Cine ține [cursul] în sala [PR 103a](classroom)?
+      - Cine ține [cursul] în sala [EG 105A](classroom)?
+      - Cine ține [cursul] în sala [EG 105B](classroom)?
+      - Cine ține [cursul] în sala [A02 Leu](classroom)?
+      - Cine ține [cursul] în sala [EC 102](classroom)?
+      - Cine ține [cursul] în sala [EC 002](classroom)?
+      - Cine ține [cursul] în sala [ED 314](classroom)?
+      - Cine ține [cursul] în sala [ED 313](classroom)?
+      - Cine ține [cursul] în sala [ED 217](classroom)?
+      - Cine ține [cursul] în sala [EG 209](classroom)?
+      - Cine ține [cursul] în sala [CANTI EG](classroom)?
+      - Cine ține [cursul] în sala [EG 410](classroom)?
+      - Cine ține [cursul] în sala [ED 202](classroom)?
+      - Cine ține [cursul] în sala [AN 203](classroom)?
+      - Cine ține [cursul] în sala [PR 002](classroom)?
+      - Cine ține [cursul] în sala [ED 112](classroom)?
+      - Cine ține [cursul] în sala [EG 405](classroom)?
+      - Cine ține [cursul] în sala [PR 106](classroom)?
+      - Cine ține [cursul] în sala [EG 405A](classroom)?
+      - Cine ține [cursul] în sala [EG 405B](classroom)?
+      - Cine ține [cursul] în sala [BN 026](classroom)?
+      - Cine ține [cursul] în sala [EG 404](classroom)?
+      - Cine ține [cursul] în sala [ED 203](classroom)?
+      - Cine ține [cursul] în sala [PR 506](classroom)?
+      - Cine ține [cursul] în sala [ED 220](classroom)?
+      - Cine ține [cursul] în sala [ED 011](classroom)?
+      - Cine ține [cursul] în sala [PR 703](classroom)?
+      - Cine ține [cursul] în sala [EG 206](classroom)?
+      - Cine ține [cursul] în sala [EF 001](classroom)?
+      - Cine ține [cursul] în sala [EG 103b](classroom)?
+      - Cine ține [cursul] în sala [EG 103](classroom)?
+      - Cine ține [cursul] în sala [PR 606](classroom)?
+      - Cine ține [cursul] în sala [EG 304A](classroom)?
+      - Cine ține [cursul] în sala [EG 304B](classroom)?
+      - Cine ține [cursul] în sala [EG 403](classroom)?
+      - Cine ține [cursul] în sala [EG 208](classroom)?
       - Știi ce profesor predă în [ED 120](classroom)?
       - Știi ce profesor predă în [EG 106](classroom)?
       - Știi ce profesor predă în [CANTI CTI](classroom)?
@@ -1452,4 +1621,84 @@ nlu:
       - Îmi poți spune cine este șeful seriei [C3](srNr)?
       - Îmi poți spune cine este șeful seriei [C4](srNr)?
       - Îmi poți spune cine este șeful seriei [C5](srNr)?
-  
+
+  - intent: get_course_grading
+    examples: |
+      - Zi-mi și mie care este notarea la [cursul](typeEvent) [Mi](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [AR](event)?
+      - Poți să îmi spui care este notarea la [Programarea calculatoarelor](event)?
+      - Ai idee cum este notarea la [cursul](typeEvent) [ClCo](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [DP](event)?
+      - Ai idee care este punctajul la [IOT si Tehnologii SCADA](event)?
+      - Zi-mi și mie care este punctajul la [cursul](typeEvent) [Psihopedagogia adolescentilor, tinerilor si adultilor](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [ED](event)?
+      - Ai idee care este punctajul la [Aplicatii web semantice](event)?
+      - Spune-mi și mie care este punctajul la materia [SiE](event)?
+      - Ai idee cum este notarea la materia [Practica pedagogica in invatamantul preuniversitar obligatoriu](event)?
+      - Care este punctajul la [seminarul](typeEvent) [Arhitectura si controlul circuitelor electronice de putere](event)?
+      - Zi-mi și mie care este punctajul la materia [Cultura si civilizatie](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [Sisteme CAD/CASE](event)?
+      - Zi-mi și mie care este punctajul la [EAN1](event)?
+      - Poți să îmi spui care este punctajul la [EFS2](event)?
+      - Știi care este punctajul la [cursul](typeEvent) [SDA](event)?
+      - Care este punctajul la materia [PPedI](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [Sdbd](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [EEA](event)?
+      - Ai idee cum este notarea la [cursul](typeEvent) [Securitatea in sistemele grid si cloud](event)?
+      - Știi care este punctajul la [laboratorul](typeEvent) [LS3](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [CSP](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [CSP](event)?
+      - Știi care este punctajul la materia [PAJ2](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [SSppi](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [Cercetare stiintifica](event)?
+      - Poți să îmi spui care este notarea la [seminarul](typeEvent) [Structuri de date](event)?
+      - Zi-mi și mie care este punctajul la [laboratorul](typeEvent) [Sisteme de tipuri si programare functionala](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [Elaborare lucrare de disertatie](event)?
+      - Ai idee cum este notarea la [POO](event)?
+      - Care este punctajul la [seminarul](typeEvent) [SCADA, HIL, SIL](event)?
+      - Spune-mi și mie care este notarea la [Planificarea aplicatiilor si management de proiect](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [PDCFF](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [Mecanica](event)?
+      - Poți să îmi spui care este notarea la [SDi](event)?
+      - Poți să îmi spui care este notarea la [Programare orientata pe obiecte](event)?
+      - Ai idee care este punctajul la [seminarul](typeEvent) [Idmpmis](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [IRA](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [Activitate de voluntariat](event)?
+      - Ai idee cum este notarea la materia [Programarea calculatoarelor](event)?
+      - Zi-mi și mie punctajul la [cursul](typeEvent) [Teoria sistemelor](event)?
+      - Zi-mi și mie care este notarea la [Ipsi](event)?
+      - Spune-mi și mie care este notarea la [laboratorul](typeEvent) [Introducere in organizarea calculatoarelor si limbaj de asamblare](event)?
+      - Care este punctajul la [seminarul](typeEvent) [Testare software si asigurarea calitatii](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [AA](event)?
+      - Spune-mi și mie care este notarea la [cursul](typeEvent) [MN](event)?
+      - Zi-mi și mie care este punctajul la [seminarul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Poți să îmi spui care este punctajul la [laboratorul](typeEvent) [Achizitii de date si instrumentatie virtuala](event)?
+      - Ai idee cum este notarea la [TSA](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [SCI](event)?
+      - Poți să îmi spui care este notarea la [laboratorul](typeEvent) [AV](event)?
+      - Spune-mi și mie care este notarea la [Prelucrarea informatiei](event)?
+      - Spune-mi și mie care este notarea la materia [AR](event)?
+      - Zi-mi și mie care este punctajul la [cursul](typeEvent) [Cercetare stiintifica si practica](event)?
+      - Ai idee cum este notarea la materia [Managementul lanturilor de aprovizionare si logistica](event)?
+      - Care este punctajul la [CSP](event)?
+      - Care este punctajul la [laboratorul](typeEvent) [Programare orientata pe obiecte](event)?
+      - Care este punctajul la [Inginerie dirijata de modele pentru managementul informatiilor si al serviciilor](event)?
+      - Zi-mi și mie care este notarea la [cursul](typeEvent) [Optimizare si decizii de conducere](event)?
+      - Spune-mi și mie care este notarea la [AV](event)?
+      - Poți să îmi spui care este notarea la [cursul](typeEvent) [Cercetare stiintifica, practica si elaborare disertatie](event)?
+      - Poți să îmi spui care este punctajul la [Elaborare lucrare de disertatie](event)?
+      - Poți să îmi spui care este notarea la materia [Cercetare](event)?
+      - Știi care este punctajul la [laboratorul](typeEvent) [M3](event)?
+      - Știi care este punctajul la [NaSS](event)?
+      - Spune-mi și mie care este notarea la [Structuri de date si algoritmi](event)?
+      - Care este punctajul la [Elaborare lucrare de disertatie](event)?
+      - Care este punctajul la [Ce](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [Fundamentele si analitici Big Data](event)?
+      - Zi-mi și mie care este notarea la [Practica pentru elaborare disertatie](event)?
+      - Ai idee care este punctajul la [seminarul](typeEvent) [Prelucrari complexe in imagistica medicala](event)?
+      - Poți să îmi spui care este punctajul la [cursul](typeEvent) [MPIT](event)?
+      - Spune-mi și mie care este punctajul la [SE](event)?
+      - Știi care este punctajul la [seminarul](typeEvent) [CSP](event)?
+      - Poți să îmi spui care este punctajul la [seminarul](typeEvent) [SDED](event)?
+      - Ai idee care este punctajul la [laboratorul](typeEvent) [SDM](event)?
