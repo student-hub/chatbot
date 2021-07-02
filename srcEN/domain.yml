@@ -11,243 +11,96 @@ actions:
 responses:
     utter_faq/ask_accommodationTaxes:
         - text: |
-            Accommodation taxes are displayed at the entrance to the dormitory at the end of the current month. These also include maintenance costs.
-            The approximate price varies between 165-230 lei (more expensive in the cold months) for budget students and 400 lei for fee students.
+            Test
         - text: |
-            The dormitory costs between 165-230 lei (more expensive in the cold months) for budget students and 400 lei for fee-paying students.
-            The price is displayed on the notice board or at the front door and includes maintenance.
+            Test
     utter_faq/ask_accomodationIssues:
         - text: |
-            For questions about the dormitory you can contact the administrator or the head of the dormitory,but you will find the best reviews about the dormitory from the students staying there.
-        - text: |
-            For opinions about a particular dormitory, I recommend asking some students who live / have lived there.
-            For administrative problems you can contact the administrator or the head of the dormitory.
+            Test
     utter_faq/ask_becomeGroupLeader:
         - text: |
-            The group leader is decided by the members of the group, usually by vote.
-            In order to be able to run as a group leader, it is enough to tell your colleagues about your intention at the beginning of the academic year.
-            The choice made by the group is then communicated to the secretariat.
-        - text: |
-            In order to be a group leader, your colleagues must vote for you at the beginning of the academic year, when the group leader is elected.
-            In order to have a good chance of being chosen, you must be sociable, resourceful and well organized.
+            Test
     utter_faq/ask_becomeSRLeader:
         - text: |
-            The series leader is chosen from the group leaders in that series. The election is made by vote, by the representatives of the group.
-        - text: |
-            To be a group leader, you must be elected group leader. The group leader is chosen from the group leaders.
+            Test
     utter_faq/ask_changeGroup:
         - text: |
-            In order to change the group, a request must be made at the beginning of the year, at the dean's office. This may or may not be accepted, depending largely on the places available.
-            Students who find people to exchange groups with have the best chances of acceptance.
-        - text: |
-            The group can change only at the beginning of the university year. An application must be submitted to the dean's office for the change of group, which will be analyzed later.
-            In order to have the best chances, you need to find a person to exchange groups with.
+            Test
     utter_faq/ask_changeGroupSem2:
         - text: |
-            The group can only change in the first semester.
-        - text: |
-            The group cannot be changed in semester 2. This is only possible in the first semester.
+            Test
     utter_faq/ask_changeSpecialization:
         - text: |
-            The transfer from CTI to IS can be done through an application submitted at the beginning of the first semester to the secretariat.
-            The transfer from IS to CTI can be done by contacting the secretariat and registering for admission.
-            The transfer conditions are:
-            - Getting a better admission grade than the last student admitted to the CTI
-            - Total credits to exceed the threshold of the year.
-            **Important**
-            Identical subjects between specializations may be equivalent (including SD equivalent to SDA, or vice versa), but the different ones must be made and paid for (as a backlog, but which has no effect on accommodation at a dormitory).
-            Consequently, the credits for the materials to be recovered must be obtained and replace the two different subjects from the old contract (Logical Design and Numerical Methods for CTI).
-            Transfers must be approved by the dean's office, but if a transfer is not accepted, the candidate will not lose his / her place.
-            **The procedure is subject to change, so feel free to contact the secretariat or dean's office for more details.**.
-        - text: |
-            In order to be able to transfer from CTI to IS, a request is made at the beginning of the first semester at the secretariat.
-            For the transfer from IS to CTI it is necessary to contact the secretariat and register for admission.
-            Transfer conditions:
-            - Getting a better admission grade than the last student admitted to the CTI
-            - Total credits to exceed the threshold of the year.
-            **Important**
-            Identical subjects between specializations may be equivalent (including SD equivalent to SDA, or vice versa), but the different ones must be made and paid for (as a backlog, but which has no effect on accommodation at a dormitory).
-            Consequently, the credits for the materials to be recovered must be obtained and replace the two different subjects from the old contract (Logical Design and Numerical Methods for CTI).
-            Transfers must be approved by the dean's office, but if a transfer is not accepted, the candidate will not lose his / her place.
-            **The procedure is subject to change, so feel free to contact the secretariat or dean's office for more details.**.
+            Test
     utter_faq/ask_changeSR:
         - text: |
-            In order to change the series, a request must be made at the beginning of the year, at the dean's office. This can be rejected, it largely depends on the places available.
-            Students who find people with whom to exchange can have the greatest chances of acceptance.
-        - text: |
-            The series can change only at the beginning of the university year. An application must be submitted to the dean's office for the change of series, which will be analyzed later.
-            In order to have the best chances, you have to find a person to exchange series with.
+            Test
     utter_faq/ask_changeSRSem2:
         - text: |
-            The series can only change in the first semester.
-        - text: |
-            The group cannot be changed in semester 2. This is only possible in the first semester.
+            Test
     utter_faq/ask_chooseRoom:
         - text: |
-            First year students can apply to the dean's office for certain accommodation preferences. Older students can fill in studenti.pub.ro in the accommodation request.
-        - text: |
-            Preferences are placed in the accommodation request on studenti.pub.ro. First year students must submit an application to the secretariat with accommodation preferences.
+            Test
     utter_faq/ask_chooseRoomate:
         - text: |
-            You can opt for certain roommates. These preferences are added in the accommodation request (studenti.pub.ro). For 1st year students, the preferences must be communicated through a request to the dean's office, before the distribution on the dormitories, and then they will be analyzed.
-        - text: |
-            If you are in first year, you must submit an application to the dean's office specifying your accommodation preferences, before allocating them to the dormitories.
-            If you are older, the preferences are written in the accommodation request (studenti.pub.ro).
+            Test
     utter_faq/ask_connectEduroamWiFi:
         - text: |
-            The connection in the eduroam network is made on the basis of the same account used on the course site.
-            For the eduroam network the identification data will be of the form:
-            eduroam user: <course-user> @ pub.ro 
-            password: <course-p>
-            Before logging in to the eduroam network, your login data needs to be synchronized with the authentication server.
-            This can be done by changing the password within the course site.
-            You can make two password changes to return to the original password.
-        - text: |
-            The connection is made with the account on the course site.
-            For the eduroam network the identification data will be of the form:
-            eduroam user: <course-user> @ pub.ro
-            password: <course-password>
-            Before logging in to the eduroam network, your login data needs to be synchronized with the authentication server.
-            This can be done by changing the password within the course site.
-            You can make two password changes to return to the original password.
+            Test
     utter_faq/ask_connectMoodle:
         - text: |
-            To access the online course platforms (Moodle) within the Polytechnic University of Bucharest open a browser (Google Chrome, Internet Explorer, Mozilla Firefox, etc.) and access the page https://curs.upb.ro,
-            where there are courses for each faculty within UPB. The platform can be accessed from both desktop / laptop devices
-            as well as from mobile devices (tablet, smartphone). The user account and password should be available on students.pub.ro.
-            For any questions you can contact the secretariat or the tutor of the year.
-        - text: |
-            The online course platform is https://curs.upb.ro, being available both on the web and mobile.
-            The user account and password should be available on students.pub.ro.
-            For any questions you can contact the secretariat or the tutor of the year.
+            Test
     utter_faq/ask_connectOutlook:
         - text: |
-            To connect to Outlook you need your student account, found on studenti.pub.ro, which you can use for authentication.
-        - text: |
-            The connection to Outlook is made using the student account, which you can find on studenti.pub.ro.
+            Test
     utter_faq/ask_docsSubmission:
         - text: |
-            The documents are submitted to the secretariat during the operating hours (9-11am). In the context of the COVID-19 pandemic, the documents can also be submitted online, at the email address secretariat.acs@upb.ro.
-        - text: |
-            The documents are submitted either physically, during the program at the secretariat (9 - 11am), or online at secretariat.acs@upb.ro.
-        - text: |
-            You can submit the documents at the secretariat (9 - 11am) or by email at secretariat.acs@upb.ro.
+            Test
     utter_faq/ask_downgradeToTaxe:
         - text: |
-            No, the students who entered this faculty on a budget remain on the budget until it is completed.
-        - text: |
-            No, once a student is admitted to the budget, he will remain in the budget until he finishes his studies.
+            Test
     utter_faq/ask_explainStudyContract:
         - text: |
-            With the help of the data you fill in studenti.pub.ro, a study contract will be created in which your personal data are entered, the subjects you will follow in that year and your obligations.
-            It will be typed in two copies by the secretariat (one remains with you and one with the faculty).
-        - text: |
-            The study contract contains your personal data, the subjects you will follow in that year (including the remaining subjects) and your obligations.
-            It is typed at the secretariat in two copies and the student has the obligation to sign it and will receive an original copy.
+            Test
     utter_faq/ask_getContactSecretariat:
         - text: |
-            Details related to the secretariat can be found on https://acs.pub.ro/contact/. College work hours are 9-11am.
-        - text: |
-            For details on the year secretaries, you can access https://acs.pub.ro/contact/. In college, the working hours are 9-11am.
+            Test
     utter_faq/ask_getCriteriaScholarship:
         - text: |
-            In order to obtain a merit scholarship, you must strive to be among the first averages in college.
-            The number of scholarships differs from year to year.
-            For social scholarships or details on the number of scholarship places in the previous year and the last average who obtained the scholarship you can contact the secretariat for the year.
-        - text: |
-            Only the first highest averages in college receive a scholarship, their number being limited, so you have to learn very well.
-            Their number may change compared to previous academic years.
-            For social scholarships or details on the number of scholarship places in the previous year and the last average who obtained the scholarship can contact the secretariat for the year.
+            Test
     utter_faq/ask_getGrades:
         - text: |
-            The final grades are passed by the secretariat on pupils.pub.ro, after their communication by the teachers.
-            Notes from colloquia, homework, partial should be published on moodle (https://curs.upb.ro/).
-        - text: |
-            In order to see the final situation of the notes, students can be accessed.pub.ro, where they are passed by the secretariat after taking the exam. Notes along the way (colloquia, partials, homework) should be placed on moodle (https://curs.upb.ro/).
+            Test
     utter_faq/ask_getScheduleSecretariat:
         - text: |
-            The working hours at the secretariat are between 9:00 and 11:00 am, Monday to Friday.
-        - text: |
-            The secretariat is open Monday to Friday between 09:00 and 11:00.
+            Test
     utter_faq/ask_getStudentCertificate:
         - text: |
-            You must submit a request to the secretariat stating the reason why you need it.
-            The secretary will tell you when you need to come back to pick her up (probably 1-3 days).
-            If you want more certificates, you can submit a single application stating the reasons for each one.
-        - text: |
-            In order to issue a student certificate, an application must be submitted to the secretariat stating the reason why you need it.
-            The secretary will tell you when you need to come back to pick her up (probably 1-3 days).
-            For several certificates, you can submit a single application stating the reasons for each one.
+            Test
     utter_faq/ask_getTemplateApplication:
         - text: |
-            Application form:
-            Mr. Dean,
-            The undersigned, [NAME and SURNAME], 10th year student at the Faculty of Automatic Control and Computers,
-            in the Computers and Information Technology / Systems Engineering section, in group Y, Z series,
-            please approve my request for the issuance of [as many] student certificates as you want.
-            I mention that I need them for [reasons]. Thank you in advance!
-            Date Signature
-            Mr. Dean of the Faculty of Automatic Control and Computers from Bucharest
-        - text: |
-            Application form:
-            Mr. Dean,
-            The undersigned, [NAME and SURNAME], holder of the identity card with X series no Y, CNP…,
-            student / enrolled in year Z at the Faculty of Automatic Control and Computers, at the Computer and Information Technology / Systems Engineering department,
-            please approve my request for the issuance of [as many] student certificates as you want.
-            I mention that I need them for [reasons].
-            Thank you in advance!
-            Date Signature
-            Mr. Dean of the Faculty of Automatic Control and Computers from Bucharest
+            Test
     utter_faq/ask_getTools:
         - text: |
-            Moodle (https://curs.upb.ro/) and Microsoft Teams are used for online learning. It is necessary to solve certain laboratories a Unix operating system, so I recommend, if you don't have one, creating a virtual machine or a dual-boot, in case you have Windows.
-        - text: |
-            The online faculty requires the use of Microsft Teams and moodle (https://curs.upb.ro/). Some labs require the use of a Unix operating system, so
-            I recommend if you work on Windows to do a dual-boot or to make a virtual machine.
+            Test
     utter_faq/ask_groupLeaderTasks:
         - text: |
-            Here are some examples:
-            - to take to the secretariat various documents: at the beginning of the year the electives, pictures, study contracts, etc.
-            - keep in touch with some teachers (seminarians) by e-mail: send them the list of those in the group (in case I ask you), ask them about the grades, etc.
-            - once per semester to set the exam planning for your group, together with the other leaders in your series and the series leader.
-        - text: |
-            The most common tasks that a group leader can have are the following:
-            - to take to the secretariat various documents: at the beginning of the year the electives, pictures, study contracts, etc.
-            - to keep in touch with some teachers (seminarians) by e-mail: send them the list of those in the group (in case they ask for it), ask them about grades, etc.
-            - once per semester to set the exam planning for your group, together with the other leaders in your series and the series leader.
+            Test
     utter_faq/ask_openSupportTicket:
         - text: |
-            A ticket can be made on https://ticketing.upb.ro/index.php. There choose the option to open a new ticket and fill in the corresponding fields.
-        - text: |
-            To open a ticket use https://ticketing.upb.ro/. Select the option to open a new ticket and fill in the fields in the application.
+            Test
     utter_faq/ask_SRLeaderTasks:
         - text: |
-            The series leader must check that the group leaders have fulfilled their duties.
-            At the same time, he must deal with the planning of the exams in the session, consulting with teachers and group leaders.
-        - text: |
-            The series leader supervises the activity of the group leaders and communicates the new tasks to them.
-            Another responsibility of the group leaders is to plan the exams in the session, in accordance with the options of the teachers and students.
+            Test
     utter_faq/ask_tuitionFees:
         - text: |
-            The fee is 4000 lei. For any clarifications you can contact the secretariat.
-        - text: |
-            The tuition fee is 4000 lei. You can contact the secretariat for more questions.
-        - text: |
-            Normally, the fee is 4,000 lei. For clear details, you can contact the secretariat.
+            Test
     utter_faq/ask_typesOfScholarship:
         - text: |
-            There are two types of scholarships: social and scholarship based on the average of the grades. The social scholarship is granted according to the income per family member, of a student,
-            there is a decided threshold at university level. Scholarship based on the average of the grades is awarded according to the student's  grades average, within the limit established by the faculty.
-            For more details about scholarships (exact figures, number of places in previous years, etc.) it is good to contact the secretariat.
-        - text: |
-            The scholarship can be social (depending on the income per family member) or based on the average of grades. For each there are thresholds set by the university
-            which varies from year to year.
-            For clarifications related to scholarships (exact figures, number of places in previous years, etc.) you can contact the secretariat.
+            Test
     utter_faq/ask_whoCanSubmitDocs:
         - text: |
-            Requests (to be made in person) or other documents may be submitted by other persons to the secretariat.
-        - text: |
-            The documents can be submitted by other people to the secretariat, but the request must be written by the holder.
+            Test
 
 session_config:
   session_expiration_time: 60
