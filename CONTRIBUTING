@@ -11,5 +11,5 @@ or en_core: "python -m spacy download en_core_web_sm"
 7. Run the model: rasa run
 8. Run custom actions: rasa run actions
 9. Add your contribution
-10. Make sure you don't put the key on github project
+10. Make sure you don't put the key on github project (ex: git status)
 11. Check step 10 again (:D)
