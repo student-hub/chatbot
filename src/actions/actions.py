@@ -29,16 +29,38 @@ class ActionLocateClassroom(Action):
         entity = tracker.latest_message['entities'][0]['value']
         #remove whitespaces from string and make capital letters
         entity = entity.replace(" ", "").upper()
+        message = "Sala căutată nu a fost găsită, te rog să verifici dacă ai scris corect"
     
         location = utils.getClassroomLocation(entity)
+
         if(len(location)):
             if(location["floor"] > 0):
-                dispatcher.utter_message(text="Sala este locatalizată în " + location["building"] + ", etajul " + str(location["floor"]))
+               message = "Sala este locatalizată în " + location["building"] + ", etajul " + str(location["floor"])
             else:
-                dispatcher.utter_message(text="Sala este locatalizată în " + location["building"] + ", la parter")
-        else:
-            dispatcher.utter_message(text="Sala căutată nu a fost găsită, te rog să verifici dacă ai scris corect")
+                message = "Sala este locatalizată în " + location["building"] + ", la parter"
+        dispatcher.utter_message(message)
+
         return []
+
+def computeEventName(classFields, eventEntity):
+    
+    event = "L" if classFields[0] == "BSc" else "M"
+    words = classFields[3].split('-')
+    year = words[0]
+    serie = words[1]
+    event = event + "-A" + year + "-S1"
+    if(len(eventEntity) < 6):
+        event = event + "-" + eventEntity.upper() + "-" + serie
+    else:
+        abreviation = ""
+        for x in eventEntity.split():
+            if x[0].isalpha():
+                abreviation = abreviation + x[0]
+        if(eventEntity[-1].isnumeric()):
+            abreviation = abreviation + eventEntity[-1]
+        event = event + "-" + abreviation.upper() + "-" + serie
+    print(event)
+    return event
 
 class ActionGetDateEvent(Action):
 
@@ -49,8 +71,8 @@ class ActionGetDateEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        print(doc)
+        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict() #for Postman testing
+        
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
         id = tracker.current_state()['sender_id']
         classFields = doc["class"]
@@ -71,28 +93,13 @@ class ActionGetDateEvent(Action):
             return []
         
         #compute classes name
-        event = "L" if classFields[0] == "BSc" else "M"
-        words = classFields[3].split('-')
-        year = words[0]
-        serie = words[1]
+        event = computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
-        event = event + "-A" + year + "-S1"
-        if(len(eventEntity) < 6):
-            event = event + "-" + eventEntity.upper() + "-" + serie
-        else:
-            abreviation = ""
-            for x in eventEntity.split():
-                if x[0].isalpha():
-                    abreviation = abreviation + x[0]
-            if(eventEntity[-1].isnumeric()):
-                abreviation = abreviation + eventEntity[-1]
-            event = event + "-" + abreviation.upper() + "-" + serie
-        print(event)
         
         events = firestore_db.collection(u'events').get()
         eventFound = False
-        another_hour = ""
+        another_hour = "" # if are 2 events in the same week
         another_day = ""
         expectedType = ""
 
@@ -162,24 +169,9 @@ class ActionGetEndTimeEvent(Action):
             return []
         
         #compute classes name
-        event = "L" if classFields[0] == "BSc" else "M"
-        words = classFields[3].split('-')
-        year = words[0]
-        serie = words[1]
+        event = computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
-        event = event + "-A" + year + "-S1"
-        if(len(eventEntity) < 6):
-            event = event + "-" + eventEntity.upper() + "-" + serie
-        else:
-            abreviation = ""
-            for x in eventEntity.split():
-                if x[0].isalpha():
-                    abreviation = abreviation + x[0]
-            if(eventEntity[-1].isnumeric()):
-                abreviation = abreviation + eventEntity[-1]
-            event = event + "-" + abreviation.upper() + "-" + serie
-        print(event)
         
         events = firestore_db.collection(u'events').get()
         eventFound = False
@@ -256,24 +248,9 @@ class ActionLocateEvent(Action):
             return []
         
         #compute classes name
-        event = "L" if classFields[0] == "BSc" else "M"
-        words = classFields[3].split('-')
-        year = words[0]
-        serie = words[1]
+        computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
-        event = event + "-A" + year + "-S1"
-        if(len(eventEntity) < 6):
-            event = event + "-" + eventEntity.upper() + "-" + serie
-        else:
-            abreviation = ""
-            for x in eventEntity.split():
-                if x[0].isalpha():
-                    abreviation = abreviation + x[0]
-            if(eventEntity[-1].isnumeric()):
-                abreviation = abreviation + eventEntity[-1]
-            event = event + "-" + abreviation.upper() + "-" + serie
-        print(event)
         
         events = firestore_db.collection(u'events').get()
         eventFound = False
@@ -344,24 +321,7 @@ class ActionGetCourseGrading(Action):
             return []
         
         #compute classes name
-        event = "L" if classFields[0] == "BSc" else "M"
-        words = classFields[3].split('-')
-        year = words[0]
-        serie = words[1]
-        group = classFields[4]
-        semigroup = classFields[5]
-        event = event + "-A" + year + "-S1"
-        if(len(eventEntity) < 6):
-            event = event + "-" + eventEntity.upper() + "-" + serie
-        else:
-            abreviation = ""
-            for x in eventEntity.split():
-                if x[0].isalpha():
-                    abreviation = abreviation + x[0]
-            if(eventEntity[-1].isnumeric()):
-                abreviation = abreviation + eventEntity[-1]
-            event = event + "-" + abreviation.upper() + "-" + serie
-        print(event)
+        computeEventName(classFields, eventEntity)
         
         events = firestore_db.collection(u'classes').get()
 
@@ -390,7 +350,9 @@ class ActionGetMinConditions(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Condițiile minime de promovare pentru...")
+        message = "Scuze, încă nu avem date despre condițiile minime de promovare!"
+
+        dispatcher.utter_message(message)
 
         return []
 
@@ -403,7 +365,9 @@ class ActionGetMinNrOfAttendings(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Numărul minim de prezențe pentru a trece...")
+        message = "Scuze, încă nu avem date despre numărul minim de prezențe la materii!"
+
+        dispatcher.utter_message(message)
 
         return []
 
@@ -438,24 +402,9 @@ class ActionGetStartTimeEvent(Action):
             return []
         
         #compute classes name
-        event = "L" if classFields[0] == "BSc" else "M"
-        words = classFields[3].split('-')
-        year = words[0]
-        serie = words[1]
+        computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
-        event = event + "-A" + year + "-S1"
-        if(len(eventEntity) < 6):
-            event = event + "-" + eventEntity.upper() + "-" + serie
-        else:
-            abreviation = ""
-            for x in eventEntity.split():
-                if x[0].isalpha():
-                    abreviation = abreviation + x[0]
-            if(eventEntity[-1].isnumeric()):
-                abreviation = abreviation + eventEntity[-1]
-            event = event + "-" + abreviation.upper() + "-" + serie
-        print(event)
         
         events = firestore_db.collection(u'events').get()
         eventFound = False
@@ -507,25 +456,7 @@ class ActionGetTeacherName(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        message = "Scuze, nu dețin această informație. Te rog verifică daca numele sălii este scris corect!"
-        classroomName = ""
-        try:
-            entity = tracker.latest_message['entities']
-            for ent in entity:
-                if ent['entity'] == "classroom":
-                    classroomName = ent['value']
-        except:
-            #if something bad happens
-            dispatcher.utter_message(text=message)
-            return []
-        if len(classroomName) > 0:
-            #remove whitespaces from string and make capital letters
-            classroomName = classroomName.replace(" ", "").upper()
-
-            teacherName = utils.getTeacherName(classroomName)
-            print(entity)
-            if len(teacherName) > 0:
-                message = teacherName + " predă în " + classroomName
+        message = "Scuze! Momentan nu deținem informațiile despre sălile ocupate de profesorii din facultate! :("
         dispatcher.utter_message(text=message)
 
         return []
@@ -538,33 +469,9 @@ class ActionGetGroupLeaderName(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        message = "Scuze, nu dețin această informație. Te rog verifică daca numele grupei este corect!"
-        srNr = ""
-        groupNr = ""
-        try:
-            entity = tracker.latest_message['entities']
-            for ent in entity:
-                if ent['confidence_entity'] > 0.7:
-                    if ent['entity'] == "groupNr":
-                        groupNr = ent['value']
-                    if ent['entity'] == "srNr":
-                        srNr = ent['value']
-        except:
-            #if something bad happens
-            dispatcher.utter_message(text=message)
-            return []
-        if len(groupNr) > 0:
-            groupName = groupNr + srNr
-        else:
-            groupName = tracker.latest_message['entities'][0]['value']
-        #remove whitespaces from string and make capital letters
-        groupName = groupName.replace(" ", "").upper()
-        print(groupName)
-        groupLeader = utils.getGroupLeader(groupName)
-        if len(groupLeader) > 0:
-            message = "Șeful de grupă la " + groupName + " este " + groupLeader
-        else:
-            message = "Scuze!Momentan nu știu cine este șef de grupă la " + groupName
+
+        message = "Scuze! Momentan nu deținem informațiile despre șefii de grupă din facultate! :("
+
         dispatcher.utter_message(text=message)
         return []
 
@@ -577,28 +484,6 @@ class ActionGetSRLeaderName(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        year = doc["class"][3][0]
-        print(year)
-        message = "Scuze, nu dețin această informație. Te rog verifică daca numele grupei este corect!"
-        srNr = ""
-        try:
-            entity = tracker.latest_message['entities']
-            for ent in entity:
-                if ent['confidence_entity'] > 0.7:
-                    srNr = ent['value']
-        except:
-            #if something bad happens
-            dispatcher.utter_message(text=message)
-            return []
-        #remove whitespaces from string and make capital letters
-        srNr =srNr.replace(" ", "").upper()
-        if srNr[0].isalpha():
-            srNr = year + "-"+ srNr
-        print(srNr)
-        srLeader = utils.getSrLeader(srNr)
-        if len(srLeader) > 0:
-            message = "Șeful de serie la " + srNr + " este " + srLeader
-        else:
-            message = "Scuze!Momentan nu știu cine este șef de serie la " + srNr
+        message = "Scuze! Momentan nu deținem informațiile despre șefii de serie din facultate! :("
+
         dispatcher.utter_message(text=message)
