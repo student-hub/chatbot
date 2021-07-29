@@ -12,4 +12,4 @@ or en_core: "python -m spacy download en_core_web_sm"
 8. Run custom actions: rasa run actions
 9. Add your contribution
 10. Make sure you don't put the key on github project
-11. Check step 8 again (:D)
+11. Check step 10 again (:D)
