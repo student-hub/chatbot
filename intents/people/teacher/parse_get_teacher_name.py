@@ -13,9 +13,9 @@ for i in intentRO:
 	for c in classroom['classrooms']:
 		f.write(i.replace("Cx", c['name']) + "\n")
 
-for i in intentRO:
+for i in intentEN:
 	for c in classroom['classrooms']:
-		f.write(i.replace("Cx", c['name']) + "\n")
+		fEN.write(i.replace("Cx", c['name']) + "\n")
 
 f.close()
 fEN.close()
