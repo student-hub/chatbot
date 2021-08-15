@@ -53,5 +53,8 @@
 "- Ai idee care este numărul minim de prezențe pentru a trece [cursul](typeEvent) [Ex](event)?",
 "- Ai idee care este numărul minim de prezențe pentru a trece [laboratorul](typeEvent) [Ex](event)?",
 "- Ai idee care este numărul minim de prezențe pentru a trece [seminarul](typeEvent) [Ex](event)?",
-"- Ai idee care este numărul minim de prezențe pentru a trece materia [Ex](event)?"
+"- Ai idee care este numărul minim de prezențe pentru a trece materia [Ex](event)?",
+  "- De cate prezente am nevoie ca sa trec materia [Ex](event)?",
+  "- Care e numarul minim de prezente de care am nevoie pentru a trece materia [Ex](event)?"
+
 ]
