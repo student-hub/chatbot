@@ -6,6 +6,7 @@
 "- Where is the classroom [Cx](classroom) located?",
 "- Can you explain to me where the [Cx](classroom) room is, please?",
 "- Can you explain to me where the [Cx](classroom) room is?",
+"- Can you tell me where [Cx](classroom) room is?",
 "- Tell me where to find the room [Cx](classroom)!",
 "- Tell me where the [Cx](classroom) room is?",
 "- Tell me where the [Cx] classroom is?",
@@ -22,5 +23,9 @@
 "- Where is [Cx](classroom) located?",
 "- Please tell me, where is [Cx](classroom)?",
 "- Please tell me where [Cx](classroom) is located?",
-"- Can you tell me where the [Cx](classroom) room was?"
+"- Can you tell me where the [Cx](classroom) room was?",
+"- I want to know where [Cx](classroom) is located.",
+"- Can you tell me how to find room [Cx](classroom)?",
+"- I need to know  where the [Cx](classroom) room is!",
+"- I need to know how to get to [Cx](classroom)!"
 ]

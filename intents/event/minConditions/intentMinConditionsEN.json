@@ -32,5 +32,8 @@
  "- What is the minimum score to pass at [Ex](event)?",
  "- What is the minimum promotion score per [course](typeEvent) at [Ex](event)?",
  "- What is the minimum promotion score per [laboratory](typeEvent) for [Ex](event)?",
- "- What is the minimum score [seminar](typeEvent) at [Ex](event)?"
+ "- What is the minimum score [seminar](typeEvent) at [Ex](event)?",
+ "- What do I need to do to pass the subject [Ex](event)?",
+ "- What do I need to do to pass the [Ex](event) [course](typeEvent)?",
+ "- What do I need to do to pass the [Ex](event) [laboratory](typeEvent)?"
 ]

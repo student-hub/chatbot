@@ -24,5 +24,6 @@
 "- What is the name of the teacher who teaches in [Cx](classroom)?",
 "- Who is the teacher who teaches in the [Cx](classroom)?",
 "- Who teaches in the classroom [Cx](classroom)?",
-"- Do you know which teacher teaches in [Cx](classroom)?"
+"- Do you know which teacher teaches in [Cx](classroom)?",
+  "- I would like to know the name of the teacher in [Cx](classroom)!"
 ]

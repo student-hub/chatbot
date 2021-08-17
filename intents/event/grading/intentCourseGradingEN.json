@@ -53,5 +53,7 @@
 "- Tell me, too, what is the grade for the subject [Ex](event)?",
 "- Tell me, too, what is the grade for [Ex](event) [course](typeEvent)?",
 "- Tell me what is the notation at [Ex](event) [laboratory](typeEvent)?",
-"- Tell me what is the grading at [Ex](event) [seminar](typeEvent)?"
+"- Tell me what is the grading at [Ex](event) [seminar](typeEvent)?",
+"- Could you tell me what the grading is for [Ex](event)?",
+"- Could you please tell me what the grading is for [Ex](event)?"
 ]

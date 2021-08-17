@@ -74,5 +74,13 @@
     "- Ai idee la ce oră este [Ex](event)?",
     "- Ai idee la ce oră este [cursul](typeEvent) de [Ex](event)?",
     "- Ai idee la ce oră este [laboratorul](typeEvent) de [Ex](event)?",
-    "- Ai idee la ce oră este [seminarul](typeEvent) de [Ex](event)?"
+    "- Ai idee la ce oră este [seminarul](typeEvent) de [Ex](event)?",
+    "- Zi-mi, te rog, când începe [Ex](event)!",
+    "- Zi-mi, te rog, când începe [cursul](typeEvent) de [Ex](event)!",
+    "- Zi-mi, te rog, când începe [laboratorul](typeEvent) de [Ex](event)!",
+    "- Zi-mi, te rog, când începe [seminarul](typeEvent) de [Ex](event)!",
+    "- Zi-mi, te rog, când a început [Ex](event)!",
+    "- Zi-mi, te rog, când a început [cursul](typeEvent) de [Ex](event)!",
+    "- Zi-mi, te rog, când a început [laboratorul](typeEvent) de [Ex](event)!",
+    "- Zi-mi, te rog, când a început [seminarul](typeEvent) de [Ex](event)!"
 ]
