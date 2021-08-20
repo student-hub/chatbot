@@ -1,0 +1,11 @@
+- intent: faq/ask_whoAreYou
+  examples: |
+    - Cum te cheama?
+    - Cu cine vorbesc?
+    - Cine esti?
+    - Spune-mi cum te cheama!
+    - Spune-mi cu cine vorbesc!
+    - Spune-mi cine esti!
+    - Vreau sa stiu cine esti!
+    - Vreau sa stiu cu cine vorbesc!
+    - Vreau sa stiu cum te cheama!
