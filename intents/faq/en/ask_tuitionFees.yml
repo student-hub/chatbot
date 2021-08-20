@@ -1,10 +1,9 @@
 - intent: faq/ask_tuitionFees
   examples: |
     - How much is the tuition fee this year?
-    - Can you tell me how much is the tuition fee this year?
+    - Can you tell me how much the tuition fee is this year?
     - Tell me how much the tuition fee is this year!
-    - Tell me how much is the tuition fee this year!
-    - Do you have any idea how much the tuition fee is this year?
+    - Do you have any idea about how much the tuition fee is this year?
     - Do you have any idea what the tuition fee is?
     - About the tuition fee?
     - I don't know how much the tuition fee is.
