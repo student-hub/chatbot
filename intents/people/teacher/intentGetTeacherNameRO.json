@@ -23,10 +23,12 @@
 "- Cine predă cursul în sala [Cx](classroom)?",
 "- Cine predă laboratorul în sala [Cx](classroom)?",
 "- Cine predă seminarul în sala [Cx](classroom)?",
-"- Cum îl cheamă pe profesorul care are cursul în [Cx](classroom)?",
-"- Care este numele profesorului care are curs în [Cx](classroom)?",
+"- Cum îl cheamă pe profesorul care are cursul în sala [Cx](classroom)?",
+"- Care este numele profesorului care are curs în sala [Cx](classroom)?",
 "- Cine este profesorul care predă în sala [Cx](classroom)?",
+"- Cine ține cursul în sala [Cx](classroom)?",
 "- Știi ce profesor predă în sala [Cx](classroom)?",
-"- As vrea sa stiu numele profesorului care preda in sala [Cx](classroom)!",
-"- Spune-mi numele profesorului care preda in sala [Cx](classroom)!"
+"- Știi ce profesor predă în sala [Cx](classroom)?",
+"- Aș vrea sa știu numele profesorului care predă în sala [Cx](classroom)!",
+"- Spune-mi numele profesorului care predă în sala [Cx](classroom)!"
 ]

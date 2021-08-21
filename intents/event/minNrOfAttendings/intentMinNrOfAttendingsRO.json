@@ -10,8 +10,8 @@
 "- Câte prezențe trebuie să am pentru a promova materia [Ex](event)?",
 "- Câte prezențe trebuie să am pentru a promova [seminarul](typeEvent) [Ex](event)?",
 "- Care este numărul minim de prezențe pentru a trece la [Ex](event)?",
-"- Care este numărul minim de prezențe pentru a trece la [cursul](typeEvent) [Ex](event)?",
-"- Care este numărul minim de prezențe pentru a trece la [laboratorul](typeEvent) [Ex](event)?",
+"- Care este numărul minim de prezente pentru a trece la [cursul](typeEvent) [Ex](event)?",
+"- Care este numărul minim de prezente pentru a trece la [laboratorul](typeEvent) [Ex](event)?",
 "- Care este numărul minim de prezențe pentru a trece la [seminarul](typeEvent) [Ex](event)?",
 "- Care este numărul minim de prezențe pentru a trece la materia [Ex](event)?",
 "- Câte prezențe pot să am pentru a trece [Ex](event)?",
@@ -54,6 +54,6 @@
 "- Ai idee care este numărul minim de prezențe pentru a trece la [laboratorul](typeEvent) [Ex](event)?",
 "- Ai idee care este numărul minim de prezențe pentru a trece la [seminarul](typeEvent) [Ex](event)?",
 "- Ai idee care este numărul minim de prezențe pentru a trece la materia [Ex](event)?",
-"- De cate prezente am nevoie ca sa trec materia [Ex](event)?",
-"- Care e numarul minim de prezente de care am nevoie pentru a trece materia [Ex](event)?"
+"- De câte prezențe am nevoie ca să trec materia [Ex](event)?",
+"- Care e numărul minim de prezențe de care am nevoie pentru a trece materia [Ex](event)?"
 ]
