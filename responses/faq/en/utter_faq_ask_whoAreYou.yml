@@ -1,0 +1,6 @@
+utter_faq/ask_whoAreYou:
+  - text: |
+      I am Polly, the conversational agent!
+
+  - text: |
+      My name is Polly!
