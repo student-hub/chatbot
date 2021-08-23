@@ -5,11 +5,11 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-from datetime import date
 from typing import Any, Text, Dict, List
 import utils
 import pandas as pd
 from rasa_sdk import Action, Tracker
+from datetime import date
 from rasa_sdk.executor import CollectingDispatcher
 import firebase_admin
 from firebase_admin import credentials, firestore, auth
@@ -51,12 +51,11 @@ def computeEventName(classFields, eventEntity):
     serie = words[1]
 
     today = date.today()
-    date = today.strftime("%B %d, %Y")
-    date2 = date.split(' ')
-    month = date2[0]
-    if month in [February, March, April, May, June]:
+    date1 = (today.strftime("%B %d, %Y")).split(' ')
+    month = date1[0]
+    if month in ["February", "March", "April", "May", "June"]:
         event = event + "-A" + year + "-S2"
-    else
+    else:
         event = event + "-A" + year + "-S1"
 
     if(len(eventEntity) < 6):
