@@ -1,0 +1,9 @@
+- intent: faq/ask_internship
+  examples: |
+    - Where can I find more information about the internships?
+    - Can you help me with more information about the internships?
+    - I want you to give me more information about the internships!
+    - I want you to tell me the requirements for the internships!
+    - I need to know the requirments for the internships!
+    - Who can I talk to about the internship requirements?
+    - Please tell me about the requirements for the internships!
