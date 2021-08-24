@@ -1,10 +1,10 @@
 - intent: faq/ask_connectOutlook
   examples: |
     - How do I connect to Outlook?
-    - How do I connect to Outlook?
+    - How can I connect to Outlook?
     - What are the credentials to connect to Outlook?
     - Do you have any idea how I can connect to Outlook?
-    - Do you have any idea how I connect to Outlook?
+    - Do you have any idea how I could connect to Outlook?
     - Do you know how to connect to Outlook?
     - Do you know how I can connect to Outlook?
     - I don't know how to connect to Outlook!
