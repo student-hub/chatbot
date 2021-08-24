@@ -1,0 +1,8 @@
+- intent: faq/ask_whoAreYou
+  examples: |
+    - What is your name?
+    - Who are you?
+    - Who am I talking to?
+    - Who am I speaking to?
+    - Tell me who you are!
+    - Tell me your name!
