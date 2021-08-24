@@ -8,6 +8,7 @@
 from typing import Any, Text, Dict, List
 import utils
 import pandas as pd
+from datetime import date
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import firebase_admin
@@ -48,7 +49,15 @@ def computeEventName(classFields, eventEntity):
     words = classFields[3].split('-')
     year = words[0]
     serie = words[1]
-    event = event + "-A" + year + "-S1"
+
+    today = date.today()
+    date1 = (today.strftime("%B %d, %Y")).split(' ')
+    month = date1[0]
+    if month in ["February", "March", "April", "May", "June"]:
+        event = event + "-A" + year + "-S2"
+    else:
+        event = event + "-A" + year + "-S1"
+
     if(len(eventEntity) < 6):
         event = event + "-" + eventEntity.upper() + "-" + serie
     else:
