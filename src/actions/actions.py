@@ -51,8 +51,8 @@ def computeEventName(classFields, eventEntity):
     serie = words[1]
 
     today = date.today()
-    date1 = (today.strftime("%B %d, %Y")).split(' ')
-    month = date1[0]
+    formatted_today = (today.strftime("%B %d, %Y")).split(' ')
+    month = formatted_today[0]
     if month in ["February", "March", "April", "May", "June"]:
         event = event + "-A" + year + "-S2"
     else:
