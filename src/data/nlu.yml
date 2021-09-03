@@ -403,6 +403,16 @@ nlu:
       - Știi care sunt atribuțiile unui șef de grupă?
       - Ce trebuie să facă un șef de grupă?
 
+  - intent: faq/ask_internship
+    examples: |
+      - Unde pot afla mai multe informații despre regulile desfășurării stagiului de practică?
+      - Poți să mă ajuți cu informații despre stagiile de practică?
+      - Vreau să mă ajuți cu informații despre stagiile de practică!
+      - Vreau să știu mai multe despre desfășurarea stagiilor de practică!
+      - Am nevoie de mai multe informații despre regulile de practică!
+      - Cu cine pot să iau legătura pentru întrebări legate de practică?
+      - Spune-mi, te rog, ce reguli există în legatură cu desfășurarea stagiilor de practică!
+
   - intent: faq/ask_openSupportTicket
     examples: |
       - Cum pot deschide un tichet?

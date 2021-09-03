@@ -249,6 +249,14 @@ responses:
             - să ducă la secretariat diverse documente: la început de an documentele pentru alegerea opționalelor, pozele, contractele de studii etc.
             - să țină legătura cu unii profesori (seminariști) pe mail: le trimite lista cu cei din grupă(în caz că o cer), îi întreabă de note etc.
             - o dată pe semestru să stabilească planificarea examenelor pentru grupa voastră, împreună cu ceilalți șefi din seria voastră și cu șeful de serie.
+    utter_faq/ask_internship:
+        - text: |
+              Durata stagiului de practică trebuie să fie de 360 de ore. Acesta poate să fie realizat în
+                  cadrul unei companii ori în cadrul facultății, la școlile de vară ori alte activități. Pentru
+                  mai multe informații îi poți contacta pe profesorii îndrumători pentru practică.
+        - text: |
+              Stagiul de practică poate sa fie realizat în cadrul unei companii ori în cadrul facultații, iar durata obligatorie a acestuia este de 360 de ore.
+                    Pentru mai multe detalii recomand să contactezi profesorii îndrumători.
     utter_faq/ask_openSupportTicket:
         - text: |
             Un tichet se poate face pe https://ticketing.upb.ro/index.php. Acolo se alege opțiunea de a deschide un tichet nou și se completează câmpurile corespunzătoare.
