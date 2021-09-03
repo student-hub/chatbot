@@ -458,6 +458,18 @@ nlu:
       - Poți să îmi spui ce tipuri de burse există?
       - Mi-aș dori să știu care sunt tipurile de bursă!
       - Cum stă treaba cu bursele ?
+
+  - intent: faq/ask_whoAreYou
+    examples: |
+      - Cum te cheamă?
+      - Cu cine vorbesc?
+      - Cine ești?
+      - Spune-mi cum te cheamă!
+      - Spune-mi cu cine vorbesc!
+      - Spune-mi cine ești!
+      - Vreau să știu cine ești!
+      - Vreau să știu cu cine vorbesc!
+      - Vreau să știu cum te cheamă!
       
   - intent: faq/ask_whoCanSubmitDocs
     examples: |

@@ -1,6 +1,9 @@
 utter_faq/ask_whoAreYou:
   - text: |
       I am Polly, the conversational agent!
-
   - text: |
       My name is Polly!
+  - text: |
+      I am Polly and I am here to answer your questions!
+  - text: |
+      My name is Polly! You can ask me anything you want to know about the university.
