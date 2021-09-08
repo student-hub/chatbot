@@ -1,5 +1,16 @@
 import json
 import os
+import random
+
+
+def randomize_file_and_split(file_name):
+    lines = open(file_name).readlines()
+    
+    random.shuffle(lines)
+    n = len(lines)
+    test_nr = int(0.2 * n)
+    open(file_name.split(".")[0] + "_test" + ".yml", 'w').writelines(lines[0:test_nr])
+    open(file_name, 'w').writelines(lines[test_nr:n])
 
 def load_from_file(file_name):
     with open(file_name) as file:
@@ -18,7 +29,7 @@ def write_replaced_intents(file, raw_intent, data, pair):
             if not isinstance(data[name], list):
                 data[name] = [data[name]]
             for subj in data[name]:
-                file.write(f'"' + entry.replace(pair[0], subj[pair[1]]) + f'",'+ "\n")
+                file.write(f'"' + entry.replace(pair[0], subj[pair[1]].strip()) + f'",'+ "\n")
     file.seek(file.tell() - 2, os.SEEK_SET)
     file.truncate()
     file.write("\n" + "]")
@@ -142,14 +153,15 @@ for index in range(len(intent_raw_filename)):
                 temp_file = open("temp.json", "w")             
                 write_replaced_intents(temp_file, raw_intent, data, (key, value))
                 temp_file.close()
-                raw_intent = load_from_file(path)
-                
+                raw_intent = load_from_file(path)            
                 
 
             write_file = open(intent_relative_path[index][it] + 'generated' +
                 intent_raw_filename[index][it].capitalize() + lang + '.yml', "w")
+            
             temp_file = open("temp.json")
             convertJsonToWYaml(temp_file, write_file)
+            randomize_file_and_split(write_file.name)
             write_file.close()
 
 
