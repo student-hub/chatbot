@@ -13,7 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import firebase_admin
 from firebase_admin import credentials, firestore, auth
-cred = credentials.Certificate("acs-upb-mobile-dev-firebase-adminsdk-mgl5c-9617ffc92e.json")
+cred = credentials.Certificate("acs-upb-mobile-dev-firebase-adminsdk-mgl5c-d8e16c2d02.json")
 firebase_admin.initialize_app(cred)
 firestore_db = firestore.client()
 snapshots = firestore_db.collection(u'users');
@@ -79,11 +79,12 @@ class ActionGetDateEvent(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict() #for Postman testing
         
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+        
         id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+
         classFields = doc["class"]
         event = ""
         eventEntity = ""
@@ -156,14 +157,16 @@ class ActionGetEndTimeEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        print(doc)
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+
         id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+
         classFields = doc["class"]
         event = ""
         eventEntity = ""
         typeEventEntity = ""
+
         try:
             entity = tracker.latest_message['entities']
             for ent in entity:
@@ -235,10 +238,11 @@ class ActionLocateEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        print(doc)
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+
         id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+
         classFields = doc["class"]
         event = ""
         eventEntity = ""
@@ -257,7 +261,7 @@ class ActionLocateEvent(Action):
             return []
         
         #compute classes name
-        computeEventName(classFields, eventEntity)
+        event = computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
         
@@ -308,14 +312,16 @@ class ActionGetCourseGrading(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        print(doc)
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+
         id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+
         classFields = doc["class"]
         event = ""
         eventEntity = ""
         typeEventEntity = ""
+
         try:
             entity = tracker.latest_message['entities']
             for ent in entity:
@@ -330,7 +336,7 @@ class ActionGetCourseGrading(Action):
             return []
         
         #compute classes name
-        computeEventName(classFields, eventEntity)
+        event = computeEventName(classFields, eventEntity)
         
         events = firestore_db.collection(u'classes').get()
 
@@ -389,10 +395,11 @@ class ActionGetStartTimeEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        doc = snapshots.document(u"ceHKuicm86eCv2TVTCFkxKBzZvi2").get().to_dict()
-        print(doc)
         message = "Scuze, nu dețin această informație. Te rog verifică daca numele evenimentului este scris corect!"
+
         id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+       
         classFields = doc["class"]
         event = ""
         eventEntity = ""
@@ -411,7 +418,7 @@ class ActionGetStartTimeEvent(Action):
             return []
         
         #compute classes name
-        computeEventName(classFields, eventEntity)
+        event = computeEventName(classFields, eventEntity)
         group = classFields[4]
         semigroup = classFields[5]
         
@@ -429,6 +436,7 @@ class ActionGetStartTimeEvent(Action):
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
+                print(currentEvent["class"] + " " + event)
                 if currentEvent["class"] == event:
                     type = currentEvent["type"]
 
