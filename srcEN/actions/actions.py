@@ -16,6 +16,9 @@ from rasa_sdk.executor import CollectingDispatcher
 
 from firebase_admin import credentials, firestore, auth
 
+from helper import LocateEventInfo
+from helper import DateEventInfo
+
 cred = credentials.Certificate("acs-upb-mobile-dev-firebase-adminsdk-mgl5c-d8e16c2d02.json")
 firebase_admin.initialize_app(cred)
 firestore_db = firestore.client()
@@ -43,8 +46,44 @@ class ActionGetDateEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        message = "Sorry, I did not understand. Please repeat the question and check the name of the event!"
+
+        id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+        classFields = doc["class"]
+        sr, group, semigroup = helper.identify_student(classFields)
+
+        entities = tracker.latest_message['entities']
+        eventEntity, typeEventEntity = helper.get_entities(entities)
+
+        event = helper.compute_event_name(classFields, eventEntity)
+        typeEvent = helper.get_type_event(typeEventEntity)
+    
+        events = firestore_db.collection(u'events').get()
+
+        results_list = []
+
+        for e in events:
+            currentEvent = e.to_dict()
+            if "class" in currentEvent.keys():
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                    if currentEvent["relevance"] is not None:
+                        for relevance in currentEvent["relevance"]:
+                            if (relevance == sr or relevance == group or relevance == semigroup):
+                                if currentEvent["rrule"] is not None:
+                                    day, hour = helper.get_time(currentEvent)
+                                    results_list.append(DateEventInfo(day, hour))
+                                
+        if len(results_list) >= 2:
+            message = "The " + eventEntity + " " + typeEventEntity +  " takes place:"
+            for info in results_list:
+                message += " on " + info.day + ", at " + info.hour + ","
+            message = message[:-1] + '.'
+        elif len(results_list) == 1:
+            info = results_list[0]
+            message = "The " + eventEntity + " " + typeEventEntity +  " takes place on " + info.day + " at " + info.hour + "."
         
-        dispatcher.utter_message(text="This event takes place on...")
+        dispatcher.utter_message(text=message)
 
         return []
 
@@ -86,6 +125,8 @@ class ActionLocateEvent(Action):
     
         events = firestore_db.collection(u'events').get()
 
+        results_list = []
+
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
@@ -93,9 +134,20 @@ class ActionLocateEvent(Action):
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):
-                                if currentEvent["location"] is not None:
-                                    message = "The " + eventEntity + " " + typeEventEntity +  " takes place in the " + currentEvent["location"] + " classroom."
+                                print(currentEvent["location"])
+                                if currentEvent["location"] is not None and currentEvent["rrule"] is not None:
+                                    day, hour = helper.get_time(currentEvent)
+                                    results_list.append(LocateEventInfo(day, hour, currentEvent["location"]))                          
 
+        if len(results_list) >= 2:
+            message = "The " + eventEntity + " " + typeEventEntity +  " takes place:"
+            for info in results_list:
+                message += " on " + info.day + ", at " + info.hour + " in the " + info.location + " classroom,"
+            message = message[:-1] + '.'
+        elif len(results_list) == 1:
+            info = results_list[0]
+            message = "The " + eventEntity + " " + typeEventEntity +  " takes place on " + info.day + " at " + info.hour + " in the " + info.location + " classroom."
+        
         dispatcher.utter_message(text=message)
 
         return []

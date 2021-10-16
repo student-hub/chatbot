@@ -1,4 +1,17 @@
+import pandas as pd
+
 from datetime import date
+
+class LocateEventInfo:
+  def __init__(self, day, hour, location):
+    self.day = day
+    self.hour = hour
+    self.location = location
+
+class DateEventInfo:
+  def __init__(self, day, hour):
+    self.day = day
+    self.hour = hour
 
 def get_entities(entities):
     eventEntity = ''
@@ -62,9 +75,37 @@ def get_type_event(type):
     else:
         return "unknown-ev"
 
+def get_day(day):
+    days = {
+        "MO":"Monday",
+        "TU":"Tuesday",
+        "WE":"Wednesday",
+        "TH":"Thursday",
+        "FR":"Friday",
+        "SA":"Saturday",
+        "SU":"Sunday",
+    }
+
+    if days.get(day) is not None:
+        return days.get(day)
+    else:
+        return "unknown"
+
 def identify_student(classFields):
     sr = classFields[3]
     group = classFields[4]
     semigroup = classFields[5]
 
     return sr, group, semigroup
+
+def get_time(currentEvent):
+    index = currentEvent["rrule"].find("BYDAY=")
+    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+    day = get_day(day)
+
+    temp = pd.Timestamp(currentEvent["start"])
+    hour = temp.hour + 3
+    minute = temp.minute
+    h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
+    
+    return day, h
