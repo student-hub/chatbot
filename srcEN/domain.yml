@@ -239,6 +239,15 @@ responses:
             - to take to the secretariat various documents: at the beginning of the year the electives, pictures, study contracts, etc.
             - to keep in touch with some teachers (seminarians) by e-mail: send them the list of those in the group (in case they ask for it), ask them about grades, etc.
             - once per semester to set the exam planning for your group, together with the other leaders in your series and the series leader.
+    utter_faq/ask_internship:
+        - text: |
+            The internship has to last for 360 hours, and you can either work in a company or
+            participate in the activities organised by the university such as summer schools. For additional
+            information you can contact one of your coordinating teachers.
+        - text: |
+            You have the option to choose if you want to complete your internship with a firm or with the
+            faculty and regardless of your choice, it has to last for 360 hours. At the end you will have to present
+            a textbook containing a summary of what you learned and worked on during your internship.
     utter_faq/ask_openSupportTicket:
         - text: |
             A ticket can be made on https://ticketing.upb.ro/index.php. There choose the option to open a new ticket and fill in the corresponding fields.
