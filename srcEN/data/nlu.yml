@@ -406,6 +406,15 @@ nlu:
       - Can you tell me what types of scholarships there are?
       - I would like to know what the types of scholarships are!
       - How's the scholarship?
+
+  - intent: faq/ask_whoAreYou
+      examples: |
+        - What is your name?
+        - Who are you?
+        - Who am I talking to?
+        - Who am I speaking to?
+        - Tell me who you are!
+        - Tell me your name!
       
   - intent: faq/ask_whoCanSubmitDocs
     examples: |

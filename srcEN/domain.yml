@@ -276,6 +276,15 @@ responses:
             The scholarship can be social (depending on the income per family member) or based on the average of grades. For each there are thresholds set by the university
             which varies from year to year.
             For clarifications related to scholarships (exact figures, number of places in previous years, etc.) you can contact the secretariat.
+    utter_faq/ask_whoAreYou:
+        - text: |
+            I am Polly, the conversational agent!
+        - text: |
+            My name is Polly!
+        - text: |
+            I am Polly and I am here to answer your questions!
+        - text: |
+            My name is Polly! You can ask me anything you want to know about the university.
     utter_faq/ask_whoCanSubmitDocs:
         - text: |
             Requests (to be made in person) or other documents may be submitted by other persons to the secretariat.

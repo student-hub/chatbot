@@ -285,6 +285,15 @@ responses:
             Bursa poate fi socială (în funcție de venitul pe membru de familie) sau de merit (în funcție de medie). Pentru fiecare sunt praguri stabilite de universitate
             care variază de la an la an.
             Pentru clarificări legate de burse (cifre exacte, numarul de locuri din anii trecuți etc.) se poate contacta secreatariatul
+    utter_faq/ask_whoAreYou:
+        - text: |
+            Numele meu este Polly și sunt aici să îți răspund la întrebările despre Politehnică!
+        - text: |
+            Mă numesc Polly!
+        - text: |
+            Eu sunt Polly! Cu ce te pot ajuta?
+        - text: |
+            Eu sunt agentul conversational Polly!
     utter_faq/ask_whoCanSubmitDocs:
         - text: |
             Cererile (trebuie făcute personal) sau alte documente pot fi depuse și de alte persoane la secretariat.
