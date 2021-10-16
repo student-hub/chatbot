@@ -293,7 +293,7 @@ responses:
         - text: |
             Eu sunt Polly! Cu ce te pot ajuta?
         - text: |
-            Eu sunt agentul conversational Polly!
+            Eu sunt agentul conversațional Polly!
     utter_faq/ask_whoCanSubmitDocs:
         - text: |
             Cererile (trebuie făcute personal) sau alte documente pot fi depuse și de alte persoane la secretariat.

@@ -23,6 +23,7 @@ nlu:
       - I need help finding out how much the dorm costs!
       - Can we find out how much the dorm costs?
       - How do I know how much the dorm costs?
+
   - intent: faq/ask_accomodationIssues
     examples: |
       - Who should I contact if I have a dorm problem?
@@ -33,6 +34,7 @@ nlu:
       - Who can I call for questions about the dorm?
       - Who am I going to ask about the dorm?
       - Who can help me with the dorm?
+
   - intent: faq/ask_becomeGroupLeader
     examples: |
       - How can I become a group leader?
@@ -40,7 +42,7 @@ nlu:
       - What are the steps to become a group leader?
       - Do you have any idea how I can become a group leader?
       - What are the rules for becoming a group leader?
-    
+
   - intent: faq/ask_becomeSRLeader
     examples: |
       - How can I become a series leader?
@@ -48,6 +50,7 @@ nlu:
       - What are the steps to become a series leader?
       - Do you have any idea how I can become the series leader?
       - What are the rules for becoming a series leader?
+
   - intent: faq/ask_changeGroup
     examples: |
       - Can I change my group?
@@ -62,6 +65,7 @@ nlu:
       - Do you know the procedure for changing the group?
       - How can I change my group?
       - How do I change my group?
+
   - intent: faq/ask_changeGroupSem2
     examples: |
       - Can I change my group in the second semester?
@@ -77,6 +81,7 @@ nlu:
       - How can I change the group in the second semester?
       - How do I change my group in the second semester?
       - How do I change the group in the second semester?
+
   - intent: faq/ask_changeSpecialization
     examples: |
       - Can I change my specialization?
@@ -100,7 +105,6 @@ nlu:
       - I don't like my specialization, how can I change it?
       - I don't like my specialization, do I want to change it?
     
-    
   - intent: faq/ask_changeSR
     examples: |
       - Can I change my series?
@@ -123,6 +127,7 @@ nlu:
       - Tell me how I change my series!
       - I don't like my series, how can I change it?
       - I don't like my series, I want to change it!
+
   - intent: faq/ask_changeSRSem2
     examples: |
       - Can I change my series in the second semester?
@@ -138,6 +143,7 @@ nlu:
       - How can I change series in the second semester?
       - How do I change series in the second semester?
       - How do I change series in the second semester?
+
   - intent: faq/ask_chooseRoom
     examples: |
       - Can I select my room?
@@ -183,7 +189,6 @@ nlu:
       - Do you know how I can connect to Eduroam Wi-Fi networks?
       - Do you have any idea how I can connect to Eduroam Wi-Fi networks?
       - Can you explain to me how I can connect to Eduroam Wi-Fi networks?
-      
       
   - intent: faq/ask_connectMoodle
     examples: |
@@ -285,7 +290,6 @@ nlu:
       - What does a student have to do to get a scholarship?
       - Where are the conditions for scholarships specified?
     
-      
   - intent: faq/ask_getGrades
     examples: |
       - Where do I see my grades?
@@ -293,6 +297,7 @@ nlu:
       - Where can I view my grades?
       - Where are the grades written?
       - Is there an online catalogue?
+
   - intent: faq/ask_getScheduleSecretariat
     examples: |
       - What is the program of the secretary?
@@ -390,6 +395,7 @@ nlu:
       - Where can I find the tuition fee?
       - How much do I have to pay for the tuition fee?
       - How much do I have to pay per year for the fee?
+
   - intent: faq/ask_typesOfScholarship
     examples: |
       - What are the types of scholarships?
@@ -408,13 +414,13 @@ nlu:
       - How's the scholarship?
 
   - intent: faq/ask_whoAreYou
-      examples: |
-        - What is your name?
-        - Who are you?
-        - Who am I talking to?
-        - Who am I speaking to?
-        - Tell me who you are!
-        - Tell me your name!
+    examples: |
+      - What is your name?
+      - Who are you?
+      - Who am I talking to?
+      - Who am I speaking to?
+      - Tell me who you are!
+      - Tell me your name!
       
   - intent: faq/ask_whoCanSubmitDocs
     examples: |
