@@ -109,3 +109,17 @@ def get_time(currentEvent):
     h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
     
     return day, h
+
+def get_end_time(currentEvent):
+    index = currentEvent["rrule"].find("BYDAY=")
+    day = currentEvent["rrule"][(index + 6) : (index + 8)]
+    day = get_day(day)
+
+    temp = pd.Timestamp(currentEvent["start"])
+    if currentEvent["duration"] is not None:
+        duration = currentEvent["duration"]["hours"]
+    hour = temp.hour + 3 + duration
+    minute = temp.minute
+    h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
+    
+    return day, h

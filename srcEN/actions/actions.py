@@ -33,7 +33,7 @@ class ActionLocateClassroom(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
   
-        dispatcher.utter_message(text="The classroom is located...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
@@ -96,8 +96,44 @@ class ActionGetEndTimeEvent(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        
-        dispatcher.utter_message(text="The event ends at...")
+        message = "Sorry, I did not understand. Please repeat the question and check the name of the event!"
+
+        id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+        classFields = doc["class"]
+        sr, group, semigroup = helper.identify_student(classFields)
+
+        entities = tracker.latest_message['entities']
+        eventEntity, typeEventEntity = helper.get_entities(entities)
+
+        event = helper.compute_event_name(classFields, eventEntity)
+        typeEvent = helper.get_type_event(typeEventEntity)
+    
+        events = firestore_db.collection(u'events').get()
+
+        results_list = []
+
+        for e in events:
+            currentEvent = e.to_dict()
+            if "class" in currentEvent.keys():
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                    if currentEvent["relevance"] is not None:
+                        for relevance in currentEvent["relevance"]:
+                            if (relevance == sr or relevance == group or relevance == semigroup):
+                                if currentEvent["rrule"] is not None:
+                                    day, hour = helper.get_end_time(currentEvent)
+                                    results_list.append(DateEventInfo(day, hour))
+                                
+        if len(results_list) >= 2:
+            message = "The " + eventEntity + " " + typeEventEntity +  " ends:"
+            for info in results_list:
+                message += " at " + info.hour + ", on " + info.day + ","
+            message = message[:-1] + '.'
+        elif len(results_list) == 1:
+            info = results_list[0]
+            message = "The " + eventEntity + " " + typeEventEntity +  " ends at " + info.hour + " on " + info.day + "."
+
+        dispatcher.utter_message(text=message)
 
         return []
 
@@ -162,7 +198,7 @@ class ActionGetMinConditions(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        dispatcher.utter_message(text="The minimum promotion conditions are...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
@@ -176,7 +212,7 @@ class ActionGetMinNrOfAttendings(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        dispatcher.utter_message(text="The min number of attendings is...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
@@ -240,7 +276,7 @@ class ActionGetTeacherName(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        dispatcher.utter_message(text="The teacher's name is...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
@@ -254,7 +290,7 @@ class ActionGetGroupLeaderName(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        dispatcher.utter_message(text="The name of the group leader is...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
@@ -268,20 +304,44 @@ class ActionGetSRLeaderName(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         
-        dispatcher.utter_message(text="The name of the sr leader is...")
+        dispatcher.utter_message(text="Sorry, I don't have the necessary information.")
 
         return []
 
-class ActionGetCourseGrading(Action):
+class ActionGetCourseGrade(Action):
 
     def name(self) -> Text:
-        return "action_get_course_grading"
+        return "action_get_course_grade"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        message = "Sorry, I did not understand. Please repeat the question and check the name of the event!"
+
+        id = tracker.current_state()['sender_id']
+        doc = snapshots.document(id).get().to_dict()
+        classFields = doc["class"]
+
+        entities = tracker.latest_message['entities']
+        eventEntity, typeEventEntity = helper.get_entities(entities)
+
+        event = helper.compute_event_name(classFields, eventEntity)
+        typeEvent = helper.get_type_event(typeEventEntity)
+    
+        events = firestore_db.collection(u'classes').get()
+
+        results_list = []
+
+        for e in events:
+            currentEventName = e.id
+            currentEvent = e.to_dict()
+            if currentEventName == event:
+                if "grading" in currentEvent.keys():
+                    message = "The grade score for " + eventEntity + " is: "
+                    for grade in currentEvent["grading"]:
+                        message = message + grade + ": " + str(currentEvent["grading"][grade]) + "; "
         
-        dispatcher.utter_message(text="The grade score is...")
+        dispatcher.utter_message(text=message)
 
         return []
