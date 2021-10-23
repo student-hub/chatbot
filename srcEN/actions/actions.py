@@ -19,7 +19,7 @@ from firebase_admin import credentials, firestore, auth
 from helper import LocateEventInfo
 from helper import DateEventInfo
 
-cred = credentials.Certificate("acs-upb-mobile-dev-firebase-adminsdk-mgl5c-d8e16c2d02.json")
+cred = credentials.Certificate("acs-upb-key.json")
 firebase_admin.initialize_app(cred)
 firestore_db = firestore.client()
 snapshots = firestore_db.collection(u'users');

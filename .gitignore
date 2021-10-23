@@ -1,3 +1,7 @@
-acs-upb-mobile-dev-firebase-adminsdk-mgl5c-9617ffc92e.json
-srcEN/acs-upb-mobile-dev-firebase-adminsdk-mgl5c-d8e16c2d02.json
-models/
+src/acs-upb-key.json
+srcEN/acs-upb-key.json
+src/models
+srcEN/models
+src/classrooms.json
+src/groupLeaders.json
+src/srLeaders.json
