@@ -41,5 +41,5 @@ stories:
    - action: action_get_SR_leader_name
  - story: get the grade score
    steps:
-   - intent: get_course_grading
-   - action: action_get_course_grading
+   - intent: get_course_grade
+   - action: action_get_course_grade

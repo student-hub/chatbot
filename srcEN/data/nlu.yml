@@ -752,7 +752,7 @@ nlu:
       - Do you know where the [BE](event) will take place?
       - Where is [Introducere in organizarea calculatoarelor si limbaj de asamblare](event) taught?
 
-  - intent: get_course_grading
+  - intent: get_course_grade
     examples: |
       - Do you know the score at [Cercetare](event)?
       - Do you know the score at [Invatare automata](event) [laboratory](typeEvent)?
