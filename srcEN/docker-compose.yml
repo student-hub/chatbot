@@ -1,0 +1,16 @@
+services:
+  rasa:
+    image: rasa-src-en
+    ports:
+      - 5006:5006
+    volumes:
+      - ./:/app
+  appen:
+    image: rasa-src-en-actionserver
+    ports:
+      - 5056:5056
+    command:
+      - start
+      - --actions
+      - actions
+      - -p 5056
