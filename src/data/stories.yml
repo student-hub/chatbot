@@ -1,3 +1,5 @@
+version: '3.0'
+
 stories:
  - story: locate the classroom in the faculty
    steps:

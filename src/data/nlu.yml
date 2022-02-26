@@ -1,3 +1,5 @@
+version: '3.0'
+
 nlu:
   - intent: faq/ask_accommodationTaxes
     examples: |

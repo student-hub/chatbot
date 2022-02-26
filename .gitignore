@@ -1,5 +1,7 @@
 src/acs-upb-key.json
 srcEN/acs-upb-key.json
+src/.rasa
+srcEN/.rasa
 src/models
 srcEN/models
 src/classrooms.json
