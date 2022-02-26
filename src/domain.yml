@@ -22,6 +22,8 @@ entities:
 - groupNr
 - srNr
 actions:
+- utter_default
+- utter_please_rephrase
 - utter_faq
 - action_locate_classroom
 - action_get_date_event
@@ -35,6 +37,12 @@ actions:
 - action_get_SR_leader_name
 - action_get_course_grading
 responses:
+    utter_please_rephrase:
+        - text: |
+            Scuze, dar eu nu am înțeles mesajul tău. Poti reformula, te rog?
+    utter_default:
+        - text: |
+            Scuze, nu am înțeles ce ai spus. Poți reformula?
     utter_faq/ask_accommodationTaxes:
         - text: |
             Taxele de cazare sunt afișate la intrarea în cămin, la sfârșitul lunii in curs. Acestea includ și cheltuielile de întreținere.

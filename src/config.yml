@@ -23,11 +23,18 @@ pipeline:
     epochs: 100
     retrieval_intent: faq
     constrain_similarities: True
+  - name: FallbackClassifier
+    threshold: 0.7
 
 
 policies:
   - name: MemoizationPolicy
   - name: RulePolicy
+    core_fallback_threshold: 0.4
+    core_fallback_action_name: action_default_fallback
+    enable_fallback_prediction: true
+    restrict_rules: true
+    check_for_contradictions: true
   - name: TEDPolicy
     constrain_similarities: True
     max_history: 5
