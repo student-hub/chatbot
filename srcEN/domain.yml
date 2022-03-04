@@ -20,6 +20,8 @@ entities:
 - groupNr
 - srNr
 actions:
+- utter_please_rephrase
+- utter_default
 - utter_faq
 - action_locate_classroom
 - action_get_date_event
@@ -33,6 +35,12 @@ actions:
 - action_get_SR_leader_name
 - action_get_course_grade
 responses:
+    utter_please_rephrase:
+        - text: |
+            I'm sorry, I didn't quite understand that. Could you rephrase?
+    utter_default:
+        - text: |
+            Sorry I didn't get that. Can you rephrase?
     utter_faq/ask_accommodationTaxes:
         - text: |
             Accommodation taxes are displayed at the entrance to the dormitory at the end of the current month. These also include maintenance costs.
