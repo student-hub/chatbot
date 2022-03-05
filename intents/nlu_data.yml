@@ -1,0 +1,420 @@
+version: '3.0'
+nlu:
+- intent: faq/ask_accommodationTaxes
+  examples: |
+    - How much is the dorm tax?
+    - How much is the dorm?
+    - How much does my dorm cost me for a month?
+    - How much is my dorm?
+    - How much do I have to pay for the dorm?
+    - How much money do I have to spend on the dorm?
+    - Do you know how much the dorm costs?
+    - Do you have any idea how much the dorm costs?
+    - Do you have any idea how much the dorm tax costs?
+    - I'd like to know how much the dorm costs!
+    - I can't find anywhere what the dorm tax is.
+    - I can't find how much to spend on the dorm room.
+    - Can you help me find out how much the dorm costs?
+    - I want to know how much the dorm costs!
+    - I want to know what the dorm tax is!
+    - Can I find out what the dorm tax is?
+    - Do you know what the dorm tax is?
+    - I need help finding out how much the dorm costs!
+    - Can we find out how much the dorm costs?
+    - How do I know how much the dorm costs?
+- intent: faq/ask_explainStudyContract
+  examples: |
+    - Who should I contact if I have a dorm problem?
+    - Who do I contact if I have a question about the dorm?
+    - Do you know how to answer a few questions about the dorm?
+    - Who can I get information about the dorm from?
+    - Who can help me with the dorm?
+    - Who can I call for questions about the dorm?
+    - Who am I going to ask about the dorm?
+    - Who can help me with the dorm?
+- intent: faq/ask_becomeGroupLeader
+  examples: |
+    - How can I become a group leader?
+    - Do you know the procedure to become a group leader?
+    - What are the steps to become a group leader?
+    - Do you have any idea how I can become a group leader?
+    - What are the rules for becoming a group leader?
+- intent: faq/ask_becomeSRLeader
+  examples: |
+    - How can I become a series leader?
+    - Do you know the procedure to become a series leader?
+    - What are the steps to become a series leader?
+    - Do you have any idea how I can become the series leader?
+    - What are the rules for becoming a series leader?
+- intent: faq/ask_changeGroup
+  examples: |-
+    - Can I change my group?
+    - What do I have to do to change my group?
+    - Is there any way to change my group?
+    - Are there any regulations for changing the group?
+    - Is there a procedure for changing the group?
+    - Do you know how I can change my group?
+    - Do you know how I could change my group?
+    - Do you know how to change the group?
+    - What is the way to change the group?
+    - Do you know the procedure for changing the group?
+    - How can I change my group?
+    - How do I change my group?
+- intent: faq/ask_changeGroupSem2
+  examples: |
+    - Can I change my group in the second semester?
+    - Can I change the group in the second semester?
+    - Is there any way to change my group in the second semester?
+    - Are there any regulations for changing the group in the second semester?
+    - Is there a procedure for changing the group in the second semester?
+    - Do you know how I can change my group in the second semester?
+    - Do you know how to change the group in the second semester?
+    - What is the way to change the group in the second semester?
+    - Do you know the procedure for changing the group in the second semester?
+    - How can I change my group in the second semester?
+    - How can I change the group in the second semester?
+    - How do I change my group in the second semester?
+    - How do I change the group in the second semester?
+- intent: faq/ask_changeSpecialization
+  examples: |
+    - Can I change my specialization?
+    - Can I change the specialization?
+    - Is there any way to change my specialization?
+    - Are there any regulations for changing the specialization?
+    - Is there a procedure for changing the specialization?
+    - Do you know how I can change my specialization?
+    - Do you know how to change the specialization?
+    - What is the way to change the specialization?
+    - Do you know the procedure for changing the specialization?
+    - How can I change my specialization?
+    - What is the transfer procedure between specializations?
+    - Help me find out how I could change my specialization!
+    - Help me find out how I can change my specialization!
+    - Tell me how I can change my specialization!
+    - I don't like my specialization, how can I change it?
+    - I don't like my specialization, do I want to change it?
+- intent: faq/ask_changeSR
+  examples: |
+    - Can I change my series?
+    - Can I change the series?
+    - Could I change the series?
+    - Could I change my series?
+    - Is there any way to change my series?
+    - Are there any rules for changing the series?
+    - Is there a procedure to change the series?
+    - Do you know how I can change my series?
+    - Do you know the procedure for changing the series?
+    - Do you know how to change the series?
+    - What is the way to change the series?
+    - What is the transfer procedure between series?
+    - How can I change my series?
+    - How do I change my series?
+    - How do I change the series?
+    - Help me find out how I could change my series!
+    - Help me find out how I can change my series!
+    - Tell me how I can change my series!
+    - I don't like my series, how can I change it?
+    - I don't like my series, I want to change it!
+- intent: faq/ask_changeSRSem2
+  examples: |
+    - Can I change my series in the second semester?
+    - Can I change the series in the second semester?
+    - Is there any way to change my series in the second semester?
+    - Are there any regulations for changing the series in the second semester?
+    - Is there a procedure for changing the series in the second semester?
+    - Do you know how I can change my series in the second semester?
+    - Do you know how to change the series in the second semester?
+    - What is the way to change the series in the second semester?
+    - Do you know the procedure for changing the series in the second semester?
+    - How can I change my series in the second semester?
+    - How can I change series in the second semester?
+    - How do I change series in the second semester?
+- intent: faq/ask_chooseRoom
+  examples: |
+    - Can I select my room?
+    - Can I select my dorm room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Can we choose our room?
+    - Can we choose our dorm room?
+    - Can I choose the room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Do you know how I can choose my room?
+    - Do you know how I can choose my dorm room?
+    - Can I choose what room I want?
+    - Can I choose what dorm room I want?
+    - Do you know if I can choose which room I want?
+    - Do you know if I can choose which dorm room I want?
+    - Do I have the option to choose my room?
+    - How do I select my room?
+    - How do I choose my room?
+    - How can I choose my room?
+- intent: faq/ask_chooseRoomate
+  examples: |
+    - Can I select my roommate?
+    - Can I select my roommates?
+    - Can I choose my roommate?
+    - Can I choose my roommates?
+    - Can we choose our roommates?
+    - Do you know how I can choose my roommate?
+    - Do you know how I can choose my roommates?
+    - Can I choose who I want to stay in the room with?
+    - Do you know if I can choose who I want to stay in the room with?
+    - Do I have the option to choose my roommate?
+    - Do I have the option to choose my roommates?
+    - How can I choose my roommate?
+    - How can I choose my roommates?
+- intent: faq/ask_connectEduroamWiFi
+  examples: |
+    - How do I connect to Eduroam Wi-Fi networks?
+    - How can I connect to Eduroam Wi-Fi networks?
+    - Do you know how I can connect to Eduroam Wi-Fi networks?
+    - Do you have any idea how I can connect to Eduroam Wi-Fi networks?
+    - Can you explain to me how I can connect to Eduroam Wi-Fi networks?
+- intent: faq/ask_connectMoodle
+  examples: |
+    - How do I connect to Moodle?
+    - How can I connect to Moodle?
+    - What are the credentials to connect to Moodle?
+    - Do you have any idea how I can connect to Moodle?
+    - Do you have any idea how I connect to Moodle?
+    - Do you know how I can connect to Moodle?
+    - I don't know how to connect to Moodle!
+    - I don't know my credentials to log in to Moodle!
+    - Can you help me connect to Moodle?
+- intent: faq/ask_connectOutlook
+  examples: |
+    - How do I connect to Outlook?
+    - How can I connect to Outlook?
+    - What are the credentials to connect to Outlook?
+    - Do you have any idea how I can connect to Outlook?
+    - Do you have any idea how I could connect to Outlook?
+    - Do you know how to connect to Outlook?
+    - Do you know how I can connect to Outlook?
+    - I don't know how to connect to Outlook!
+    - I don't know my credentials to log in to Outlook!
+    - Can you help me connect to Outlook?
+- intent: faq/ask_docsSubmission
+  examples: |
+    - How do I submit the documents to the secretary?
+    - How do I submit my documents to the secretary?
+    - How do I send the documents to the secretary?
+    - How do I leave the documents at the secretary?
+    - I don't know how to submit the documents to the secretary.
+    - Do you have any idea how I can submit the documents to the secretary?
+    - What are the procedures for submitting documents to the secretary?
+    - Explain to me how to submit the documents to the secretary!
+    - Do you know how to send the documents to the secretary?
+    - I would like to hand over the documents to the secretary!
+- intent: faq/ask_downgradeToTaxe
+  examples: |
+    - Can I lose my budget?
+    - Is it possible to lose my place in the budget?
+    - Do you have any idea if I can lose my budget?
+    - How can I lose my budget?
+    - Do you know if I can lose my budget?
+    - Can I drop the fee?
+    - Is it possible to drop the fee?
+    - Do you have any idea if I can pay the fee?
+    - Do you know if I can pay the fee?
+- intent: faq/ask_explainStudyContract
+  examples: |
+    - What is the study contract?
+    - Can you explain to me what the study contract is?
+    - Do you know what the study contract is?
+    - Do you have any idea what the study contract is?
+    - What is the role of the study contract?
+    - What do I do with the study contract?
+    - Do you understand the study contract?
+    - What information do I find in the study contract?
+    - Can you help me understand the study contract?
+    - Help me understand the study contract!
+- intent: faq/ask_getContactsecretary
+  examples: |
+    - How can I contact the secretary?
+    - How do I contact the secretary?
+    - How can I contact the secretary?
+    - What's the phone number from the secretary?
+    - What are the contact details for the secretary?
+    - What's the secretary's email?
+    - At what email address can I contact the secretary?
+    - Can you help me contact the secretary?
+    - Do you know how I can contact the secretary?
+    - Do you know what the secretary's email is?
+    - Do you have any idea how I can contact the secretary?
+    - Is there any way that I can contact the secretary?
+    - Help me contact the secretary.
+    - Where can I contact the secretary?
+- intent: faq/ask_getCriteriaScholarship
+  examples: |
+    - What are the conditions for obtaining a scholarship?
+    - What are the minimum conditions to obtain a scholarship?
+    - Do you have any idea what the minimum conditions are for obtaining a scholarship?
+    - Do you know what the minimum conditions are for obtaining a scholarship?
+    - I want to know what are the minimum conditions to get a scholarship?
+    - Are there any criteria according to which the scholarships are offered?
+    - What are the scholarship regulations?
+    - Do you know the rules of the scholarships?
+    - How can I get a scholarship?
+    - How do I get a scholarship?
+    - How can I find out the criteria for obtaining scholarships?
+    - Do you know what criteria are so that I can get a scholarship?
+    - What does a student have to do to get a scholarship?
+    - Where are the conditions for scholarships specified?
+- intent: faq/ask_getGrades
+  examples: |
+    - Where do I see my grades?
+    - Where can I see my grades?
+    - Where can I view my grades?
+    - Where are the grades written?
+    - Is there an online catalogue?
+    - How can I access my grades?
+- intent: faq/ask_getSchedulesecretary
+  examples: |
+    - What is the program of the secretary?
+    - Do you know what the secretary's program is?
+    - Do you have any idea what the secretary's program is?
+    - What program does the secretary have?
+    - Do you know the time when I can go to the secretary?
+    - What time can I find the secretary available?
+    - When do I find the secretaries in the office?
+    - When does the secretary open?
+    - When could I go to the secretary?
+    - When can I go to the secretary?
+    - What time does the secretary open?
+- intent: faq/ask_getStudentCertificate
+  examples: |
+    - How can I get a student certificate?
+    - Where can I get a student certificate?
+    - Who do I ask for a student certificate?
+    - Do you know who I need to ask for a student certificate?
+    - Do you know how I can apply for a student certificate?
+    - How can I obtain a student certificate?
+    - Can you tell me where do I need to ask for a student certificate?
+    - What is the process of getting a student certificate?
+- intent: faq/ask_getTemplateApplication
+  examples: |
+    - How do I make an application request?
+    - Do you have a secretary application form?
+    - Is there a model application for the secretary?
+    - Can you show me an application form?
+    - Can you send me an application form?
+    - Which is the application form?
+    - I want you to send me an application form!
+    - Give me an application form!
+- intent: faq/ask_getTools
+  examples: |
+    - What resources do I need to learn online?
+    - What resources do I need to use in order to learn online?
+    - What programs do I need to install in order to carry out my online activity?
+    - What do I need to install to work online?
+    - What do I need in order to learn online?
+    - Tell me what to install in order to learn online!
+    - I want to know what I need to install in order to learn online!
+- intent: faq/ask_groupLeaderTasks
+  examples: |
+    - What are the tasks of a group leader?
+    - What are the responsibilities of a group leader?
+    - Do you know what the tasks of a group leader are?
+    - Do you have any idea what the tasks of a group leader are?
+    - Do you have any idea what the duties of a group leader are?
+    - Do you know what the tasks of a group leader are?
+    - Do you know what the duties of a group leader are?
+    - What does a group leader have to do?
+    - I want to know what tasks does a group leader have to do!
+    - I want to know what responsibilities a group leader has!
+- intent: faq/ask_internship
+  examples: |
+    - Where can I find more information about the internships?
+    - Can you help me with more information about the internships?
+    - I want you to give me more information about the internships!
+    - I want you to tell me the requirements for the internships!
+    - I need to know the requirments for the internships!
+    - Who can I talk to about the internship requirements?
+    - Please tell me about the requirements for the internships!
+- intent: faq/ask_openSupportTicket
+  examples: |
+    - How can I open a support ticket?
+    - How can I make a support ticket?
+    - Can you explain to me how to open a support ticket?
+    - Can you explain to me how to get a support ticket?
+    - Do you know how to open a support ticket?
+    - Do you know how to make a support ticket?
+    - Can you help me open a support ticket?
+    - Can you help me get a support ticket?
+- intent: faq/ask_SRLeaderTasks
+  examples: |
+    - What are the tasks of a series leader?
+    - What are the duties of a series leader?
+    - Do you know what the tasks of a series leader are?
+    - Do you have any idea what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - Do you know what the responsibilities of a series leader are?
+    - What does a series leader have to do?
+    - Can you tell me what does a series leader have to do?
+    - I want to know what a series leader has to do!
+    - I want to know what the duties of a series leader are!
+- intent: faq/ask_tuitionFees
+  examples: |
+    - How much is the tuition fee this year?
+    - Can you tell me how much the tuition fee is this year?
+    - Tell me how much the tuition fee is this year!
+    - Do you have any idea about how much the tuition fee is this year?
+    - Do you have any idea what the tuition fee is?
+    - About the tuition fee?
+    - I don't know how much the tuition fee is.
+    - I can't find out how much the tuition fee is
+    - I want to know what the tuition fee is.
+    - Find out how much the tuition fee is!
+    - Where can I find the tuition fee?
+    - How much do I have to pay for the tuition fee?
+    - How much do I have to pay per year for the fee?
+    - Tell me how much I have to pay for the tuition fee!
+    - I want to know how much the tuition fee is!
+- intent: faq/ask_typesOfScholarship
+  examples: |
+    - What are the types of scholarships?
+    - What scholarships are defined for an academic year?
+    - Do you have any idea what types of scholarships a student can get?
+    - Do you have any idea about what types of scholarships there are?
+    - I don't know what scholarships exist in our faculty.
+    - What kind of scholarships can a student get?
+    - Can you tell me what the types of scholarships are?
+    - Explain the types of scholarships!
+    - Do you have information about scholarships?
+    - Show me the possible types of scholarships!
+    - Specify the types of scholarships available!
+    - Can you tell me what types of scholarships there are?
+    - I would like to know what the types of scholarships are!
+    - How's the scholarship?
+    - Tell me what the types of scolarships are!
+    - Which are the available types of scholarships for students?
+- intent: faq/ask_whoAreYou
+  examples: |
+    - What is your name?
+    - Who are you?
+    - Who am I talking to?
+    - Who am I speaking to?
+    - Tell me who you are!
+    - Tell me your name!
+- intent: faq/ask_whoCanSubmitDocs
+  examples: |
+    - Who can submit the documents to the secretary?
+    - Who can make a request to the secretary?
+    - Can someone else take the papers for me to the secretary?
+    - Can I send someone in my place to submit the documents to the secretary?
+    - Can I send someone in my place to make a request to the secretary?
+    - Can anyone apply for me at the secretary?
+    - Do you have any idea who can submit the documents to the secretary?
+    - Do you have any idea who can make a request to the secretary?
+    - Do you know who can submit the documents to the secretary?
+    - Do you know who can make a request to the secretary?
+    - I want to know if anyone else can file the documents for me at the secretary!
+    - I want to know if anyone can apply for me at the secretary!
+    - Is there any way that I can send somebody else to apply for me at the secretary?
+    - Is there any way that I can send somebody else to submit the documents for me at the secretary?
+    - Is there any way that I can send somebody else to make a request for me at the secretary?
+    - Can I make a request at the secretary through somebody else?
+    - Can I apply at the secretary through somebody else?
+    - Can I submit a document at the secretary through somebody else?
