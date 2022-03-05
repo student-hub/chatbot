@@ -1,45 +1,33 @@
 import json
 import random
+import sys
 
-with open('intentEndTimeEventRO.json') as intentEndTimeEventRO:
-	intentRO = json.load(intentEndTimeEventRO)
-with open('intentEndTimeEventEN.json') as intentEndTimeEventEN:
-	intentEN = json.load(intentEndTimeEventEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentEndTimeEventEN.json"
+	output_file = "generatedIntentEndTimeEventEN.yml"
+else:
+	print("ro")
+	filename = "intentEndTimeEventRO.json'"
+	output_file = "generatedIntentEndTimeEventRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_end_time_event\n" + "  " + "examples: |\n")
+
+with open(filename) as intentEndTimeEvent:
+	intent = json.load(intentEndTimeEvent)
+
 with open('../../resources/classesFirebase.json') as subjectModel:
 	subjects = json.load(subjectModel)
-f = open("generatedIntentEndTimeEventRO.yml", "w")
-fEN = open("generatedIntentEndTimeEventEN.yml", "w")
 
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['name']) + "\n")
+for i in range(int(len(intent) / 2)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['name']) + "\n")
 
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['name']) + "\n")
-		
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['shortname']) + "\n")
+for i in range(int(len(intent) / 2) + 1, len(intent)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['shortname']) + "\n")
 
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['shortname']) + "\n")
 f.close()
-fEN.close()
-
-#randomize data:
-
-fShuffle = open("generatedIntentEndTimeEventROShuffle.yml", "w")
-fENShuffle = open("generatedIntentEndTimeEventENShuffle.yml", "w")
-fR = open("generatedIntentEndTimeEventRO.yml", "r")
-fREN = open("generatedIntentEndTimeEventEN.yml", "r")
-
-linesRO = fR.readlines()
-linesEN = fREN.readlines()
-random.shuffle(linesRO)
-random.shuffle(linesEN)
-fShuffle.writelines(linesRO)
-fENShuffle.writelines(linesEN)
-fShuffle.close()
-fENShuffle.close()

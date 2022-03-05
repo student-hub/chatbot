@@ -1,44 +1,33 @@
 import json
 import random
+import sys
 
-with open('intentStartTimeEventRO.json') as intentStartTimeEventRO:
-	intentRO = json.load(intentStartTimeEventRO)
-with open('intentStartTimeEventEN.json') as intentStartTimeEventEN:
-	intentEN = json.load(intentStartTimeEventEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentStartTimeEventEN.json"
+	output_file = "generatedIntentStartTimeEventEN.yml"
+else:
+	print("ro")
+	filename = "intentStartTimeEventRO.json'"
+	output_file = "generatedIntentStartTimeEventRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_start_time_event\n" + "  " + "examples: |\n")
+
+with open(filename) as intentStartTimeEvent:
+	intent = json.load(intentStartTimeEvent)
+
 with open('../../resources/classesFirebase.json') as subjectModel:
 	subjects = json.load(subjectModel)
-f = open("generatedIntentStartTimeEventRO.yml", "w")
-fEN = open("generatedIntentStartTimeEventEN.yml", "w")
 
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['name']) + "\n")
+for i in range(int(len(intent) / 2)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['name']) + "\n")
 
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['name']) + "\n")
-
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['shortname']) + "\n")
-
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['shortname']) + "\n")
+for i in range(int(len(intent) / 2) + 1, len(intent)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['shortname']) + "\n")
 
 f.close()
-fEN.close()
-
-fShuffle = open("generatedIntentStartTimeEventROShuffle.yml", "w")
-fENShuffle = open("generatedIntentStartTimeEventENShuffle.yml", "w")
-fR = open("generatedIntentStartTimeEventRO.yml", "r")
-fREN = open("generatedIntentStartTimeEventEN.yml", "r")
-
-linesRO = fR.readlines()
-linesEN = fREN.readlines()
-random.shuffle(linesRO)
-random.shuffle(linesEN)
-fShuffle.writelines(linesRO)
-fENShuffle.writelines(linesEN)
-fShuffle.close()
-fENShuffle.close()

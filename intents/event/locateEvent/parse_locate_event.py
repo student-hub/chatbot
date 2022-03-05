@@ -1,46 +1,33 @@
 import json
 import random
+import sys
 
-with open('intentLocateEventRO.json') as intentLocateEventRO:
-	intentRO = json.load(intentLocateEventRO)
-with open('intentLocateEventEN.json') as intentLocateEventEN:
-	intentEN = json.load(intentLocateEventEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentLocateEventEN.json"
+	output_file = "generatedIntentLocateEventEN.yml"
+else:
+	print("ro")
+	filename = "intentLocateEventRO.json"
+	output_file = "generatedIntentLocateEventRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: locate_event\n" + "  " + "examples: |\n")
+
+with open(filename) as intentLocateEvent:
+	intent = json.load(intentLocateEvent)
+
 with open('../../resources/classesFirebase.json') as subjectModel:
 	subjects = json.load(subjectModel)
-f = open("generatedIntentLocateEventRO.yml", "w")
-fEN = open("generatedIntentLocateEventEN.yml", "w")
 
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['name']) + "\n")
+for i in range(int(len(intent) / 2)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['name']) + "\n")
 
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['name']) + "\n")
-
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['shortname']) + "\n")
-
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['shortname']) + "\n")
+for i in range(int(len(intent) / 2) + 1, len(intent)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['shortname']) + "\n")
 
 f.close()
-fEN.close()
-
-#randomize data:
-
-fShuffle = open("generatedIntentLocateEventROShuffle.yml", "w")
-fENShuffle = open("generatedIntentLocateEventENShuffle.yml", "w")
-fR = open("generatedIntentLocateEventRO.yml", "r")
-fREN = open("generatedIntentLocateEventEN.yml", "r")
-
-linesRO = fR.readlines()
-linesEN = fREN.readlines()
-random.shuffle(linesRO)
-random.shuffle(linesEN)
-fShuffle.writelines(linesRO)
-fENShuffle.writelines(linesEN)
-fShuffle.close()
-fENShuffle.close()

@@ -1,21 +1,33 @@
 import json
+import random
+import sys
 
-with open('intentLocateClassroomRO.json') as intentLocateClassroomRO:
-	intentRO = json.load(intentLocateClassroomRO)
-with open('intentLocateClassroomEN.json') as intentLocateClassroomEN:
-	intentEN = json.load(intentLocateClassroomEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentLocateClassroomEN.json"
+	output_file = "generatedIntentLocateClassroomEN.yml"
+else:
+	print("ro")
+	filename = "intentLocateClassroomRO.json"
+	output_file = "generatedIntentLocateClassroomRO.yml"
+
+
+f = open(output_file, "w")
+f.write("- intent: locate_classroom\n" + "  " + "examples: |\n")
+
+with open(filename) as intentLocateClassroom:
+	intent = json.load(intentLocateClassroom)
 with open('../resources/classroomsFirebase.json') as classroomModel:
 	classroom = json.load(classroomModel)
-f = open("generatedIntentLocateClassroomRO.yml", "w")
-fEN = open("generatedIntentLocateClassroomEN.yml", "w")
 
-for i in intentRO:
-	for c in classroom['classrooms']:
-		f.write(i.replace("Cx", c['name']) + "\n")
+for i in intent:
+	random_classroom = random.choice(classroom["classrooms"])
+	f.write("   " + i.replace("Cx", random_classroom['name']) + "\n")
 
-for i in intentEN:
-	for c in classroom['classrooms']:
-		fEN.write(i.replace("Cx", c['name']) + "\n")
+f.write("- lookup: classroom\n" + "  " + "examples: |\n")
+for c in classroom["classrooms"]:
+	f.write("   -" + c['name'] + "\n")
 
 f.close()
-fEN.close()

@@ -1,21 +1,29 @@
 import json
+import random
+import sys
 
-with open('intentGetTeacherNameRO.json') as intentSearchTeacherRO:
-	intentRO = json.load(intentSearchTeacherRO)
-with open('intentGetTeacherNameEN.json') as intentSearchTeacherEN:
-	intentEN = json.load(intentSearchTeacherEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentGetTeacherNameEN.json"
+	output_file = "generatedIntentGetTeacherNameEN.yml"
+else:
+	print("ro")
+	filename = "intentGetTeacherNameRO.json"
+	output_file = "generatedIntentGetTeacherNameRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_teacher_name\n" + "  " + "examples: |\n")
+
+with open(filename) as intentSearchTeacher:
+	intent = json.load(intentSearchTeacher)
+
 with open('../../resources/classroomsFirebase.json') as classroomModel:
 	classroom = json.load(classroomModel)
-f = open("generatedIntentGetTeacherNameRO.yml", "w")
-fEN = open("generatedIntentGetTeacherNameEN.yml", "w")
 
-for i in intentRO:
-	for c in classroom['classrooms']:
-		f.write(i.replace("Cx", c['name']) + "\n")
-
-for i in intentEN:
-	for c in classroom['classrooms']:
-		fEN.write(i.replace("Cx", c['name']) + "\n")
+for i in intent:
+	random_classroom = random.choice(classroom["classrooms"])
+	f.write("   " + i.replace("Cx", random_classroom['name']) + "\n")
 
 f.close()
-fEN.close()

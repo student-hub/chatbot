@@ -1,46 +1,38 @@
 import json
 import random
+import sys
 
-with open('intentGetDateEventRO.json') as intentGetDateEventRO:
-	intentRO = json.load(intentGetDateEventRO)
-with open('intentGetDateEventEN.json') as intentGetDateEventEN:
-	intentEN = json.load(intentGetDateEventEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	print("en")
+	filename = "intentGetDateEventEN.json"
+	output_file = "generatedIntentGetDateEventEN.yml"
+else:
+	print("ro")
+	filename = "intentGetDateEventRO.json"
+	output_file = "generatedIntentGetDateEventRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_date_event\n" + "  " + "examples: |\n")
+
+with open(filename) as intentGetDateEvent:
+	intent = json.load(intentGetDateEvent)
+
 with open('../../resources/classesFirebase.json') as subjectModel:
 	subjects = json.load(subjectModel)
-f = open("generatedIntentGetDateEventRO.yml", "w")
-fEN = open("generatedIntentGetDateEventEN.yml", "w")
 
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['name']) + "\n")
+for i in range(int(len(intent) / 2)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['name']) + "\n")
 
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['name']) + "\n")
+for i in range(int(len(intent) / 2) + 1, len(intent)):
+	random_subject = random.choice(subjects['classes'])
+	f.write("   " + intent[i].replace("Ex", random_subject['shortname']) + "\n")
 
-for i in intentRO:
-	for subject in subjects['classes']:
-		f.write(i.replace("Ex", subject['shortname']) + "\n")
-
-for i in intentEN:
-	for subject in subjects['classes']:
-		fEN.write(i.replace("Ex", subject['shortname']) + "\n")
+f.write("- lookup: event\n" + "  " + "examples: |\n")
+for subject in subjects['classes']:
+	f.write("   -" + subject['name'] + "\n")
+	f.write("   -" + subject['shortname'] + "\n")
 
 f.close()
-fEN.close()
-
-#randomize data:
-
-fShuffle = open("generatedIntentGetDateEventROShuffle.yml", "w")
-fENShuffle = open("generatedIntentGetDateEventENShuffle.yml", "w")
-fR = open("generatedIntentGetDateEventRO.yml", "r")
-fREN = open("generatedIntentGetDateEventEN.yml", "r")
-
-linesRO = fR.readlines()
-linesEN = fREN.readlines()
-random.shuffle(linesRO)
-random.shuffle(linesEN)
-fShuffle.writelines(linesRO)
-fENShuffle.writelines(linesEN)
-fShuffle.close()
-fENShuffle.close()
