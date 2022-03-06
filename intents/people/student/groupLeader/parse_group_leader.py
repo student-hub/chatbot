@@ -1,52 +1,38 @@
 import json
-import os
+import random
+import sys
 
-with open('intentGroupLeaderRO.json') as intentGroupLeaderRO:
-    intentRO = json.load(intentGroupLeaderRO)
-with open('intentGroupLeaderEN.json') as intentGroupLeaderEN:
-    intentEN = json.load(intentGroupLeaderEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	filename = "intentGroupLeaderEN.json"
+	output_file = "generatedIntentGroupLeaderEN.yml"
+else:
+	filename = "intentGroupLeaderRO.json"
+	output_file = "generatedIntentGroupLeaderRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_group_leader_name\n" + "  " + "examples: |\n")
+
+with open(filename) as intentGroupLeaderName:
+	intent = json.load(intentGroupLeaderName)
 with open('../../../resources/nrGroup.json') as nrGroupModel:
     nrGroup = json.load(nrGroupModel)
 with open('../../../resources/nrSR.json') as nrSRModel:
     nrSR = json.load(nrSRModel)
-f = open("generatedIntentGroupLeaderRO.json", "w")
-fEN = open("generatedIntentGroupLeaderEN.json", "w")
 
-f.write("[" + "\n")
-for i in intentRO:
-    for g in nrGroup:
-        f.write(f'"' + i.replace("Gx", nrGroup[g]['nameGroup']) + f'",' + "\n")
+for i in intent:
+    random_nrGroup = random.choice(list(nrGroup.values()))
+    random_nrSR = random.choice(list(nrSR.values()))
+    i = i.replace("Gx", random_nrGroup['nameGroup'])
+    f.write("   "  + i.replace("Sx", random_nrSR['nameSR']) + "\n")
 
-f.seek(f.tell() - 2, os.SEEK_SET)
-f.truncate()
-f.write("\n" + "]")
-f.close()
+f.write("- lookup: groupNr\n" + "  " + "examples: |\n")
+for idx in nrGroup:
+	f.write("   -" + nrGroup[idx]['nameGroup'] + "\n")
 
-fEN.write("[" + "\n")
-for i in intentEN:
-    for g in nrGroup:
-        fEN.write(f'"' + i.replace("Gx", nrGroup[g]['nameGroup']) + f'",' + "\n")
-
-fEN.seek(fEN.tell() - 2, os.SEEK_SET)
-fEN.truncate()
-fEN.write("\n" + "]")
-fEN.close()
-
-with open('generatedIntentGroupLeaderRO.json') as generatedIntentGroupLeaderRO:
-    intentRO = json.load(generatedIntentGroupLeaderRO)
-f = open("generatedIntentGroupLeaderRO.yml", "w")
-
-with open('generatedIntentGroupLeaderEN.json') as generatedIntentGroupLeaderEN:
-    intentEN = json.load(generatedIntentGroupLeaderEN)
-fEN = open("generatedIntentGroupLeaderEN.yml", "w")
-
-for i in intentRO:
-    for n in nrSR:
-        f.write(i.replace("Sx", nrSR[n]['nameSR']) + "\n")
-
-for i in intentEN:
-    for n in nrSR:
-        fEN.write(i.replace("Sx", nrSR[n]['nameSR']) + "\n")
+f.write("- lookup: srNr\n" + "  " + "examples: |\n")
+for idx in nrSR:
+	f.write("   -" + nrSR[idx]['nameSR'] + "\n")
 
 f.close()
-fEN.close()

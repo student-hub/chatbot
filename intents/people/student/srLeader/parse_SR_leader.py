@@ -1,22 +1,27 @@
 import json
-import os
+import random
+import sys
 
-with open('intentSRLeaderRO.json') as intentSRLeaderRO:
-    intentRO = json.load(intentSRLeaderRO)
-with open('intentSRLeaderEN.json') as intentSRLeaderEN:
-    intentEN = json.load(intentSRLeaderEN)
+filename = ''
+output_file = ''
+if sys.argv[1] == "en":
+	filename = "intentSRLeaderEN.json"
+	output_file = "generatedIntentSRLeaderEN.yml"
+else:
+	filename = "intentSRLeaderRO.json"
+	output_file = "generatedIntentSRLeaderRO.yml"
+
+f = open(output_file, "w")
+f.write("- intent: get_SR_leader_name\n" + "  " + "examples: |\n")
+
+with open(filename) as intentSRLeader:
+    intent = json.load(intentSRLeader)
 with open('../../../resources/nrSR.json') as nrSRModel:
     nrSR = json.load(nrSRModel)
-f = open("generatedIntentSRLeaderRO.yml", "w")
-fEN = open("generatedIntentSRLeaderEN.yml", "w")
 
-for i in intentRO:
-    for n in nrSR:
-        f.write(i.replace("Sx", nrSR[n]['nameSR']) + "\n")
+for i in intent:
+    random_nrSR = random.choice(list(nrSR.values()))
+    f.write("   "  + i.replace("Sx", random_nrSR['nameSR']) + "\n")
 
-for i in intentEN:
-    for n in nrSR:
-        fEN.write(i.replace("Sx", nrSR[n]['nameSR']) + "\n")
 
 f.close()
-fEN.close()
