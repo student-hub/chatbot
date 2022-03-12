@@ -10,10 +10,8 @@ path = ''
 yaml = ruamel.yaml.YAML()
 
 if sys.argv[1] == "en":
-    print("en")
     path = "faq\en"
 else:
-    print("ro")
     path = "faq\\ro"
 
 for faq_file in os.listdir(path):
