@@ -170,7 +170,6 @@ class ActionLocateEvent(Action):
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):
-                                print(currentEvent["location"])
                                 if currentEvent["location"] is not None and currentEvent["rrule"] is not None:
                                     day, hour = helper.get_time(currentEvent)
                                     results_list.append(LocateEventInfo(day, hour, currentEvent["location"]))                          
@@ -311,7 +310,7 @@ class ActionGetSRLeaderName(Action):
 class ActionGetCourseGrade(Action):
 
     def name(self) -> Text:
-        return "action_get_course_grade"
+        return "action_get_course_grading"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -327,11 +326,8 @@ class ActionGetCourseGrade(Action):
         eventEntity, typeEventEntity = helper.get_entities(entities)
 
         event = helper.compute_event_name(classFields, eventEntity)
-        typeEvent = helper.get_type_event(typeEventEntity)
     
         events = firestore_db.collection(u'classes').get()
-
-        results_list = []
 
         for e in events:
             currentEventName = e.id

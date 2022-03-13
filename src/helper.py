@@ -109,7 +109,7 @@ def compute_event_name(classFields, eventEntity):
     month = formatted_today[0]
 
     if month in ["February", "March", "April", "May", "June"]:
-        event = event + "-A" + year + "-S1"
+        event = event + "-A" + year + "-S2"
     else:
         event = event + "-A" + year + "-S1"
 

@@ -7,7 +7,6 @@ pipeline:
     model: "en_core_web_md"
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
-  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -22,6 +21,13 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: True
+  - name: "RegexFeaturizer"
+    "case_sensitive": False
+    "use_word_boundaries": True
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
+    "use_word_boundaries": True
   - name: FallbackClassifier
     threshold: 0.7
 
