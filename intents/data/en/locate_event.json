@@ -78,7 +78,7 @@
 "- Where is [Ex](event) held?",
 "- Where is the [Ex](event) [course](typeEvent) held?",
 "- Where is the [Ex](event) [laboratory](typeEvent) held?",
-"- Where is [Ex](the event) held [seminar](typeEvent)?",
+"- Where is [Ex](event) held [seminar](typeEvent)?",
 "- In which room can I participate in [Ex](event)?",
 "- In which room can I participate in the [Ex](event) [course](typeEvent)?",
 "- In which room can I participate in the [Ex](event) [laboratory](typeEvent)?",
