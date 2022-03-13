@@ -85,12 +85,6 @@
             "year": "1"
         },
         {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Limba straina 1",
             "shortname": "LS1",
             "semester": "1",
@@ -100,127 +94,7 @@
             "name": "Educatie fizica si sport 1",
             "shortname": "EFS1",
             "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Proiectare logica",
-            "shortname": "PL",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Proiectare logica",
-            "shortname": "PL",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Proiectare logica",
-            "shortname": "PL",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Matematica 1",
@@ -231,18 +105,6 @@
         {
             "name": "Proiectare logica",
             "shortname": "PL",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
             "semester": "1",
             "year": "1"
         },
@@ -255,14 +117,14 @@
         {
             "name": "Metode numerice",
             "shortname": "MN",
-            "semester": "2",
-            "year": "1"
+            "semester": "1",
+            "year": "2"
         },
         {
             "name": "Activitate de voluntariat",
             "shortname": "AV",
             "semester": "2",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Fizica computationala",
@@ -279,7 +141,7 @@
         {
             "name": "Prelucrarea informatiei",
             "shortname": "PI",
-            "semester": "2",
+            "semester": "1",
             "year": "1"
         },
         {
@@ -301,20 +163,8 @@
             "year": "1"
         },
         {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Fizica",
             "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
             "semester": "2",
             "year": "1"
         },
@@ -334,133 +184,7 @@
             "name": "Educatie fizica si sport 2",
             "shortname": "EFS2",
             "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Structuri de date",
-            "shortname": "SD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Structuri de date",
-            "shortname": "SD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Structuri de date",
-            "shortname": "SD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Introducere in organizarea calculatoarelor si limbaj de asamblare",
@@ -513,18 +237,12 @@
         {
             "name": "Matematica 4",
             "shortname": "M4",
-            "semester": "1",
+            "semester": "2",
             "year": "2"
         },
         {
             "name": "Pedagogie II",
             "shortname": "Ped2",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
             "semester": "1",
             "year": "2"
         },
@@ -535,72 +253,6 @@
             "year": "2"
         },
         {
-            "name": "Analiza algoritmilor",
-            "shortname": "AA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Elemente de electronica analogica",
-            "shortname": "EEA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Introducere in organizarea calculatoarelor si limbaj de asamblare",
-            "shortname": "IOCLA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Teoria sistemelor",
-            "shortname": "TS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Teoria sistemelor",
-            "shortname": "TS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Introducere in organizarea calculatoarelor si limbaj de asamblare",
-            "shortname": "IOCLA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Analiza algoritmilor",
-            "shortname": "AA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Elemente de electronica analogica",
             "shortname": "EEA",
             "semester": "1",
@@ -613,68 +265,8 @@
             "year": "2"
         },
         {
-            "name": "Introducere in organizarea calculatoarelor si limbaj de asamblare",
-            "shortname": "IOCLA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Limba straina 3",
             "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Elemente de electronica analogica",
-            "shortname": "EEA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Analiza algoritmilor",
-            "shortname": "AA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Teoria sistemelor",
-            "shortname": "TS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Introducere in organizarea calculatoarelor si limbaj de asamblare",
-            "shortname": "IOCLA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Elemente de electronica analogica",
-            "shortname": "EEA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Analiza algoritmilor",
-            "shortname": "AA",
             "semester": "1",
             "year": "2"
         },
@@ -709,20 +301,8 @@
             "year": "2"
         },
         {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Didactica specialitatii",
             "shortname": "DS",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
             "semester": "2",
             "year": "2"
         },
@@ -739,164 +319,8 @@
             "year": "2"
         },
         {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Limba straina 4",
             "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Paradigme de programare",
-            "shortname": "PP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Protocoale de comunicatii",
-            "shortname": "PCom",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea algoritmilor",
-            "shortname": "PA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Achizitii de date si instrumentatie virtuala",
-            "shortname": "ADIV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Achizitii de date si instrumentatie virtuala",
-            "shortname": "ADIV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea algoritmilor",
-            "shortname": "PA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Paradigme de programare",
-            "shortname": "PP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Protocoale de comunicatii",
-            "shortname": "PCom",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Calculatoare numerice I",
-            "shortname": "CN1",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Calculatoare numerice I",
-            "shortname": "CN1",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Achizitii de date si instrumentatie virtuala",
-            "shortname": "ADIV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Protocoale de comunicatii",
-            "shortname": "PCom",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Paradigme de programare",
-            "shortname": "PP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea algoritmilor",
-            "shortname": "PA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Calculatoare numerice I",
-            "shortname": "CN1",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Achizitii de date si instrumentatie virtuala",
-            "shortname": "ADIV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Protocoale de comunicatii",
-            "shortname": "PCom",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Paradigme de programare",
-            "shortname": "PP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea algoritmilor",
-            "shortname": "PA",
             "semester": "2",
             "year": "2"
         },
@@ -928,7 +352,7 @@
             "name": "Tehnici de comunicare si scriere tehnica",
             "shortname": "TCS",
             "semester": "1",
-            "year": "3"
+            "year": "2"
         },
         {
             "name": "Proiectarea asistata de calculator a modulelor electronice",
@@ -962,25 +386,13 @@
         },
         {
             "name": "Practica pedagogica in invatamantul preuniversitar obligatoriu",
-            "shortname": "PPedI",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Calculatoare numerice II",
-            "shortname": "CN2",
-            "semester": "1",
+            "shortname": "PPedII",
+            "semester": "2",
             "year": "3"
         },
         {
             "name": "Algoritmi paraleli si distribuiti",
             "shortname": "APD",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Retele locale",
-            "shortname": "RL",
             "semester": "1",
             "year": "3"
         },
@@ -993,66 +405,6 @@
         {
             "name": "Limbaje formale si automate",
             "shortname": "LFA",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Retele locale",
-            "shortname": "RL",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Limbaje formale si automate",
-            "shortname": "LFA",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Algoritmi paraleli si distribuiti",
-            "shortname": "APD",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Calculatoare numerice II",
-            "shortname": "CN2",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Elemente de grafica pe calculator",
-            "shortname": "EGC",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Elemente de grafica pe calculator",
-            "shortname": "EGC",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Calculatoare numerice II",
-            "shortname": "CN2",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Retele locale",
-            "shortname": "RL",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Limbaje formale si automate",
-            "shortname": "LFA",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Algoritmi paraleli si distribuiti",
-            "shortname": "APD",
             "semester": "1",
             "year": "3"
         },
@@ -1077,12 +429,6 @@
         {
             "name": "Proiectarea cu microprocesoare",
             "shortname": "PM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica pedagogica in invatamantul preuniversitar obligatoriu",
-            "shortname": "PPedII",
             "semester": "2",
             "year": "3"
         },
@@ -1141,104 +487,8 @@
             "year": "3"
         },
         {
-            "name": "Fiabilitate software",
-            "shortname": "FS",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica",
-            "shortname": "P",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Proiectarea cu microprocesoare",
-            "shortname": "PM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
             "name": "Baze de date I",
             "shortname": "BD1",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Arhitectura sistemelor de calcul",
-            "shortname": "ASC",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Sisteme de operare",
-            "shortname": "SO",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Arhitectura sistemelor de calcul",
-            "shortname": "ASC",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Baze de date I",
-            "shortname": "BD1",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica",
-            "shortname": "P",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Proiectarea cu microprocesoare",
-            "shortname": "PM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Sisteme de operare",
-            "shortname": "SO",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Proiectarea cu microprocesoare",
-            "shortname": "PM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Arhitectura sistemelor de calcul",
-            "shortname": "ASC",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Baze de date I",
-            "shortname": "BD1",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Sisteme de operare",
-            "shortname": "SO",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica",
-            "shortname": "P",
             "semester": "2",
             "year": "3"
         },
@@ -1252,23 +502,17 @@
             "name": "Managementul proiectelor",
             "shortname": "MP",
             "semester": "1",
-            "year": "4"
+            "year": "2"
         },
         {
             "name": "Proiectarea retelelor",
-            "shortname": "PRe",
+            "shortname": "PR",
             "semester": "1",
             "year": "4"
         },
         {
             "name": "Arhitecturi si prelucrari paralele",
             "shortname": "APPa",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Proiectarea retelelor",
-            "shortname": "PR",
             "semester": "1",
             "year": "4"
         },
@@ -1281,8 +525,8 @@
         {
             "name": "Sisteme cu microprocesoare",
             "shortname": "SM",
-            "semester": "1",
-            "year": "4"
+            "semester": "2",
+            "year": "3"
         },
         {
             "name": "Sisteme incorporate",
@@ -1309,20 +553,8 @@
             "year": "4"
         },
         {
-            "name": "Inteligenta artificiala",
-            "shortname": "IA",
-            "semester": "1",
-            "year": "4"
-        },
-        {
             "name": "Baze de Date II",
             "shortname": "BDII",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Inteligenta artificiala",
-            "shortname": "IA",
             "semester": "1",
             "year": "4"
         },
@@ -1366,12 +598,6 @@
             "name": "Integrarea sistemelor informatice",
             "shortname": "ISI",
             "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
             "year": "4"
         },
         {
@@ -1435,212 +661,14 @@
             "year": "4"
         },
         {
-            "name": "Cultura si civilizatie",
-            "shortname": "CC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Elemente de informatica aplicata in ingineria sistemelor",
             "shortname": "EIAIS",
             "semester": "1",
             "year": "1"
         },
         {
-            "name": "Prelucrarea informatiei",
-            "shortname": "PI",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Doctrine politice",
-            "shortname": "DP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Istoria filosofiei",
-            "shortname": "IF",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Grafica inginereasca",
-            "shortname": "GI",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Logica",
-            "shortname": "L",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Psihologia educatiei",
-            "shortname": "PsE",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Istoria religiilor",
-            "shortname": "IR",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Mecanica",
-            "shortname": "Mec",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Mecanica",
-            "shortname": "Mec",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Utilizarea sistemelor de operare",
-            "shortname": "USO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 1",
-            "shortname": "M1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Programarea calculatoarelor",
-            "shortname": "PC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Mecanica",
-            "shortname": "Mec",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 1",
-            "shortname": "LS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 2",
-            "shortname": "M2",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Pedagogie I",
-            "shortname": "Ped1",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Chimie",
             "shortname": "C",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
             "semester": "2",
             "year": "1"
         },
@@ -1651,126 +679,12 @@
             "year": "1"
         },
         {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Generarea si managementul documentelor",
             "shortname": "GMD",
             "semester": "2",
             "year": "1"
         },
         {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Chimie",
-            "shortname": "C",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Generarea si managementul documentelor",
-            "shortname": "GMD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Structuri de date si algoritmi",
-            "shortname": "SDA",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Generarea si managementul documentelor",
-            "shortname": "GMD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Fizica",
-            "shortname": "F",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele electrotehnicii",
-            "shortname": "BE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Limba straina 2",
-            "shortname": "LS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Structuri de date si algoritmi",
-            "shortname": "SDA",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Matematica 3",
-            "shortname": "M3",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Chimie",
-            "shortname": "C",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Tehnici de calcul in automatica si informatica",
             "shortname": "TCAI",
             "semester": "1",
@@ -1779,192 +693,18 @@
         {
             "name": "Semnale si sisteme",
             "shortname": "SS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Pedagogie II",
-            "shortname": "Ped2",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Psihoinventica",
-            "shortname": "Psi",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Filosofia culturii tehnice",
-            "shortname": "FCT",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Filosofie cognitivista",
-            "shortname": "FC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Complemente de fizica",
-            "shortname": "CFiz",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Politologie",
-            "shortname": "Pol",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Educatie fizica si sport 1",
-            "shortname": "EFS1",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Semnale si sisteme",
-            "shortname": "SS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de calcul in automatica si informatica",
-            "shortname": "TCAI",
             "semester": "1",
             "year": "2"
         },
         {
             "name": "Electronica analogica",
             "shortname": "EA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Electronica analogica",
-            "shortname": "EA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Semnale si sisteme",
-            "shortname": "SS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de calcul in automatica si informatica",
-            "shortname": "TCAI",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Programare orientata pe obiecte",
-            "shortname": "POO",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Metode numerice",
-            "shortname": "MN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Electronica analogica",
-            "shortname": "EA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Semnale si sisteme",
-            "shortname": "SS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 3",
-            "shortname": "LS3",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de calcul in automatica si informatica",
-            "shortname": "TCAI",
             "semester": "1",
             "year": "2"
         },
         {
             "name": "Teoria sistemelor automate",
             "shortname": "TSA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Didactica specialitatii",
-            "shortname": "DS",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Matematica 4",
-            "shortname": "M4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Educatie fizica si sport 2",
-            "shortname": "EFS2",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
             "semester": "2",
             "year": "2"
         },
@@ -1981,12 +721,6 @@
             "year": "2"
         },
         {
-            "name": "Teoria sistemelor automate",
-            "shortname": "TSA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Actionari",
             "shortname": "A",
             "semester": "2",
@@ -1995,108 +729,6 @@
         {
             "name": "Proiectarea dispozitivelor numerice",
             "shortname": "PDN",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Bazele managementului",
-            "shortname": "BM",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Bazele managementului",
-            "shortname": "BM",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea dispozitivelor numerice",
-            "shortname": "PDN",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Actionari",
-            "shortname": "A",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de optimizare",
-            "shortname": "TO",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme dinamice cu evenimente discrete",
-            "shortname": "SDED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Teoria sistemelor automate",
-            "shortname": "TSA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Limba straina 4",
-            "shortname": "LS4",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme dinamice cu evenimente discrete",
-            "shortname": "SDED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de optimizare",
-            "shortname": "TO",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Teoria sistemelor automate",
-            "shortname": "TSA",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Actionari",
-            "shortname": "A",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea dispozitivelor numerice",
-            "shortname": "PDN",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Electronica digitala",
-            "shortname": "ED",
             "semester": "2",
             "year": "2"
         },
@@ -2113,86 +745,8 @@
             "year": "3"
         },
         {
-            "name": "Proiectarea asistata de calculator a modulelor electronice",
-            "shortname": "PACME",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Instruire asistata de calculator",
-            "shortname": "IAC",
-            "semester": "1",
-            "year": "3"
-        },
-        {
             "name": "Telemonitorizarea proceselor industriale",
             "shortname": "TPI",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Bioinginerie",
-            "shortname": "Bing",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Practica pedagogica in invatamantul preuniversitar obligatoriu",
-            "shortname": "PPedI",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Tehnici de comunicare si scriere tehnica",
-            "shortname": "TCS",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Baze de date",
-            "shortname": "BD",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Modelare si simulare",
-            "shortname": "MS",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Traductoare si sisteme de masurare",
-            "shortname": "TSM",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Arhitectura calculatoarelor",
-            "shortname": "ACa",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Baze de date",
-            "shortname": "BD",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Traductoare si sisteme de masurare",
-            "shortname": "TSM",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Arhitectura calculatoarelor",
-            "shortname": "ACa",
-            "semester": "1",
-            "year": "3"
-        },
-        {
-            "name": "Modelare si simulare",
-            "shortname": "MS",
             "semester": "1",
             "year": "3"
         },
@@ -2227,34 +781,10 @@
             "year": "3"
         },
         {
-            "name": "Practica",
-            "shortname": "P",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica",
-            "shortname": "P",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Managementul clasei de elevi",
-            "shortname": "MCE",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Practica pedagogica in invatamantul preuniversitar obligatoriu",
-            "shortname": "PPedII",
-            "semester": "2",
-            "year": "3"
-        },
-        {
             "name": "Sisteme de calcul Cloud",
             "shortname": "ClCo",
-            "semester": "2",
-            "year": "3"
+            "semester": "1",
+            "year": "1"
         },
         {
             "name": "Managementul proiectarii sistemelor de conducere avansate",
@@ -2263,122 +793,20 @@
             "year": "3"
         },
         {
-            "name": "Fiabilitate software",
-            "shortname": "FS",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Fiabilitate software",
-            "shortname": "",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Istoria ideilor si gandirii politice",
-            "shortname": "IIGP",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Optimizarea asistata de calculator a modulelor electronice",
-            "shortname": "OACME",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Examen de absolvire - Nivelul I",
-            "shortname": "EAN1",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Ingineria reglarii automate",
-            "shortname": "IRA",
-            "semester": "2",
-            "year": "3"
-        },
-        {
             "name": "Transmisii de date",
             "shortname": "TD",
             "semester": "2",
             "year": "3"
         },
         {
-            "name": "Sisteme cu microprocesoare",
-            "shortname": "SM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
             "name": "Automate programabile si microprocesoare",
             "shortname": "APM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Transmisii de date",
-            "shortname": "TD",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Ingineria reglarii automate",
-            "shortname": "IRA",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Sisteme cu microprocesoare",
-            "shortname": "SM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Automate programabile si microprocesoare",
-            "shortname": "APM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Transmisii de date",
-            "shortname": "TD",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Sisteme cu microprocesoare",
-            "shortname": "SM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Automate programabile si microprocesoare",
-            "shortname": "APM",
-            "semester": "2",
-            "year": "3"
-        },
-        {
-            "name": "Ingineria reglarii automate",
-            "shortname": "IRA",
             "semester": "2",
             "year": "3"
         },
         {
             "name": "Sisteme de conducere a fabricatiei",
             "shortname": "SCF",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Managementul proiectelor",
-            "shortname": "MP",
             "semester": "1",
             "year": "4"
         },
@@ -2392,48 +820,6 @@
             "name": "Sisteme de conducere a proceselor industriale",
             "shortname": "SCAPI",
             "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Sisteme de conducere a fabricatiei",
-            "shortname": "SCF",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Sisteme de conducere a proceselor industriale",
-            "shortname": "SCAPI",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Managementul proiectelor",
-            "shortname": "MP",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Identificarea sistemelor",
-            "shortname": "IS",
-            "semester": "1",
-            "year": "4"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "4"
-        },
-        {
-            "name": "Mecatronica",
-            "shortname": "Mctr",
-            "semester": "2",
-            "year": "4"
-        },
-        {
-            "name": "Pregatire proiect de licenta",
-            "shortname": "PPL",
-            "semester": "2",
             "year": "4"
         },
         {
@@ -2456,13 +842,7 @@
         },
         {
             "name": "Reprezentarea cunostintelor",
-            "shortname": "RC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme de calcul Cloud",
-            "shortname": "ClCo",
+            "shortname": "RCN",
             "semester": "1",
             "year": "1"
         },
@@ -2505,24 +885,12 @@
         {
             "name": "Cercetare stiintifica si practica",
             "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
+            "semester": "2",
+            "year": "2"
         },
         {
             "name": "Sisteme Avansate de Baze de Date",
             "shortname": "SABD",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica ",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Introducere in Big Data",
-            "shortname": "IBD",
             "semester": "1",
             "year": "1"
         },
@@ -2539,46 +907,34 @@
             "year": "1"
         },
         {
-            "name": "Tehnici de comunicare si scriere tehnica",
-            "shortname": "TCS",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Metode categoriale si statistice in computer science",
             "shortname": "MCSCS",
             "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Stiinta datelor",
             "shortname": "DS",
             "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Sisteme fizico-cibernetice",
             "shortname": "SFC",
             "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Geometrie computationala",
             "shortname": "GCO",
             "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Sisteme de tipuri si programare functionala",
             "shortname": "TSAFPr",
             "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Introducere in Realitatea Virtuala",
@@ -2605,12 +961,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Computer vision",
             "shortname": "CV",
             "semester": "1",
@@ -2619,25 +969,7 @@
         {
             "name": "Mineritul datelor",
             "shortname": "Dm",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Reprezentarea cunostintelor",
-            "shortname": "RC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Reprezentarea cunostintelor",
-            "shortname": "RCN",
-            "semester": "1",
+            "semester": "2",
             "year": "1"
         },
         {
@@ -2653,12 +985,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Dezvoltarea de software in startup-uri",
             "shortname": "DSS",
             "semester": "1",
@@ -2666,9 +992,9 @@
         },
         {
             "name": "Managementul securitatii informatiei",
-            "shortname": "MSi",
+            "shortname": "MSI",
             "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Management financiar",
@@ -2683,19 +1009,13 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Security of Information Systems",
             "shortname": "SIS",
             "semester": "1",
             "year": "1"
         },
         {
-            "name": "Securitatea cibernetica a infrastructurilor critice ",
+            "name": "Securitatea cibernetica a infrastructurilor critice",
             "shortname": "CIC",
             "semester": "1",
             "year": "1"
@@ -2719,18 +1039,6 @@
             "year": "1"
         },
         {
-            "name": "Introducere in Big Data",
-            "shortname": "IBD",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Data Mining pentru Informatica Financiara",
             "shortname": "DMCF",
             "semester": "1",
@@ -2749,12 +1057,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Securitatea calculatoarelor si a retelelor",
             "shortname": "SCAR",
             "semester": "1",
@@ -2767,38 +1069,8 @@
             "year": "1"
         },
         {
-            "name": "Dezvoltarea de software in startup-uri",
-            "shortname": "DSS",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Introducere in Big Data",
-            "shortname": "IBD",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Fundamentele stiintei serviciilor",
             "shortname": "FSSe",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme de calcul Cloud",
-            "shortname": "ClCo",
             "semester": "1",
             "year": "1"
         },
@@ -2809,32 +1081,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme de calcul Cloud",
-            "shortname": "ClCo",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme adaptive si colaborative",
-            "shortname": "SADC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Securitatea in sistemele grid si cloud",
             "shortname": "SCGC",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
             "semester": "2",
             "year": "1"
         },
@@ -2869,18 +1117,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Administrarea bazelor de date",
             "shortname": "ABD",
             "semester": "2",
@@ -2895,7 +1131,7 @@
         {
             "name": "Data mining si data warehousing",
             "shortname": "Dmdw",
-            "semester": "2",
+            "semester": "1",
             "year": "1"
         },
         {
@@ -2953,18 +1189,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Sisteme multi-agent",
             "shortname": "MS",
             "semester": "2",
@@ -2979,12 +1203,6 @@
         {
             "name": "Prelucrarea limbajului natural",
             "shortname": "NLP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -3007,12 +1225,6 @@
             "year": "1"
         },
         {
-            "name": "Sisteme multi-agent",
-            "shortname": "SmAG",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Antreprenoriat si inovare digitala",
             "shortname": "AID",
             "semester": "2",
@@ -3027,30 +1239,6 @@
         {
             "name": "Elemente avansate de ingineria programelor",
             "shortname": "EAIP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Data mining si data warehousing",
-            "shortname": "Dmdw",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Securitatea in sistemele grid si cloud",
-            "shortname": "SCGC",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -3079,12 +1267,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Calcul cluster si grid",
             "shortname": "CCG",
             "semester": "2",
@@ -3093,12 +1275,6 @@
         {
             "name": "Algoritmi distribuiti",
             "shortname": "AD",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -3121,50 +1297,14 @@
             "year": "1"
         },
         {
-            "name": "Securitatea dispozitivelor mobile",
-            "shortname": "SDM",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Infrastructura si servicii pentru retele mobile",
             "shortname": "ISPM",
             "semester": "2",
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Antreprenoriat si inovare digitala",
-            "shortname": "AID",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Data mining si data warehousing",
-            "shortname": "Dmdw",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Metodologia pentru consultanta serviciilor informatice",
-            "shortname": "MPCsI",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Mineritul datelor",
-            "shortname": "Dm",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
+            "shortname": "MPCSI",
             "semester": "2",
             "year": "1"
         },
@@ -3187,20 +1327,8 @@
             "year": "1"
         },
         {
-            "name": "Metodologia pentru consultanta serviciilor informatice",
-            "shortname": "MPCSI",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Sisteme de e-sanatate",
             "shortname": "EH",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -3223,24 +1351,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme paralele si distribuite",
-            "shortname": "Spdi",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica ",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Proiectarea aplicatiilor J2EE",
             "shortname": "PAJ2",
             "semester": "1",
@@ -3248,55 +1358,19 @@
         },
         {
             "name": "Managementul proiectelor si serviciilor IT",
-            "shortname": "MPSIT",
+            "shortname": "MPIT",
             "semester": "1",
             "year": "2"
         },
         {
             "name": "Ingineria cunoasterii si ecosisteme de servicii",
             "shortname": "KESE",
-            "semester": "1",
-            "year": "2"
+            "semester": "2",
+            "year": "1"
         },
         {
             "name": "Antreprenoriat, protectia proprietatii intelectuale si diseminare in cercetare",
             "shortname": "APPIDC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de comunicare si scriere tehnica",
-            "shortname": "TCS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme fizico-cibernetice",
-            "shortname": "SFC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Stiinta datelor",
-            "shortname": "DS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Metode categoriale si statistice in computer science",
-            "shortname": "MCSCS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme de tipuri si programare functionala",
-            "shortname": "TSAFPr",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Geometrie computationala",
-            "shortname": "GCO",
             "semester": "1",
             "year": "2"
         },
@@ -3309,12 +1383,6 @@
         {
             "name": "Programare paralela pentru unitatea de procesare grafica",
             "shortname": "GPGPU",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "2"
         },
@@ -3357,14 +1425,8 @@
         {
             "name": "Retele neurale",
             "shortname": "NN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
+            "semester": "2",
+            "year": "1"
         },
         {
             "name": "Tehnici avansate de inteligenta artificiala",
@@ -3385,18 +1447,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul proiectelor",
-            "shortname": "MP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Politici si strategii de afaceri",
             "shortname": "PSTR",
             "semester": "1",
@@ -3409,13 +1459,7 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Strategii in afaceri si infrastructuri informatice suport ",
+            "name": "Strategii in afaceri si infrastructuri informatice suport",
             "shortname": "SAIIS",
             "semester": "1",
             "year": "2"
@@ -3439,20 +1483,8 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Proiectarea dispozitivelor criptografice folosind FPGA",
             "shortname": "PDCFF",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul securitatii informatiei",
-            "shortname": "MSI",
             "semester": "1",
             "year": "2"
         },
@@ -3469,12 +1501,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Topici avansate in securitatea calculatoarelor si retelelor",
             "shortname": "MASR",
             "semester": "1",
@@ -3483,12 +1509,6 @@
         {
             "name": "Interactiunea om-calculator, aplicata",
             "shortname": "AHCI",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "2"
         },
@@ -3517,50 +1537,8 @@
             "year": "2"
         },
         {
-            "name": "Sisteme paralele si distribuite",
-            "shortname": "Spdi",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de comunicare si scriere tehnica",
-            "shortname": "TCS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul proiectelor si serviciilor IT",
-            "shortname": "MPIT",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Integrarea si managementul serviciilor de afaceri",
             "shortname": "IMS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Securitatea informatica",
-            "shortname": "SINF",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme de incredere",
-            "shortname": "SINC",
             "semester": "1",
             "year": "2"
         },
@@ -3577,18 +1555,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Securitatea informatica",
-            "shortname": "SINF",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Etica engleza(SEM, IA, SAS, SCPD, SPF)",
             "shortname": "ET",
             "semester": "2",
@@ -3597,12 +1563,6 @@
         {
             "name": "Etica",
             "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
             "semester": "2",
             "year": "2"
         },
@@ -3625,214 +1585,16 @@
             "year": "2"
         },
         {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Elaborare lucrare disertatie",
             "shortname": "ELDi",
             "semester": "2",
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Elaborare lucrare de disertatie",
             "shortname": "ELD",
             "semester": "2",
             "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea si managementul programelor educationale",
-            "shortname": "PMPE",
-            "semester": "1",
-            "year": "1"
         },
         {
             "name": "Instrumentatie de proces in sisteme informatice",
@@ -3861,13 +1623,7 @@
         {
             "name": "Cercetare",
             "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
+            "semester": "2",
             "year": "1"
         },
         {
@@ -3877,26 +1633,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "SCADA si retele de automate",
             "shortname": "SCRDAP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Securitatea sistemelor informatice",
-            "shortname": "Ssi",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "1",
             "year": "1"
         },
@@ -3925,12 +1663,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "SCADA, HIL, SIL",
             "shortname": "SHS",
             "semester": "1",
@@ -3939,12 +1671,6 @@
         {
             "name": "Proiectarea aplicatiilor de conducere in timp real",
             "shortname": "PACTR",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "1",
             "year": "1"
         },
@@ -3967,20 +1693,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Managementul fluxurilor de operatii",
             "shortname": "MFO",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "1",
             "year": "1"
         },
@@ -4003,38 +1717,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Securitatea sistemelor informatice",
-            "shortname": "Ssi",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Procesoare digitale de semnal si prelucrarea video si audio in timp real",
             "shortname": "PDSPVATRe",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Tehnici de cautare si regasire a informatiei",
-            "shortname": "Tcri",
             "semester": "1",
             "year": "1"
         },
@@ -4045,15 +1729,9 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Arhitecturi orientate pe servicii si tehnologii WEB",
             "shortname": "AOSTW",
-            "semester": "1",
+            "semester": "2",
             "year": "1"
         },
         {
@@ -4065,12 +1743,6 @@
         {
             "name": "Modelarea si analiza sistemelor de sisteme",
             "shortname": "SoSMA",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "1"
         },
@@ -4093,12 +1765,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Securitatea retelelor si a sistemelor",
             "shortname": "NaSS",
             "semester": "1",
@@ -4107,13 +1773,7 @@
         {
             "name": "Managementul comunicarii si psihologia cognitiva",
             "shortname": "CMaCP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
+            "semester": "2",
             "year": "1"
         },
         {
@@ -4135,30 +1795,6 @@
             "year": "1"
         },
         {
-            "name": "Data mining si data warehousing",
-            "shortname": "Dmdw",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme suport decizie",
-            "shortname": "SSDE",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Procesarea paralela si distribuita a datelor si cunostintelor",
             "shortname": "Ppddc",
             "semester": "1",
@@ -4174,19 +1810,7 @@
             "name": "Managementul cunostintelor",
             "shortname": "MACUN",
             "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
+            "year": "2"
         },
         {
             "name": "Managementul fluxurilor de activitati",
@@ -4201,32 +1825,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "1",
-            "year": "1"
-        },
-        {
             "name": "Sisteme de control inteligent si sisteme multi-agent",
             "shortname": "Scism",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Managementul proiectelor informatice",
-            "shortname": "MPIN",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Modelarea fluxurilor de date si retele de calcul",
-            "shortname": "MFDRC",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "1",
             "year": "1"
         },
@@ -4261,30 +1861,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Consiliere si orientare",
-            "shortname": "CO",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Psihopedagogia adolescentilor, tinerilor si adultilor",
-            "shortname": "PATA",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Sisteme SCADA pentru procese industriale",
             "shortname": "SSppi",
             "semester": "2",
@@ -4303,20 +1879,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Actionari reglabile si elemente de executie",
             "shortname": "AREEx",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -4339,44 +1903,14 @@
             "year": "1"
         },
         {
-            "name": "Arhitecturi orientate pe servicii si tehnologii WEB",
-            "shortname": "AOSTW",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Planificarea resurselor intreprinderii",
             "shortname": "PRI",
             "semester": "2",
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Implementarea sistemelor de conducere pentru mediu industrial",
             "shortname": "ISCpMI",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "2",
             "year": "1"
         },
@@ -4395,12 +1929,6 @@
         {
             "name": "Programare eficienta in timp real",
             "shortname": "PETR",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -4429,18 +1957,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Fiabilitatea, mentenanta si siguranta in functionare a sistemelor informatice",
             "shortname": "Fmsfsi",
             "semester": "2",
@@ -4449,12 +1965,6 @@
         {
             "name": "Management strategic si managementul riscului",
             "shortname": "Msmr",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
             "semester": "2",
             "year": "1"
         },
@@ -4483,32 +1993,8 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Testare software si asigurarea calitatii",
-            "shortname": "Tsac",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Prelucrari paralele in aplicatii multimedia",
             "shortname": "Ppam",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -4537,18 +2023,6 @@
             "year": "1"
         },
         {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Servicii web si instrumente de dezvoltare",
             "shortname": "WSDT",
             "semester": "2",
@@ -4567,12 +2041,6 @@
             "year": "1"
         },
         {
-            "name": "Ingineria cunoasterii si ecosisteme de servicii",
-            "shortname": "KESE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Managementul contabil si financiar pentru servicii",
             "shortname": "AFMS",
             "semester": "2",
@@ -4581,24 +2049,6 @@
         {
             "name": "Managementul lanturilor de aprovizionare si logistica",
             "shortname": "SCML",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Modelarea proceselor de afaceri",
-            "shortname": "Mpa",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Managementul comunicarii si psihologia cognitiva",
-            "shortname": "CMaCP",
             "semester": "2",
             "year": "1"
         },
@@ -4615,56 +2065,14 @@
             "year": "1"
         },
         {
-            "name": "Sisteme multi-agent",
-            "shortname": "MS",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Retele neurale",
-            "shortname": "NN",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Inginerie dirijata de modele pentru managementul informatiilor si al serviciilor",
             "shortname": "Idmpmis",
-            "semester": "2",
-            "year": "1"
+            "semester": "1",
+            "year": "2"
         },
         {
             "name": "Sisteme informatice cu arhitectura deschisa",
             "shortname": "SIADS",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme integrate pentru managementul resurselor de intreprindere",
-            "shortname": "Sipmri",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "2",
             "year": "1"
         },
@@ -4681,46 +2089,10 @@
             "year": "1"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Bazele stiintei serviciilor",
-            "shortname": "BSS",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Sisteme expert",
-            "shortname": "SE",
-            "semester": "2",
-            "year": "1"
-        },
-        {
             "name": "Senzori si instrumentatie de masura in sisteme informatice in medicina",
             "shortname": "SIMSIM",
             "semester": "2",
             "year": "1"
-        },
-        {
-            "name": "Cercetare",
-            "shortname": "Cercetare",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Didactica domeniului si dezvoltari in didactica specializarii",
-            "shortname": "DDDDS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sociologia educatiei",
-            "shortname": "SEd",
-            "semester": "1",
-            "year": "2"
         },
         {
             "name": "Managementul proiectelor de cercetare",
@@ -4735,15 +2107,9 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Cercetare stiintifica",
             "shortname": "AR",
-            "semester": "1",
+            "semester": "2",
             "year": "2"
         },
         {
@@ -4765,12 +2131,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Baze de date distribuite si de cunostinte pentru productie",
             "shortname": "BDDCP",
             "semester": "1",
@@ -4779,18 +2139,6 @@
         {
             "name": "Inteligenta artificiala aplicata prin automatizare rapida",
             "shortname": "IAAAR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme multi-agent pentru controlul intreprinderii",
-            "shortname": "SMACI",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
@@ -4819,32 +2167,8 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Automatica industriala - studii de caz",
             "shortname": "AISC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul cunostintelor",
-            "shortname": "MACUN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "2"
         },
@@ -4857,12 +2181,6 @@
         {
             "name": "Managementul resurselor umane si tehnici de comunicare",
             "shortname": "MRUTC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
@@ -4885,12 +2203,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Protectia informatiei in e-sisteme",
             "shortname": "PIES",
             "semester": "1",
@@ -4903,38 +2215,8 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Antreprenoriat, protectia proprietatii intelectuale si diseminare in cercetare",
-            "shortname": "APPIDC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Inginerie concurenta si managementul inovarii",
             "shortname": "Icmi",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Inginerie dirijata de modele pentru managementul informatiilor si al serviciilor",
-            "shortname": "Idmpmis",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Antreprenoriat, protectia proprietatii intelectuale si diseminare in cercetare",
-            "shortname": "APPIDC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
@@ -4963,26 +2245,8 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Studii de caz in sisteme complexe",
             "shortname": "CSCS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "2"
         },
@@ -5005,12 +2269,6 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Eservicii pentru administratie si afaceri",
             "shortname": "ESAA",
             "semester": "1",
@@ -5019,12 +2277,6 @@
         {
             "name": "Integrarea procesului afacerii si management",
             "shortname": "BPIM",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
@@ -5059,24 +2311,12 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Sisteme hibride",
             "shortname": "Sh",
             "semester": "1",
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Proiectarea sistemelor integrate - cyber physical systems",
             "shortname": "PSICPS",
             "semester": "1",
@@ -5095,74 +2335,14 @@
             "year": "2"
         },
         {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea sistemelor integrate - cyber physical systems",
-            "shortname": "PSICPS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Arhitecturi informatice orientate pe servicii pentru intreprinderea viitorului",
             "shortname": "AOIV",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sisteme de comunicatie si interoperabilitate",
-            "shortname": "SCI",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Arhitecturi informatice orientate pe servicii pentru intreprinderea viitorului",
-            "shortname": "AOIV",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Tehnici de testare si asigurarea calitatii pentru aplicatii software",
-            "shortname": "TTQA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea sistemelor integrate - cyber physical systems",
-            "shortname": "PSICPS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
         {
             "name": "Sisteme informatice pentru asigurari de sanatate",
             "shortname": "SIPAS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
             "semester": "1",
             "year": "2"
         },
@@ -5179,20 +2359,8 @@
             "year": "2"
         },
         {
-            "name": "Prelucrari complexe in imagistica medicala",
-            "shortname": "Pcim",
-            "semester": "1",
-            "year": "2"
-        },
-        {
             "name": "Standarde pentru transmiterea informatiei in sisteme informatice in medicina",
             "shortname": "SPTISIM",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "1",
             "year": "2"
         },
@@ -5209,428 +2377,8 @@
             "year": "2"
         },
         {
-            "name": "Practica pedagogica",
-            "shortname": "PPILP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Examen de absolvire, Nivelul II",
-            "shortname": "EAPPNII",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica, practica si elaborare disertatie",
-            "shortname": "CSPED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Proiectarea si managementul programelor educationale",
-            "shortname": "PMPE",
-            "semester": "1",
-            "year": "1"
-        },
-        {
-            "name": "Psihopedagogia adolescentilor, tinerilor si adultilor",
-            "shortname": "PATA",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Consiliere si orientare",
-            "shortname": "CO",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "1"
-        },
-        {
-            "name": "Didactica domeniului si dezvoltari in didactica specializarii",
-            "shortname": "DDDDS",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Sociologia educatiei",
-            "shortname": "SEd",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Proiectare arhitecturi pentru informatizarea sistemelor de afaceri",
-            "shortname": "PAISA",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Arhitecturi informatice pentru sisteme complexe",
-            "shortname": "AIPSC",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul inovarii",
-            "shortname": "Mi",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Managementul cunostintelor",
-            "shortname": "MACUN",
-            "semester": "1",
-            "year": "2"
-        },
-        {
-            "name": "Activitate de voluntariat",
-            "shortname": "AV",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Practica pedagogica",
-            "shortname": "PPILP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Examen de absolvire, Nivelul II",
-            "shortname": "EAPPNII",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Elaborare lucrare de disertatie",
-            "shortname": "ELD",
-            "semester": "2",
-            "year": "2"
-        },
-        {
             "name": "Practica pentru elaborare disertatie",
             "shortname": "PED",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Etica",
-            "shortname": "ET",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica si practica",
-            "shortname": "CSP",
-            "semester": "2",
-            "year": "2"
-        },
-        {
-            "name": "Cercetare stiintifica",
-            "shortname": "AR",
             "semester": "2",
             "year": "2"
         }

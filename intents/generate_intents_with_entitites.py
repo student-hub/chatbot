@@ -55,6 +55,7 @@ for intent_file in os.listdir(path):
 
     if (intent_with_events == True):
         for i in range(length + 1, len(intent)):
+            random_entity = random.choice(random_list)
             f.write("   " + intent[i].replace("Ex", random_entity['shortname']) + "\n")
 
 f.write("- lookup: classroom\n" + "  " + "examples: |\n")
