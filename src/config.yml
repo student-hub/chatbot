@@ -7,7 +7,6 @@ pipeline:
     model: "ro_core_news_md"
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
-  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -23,9 +22,15 @@ pipeline:
     epochs: 100
     retrieval_intent: faq
     constrain_similarities: True
+  - name: "RegexFeaturizer"
+    "case_sensitive": False
+    "use_word_boundaries": True
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
+    "use_word_boundaries": True
   - name: FallbackClassifier
     threshold: 0.7
-
 
 policies:
   - name: MemoizationPolicy
