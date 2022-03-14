@@ -17,18 +17,18 @@ def get_entities(entities):
     eventEntity = ''
     typeEventEntity = 'course'
 
-    max_confidence_event = max((ent['confidence_entity'] for ent in entities if ent['entity'] == "event"), default=None)
-    max_confidence_typeEvent = max((ent['confidence_entity'] for ent in entities if ent['entity'] == "typeEvent"), default=None)
+    max_confidence_event = max((ent['confidence_entity'] for ent in entities if 'confidence_entity' in ent and ent['entity'] == "event"), default=None)
+    max_confidence_typeEvent = max((ent['confidence_entity'] for ent in entities if 'confidence_entity' in ent and ent['entity'] == "typeEvent"), default=None)
 
     if max_confidence_event is not None:
         for ent in entities:
-            if ent['confidence_entity'] == max_confidence_event and ent['entity'] == 'event':
+            if 'confidence_entity' in ent and ent['confidence_entity'] == max_confidence_event and ent['entity'] == 'event':
                 eventEntity = ent['value']
                 break
 
     if max_confidence_typeEvent is not None:
         for ent in entities:
-            if ent['confidence_entity'] == max_confidence_event and ent['entity'] == 'typeEvent':
+            if 'confidence_entity' in ent and ent['confidence_entity'] == max_confidence_event and ent['entity'] == 'typeEvent':
                 typeEventEntity = ent['value']
                 break
 

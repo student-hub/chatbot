@@ -5,6 +5,7 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
+from multiprocessing import Event
 import firebase_admin
 import helper
 

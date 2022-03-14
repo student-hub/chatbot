@@ -1,1202 +1,1949 @@
-version: "3.0"
-
+version: '3.0'
 nlu:
-  - intent: faq/ask_accommodationTaxes
-    examples: |
-      - How much is the dorm tax?
-      - How much is the dorm?
-      - How much does my dorm cost me a month?
-      - How much is my dorm?
-      - How much do I have to pay for the dorm?
-      - How much money do I have to spend on the fireplace?
-      - Do you know how much the dorm costs?
-      - Do you have any idea how much the dorm costs?
-      - Do you have any idea how much the dorm tax costs?
-      - I'd like to know how much the dorm costs!
-      - I can't find anywhere what the dorm tax is.
-      - I can't find how much to spend on the fireplace.
-      - Can you help me find out how much the dorm costs?
-      - I want to know how much the dorm costs!
-      - I want to know what the dorm tax is!
-      - Can I find out what the dorm tax is?
-      - Do you know what the dorm tax is?
-      - I need help finding out how much the dorm costs!
-      - Can we find out how much the dorm costs?
-      - How do I know how much the dorm costs?
-
-  - intent: faq/ask_accomodationIssues
-    examples: |
-      - Who should I contact if I have a dorm problem?
-      - Who do I contact if I have a question about the dorm?
-      - Do you know how to answer a few questions about the home?
-      - Who can I get information about the dorm from?
-      - Who can help me with the dorm?
-      - Who can I call for questions about the dorm?
-      - Who am I going to ask about the dorm?
-      - Who can help me with the dorm?
-
-  - intent: faq/ask_becomeGroupLeader
-    examples: |
-      - How can I become a group leader?
-      - Do you know the procedure to become a group leader?
-      - What are the steps to become a group leader?
-      - Do you have any idea how I can become a group leader?
-      - What are the rules for becoming a group leader?
-
-  - intent: faq/ask_becomeSRLeader
-    examples: |
-      - How can I become a series leader?
-      - Do you know the procedure to become a series leader?
-      - What are the steps to become a series leader?
-      - Do you have any idea how I can become the series leader?
-      - What are the rules for becoming a series leader?
-
-  - intent: faq/ask_changeGroup
-    examples: |
-      - Can I change my group?
-      - What do I have to do to change my group?
-      - Is there any way to change my group?
-      - Are there any regulations for changing the group?
-      - Is there a procedure for changing the group?
-      - Do you know how I can change my group?
-      - Do you know how I change my group?
-      - Do you know how to change the group?
-      - What is the way to change the group?
-      - Do you know the procedure for changing the group?
-      - How can I change my group?
-      - How do I change my group?
-
-  - intent: faq/ask_changeGroupSem2
-    examples: |
-      - Can I change my group in the second semester?
-      - Can I change the group in the second semester?
-      - Is there any way to change my group in the second semester?
-      - Are there any regulations for changing the group in the second semester?
-      - Is there a procedure for changing the group in the second semester?
-      - Do you know how I can change my group in the second semester?
-      - Do you know how to change the group in the second semester?
-      - What is the way to change the group in the second semester?
-      - Do you know the procedure for changing the group in the second semester?
-      - How can I change my group in the second semester?
-      - How can I change the group in the second semester?
-      - How do I change my group in the second semester?
-      - How do I change the group in the second semester?
-
-  - intent: faq/ask_changeSpecialization
-    examples: |
-      - Can I change my specialization?
-      - Can I change the specialization?
-      - Can I change the specialization?
-      - Can I change my specialization?
-      - Is there any way to change my specialization?
-      - Are there any regulations for changing the specialization?
-      - Is there a procedure for changing the specialization?
-      - Do you know how I can change my specialization?
-      - Do you know how to change the specialization?
-      - What is the way to change the specialization?
-      - Do you know the procedure for changing the specialization?
-      - How can I change my specialization?
-      - How do I change my specialization?
-      - How do I change my specialization?
-      - What is the transfer procedure between specializations?
-      - Help me find out how I change my specialization!
-      - Help me find out how I can change my specialization!
-      - Tell me how I change my specialization!
-      - I don't like my specialization, how can I change it?
-      - I don't like my specialization, do I want to change it?
-    
-  - intent: faq/ask_changeSR
-    examples: |
-      - Can I change my series?
-      - Can I change the series?
-      - Can I change the series?
-      - Can I change my series?
-      - Is there any way to change my series?
-      - Are there any rules for changing the series?
-      - Is there a procedure to change the series?
-      - Do you know how I can change my series?
-      - Do you know the procedure for changing the series?
-      - Do you know how to change the series?
-      - What is the way to change the series?
-      - What is the transfer procedure between series?
-      - How can I change my series?
-      - How do I change my series?
-      - How do I change the series?
-      - Help me find out how I change my series!
-      - Help me find out how I can change my series!
-      - Tell me how I change my series!
-      - I don't like my series, how can I change it?
-      - I don't like my series, I want to change it!
-
-  - intent: faq/ask_changeSRSem2
-    examples: |
-      - Can I change my series in the second semester?
-      - Can I change the series in the second semester?
-      - Is there any way to change my series in the second semester?
-      - Are there any regulations for changing the series in the second semester?
-      - Is there a procedure for changing series in the second semester?
-      - Do you know how I can change my series in the second semester?
-      - Do you know how to change series in the second semester?
-      - What is the way to change series in the second semester?
-      - Do you know the procedure for changing the series in the second semester?
-      - How can I change my series in the second semester?
-      - How can I change series in the second semester?
-      - How do I change series in the second semester?
-      - How do I change series in the second semester?
-
-  - intent: faq/ask_chooseRoom
-    examples: |
-      - Can I select my room?
-      - Can I select my dorm room?
-      - Can I choose my room?
-      - Can I choose my dorm room?
-      - Can we choose our room?
-      - Can we choose our dorm room?
-      - Can I choose the room?
-      - Can I choose my room?
-      - Can I choose my dorm room?
-      - Do you know how I can choose my room?
-      - Do you know how I can choose my dorm room?
-      - Can I choose which room I want?
-      - Can I choose which dorm room I want?
-      - Do you know if I can choose which room I want?
-      - Do you know if I can choose which dorm room I want?
-      - Do I have the option to choose my room?
-      - How do I select my room?
-      - How do I choose my room?
-      - How can I choose my room?
-      
-  - intent: faq/ask_chooseRoomate
-    examples: |
-      - Can I select my roommate?
-      - Can I select my roommates?
-      - Can I choose my roommate?
-      - Can I choose my roommates?
-      - Can we choose our roommates?
-      - Do you know how I can choose my roommate?
-      - Do you know how I can choose my roommates?
-      - Can I choose who I want to stay in the room with?
-      - Do you know if I can choose who I want to stay in the room with?
-      - Do I have the option to choose my roommate?
-      - Do I have the option to choose my roommates?
-      - How can I choose my roommate?
-      - How can I choose my roommates?
-      
-  - intent: faq/ask_connectEduroamWiFi
-    examples: |
-      - How do I connect to Eduroam Wi-Fi networks?
-      - How can I connect to Eduroam Wi-Fi networks?
-      - Do you know how I can connect to Eduroam Wi-Fi networks?
-      - Do you have any idea how I can connect to Eduroam Wi-Fi networks?
-      - Can you explain to me how I can connect to Eduroam Wi-Fi networks?
-      
-  - intent: faq/ask_connectMoodle
-    examples: |
-      - How do I connect to Moodle?
-      - How can I connect to Moodle?
-      - What are the credentials to connect to Moodle?
-      - Do you have any idea how I can connect to Moodle?
-      - Do you have any idea how I connect to Moodle?
-      - Do you know how I connect to Moodle?
-      - Do you know how I can connect to Moodle?
-      - I don't know how to connect to Moodle!
-      - I don't know my credentials to log in to Moodle!
-      - Can you help me connect to Moodle?
-      
-  - intent: faq/ask_connectOutlook
-    examples: |
-      - How do I connect to Outlook?
-      - How do I connect to Outlook?
-      - What are the credentials to connect to Outlook?
-      - Do you have any idea how I can connect to Outlook?
-      - Do you have any idea how I connect to Outlook?
-      - Do you know how to connect to Outlook?
-      - Do you know how I can connect to Outlook?
-      - I don't know how to connect to Outlook!
-      - I don't know my credentials to log in to Outlook!
-      - Can you help me connect to Outlook?
-      
-  - intent: faq/ask_docsSubmission
-    examples: |
-      - How do I submit the documents to the secretary?
-      - How do I submit my documents to the secretary?
-      - How do I send the documents to the secretary?
-      - How do I leave the documents at the secretary?
-      - I don't know how to submit the documents to the secretary.
-      - Do you have any idea how I can submit the documents to the secretary?
-      - What are the procedures for submitting documents to the secretary?
-      - Explain to me how to submit the documents to the secretary!
-      - Do you know how to send the documents to the secretary?
-      - I would like to hand over the documents to the secretary!
-      
-      
-  - intent: faq/ask_downgradeToTaxe
-    examples: |
-      - Can I lose my budget?
-      - Is it possible to lose my place in the budget?
-      - Do you have any idea if I can lose my budget?
-      - How can I lose my budget?
-      - Do you know if I can lose my budget?
-      - Can I drop the fee?
-      - Is it possible to drop the fee?
-      - Do you have any idea if I can pay the fee?
-      - Do you know if I can pay the fee?
-      
-  - intent: faq/ask_explainStudyContract
-    examples: |
-      - What is the study contract?
-      - Can you explain to me what the study contract is?
-      - Do you know what the study contract is?
-      - Do you have any idea what the study contract is?
-      - What is the role of the study contract?
-      - What do I do with the study contract?
-      - Do you understand the study contract?
-      - What information do I find in the study contract?
-      - Can you help me understand the study contract?
-      - Help me understand the study contract!
-    
-  - intent: faq/ask_getContactSecretariat
-    examples: |
-      - How can I contact the secretariat?
-      - How do I contact the secretary?
-      - How do I act as secretary?
-      - How can I contact the secretary?
-      - What's the phone number from the secretary?
-      - What are the contact details for the secretary?
-      - What's the secretary's email?
-      - At what email address can I contact the secretary?
-      - Can you help me contact the secretary?
-      - Do you know how I can contact the secretary?
-      - Do you know what the secretary's email is?
-      - Do you have any idea how I can contact the secretary?
-      - Is there any way I can contact the secretary?
-      - Help me contact the secretary.
-      - Where can I contact the secretary?
-      
-  - intent: faq/ask_getCriteriaScholarship
-    examples: |
-      - What are the conditions for obtaining a scholarship?
-      - What are the minimum conditions to obtain a scholarship?
-      - Do you have any idea what the minimum conditions are for obtaining a scholarship?
-      - Do you know what the minimum conditions are for obtaining a scholarship?
-      - I want to know what are the minimum conditions to get a scholarship?
-      - Are there any criteria according to which the scholarships are offered?
-      - What are the scholarship regulations?
-      - Do you know the rules of the scholarships?
-      - How can I get a scholarship?
-      - How do I get a scholarship?
-      - How can I find out the criteria for obtaining scholarships?
-      - Do you know what criteria are so that I can get a scholarship?
-      - What does a student have to do to get a scholarship?
-      - Where are the conditions for scholarships specified?
-    
-  - intent: faq/ask_getGrades
-    examples: |
-      - Where do I see my grades?
-      - Where can I see my grades?
-      - Where can I view my grades?
-      - Where are the grades written?
-      - Is there an online catalogue?
-
-  - intent: faq/ask_getScheduleSecretariat
-    examples: |
-      - What is the program of the secretary?
-      - Do you know what the secretary's program is?
-      - Do you have any idea what the secretary's program is?
-      - What program does the secretary have?
-      - Do you know the time when I can go to the secretary?
-      - What time can I find the secretary available?
-      - When do I find the secretaries in the office?
-      - When does the secretary open?
-      - About when could I be secretary?
-      - When can I go to the secretary?
-      - What time does the secretary open?
-      
-  - intent: faq/ask_getStudentCertificate
-    examples: |
-      - How can I get a student certificate?
-      - Where can I get a student certificate?
-      - Who do I ask for a student certificate?
-      - How can I get a student certificate?
-      - Do you know who I need to ask for a student certificate?
-      - Do you know how I can apply for a student certificate?
- 
-  - intent: faq/ask_getTemplateApplication
-    examples: |
-      - How do I make an application request?
-      - Do you have a secretarial application form?
-      - Is there a model application for the secretariat?
-      - Can you show me an application form?
-      - Can you send me an application form?
-      
-  - intent: faq/ask_getTools
-    examples: |
-      - What resources do I need to learn online?
-      - What resources do I need to use to learn online?
-      - What programs do I need to install in order to carry out my online activity?
-      - What do I need to install to work online?
-      - What do I need to learn online?
-      
-  - intent: faq/ask_groupLeaderTasks
-    examples: |
-      - What are the tasks of a group leader?
-      - What are the responsibilities of a group leader?
-      - Do you know the tasks of a group leader?
-      - Do you have any idea what the tasks of a group leader are?
-      - Do you have any idea what the duties of a group leader are?
-      - Do you know what the tasks of a group leader are?
-      - Do you know the duties of a group leader?
-      - What does a group leader have to do?
-
-  - intent: faq/ask_internship
-    examples: |
-      - Where can I find more information about the internships?
-      - Can you help me with more information about the internships?
-      - I want you to give me more information about the internships!
-      - I want you to tell me the requirements for the internships!
-      - I need to know the requirments for the internships!
-      - Who can I talk to about the internship requirements?
-      - Please tell me about the requirements for the internships!
-
-  - intent: faq/ask_openSupportTicket
-    examples: |
-      - How can I open a support ticket?
-      - How can I make a support ticket?
-      - Can you explain to me how to open a support ticket?
-      - Do you know how to open a support ticket?
-      - Do you know how to make a support ticket?
-      - Can you help me open a support ticket?
-      - Can you help me get a support ticket?
-      
-  - intent: faq/ask_SRLeaderTasks
-    examples: |
-      - What are the tasks of a series leader?
-      - What are the duties of a series leader?
-      - Do you know the tasks of a series leader?
-      - Do you know the duties of a series leader?
-      - Do you have any idea what the duties of a series leader are?
-      - Do you know what the duties of a series leader are?
-      - Do you know what the duties of a series leader are?
-      - What does a series leader have to do?
-      
-  - intent: faq/ask_tuitionFees
-    examples: |
-      - How much is the tuition fee this year?
-      - Can you tell me how much is the tuition fee this year?
-      - Tell me how much the tuition fee is this year!
-      - Tell me how much is the tuition fee this year!
-      - Do you have any idea how much the tuition fee is this year?
-      - Do you have any idea what the tuition fee is?
-      - About the tuition fee?
-      - I don't know how much the tuition fee is.
-      - I can't find out how much the tuition fee is
-      - I want to know what the tuition fee is.
-      - Find out how much the tuition fee is!
-      - Where can I find the tuition fee?
-      - How much do I have to pay for the tuition fee?
-      - How much do I have to pay per year for the fee?
-
-  - intent: faq/ask_typesOfScholarship
-    examples: |
-      - What are the types of scholarships?
-      - What scholarships are defined for an academic year?
-      - Do you have any idea what types of scholarships a student can get?
-      - Do you have any idea what types of scholarships are?
-      - I don't know what scholarships exist in our faculty.
-      - What kind of scholarships can a student get?
-      - Can you tell me what the types of scholarships are?
-      - Explain the types of scholarships!
-      - Do you have information about scholarships?
-      - Show me the possible types of scholarships!
-      - Specify the types of scholarships available!
-      - Can you tell me what types of scholarships there are?
-      - I would like to know what the types of scholarships are!
-      - How's the scholarship?
-
-  - intent: faq/ask_whoAreYou
-    examples: |
-      - What is your name?
-      - Who are you?
-      - Who am I talking to?
-      - Who am I speaking to?
-      - Tell me who you are!
-      - Tell me your name!
-      
-  - intent: faq/ask_whoCanSubmitDocs
-    examples: |
-      - Who can submit the documents to the secretary?
-      - Who can make a request to the secretary?
-      - Can someone else take the papers for me to the secretary?
-      - Can I send someone in my place to submit the documents to the secretary?
-      - Can I send someone in my place to make a request to the secretary?
-      - Can anyone apply for me in the secretary?
-      - Do you have any idea who can submit the documents to the secretary?
-      - Do you have any idea who can make a request to the secretary?
-      - Do you know who can submit the documents to the secretary?
-      - Do you know who can make a request to the secretary?
-      - I want to know if anyone else can file the documents for me at the secretary!
-      - I want to know if anyone can apply for me at the secretary?
-    
-  - intent: locate_classroom
-    examples: |
-      - Where is the [EG 301](classroom)?
-      - Where is the [EG405](classroom)?
-      - Where is the [ED120](classroom)?
-      - Where is the [PR103b](classroom)?
-      - Where is the [AN 213](classroom)?
-      - Where is the [EC002](classroom)?
-      - Where is the [PR103a](classroom)?
-      - Where is the [Sala sport](classroom)?
-      - Where is the [EG303](classroom)?
-      - Where is the [EG305](classroom)?
-      - Where is the [AN034](classroom)?
-      - Where is the [ED313](classroom)?
-      - Where is the [EG 405](classroom)?
-      - Where is the [EG306](classroom)?
-      - Where is the [EG 303](classroom)?
-      - Where is the [EG410](classroom)?
-      - Where is the [PR001](classroom)?
-      - Where is the [EG105](classroom)?
-      - Where is the [AN030](classroom)?
-      - Where is the [A04 Leu](classroom)?
-      - Where is the [AN 210](classroom)?
-      - Where is the [AN213](classroom)?
-      - Where is the [AN210](classroom)?
-      - Where is the [ED202](classroom)?
-      - Where is the [EG302](classroom)?
-      - Where is the [ED 310](classroom)?
-      - Can you tell me where the [BN 034](classroom) room was?
-      - Can you tell me where the [EG105](classroom) room was?
-      - Can you tell me where the [EC S001](classroom) room was?
-      - Can you tell me where the [PR 103a](classroom) room was?
-      - Can you tell me where the [ED220](classroom) room was?
-      - Can you tell me where the [ED 310a](classroom) room was?
-      - Can you tell me where the [EG 106](classroom) room was?
-      - Can you tell me where the [EG405](classroom) room was?
-      - Can you tell me where the [BN033](classroom) room was?
-      - Can you tell me where the [AN203](classroom) room was?
-      - Can you tell me where the [ED 203](classroom) room was?
-      - Can you tell me where the [ED310b](classroom) room was?
-      - Can you tell me where the [EG 303](classroom) room was?
-      - Can you tell me where the [ED314](classroom) room was?
-      - Can you tell me where the [ED302](classroom) room was?
-      - Can you tell me where the [EG101](classroom) room was?
-      - Can you tell me where the [EG 304](classroom) room was?
-      - Can you tell me where the [EG 101](classroom) room was?
-      - Can you tell me where the [PR 701](classroom) room was?
-      - Can you tell me where the [ED310a](classroom) room was?
-      - Can you tell me where the [EG004](classroom) room was?
-      - Can you tell me where the [PR 002](classroom) room was?
-      - Can you tell me where the [EC105A](classroom) room was?
-      - Can you tell me where the [ED204](classroom) room was?
-      - Can you tell me where the [A02](classroom) room was?
-      - Can you tell me where the [ED205](classroom) room was?
-      - Can you tell me where the [PR103A](classroom) room was?
-      - Can you tell me where the [EG304b](classroom) room was?
-      - Can you tell me where the [ED008b](classroom) room was?
-      - Can you tell me where the [EG304a](classroom) room was?
-      - Can you tell me where the [EC102](classroom) room was?
-      - Can you tell me where the [AN203](classroom) room was?
-      - Can you tell me where the [BN129](classroom) room was?
-      - Can you tell me where the [BN033](classroom) room was?
-      - Can you tell me where the [EC101](classroom) room was?
-      - Can you tell me where the [EG120](classroom) room was?
-  
-  - intent: get_date_event
-    examples: |
-      - Tell me, when does [Securitatea informatica](event) take place?
-      - Tell me, on what date does [AR](event) take place?
-      - Tell me, when does the [Metode numerice](event) [course](typeEvent) take place?
-      - Tell me, when does [Compilatoare](event) take place?
-      - I want to know the date when the [Cercetare stiintifica, practica si elaborare disertatie](event) [course](typeEvent) is held!
-      - Do you have any idea when the [APPa](event) [seminar](typeEvent) is being held?
-      - On what date is the [Matematica 4](event) [laboratory](typeEvent)?
-      - Tell me when the [Proiectarea algoritmilor](event) [seminar](typeEvent) is held!
-      - Can you tell me, please, on what date is the [Cercetare stiintifica](event) [laboratory](typeEvent)?
-      - Can you find out the date the [Cercetare stiintifica si practica](event) [laboratory](typeEvent) is being held?
-      - When is the [seminar](typeEvent) of [Limbaje formale si automate](event) held?
-      - Tell me, on what date does the [PM](event) [laboratory](typeEvent) take place?
-      - Can you tell me, please, on what date is the [Structuri de date](event) [laboratory](typeEvent) held?
-      - Can you find out the date [Securitatea sistemelor informatice](event) is being held?
-      - Can you tell me when [SIPAS](event) takes place?
-      - Tell me when the [ISPM](event) [seminar](typeEvent) is held!
-      - Do you know when [PniSIG](event) is held?
-      - I want to know the date when the [PCom](event) [course](typeEvent) is held!
-      - On what date does [Cercetare](event) take place?
-      - On what date is the [VI](event) [seminar](typeEvent)?
-      - I want to know the date when the [Cercetare stiintifica si practica](event) [seminar](typeEvent) takes place!
-      - Do you know when the [ADIV](event) [course](typeEvent) is held?
-      - Can you tell me, please, on what date is [Cercetare stiintifica](event)?
-      - Tell me when [Retele wireless de senzori](event) is held!
-      - I want to know when the [FCT](event) [laboratory](typeEvent) is being held!
-      - Tell me the date when [AR](event) is held!
-      - When is the [Modelarea proceselor de afaceri](event) [laboratory](typeEvent)?
-      - Tell me when [Limba straina 4](event) is held!
-      - Can you tell me when the [TCS](event) [seminar](typeEvent) takes place?
-      - Do you have any idea when the [AR](event) [laboratory](typeEvent) is being held?
-      - When is [CSP](event) held?
-      - Do you have any idea when the [Metode numerice](event) [course](typeEvent) is being held?
-      - On what date is [Educatie fizica si sport 2](event) held?
-      - Can you tell me when the [Cercetare stiintifica si practica](event) [seminar](typeEvent) takes place?
-      - When does the [Sisteme inteligente de conducere](event) [course](typeEvent) take place?
-      - Can you tell me, please, on what date is [Retele locale](event) held?
-      - When is the [course](typeEvent) of [MN](event) held?
-      - I want to know the date when [Actionari](event) takes place!
-      - On what date is the [ESAA](event) [laboratory](typeEvent)?
-      - I want to know the date the [Geometrie computationala](event) [laboratory](typeEvent) takes place!
-      - Do you have any idea when the [Etica](event) [laboratory](typeEvent) takes place?
-      - Please tell me, on what date does [Cercetare](event) take place?
-      - Can you tell me the date the [Mm](event) [laboratory](typeEvent) is taking place?
-      - On what date does the [M3](event) [laboratory](typeEvent) take place?
-      - Tell me the date when [Limba straina 1](event) is held!
-      - Do you have any idea when the [SS](event) [course](typeEvent) takes place?
-      - I want to know when the [Psihologia utilizatorului de e-servicii](event) [course](typeEvent) is being held!
-      - On what date does the [Proiectare logica](event) [course](typeEvent) take place?
-      - Do you know when the [AR](event) [laboratory](typeEvent) is held?
-      - Can you tell me when the [Fiabilitate software](event) [course](typeEvent) takes place?
-      - I want to know the date the [Managementul comunicarii si psihologia cognitiva](event) [course](typeEvent) takes place!
-      - When is the [Programarea calculatoarelor](event) [laboratory](typeEvent)?
-      - I want to know when the [Cercetare stiintifica si practica](event) [laboratory](typeEvent) is being held!
-      - On what date is the [GCO](event) [seminar](typeEvent) held?
-      - Can you tell me the date [Sociologia educatiei](event) is taking place?
-      - When is the [Proiectarea si managementul programelor educationale](event) [course](typeEvent)?
-      - Do you have any idea when the [ClCo](event) [seminar](typeEvent) takes place?
-      - Tell me, on what date does [Politici si strategii de afaceri](event) take place?
-      - Do you know when [Cercetare stiintifica si practica](event) is held?
-      - When is the [Tad](event) [course](typeEvent)?
-      - Tell me when [CSPED](event) takes place!
-      - Can you tell me when the [CV](event) [seminar](typeEvent) takes place?
-      - On what date is [Programarea calculatoarelor](event)?
-      - Please tell me when the [TCS](event) [seminar](typeEvent) is being held, please!
-      - Can you tell me, please, on what date is [Bing](event)?
-      - Tell me the date when [BE](event) is held!
-      - On what date is the [Proiectarea si managementul programelor educationale](event) [laboratory](typeEvent) held?
-      - Can you tell me, please, on what date is the [Antreprenoriat, protectia proprietatii intelectuale si diseminare in cercetare](event) [course](typeEvent) held?
-      - Can you tell me when the [Sisteme cu microprocesoare](event) [course](typeEvent) takes place?
-      - When is the [SIMSIM](event) [laboratory](typeEvent)?
-      - Can you find out the date the [LS4](event) [course](typeEvent) is being held?
-      - When is the [Elaborare lucrare disertatie](event) [course](typeEvent)?
-      - On what date does the [DCR](event) [course](typeEvent) take place?
-      - I want to know the date the [CSP](event) [course](typeEvent) takes place!
-      - On what date does [AC](event) take place?
-      - Tell me when the [PsE](event) [seminar](typeEvent) takes place!
-      - Can you tell me when the [ELDi](event) [laboratory](typeEvent) takes place?
-      - I want to know the date when the [BM](event) [laboratory](typeEvent) takes place!
-      - I want to know the date when the [Sisteme distribuite de baze de date](event) [laboratory](typeEvent) is held!
-      - Tell me when [Limba straina 3](event) takes place!
-      - Tell me, when does the [NN](event) [course](typeEvent) take place?
-
-  - intent: get_end_time_event
-    examples: |
-      - Tell me, please, if the [Politologie](event) [seminar](typeEvent) is over!
-      - How long does the [Planificarea aplicatiilor si management de proiect](event) [course](typeEvent) end?
-      - Is the [Prelucrarea informatiei](event) [laboratory](typeEvent) still taking place?
-      - Tell me, please, if the [Cercetare stiintifica, practica si elaborare disertatie](event) [seminar](typeEvent) is over!
-      - How long does the [Didactica domeniului si dezvoltari in didactica specializarii](event) [seminar](typeEvent) last?
-      - What time does the [Educatie fizica si sport 1](event) [seminar](typeEvent) end?
-      - Tell me, please, if the [AOSTW](event) [laboratory](typeEvent) is over!
-      - When does the [Cercetare](event) [seminar](typeEvent) end?
-      - Is the [Limba straina 2](event) [laboratory](typeEvent) still held?
-      - Is the [ET](event) [seminar](typeEvent) still held?
-      - Tell me, please, if the [Introducere in Big Data](event) [seminar](typeEvent) is over!
-      - Can you tell me when [Cercetare stiintifica, practica si elaborare disertatie](event) is ready?
-      - Do you have any idea when the [IOCLA](event) [laboratory](typeEvent) ends?
-      - Tell me, please, if [PMPE](event) is over!
-      - Is the [AAIT](event) [seminar](typeEvent) still taking place?
-      - Do you know when [SSppi](event) ends?
-      - Tell me, please, if [Practica pedagogica in invatamantul preuniversitar obligatoriu](event) is over!
-      - What time does the [Cercetare stiintifica, practica si elaborare disertatie](event) [laboratory](typeEvent) end?
-      - Can you tell me when [SmAG](event) is ready?
-      - Can you tell me, please, when the [Practica](event) [laboratory](typeEvent) ends?
-      - What time does the [Teoria sistemelor](event) [course](typeEvent) end?
-      - Can you tell me when the [NaSS](event) [laboratory](typeEvent) is ready?
-      - Can you tell me when the [Cercetare](event) [course](typeEvent) is ready?
-      - Tell me, when [Cercetare stiintifica si practica](event) ends!
-      - Do you have any idea when [Introducere in informatica](event) ends?
-      - Can you tell me when [SCML](event) is ready?
-      - Tell me, when [Sisteme cu microprocesoare](event) ends!
-      - Can you tell me when [EEA](event) ends?
-      - Can you tell me when the [ET](event) [laboratory](typeEvent) is ready?
-      - Can you tell me if the [Introducere in Quantum Computing](event) [laboratory](typeEvent) is over?
-      - Can you tell me what time the [TO](event) [laboratory](typeEvent) is ready?
-      - Can you tell me if [TCS](event) is over?
-      - Is [PCom](event) still held?
-      - Can you tell me when [BE](event) is ready?
-      - What time does the [PPILP](event) [course](typeEvent) end?
-      - Is [CSP](event) still held?
-      - Do you have any idea when the [EFS2](event) [course](typeEvent) ends?
-      - Can you tell me, please, if the [Analiza si extragerea automata a continutului documentelor](event) [course](typeEvent) is over?
-      - Tell me, when [IOT si Tehnologii SCADA](event) ends!
-      - Do you know when the [SAIIS](event) [course](typeEvent) ends?
-      - Can you tell me when [Fizica](event) is ready?
-      - Is the [Arhitectura Calculatoarelor An 3](event) [seminar](typeEvent) still taking place?
-      - Is [Etica](event) still taking place?
-      - Do you know when the [BD1](event) [course](typeEvent) ends?
-      - Can you tell me when the [Sisteme de conducere neliniare](event) [course](typeEvent) is ready?
-      - Can you tell me what time the [CSP](event) [course](typeEvent) is ready?
-      - When does the [M1](event) [seminar](typeEvent) end?
-      - Can you tell me when the [PSICPS](event) [seminar](typeEvent) is ready?
-      - Is the [CO](event) [course](typeEvent) over?
-      - Can you tell me, please, when the [PUES](event) [seminar](typeEvent) ends?
-      - Is the [F](event) [course](typeEvent) still held?
-      - Is [ASC](event) still held?
-      - How long does the [MN](event) [laboratory](typeEvent) end?
-      - Is the [PM](event) [course](typeEvent) still held?
-      - How long does the [EAN1](event) [laboratory](typeEvent) end?
-      - How long does the [Cultura si civilizatie](event) [laboratory](typeEvent) end?
-      - Do you know when [Introducere in sisteme complexe](event) ends?
-      - Can you tell me when the [ET](event) [course](typeEvent) ends?
-      - Can you tell me when the [CIC](event) [laboratory](typeEvent) is ready?
-      - Is the [Etica](event) [seminar](typeEvent) still taking place?
-      - Can you tell me what time the [Sisteme multi-agent pentru controlul intreprinderii](event) [seminar](typeEvent) is ready?
-      - Do you know when [MIPA](event) ends?
-      - How long does the [Cercetare stiintifica](event) [seminar](typeEvent) end?
-      - Can you tell me, please, when the [Cercetare stiintifica si practica](event) [course](typeEvent) ends?
-      - Can you tell me when the [Sisteme multi-agent](event) [seminar](typeEvent) is ready?
-      - Can you tell me when [Sisteme de calcul Cloud](event) is ready?
-      - Is the [Baze de date I](event) [seminar](typeEvent) over?
-      - Can you tell me what time [PniSIG](event) is ready?
-      - Can you tell me, please, if the [Cercetare](event) [laboratory](typeEvent) is over?
-      - Can you tell me when [EFS2](event) ends?
-      - Do you know when the [](event) [seminar](typeEvent) ends?
-      - Do you have any idea when the [Management financiar](event) [course](typeEvent) ends?
-      - Can you tell me when the [Echipamente complexe de investigatie in sisteme informatice in medicina](event) [seminar](typeEvent) is ready?
-      - How long does the [CSP](event) [seminar](typeEvent) end?
-      - Do you have any idea when the [Cercetare stiintifica, practica si elaborare disertatie](event) [laboratory](typeEvent) ends?
-      - Is [EFS2](event) still taking place?
-      - Can you tell me if the [CFiz](event) [seminar](typeEvent) is over?
-      - Can you tell me when the [Sisteme inteligente de conducere](event) [laboratory](typeEvent) is ready?
-      - When does the [Cercetare](event) [seminar](typeEvent) end?
-      - When does [Modelarea fluxurilor de date si retele de calcul](event) end?
-      - Tell me, when [IIGP](event) ends!
-      - Do you know when the [Proiectarea dispozitivelor numerice](event) [laboratory](typeEvent) ends?
-      - Is the [PSICPS](event) [laboratory](typeEvent) still held?
-      - Can you tell me when the [Proiectarea dispozitivelor numerice](event) [laboratory](typeEvent) is ready?
-      - Can you tell me when [Introducere in analiza pietei financiare](event) is ready?
-      - Is the [Activitate de voluntariat](event) [laboratory](typeEvent) still taking place?
-      - Is the [DS](event) [laboratory](typeEvent) still taking place?
-      - Is the [Programare orientata pe obiecte](event) [course](typeEvent) still taking place?
-      - How long does the [Cercetare stiintifica si practica](event) [laboratory](typeEvent) last?
-      - Can you tell me when the [Paradigme de programare](event) [course](typeEvent) ends?
-      - Can you tell me, please, if the [Ingineria afacerilor in mediul electronic](event) [seminar](typeEvent) is over?
-      - Tell me, when the [Metode numerice](event) [course](typeEvent) ends!
-      - How long does the [Sisteme de conducere a fabricatiei](event) [seminar](typeEvent) end?
-      - Can you tell me when the [Sisteme de operare](event) [seminar](typeEvent) ends?
-      - Do you know when the [Cercetare](event) [seminar](typeEvent) ends?
-      - Can you tell me when the [Grafica inginereasca](event) [seminar](typeEvent) ends?
-      - Can you tell me if the [Introducere in Quantum Computing](event) [course](typeEvent) is over?
-      - When does the [Elaborare lucrare de disertatie](event) [course](typeEvent) end?
-      - Do you have any idea when the [Cercetare stiintifica](event) [course](typeEvent) ends?
-      - Can you tell me when [Cercetare](event) is ready?
-      - Tell me, when the [PA](event) [seminar](typeEvent) ends!
-      - When does the [CSP](event) [course](typeEvent) end?
-      - Tell me, please, if [ACa](event) is over!
-
-  - intent: locate_event
-    examples: |
-      - Do you know where I have to go to participate in the [LS2](event) [course](typeEvent)?
-      - In which room is [M3](event) taught?
-      - Do you have any idea where I have to go to attend [TTQA](event)?
-      - Do you have any idea where I have to go to attend [Sisteme de operare pentru sisteme mobile](event)?
-      - Where is the [MPCsI](event) [laboratory](typeEvent) taught?
-      - In which room does the [MACUN](event) [laboratory](typeEvent) take place?
-      - Where do I have to go to attend the [F](event) [laboratory](typeEvent)?
-      - Do you have any idea where I have to go to attend the [Managementul inovarii](event) [seminar](typeEvent)?
-      - Where does the [Mpa](event) [seminar](typeEvent) take place?
-      - Can you tell me, please, where will the [Strategii in afaceri si infrastructuri informatice suport](event) [seminar](typeEvent) be held?
-      - In which room is the [Informatizarea laboratoarelor de analize medicale](event) [laboratory](typeEvent) taught?
-      - In which room does the [PJSW](event) [course](typeEvent) take place?
-      - Can you tell me, please, where will the [Sisteme suport decizie](event) [seminar](typeEvent) be held?
-      - Where do I have to go to attend the [Cercetare stiintifica](event) [course](typeEvent)?
-      - Where does the [Educatie fizica si sport 2](event) [course](typeEvent) take place?
-      - Do you know where the [CN1](event) will take place?
-      - Do you know where the [Biochimie](event) [seminar](typeEvent) takes place?
-      - Where do I have to go to attend the [SIS](event) [laboratory](typeEvent)?
-      - Where does the [ET](event) [course](typeEvent) take place?
-      - In which room can I participate in the [MkS](event) [seminar](typeEvent)?
-      - In which room is [Filosofie cognitivista](event) taught?
-      - Do you have any idea in which room I can participate in [Inteligenta artificiala](event)?
-      - In which room does the [Matematica 1](event) [seminar](typeEvent) take place?
-      - Where is [Programare orientata pe obiecte](event) taught?
-      - Do you have any idea where the [Data Mining pentru Informatica Financiara](event) is taking place?
-      - Please tell me, in which room will [ET](event) be held?
-      - In which room can I participate in the [Inteligenta artificiala](event) [course](typeEvent)?
-      - Can you tell me, please, where will [APPa](event) be held?
-      - Where is the [Srv](event) [laboratory](typeEvent) held?
-      - Where is [ClCo](event) held?
-      - Do you have any idea where the the [Analiza algoritmilor](event) [course](typeEvent) is taking place?
-      - Do you know where the [APD](event) [laboratory](typeEvent) will be held?
-      - Do you know where the [LS2](event) [seminar](typeEvent) takes place?
-      - In which room can I participate in the [Metode avansate de prelucrare a imaginilor complexe, analiza imaginilor 3d](event) [seminar](typeEvent)?
-      - Do you have any idea where the the [Introducere in Big Data](event) [course](typeEvent) is taking place?
-      - Do you know where the [Cercetare](event) will take place?
-      - Can you tell me, please, where the the [Proiectarea retelelor](event) [course](typeEvent) takes place?
-      - Do you have any idea where the [PP](event) is taking place?
-      - Where is the [ESAA](event) [course](typeEvent) taught?
-      - Do you have any idea where I have to go to attend the [PDN](event) [laboratory](typeEvent)?
-      - Do you have any idea where the the [Sisteme paralele si distribuite](event) [laboratory](typeEvent) is taking place?
-      - Do you know where the the [Sisteme de prelucrare grafica](event) [laboratory](typeEvent) will take place?
-      - Do you know where the [Sisteme cu microprocesoare avansate](event) [course](typeEvent) takes place?
-      - Do you have any idea where the the [Cercetare stiintifica](event) [seminar](typeEvent) is taking place?
-      - In which room is the [Managementul informatic al proceselor de afaceri](event) [laboratory](typeEvent) taught?
-      - Please tell me, in which room will the [Prelucrarea informatiei](event) [seminar](typeEvent) be held?
-      - Do you know where the [SINF](event) [seminar](typeEvent) will be held?
-      - Do you have any idea where the [Msmr](event) [seminar](typeEvent) takes place?
-      - Can you tell me, please, where will the [Ingineria reglarii automate](event) [laboratory](typeEvent) be held?
-      - Do you know where the [LS3](event) [course](typeEvent) takes place?
-      - Can you tell me, please, where will [Introducere in organizarea calculatoarelor si limbaj de asamblare](event) be held?
-      - In which room is [AV](event) taught?
-      - Do you have any idea where the the [Cercetare](event) [course](typeEvent) is taking place?
-      - Can you tell me, please, where the the [IA](event) [laboratory](typeEvent) takes place?
-      - Can you tell me, please, where will the [F](event) [seminar](typeEvent) be held?
-      - Do you know where the [BE](event) will take place?
-      - Where is [Introducere in organizarea calculatoarelor si limbaj de asamblare](event) taught?
-
-  - intent: get_course_grade
-    examples: |
-      - Do you know the score at [Cercetare](event)?
-      - Do you know the score at [Invatare automata](event) [laboratory](typeEvent)?
-      - Do you know the score on [Paradigme de programare](event) [course](typeEvent)?
-      - Tell me what is the grading at [SMAIPAA](event) [lab](typeEvent)?
-      - Do you know the score at [Proiectarea aplicatiilor J2EE](event) [laboratory](typeEvent)?
-      - Do you know the score at [Matematica 1](event)?
-      - Do you know the score on [Securitatea sistemelor informatice](event) [course](typeEvent)?
-      - Tell me the score at [Tpiac](event)?
-      - Can you tell me the grading at [Invatare automata](event) [seminar](typeEvent)?
-      - Can you tell me what the notation at [CCS](event) [lab](typeEvent) is?
-      - Tell me, too, what is the grade for the subject [Etica engleza(SEM, IA, SAS, SCPD, SPF)](event)?
-      - Tell me what is the score on [EGC](event) [course](typeEvent)?
-      - Can you tell me the score at [Cercetare stiintifica si practica](event) [lab](typeEvent)?
-      - Tell me, too, what is the grade for [ELD](event) [course](typeEvent)?
-      - Tell me what is the grading at [GMD](event) [seminar](typeEvent)?
-      - Tell me what is the score at [Programarea prelucrarilor in banda grafica](event) [laboratory](typeEvent)?
-      - What is the score at [TCAI](event)?
-      - Do you have any idea what grading is for [Introducere in organizarea calculatoarelor si limbaj de asamblare](event) [course](typeEvent)?
-      - Do you have any idea what grading is in the subject [Programarea calculatoarelor](event)?
-      - Do you have any idea what the score is at [Bioinginerie](event) [lab](typeEvent)?
-      - Tell me what is the grading at [Ingineria cunoasterii si ecosisteme de servicii](event) [seminar](typeEvent)?
-      - Can you tell me the score at [CSP](event) [lab](typeEvent)?
-      - Tell me, too, what is the grade for [Metode numerice](event) [course](typeEvent)?
-      - Tell me, too, what is the grade for the subject [EFS1](event)?
-      - Can you tell me what the grade for [MPSo](event) [course](typeEvent) is?
-      - What is the score at [Metode numerice](event)?
-      - Tell me, too, what is the grade for the subject [Securitatea cibernetica a infrastructurilor critice](event)?
-      - Tell me what is the grading at [Etica engleza(SEM, IA, SAS, SCPD, SPF)](event) [lab](typeEvent)?
-      - Tell me the score at [Limba straina 3](event)?
-      - Tell me what is the score on [Arhitecturi si prelucrari paralele](event) [course](typeEvent)?
-      - Tell me what is the score at [Elaborare lucrare de disertatie](event) [laboratory](typeEvent)?
-      - Do you have any idea what the notation at [SiE](event) is?
-      - Tell me what is the score at [Metode numerice](event) [laboratory](typeEvent)?
-      - Tell me what is the notation at [Traductoare si sisteme de masurare](event)?
-      - Do you have any idea what the score is at [Elaborare lucrare de disertatie](event) [lab](typeEvent)?
-      - What is the score on [MCSCS](event) [course](typeEvent)?
-      - Do you have any idea what grading is for [IAu](event) [course](typeEvent)?
-      - Do you know the score at the [Sisteme de incredere](event) [seminar](typeEvent)?
-      - Do you know the score on [Tehnici avansate de conducere a proceselor](event) [course](typeEvent)?
-      - What is the score on [F](event) [course](typeEvent)?
-      - What is the score on [Practica](event) [course](typeEvent)?
-      - Do you know the score on [CAPATR](event) [course](typeEvent)?
-      - Tell me what is the score at [SDEC](event)?
-      - Do you have any idea what the score is at [EFS2](event) [lab](typeEvent)?
-      - Tell me what is the score at [Programarea calculatoarelor](event) [laboratory](typeEvent)?
-      - Do you know the score on [Proiectarea de software bancar](event) [course](typeEvent)?
-      - Can you tell me the score at [ADIV](event) [lab](typeEvent)?
-      - Do you have any idea what grading is for [IELF](event) [course](typeEvent)?
-      - Can you tell me what the score is at [PDN](event) [seminar](typeEvent)?
-      - Can you tell me the grading at [Compilatoare](event) [seminar](typeEvent)?
-      - Tell me what is the score at [PDSPVATRe](event) [laboratory](typeEvent)?
-      - Tell me, too, what is the grade for the subject [Cercetare](event)?
-      - Tell me the score at the [Ppddc](event) [course](typeEvent)?
-      - Tell me what is the notation at [CSP](event) [laboratory](typeEvent)?
-      - Tell me, too, what is the grade for [Educatie fizica si sport 1](event) [course](typeEvent)?
-      - Do you know the score at the [RCN](event) [seminar](typeEvent)?
-      - Can you tell me what the score is at [AV](event) [seminar](typeEvent)?
-      - What is the score at [Algoritmi distribuiti](event)?
-      - Can you tell me what the score is at [Programarea calculatoarelor](event) [seminar](typeEvent)?
-      - Tell me what is the score on the subject [Managementul comunicarii si psihologia cognitiva](event)?
-      - What is the score at [Actionari](event) [lab](typeEvent)?
-      - Tell me, too, what is the grade for the subject [Cercetare stiintifica si practica](event)?
-      - Can you tell me what the notation at [TSM](event) is?
-      - Do you have any idea what the score is at [CSP](event) [lab](typeEvent)?
-      - Do you have any idea what the score at [AHCI](event) is?
-      - Tell me what is the score at [M2](event)?
-      - What is the score on [Fiabilitate software](event) [course](typeEvent)?
-      - Can you tell me what the score is at [SDA](event) [seminar](typeEvent)?
-      - Can you tell me what the score is on the subject [Limba straina 1](event)?
-      - Tell me what is the score at [Introducere in robotica](event) [seminar](typeEvent)?
-      - Tell me, too, what is the grade for [SCADA, HIL, SIL](event) [course](typeEvent)?
-      - Tell me what is the grading at [Securitatea cibernetica a infrastructurilor critice](event) [seminar](typeEvent)?
-      - Do you know the score on [Etica](event) [course](typeEvent)?
-      - Tell me the score at [Cercetare stiintifica](event)?
-      - Tell me what is the score at [Managementul cunostintelor](event) [laboratory](typeEvent)?
-      - Do you know the score at [Activitate de voluntariat](event)?
-      - Tell me what is the grading at [ODC](event) [seminar](typeEvent)?
-      - Do you have any idea what the score is for the [Mecatronica](event) [course](typeEvent)?
-      - What is the score at [PPa](event) [lab](typeEvent)?
-      - Tell me what is the grading at [CSP](event) [seminar](typeEvent)?
-      - Can you tell me what the notation at [CSP](event) [lab](typeEvent) is?
-      - Tell me the score at [Psi](event)?
-      - Do you have any idea what grading is for [CSP](event) [course](typeEvent)?
-      - Do you know the score at the [Securitatea in sistemele grid si cloud](event) [seminar](typeEvent)?
-      - Can you tell me the score at [SII](event)?
-      - Can you tell me what the notation at [AC](event) [lab](typeEvent) is?
-      - Do you have any idea what the score is for the [Sisteme suport pentru decizii](event) [course](typeEvent)?
-      - Tell me the score on the subject [CSP](event)?
-      - Do you know the score at the [NN](event) [seminar](typeEvent)?
-      - What is the score on the subject [MFO](event)?
-      - Tell me what is the score on the subject [Fizica](event)?
-      - Tell me what is the score on the subject [Arhitectura calculatoarelor](event)?
-      - Do you have any idea what grading is for [Sisteme de conducere a fabricatiei](event) [course](typeEvent)?
-      - Tell me what is the score at [AOSTW](event)?
-      - Tell me, too, what is the grade for [Cercetare stiintifica si practica](event) [course](typeEvent)?
-      - Can you tell me what the notation at [Limbaje formale si automate](event) is?
-      - What is the score on [M3](event) [course](typeEvent)?
-      - Tell me what is the grading at [Cercetare stiintifica](event) [seminar](typeEvent)?
-      - Do you know the score on [PP](event) [course](typeEvent)?
-      - Tell me what is the grading at [USO](event) [seminar](typeEvent)?
-      - Tell me what is the notation at [Telemonitorizarea proceselor industriale](event) [laboratory](typeEvent)?
-      - Can you tell me the score at [TSA](event) [lab](typeEvent)?
-      - Tell me the score at [C](event) [lab](typeEvent)?
-      - Can you tell me what the score is at [Inteligenta artificiala](event) [seminar](typeEvent)?
-      - Do you have any idea what the grading at [CSPED](event) [seminar](typeEvent) is?
-      - Tell me what is the notation at [AWs](event) [laboratory](typeEvent)?
-      - Do you know the score on the subject [Fiabilitate software](event)?
-      - Do you have any idea what the score is at [Bazele electrotehnicii](event) [seminar](typeEvent)?
-      - Tell me, too, what is the grade for the subject [LS3](event)?
-      - Tell me the score at [Cercetare](event)?
-      - What is the score at [Doctrine politice](event) [seminar](typeEvent)?
-      - Tell me what is the grading at [PdI](event) [lab](typeEvent)?
-      - Can you tell me what the notation at [Educatie fizica si sport 2](event) is?
-      - Can you tell me what the score is at [EH](event) [seminar](typeEvent)?
-      - Tell me the score at [SM](event)?
-      - Do you have any idea what the score at [Vizualizarea datelor volumetrice si animatie pe calculator](event) is?
-      - Tell me what is the score at [Securitatea informatica](event) [laboratory](typeEvent)?
-      - Tell me the score on the subject [RL](event)?
-      - Can you tell me the grading at [Haos si fractali](event) [seminar](typeEvent)?
-      - Tell me the score on the subject [Cercetare stiintifica](event)?
-      - Can you tell me what the score is on the subject [MS](event)?
-      - Tell me the score at [Fiabilitate software](event)?
-      - Do you have any idea what the score is at [SCAPI](event) [lab](typeEvent)?
-      - Tell me what is the grading at [SRE](event) [lab](typeEvent)?
-      - Can you tell me what the notation at [Metode numerice](event) [lab](typeEvent) is?
-      - Do you know the score on the subject [Sisteme dinamice cu evenimente discrete](event)?
-      - Tell me what is the grading at [Mec](event) [lab](typeEvent)?
-      - Tell me the score at the [PCom](event) [course](typeEvent)?
-      - Can you tell me the score at [TCAI](event)?
-      - Tell me the score at the [ELD](event) [seminar](typeEvent)?
-
-  - intent: get_min_conditions
-    examples: |
-      - What are the minimum promotion conditions for the [Cercetare stiintifica, practica si elaborare disertatie](event) [laboratory](typeEvent)?
-      - What is the minimum score [seminar](typeEvent) at [NaSS](event)?
-      - Do you know the minimum promotion conditions for [SO](event)?
-      - Do you know the minimum promotion conditions for the [CSP](event) [laboratory](typeEvent)?
-      - Do you know the minimum promotion conditions for [Cercetare](event)?
-      - Tell me what are the minimum promotion conditions for the [PUES](event) [laboratory](typeEvent)?
-      - What are the minimum promotion conditions for the [Mecatronica](event)?
-      - What is the minimum promotion score per [course](typeEvent) at [Administrarea bazelor de date](event)?
-      - Tell me the minimum promotion conditions for the [Securitatea dispozitivelor mobile](event) [laboratory](typeEvent)?
-      - Tell me what are the minimum promotion conditions for the [CSPED](event)?
-      - What is the minimum score [seminar](typeEvent) at [Managementul proiectelor si serviciilor IT](event)?
-      - What are the minimum promotion conditions for the [MAT5](event) [laboratory](typeEvent)?
-      - Do you have any idea what the minimum promotion conditions are for the [Sisteme de conducere a proceselor industriale](event) [laboratory](typeEvent)?
-      - Tell me what are the minimum promotion conditions for the [DC](event)?
-      - Do you know the minimum promotion conditions for [AV](event)?
-      - Do you have any idea what the minimum promotion conditions are for the [AD](event) [laboratory](typeEvent)?
-      - What are the minimum promotion conditions for the [IntI](event) [course](typeEvent)?
-      - Can you tell me the minimum promotion conditions for the [EFS1](event) [course](typeEvent)?
-      - Do you have any idea what the minimum promotion conditions are for the [ACa](event)?
-      - What is the minimum score to pass at [Educatie fizica si sport 2](event)?
-      - Do you have any idea what the minimum promotion conditions are for the [Algoritmi paraleli si distribuiti](event)?
-      - Tell me the minimum promotion conditions for the [C](event) [course](typeEvent)?
-      - Tell me the minimum promotion conditions for [ED](event)?
-      - Do you know the minimum promotion conditions for the [Sisteme de programe pentru retele de calculatoare](event)?
-      - Tell me the minimum promotion conditions for the [Instruire asistata de calculator](event)?
-      - Do you have any idea what the minimum promotion conditions are for [Asre](event)?
-      - Do you know the minimum promotion conditions for the subject [Implementarea sistemelor de conducere pentru mediu industrial](event)?
-      - Tell me the minimum promotion conditions for the [PJSW](event) [course](typeEvent)?
-      - Tell me what are the minimum promotion conditions for [Automatica industriala - studii de caz](event)?
-      - Tell me what are the minimum promotion conditions for [Sisteme paralele si distribuite](event)?
-      - Can you tell me the minimum promotion conditions for the subject [Auditarea securitatii retelelor](event)?
-      - Can you tell me the minimum promotion conditions for the [PSTR](event) [course](typeEvent)?
-      - Can you tell me the minimum promotion conditions for [Sisteme de conducere a fabricatiei](event)?
-      - Do you know the minimum promotion conditions for the subject [Fmsfsi](event)?
-      - Tell me what are the minimum promotion conditions for the [IRA](event) [course](typeEvent)?
-      - Tell me what are the minimum promotion conditions for the [SADC](event) [laboratory](typeEvent)?
-      - Tell me the minimum promotion conditions for the subject [ELD](event)?
-      - Do you have any idea what the minimum promotion conditions are for [Cercetare stiintifica](event)?
-      - Tell me the minimum promotion conditions for the [TSAFPr](event)?
-      - Do you know the minimum promotion conditions for [Testare software si asigurarea calitatii](event)?
-      - Do you know the minimum promotion conditions for the [Haos si fractali](event)?
-      - What is the minimum promotion score per [laboratory](typeEvent) for [Etica](event)?
-      - Do you have any idea what the minimum promotion conditions are for [Fizica computationala](event)?
-      - Tell me what are the minimum promotion conditions for [Activitate de voluntariat](event)?
-      - Tell me what are the minimum promotion conditions for the [Introducere in Big Data](event) [laboratory](typeEvent)?
-      - What is the minimum promotion score per [laboratory](typeEvent) for [Cercetare](event)?
-      - Do you know the minimum promotion conditions for the subject [Doctrine politice](event)?
-      - Can you tell me the minimum promotion conditions for the [IFMA](event) [laboratory](typeEvent)?
-      - Do you know the minimum promotion conditions for [Modelarea si analiza sistemelor de sisteme](event)?
-      - Tell me the minimum promotion conditions for the subject [SiE](event)?
-      - What is the minimum score [seminar](typeEvent) at [CcA](event)?
-      - What are the minimum promotion conditions for the [CSP](event)?
-      - Do you know the minimum promotion conditions for the [Ciblf](event) [laboratory](typeEvent)?
-      - What are the minimum promotion conditions for the [Didactica domeniului si dezvoltari in didactica specializarii](event)?
-      - Tell me what are the minimum promotion conditions for the [CSP](event) [course](typeEvent)?
-      - What is the minimum promotion score per [laboratory](typeEvent) for [Ctss](event)?
-      - Do you know the minimum promotion conditions for the subject [Sisteme de operare II](event)?
-      - Can you tell me the minimum promotion conditions for the [CSPED](event)?
-      - What is the minimum score to pass at [Introducere in organizarea calculatoarelor si limbaj de asamblare](event)?
-      - Tell me the minimum promotion conditions for the [Consiliere si orientare](event)?
-      - What are the minimum promotion conditions for the [Tehnici de testare si asigurarea calitatii pentru aplicatii software](event) [course](typeEvent)?
-      - What are the minimum promotion conditions for the [Introducere in analiza pietei financiare](event) [course](typeEvent)?
-      - Tell me the minimum promotion conditions for the [Fiabilitate software](event) [laboratory](typeEvent)?
-      - What is the minimum score to pass at [Sipmri](event)?
-      - Tell me the minimum promotion conditions for the subject [EGo](event)?
-      - Do you have any idea what the minimum promotion conditions for the subject [IF](event) are?
-      - Tell me what are the minimum promotion conditions for the subject [Cercetare](event)?
-      - Tell me the minimum promotion conditions for the [SMSI](event)?
-      - Tell me what are the minimum promotion conditions for the subject [M1](event)?
-      - Tell me the minimum promotion conditions for the [CSPED](event)?
-      - Do you know the minimum promotion conditions for [OBD](event)?
-      - Can you tell me the minimum promotion conditions for the [Ppam](event) [course](typeEvent)?
-      - Tell me the minimum promotion conditions for the [SSD](event)?
-      - Can you tell me the minimum promotion conditions for the [RCO](event) [course](typeEvent)?
-      - Do you have any idea what the minimum promotion conditions are for [M4](event)?
-      - What is the minimum promotion score per [course](typeEvent) at [LS1](event)?
-      - Tell me what are the minimum promotion conditions for the [Instruire asistata de calculator](event) [course](typeEvent)?
-      - Tell me the minimum promotion conditions for [SIS](event)?
-      - Tell me what are the minimum promotion conditions for the [AA](event)?
-      - What are the minimum promotion conditions for the [EP](event) [course](typeEvent)?
-      - Do you know the minimum promotion conditions for the [TO](event)?
-      - Tell me the minimum promotion conditions for the subject [Managementul proiectelor si serviciilor IT](event)?
-      - Tell me the minimum promotion conditions for the [BM](event) [course](typeEvent)?
-      - What is the minimum score to pass at [EF](event)?
-      - Can you tell me the minimum promotion conditions for the [Proiectare logica](event) [laboratory](typeEvent)?
-      - Do you have any idea what the minimum promotion conditions for the subject [Matematica 4](event) are?
-      - What is the minimum score to pass at [ADIV](event)?
-      - What is the minimum score [seminar](typeEvent) at [Etica](event)?
-      - What is the minimum score [seminar](typeEvent) at [Cercetare stiintifica si practica](event)?
-      - Can you tell me the minimum promotion conditions for [Sisteme integrate pentru managementul resurselor de intreprindere](event)?
-      - Tell me the minimum promotion conditions for [Sisteme de operare](event)?
-      - Do you have any idea what the minimum promotion conditions are for the [Elaborare lucrare de disertatie](event) [laboratory](typeEvent)?
-      - Do you have any idea what the minimum promotion conditions are for the [Cercetare stiintifica, practica si elaborare disertatie](event) [laboratory](typeEvent?
-
-  - intent: get_min_nr_of_attendings
-    examples: |
-      - How many attendances do I need to promote the [Etica](event) [laboratory](typeEvent)?
-      - Do you know the minimum number of attendances to pass the [Traductoare si sisteme de masurare](event) [seminar](typeEvent)?
-      - Do you know the minimum number of attendances to pass the [Sisteme multi-agent pentru controlul intreprinderii](event) [course](typeEvent)?
-      - How many attendances are needed to promote the subject [Cercetare stiintifica](event)?
-      - How many attendances should I have to pass the [Cercetare stiintifica si practica](event) [seminar](typeEvent)?
-      - How many attendances do I need to promote the subject [Inteligenta artificiala](event)?
-      - How many presences should I have to pass the subject [Algoritmi distribuiti](event)?
-      - How many attendances are sufficient to promote the [ET](event) [laboratory](typeEvent)?
-      - About how many presences should I have to promote the subject [Elaborare lucrare de disertatie](event)?
-      - How many attendances are needed to promote the [ED](event) [laboratory](typeEvent)?
-      - Do you know how many attendances are needed to promote the subject [AV](event)?
-      - Do you have any idea what the minimum number of attendances is to pass the [Bazele stiintei serviciilor](event) [laboratory](typeEvent)?
-      - How many attendances do I need to have to promote [PCom](event)?
-      - Do you know the minimum number of attendances to pass the [ESAA](event) [seminar](typeEvent)?
-      - Do you have any idea how many attendances are needed to promote the [MRUTC](event) [seminar](typeEvent)?
-      - Do you have any idea how many attendances are needed to promote [SCF](event)?
-      - How many presences should I have to pass the subject [Calculatoare numerice II](event)?
-      - How many attendances are enough to promote the [Grafica inginereasca](event) [seminar](typeEvent)?
-      - About how many attendances do I have to promote the [PCom](event) [course](typeEvent)?
-      - How many attendances are needed to promote the [ELD](event) [seminar](typeEvent)?
-      - Do you have any idea how many attendances are needed to promote the subject [VVP](event)?
-      - Do you know how many attendances are needed to promote the subject [SABD](event)?
-      - How many attendances do I need to promote the [Cercetare stiintifica](event) [laboratory](typeEvent)?
-      - Do you know the minimum number of attendances to pass the [Programare orientata pe obiecte](event) [seminar](typeEvent)?
-      - Do you know the minimum number of attendances to pass the [BD1](event) [laboratory](typeEvent)?
-      - How many attendances are needed to promote the [LS3](event) [laboratory](typeEvent)?
-      - How many attendances are sufficient to promote the [TCS](event) [laboratory](typeEvent)?
-      - About how many attendances do I have to promote the [Procesoare digitale de semnal si prelucrarea video si audio in timp real](event) [seminar](typeEvent)?
-      - How many attendances are needed to promote [Bazele electrotehnicii](event)?
-      - Do you have any idea what the minimum number of attendances is to pass the [InsI](event) [laboratory](typeEvent)?
-      - How many attendances do I have to pass [MP](event)?
-      - Do you have any idea how many attendances are needed to promote [PA](event)?
-      - How many attendances do I have to pass [Co](event)?
-
-  - intent: get_start_time_event
-    examples: |
-      - Did [EAPPNII](event) start?
-      - Do you know if [TSSC](event) started?
-      - Do you have any idea what time [IMS](event) is?
-      - Did [Cercetare](event) start?
-      - When does the [Dm](event) [seminar](typeEvent) start?
-      - How long did [DEAP](event) start?
-      - Tell me, when the [DP](event) [laboratory](typeEvent) starts!
-      - Did the [DSS](event) [course](typeEvent) start?
-      - Did the [Asac](event) [laboratory](typeEvent) start?
-      - Can you tell me, please, what time [EFS2](event) starts?
-      - Do you know if the [Dmdw](event) [laboratory](typeEvent) started?
-      - Do you know if the [MPIN](event) [seminar](typeEvent) started?
-      - Do you know when the [Aeacd](event) [seminar](typeEvent) starts?
-      - How long does [Electronica analogica](event) start?
-      - Can you tell me if the [M3](event) [course](typeEvent) starts?
-      - Can you tell me, please, if the [SMD](event) [laboratory](typeEvent) started?
-      - Do you have any idea what time the [PC](event) [course](typeEvent) is?
-      - Do you have any idea what time the [Sociologia educatiei](event) [laboratory](typeEvent) is?
-      - Did the [TSA](event) [course](typeEvent) start?
-      - Tell me, when the [Bazele electrotehnicii](event) [course](typeEvent) starts!
-      - Do you know if the [LS4](event) [laboratory](typeEvent) started?
-      - Did [ET](event) start?
-      - Tell me, when the [Tehnici de reducere a dimensiunii si a complexitatii](event) [seminar](typeEvent) starts!
-      - When does the [Securitatea informatica](event) [laboratory](typeEvent) start?
-      - Tell me, when the [Cercetare stiintifica si practica](event) [seminar](typeEvent) starts!
-      - Tell me, when [Dst](event) starts!
-      - Can you tell me if [ASC](event) started?
-      - Do you know when the [Sh](event) [course](typeEvent) started?
-      - Can you tell me, please, if the [ILAM](event) [course](typeEvent) started?
-      - Can you tell me what time the [Electronica digitala](event) [laboratory](typeEvent) starts?
-      - Can you tell me what time the [Security of Information Systems](event) [course](typeEvent) starts?
-      - Tell me, please, when the [Telemedicina](event) [course](typeEvent) started!
-      - Tell me, when the [Programarea prelucrarilor in banda grafica](event) [course](typeEvent) starts!
-      - How long did the [Limba straina 1](event) [laboratory](typeEvent) start?
-      - Can you tell me, please, what time the [Elaborare lucrare de disertatie](event) [course](typeEvent) starts?
-      - Can you tell me what time the [CSPED](event) [seminar](typeEvent) starts?
-      - Can you tell me, please, what time the [Ciclul de viata al sistemelor software bancare](event) [course](typeEvent) starts?
-      - Can you tell me, please, what time the [ClCo](event) [seminar](typeEvent) starts?
-      - Do you know when [Sisteme fizico-cibernetice](event) started?
-      - When did the [Idmpmis](event) [laboratory](typeEvent) start?
-      - Did the [F](event) [seminar](typeEvent) start?
-      - When did the [ISI](event) [course](typeEvent) start?
-      - Did [CSP](event) start?
-      - Do you know if the [Identificarea sistemelor](event) [course](typeEvent) started?
-      - Do you know when the [Paradigme de programare](event) [laboratory](typeEvent) started?
-      - Can you tell me what time the [Securitatea informatica](event) [course](typeEvent) starts?
-      - How long did [AIPSC](event) start?
-      - When does the [CSP](event) [seminar](typeEvent) start?
-
-  - intent: get_teacher_name
-    examples: |
-      - Which teacher has a class in the [PR103b](classroom)?
-      - Which teacher has a class in the [AN 213](classroom)?
-      - Which teacher has a class in the [EC002](classroom)?
-      - Which teacher has a class in the [PR103a](classroom)?
-      - Which teacher has a class in the [Sala sport](classroom)?
-      - Which teacher has a class in the [EG303](classroom)?
-      - Which teacher has a class in the [EG305](classroom)?
-      - Which teacher has a class in the [AN034](classroom)?
-      - Which teacher has a class in the [ED313](classroom)?
-      - Which teacher has a class in the [EG 405](classroom)?
-      - Which teacher has a class in the [EG306](classroom)?
-      - Which teacher has a class in the [EG 303](classroom)?
-      - Which teacher has a class in the [EG410](classroom)?
-      - Which teacher has a class in the [PR001](classroom)?
-      - Which teacher has a class in the [EG105](classroom)?
-      - Which teacher has a class in the [AN030](classroom)?
-      - Which teacher has a class in the [A04 Leu](classroom)?
-      - Which teacher has a class in the [AN 210](classroom)?
-      - Which teacher has a class in the [AN213](classroom)?
-      - Which teacher has a class in the [AN210](classroom)?
-      - Which teacher has a class in the [ED202](classroom)?
-      - Which teacher has a class in the [EG302](classroom)?
-      - Which teacher has a class in the [ED 310](classroom)?
-      - Which teacher has a class in the [EC 001S](classroom)?
-      - Which teacher has a class in the [EC 002](classroom)?
-      - Which teacher has a class in the [EG105B](classroom)?
-      - Which teacher has a class in the [123](classroom)?
-      - Which teacher has a class in the [PR 001](classroom)?
-      - Which teacher has a class in the [PR 106](classroom)?
-      - Which teacher has a class in the [ED 012a](classroom)?
-      - Which teacher has a class in the [BN 034](classroom)?
-      - Which teacher has a class in the [EG304](classroom)?
-      - Which teacher has a class in the [EG311](classroom)?
-      - Which teacher has a class in the [EG105A](classroom)?
-      - Find me the name of the teacher who holds the seminar in the [PR 103a](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [ED 313](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [EG207](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [BN034](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [EG209](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [PR704](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [ED 310a](classroom)!
-      - Find me the name of the teacher who holds the seminar in the [EC 102](classroom)!
-
-  - intent: get_group_leader_name
-    examples: |
-      - Who is the leader of group [311](groupNr) [CC](srNr)?
-      - Who is the leader of group [311](groupNr) [CD](srNr)?
-      - Who is the leader of group [311](groupNr) [C1](srNr)?
-      - Who is the leader of group [311](groupNr) [C2](srNr)?
-      - Who is the leader of group [311](groupNr) [C3](srNr)?
-      - Who is the leader of group [311](groupNr) [C4](srNr)?
-      - Who is the leader of group [311](groupNr) [C5](srNr)?
-      - Who is the leader of group [312](groupNr) [CA](srNr)?
-      - Who is the leader of group [312](groupNr) [CB](srNr)?
-      - Who is the leader of group [312](groupNr) [CC](srNr)?
-      - Who is the leader of group [312](groupNr) [CD](srNr)?
-      - Who is the leader of group [312](groupNr) [C1](srNr)?
-      - Who is the leader of group [312](groupNr) [C2](srNr)?
-      - Who is the leader of group [312](groupNr) [C3](srNr)?
-      - Who is the leader of group [312](groupNr) [C4](srNr)?
-      - Who is the leader of group [312](groupNr) [C5](srNr)?
-      - Who is the leader of group [313](groupNr) [CA](srNr)?
-      - Who is the leader of group [313](groupNr) [CB](srNr)?
-      - Who is the leader of group [313](groupNr) [CC](srNr)?
-      - Who is the leader of group [313](groupNr) [CD](srNr)?
-      - Who is the leader of group [313](groupNr) [C1](srNr)?
-      - Who is the leader of group [313](groupNr) [C2](srNr)?
-      - Who is the leader of group [313](groupNr) [C3](srNr)?
-      - Who is the leader of group [313](groupNr) [C4](srNr)?
-      - Who is the leader of group [313](groupNr) [C5](srNr)?
-      - Who is the leader of group [314](groupNr) [CA](srNr)?
-      - Who is the leader of group [314](groupNr) [CB](srNr)?
-      - Who is the leader of group [314](groupNr) [CC](srNr)?
-      - Who is the leader of group [314](groupNr) [CD](srNr)?
-      - Who is the leader of group [314](groupNr) [C1](srNr)?
-      - Who is the leader of group [314](groupNr) [C2](srNr)?
-      - Who is the leader of group [314](groupNr) [C3](srNr)?
-      - Who is the leader of group [314](groupNr) [C4](srNr)?
-      - Who is the leader of group [314](groupNr) [C5](srNr)?
-      - Who is the leader of group [315](groupNr) [CA](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [CD](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [C1](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [C2](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [C3](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [C4](srNr)?
-      - Do you have any idea who is the leader of the group [342](groupNr) [C5](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [CA](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [CB](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [CC](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [CD](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [C1](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [C2](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [C3](srNr)?
-      - Do you have any idea who is the leader of the group [343](groupNr) [C4](srNr)?
-
-  - intent: get_SR_leader_name
-    examples: |
-      - What is the name of the series leader from the [CA](srNr) series?
-      - What is the name of the series leader from the [CB](srNr) series?
-      - What is the name of the series leader from the [CC](srNr) series?
-      - What is the name of the series leader from the [CD](srNr) series?
-      - What is the name of the series leader from the [C1](srNr) series?
-      - What is the name of the series leader from the [C2](srNr) series?
-      - What is the name of the series leader from the [C3](srNr) series?
-      - What is the name of the series leader from the [C4](srNr) series?
-      - What is the name of the series leader from the [C5](srNr) series?
-      - What's the name of the [CA](srNr) series boss?
-      - What's the name of the [CB](srNr) series boss?
-      - What's the name of the [CC](srNr) series boss?
-      - What's the name of the [CD](srNr) series boss?
-      - What's the name of the [C1](srNr) series boss?
-      - What's the name of the [C2](srNr) series boss?
-      - What's the name of the [C3](srNr) series boss?
-      - What's the name of the [C4](srNr) series boss?
-      - What's the name of the [C5](srNr) series boss?
-      - Who is the head of the series at [CA](srNr)?
-      - Who is the head of the series at [CB](srNr)?
-      - Who is the head of the series at [CC](srNr)?
-      - Who is the head of the series at [CD](srNr)?
-      - Who is the head of the series at [C1](srNr)?
-      - Who is the head of the series at [C2](srNr)?
-      - Who is the head of the series at [C3](srNr)?
-      - Who is the head of the series at [C4](srNr)?
-      - Who is the head of the series at [C5](srNr)?
-      - Please tell me, who is the head of the series [CA](srNr)?
-      - Please tell me, who is the head of the series [CB](srNr)?
-      - Please tell me, who is the head of the series [CC](srNr)?
-      - Please tell me, who is the head of the series [CD](srNr)?
-      - Please tell me, who is the head of the series [C1](srNr)?
-      - Please tell me, who is the head of the series [C2](srNr)?
+- intent: faq/ask_accommodationTaxes
+  examples: |
+    - How much is the dorm tax?
+    - How much is the dorm?
+    - How much does my dorm cost me for a month?
+    - How much is my dorm?
+    - How much do I have to pay for the dorm?
+    - How much money do I have to spend on the dorm?
+    - Do you know how much the dorm costs?
+    - Do you have any idea how much the dorm costs?
+    - Do you have any idea how much the dorm tax costs?
+    - I'd like to know how much the dorm costs!
+    - I can't find anywhere what the dorm tax is.
+    - I can't find how much to spend on the dorm room.
+    - Can you help me find out how much the dorm costs?
+    - I want to know how much the dorm costs!
+    - I want to know what the dorm tax is!
+    - Can I find out what the dorm tax is?
+    - Do you know what the dorm tax is?
+    - I need help finding out how much the dorm costs!
+    - Can we find out how much the dorm costs?
+    - How do I know how much the dorm costs?
+- intent: faq/ask_explainStudyContract
+  examples: |
+    - Who should I contact if I have a dorm problem?
+    - Who do I contact if I have a question about the dorm?
+    - Do you know how to answer a few questions about the dorm?
+    - Who can I get information about the dorm from?
+    - Who can help me with the dorm?
+    - Who can I call for questions about the dorm?
+    - Who am I going to ask about the dorm?
+    - Who can help me with the dorm?
+- intent: faq/ask_becomeGroupLeader
+  examples: |
+    - How can I become a group leader?
+    - Do you know the procedure to become a group leader?
+    - What are the steps to become a group leader?
+    - Do you have any idea how I can become a group leader?
+    - What are the rules for becoming a group leader?
+- intent: faq/ask_becomeSRLeader
+  examples: |
+    - How can I become a series leader?
+    - Do you know the procedure to become a series leader?
+    - What are the steps to become a series leader?
+    - Do you have any idea how I can become the series leader?
+    - What are the rules for becoming a series leader?
+- intent: faq/ask_changeGroup
+  examples: |-
+    - Can I change my group?
+    - What do I have to do to change my group?
+    - Is there any way to change my group?
+    - Are there any regulations for changing the group?
+    - Is there a procedure for changing the group?
+    - Do you know how I can change my group?
+    - Do you know how I could change my group?
+    - Do you know how to change the group?
+    - What is the way to change the group?
+    - Do you know the procedure for changing the group?
+    - How can I change my group?
+    - How do I change my group?
+- intent: faq/ask_changeGroupSem2
+  examples: |
+    - Can I change my group in the second semester?
+    - Can I change the group in the second semester?
+    - Is there any way to change my group in the second semester?
+    - Are there any regulations for changing the group in the second semester?
+    - Is there a procedure for changing the group in the second semester?
+    - Do you know how I can change my group in the second semester?
+    - Do you know how to change the group in the second semester?
+    - What is the way to change the group in the second semester?
+    - Do you know the procedure for changing the group in the second semester?
+    - How can I change my group in the second semester?
+    - How can I change the group in the second semester?
+    - How do I change my group in the second semester?
+    - How do I change the group in the second semester?
+- intent: faq/ask_changeSpecialization
+  examples: |
+    - Can I change my specialization?
+    - Can I change the specialization?
+    - Is there any way to change my specialization?
+    - Are there any regulations for changing the specialization?
+    - Is there a procedure for changing the specialization?
+    - Do you know how I can change my specialization?
+    - Do you know how to change the specialization?
+    - What is the way to change the specialization?
+    - Do you know the procedure for changing the specialization?
+    - How can I change my specialization?
+    - What is the transfer procedure between specializations?
+    - Help me find out how I could change my specialization!
+    - Help me find out how I can change my specialization!
+    - Tell me how I can change my specialization!
+    - I don't like my specialization, how can I change it?
+    - I don't like my specialization, do I want to change it?
+- intent: faq/ask_changeSR
+  examples: |
+    - Can I change my series?
+    - Can I change the series?
+    - Could I change the series?
+    - Could I change my series?
+    - Is there any way to change my series?
+    - Are there any rules for changing the series?
+    - Is there a procedure to change the series?
+    - Do you know how I can change my series?
+    - Do you know the procedure for changing the series?
+    - Do you know how to change the series?
+    - What is the way to change the series?
+    - What is the transfer procedure between series?
+    - How can I change my series?
+    - How do I change my series?
+    - How do I change the series?
+    - Help me find out how I could change my series!
+    - Help me find out how I can change my series!
+    - Tell me how I can change my series!
+    - I don't like my series, how can I change it?
+    - I don't like my series, I want to change it!
+- intent: faq/ask_changeSRSem2
+  examples: |
+    - Can I change my series in the second semester?
+    - Can I change the series in the second semester?
+    - Is there any way to change my series in the second semester?
+    - Are there any regulations for changing the series in the second semester?
+    - Is there a procedure for changing the series in the second semester?
+    - Do you know how I can change my series in the second semester?
+    - Do you know how to change the series in the second semester?
+    - What is the way to change the series in the second semester?
+    - Do you know the procedure for changing the series in the second semester?
+    - How can I change my series in the second semester?
+    - How can I change series in the second semester?
+    - How do I change series in the second semester?
+- intent: faq/ask_chooseRoom
+  examples: |
+    - Can I select my room?
+    - Can I select my dorm room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Can we choose our room?
+    - Can we choose our dorm room?
+    - Can I choose the room?
+    - Can I choose my room?
+    - Can I choose my dorm room?
+    - Do you know how I can choose my room?
+    - Do you know how I can choose my dorm room?
+    - Can I choose what room I want?
+    - Can I choose what dorm room I want?
+    - Do you know if I can choose which room I want?
+    - Do you know if I can choose which dorm room I want?
+    - Do I have the option to choose my room?
+    - How do I select my room?
+    - How do I choose my room?
+    - How can I choose my room?
+- intent: faq/ask_chooseRoomate
+  examples: |
+    - Can I select my roommate?
+    - Can I select my roommates?
+    - Can I choose my roommate?
+    - Can I choose my roommates?
+    - Can we choose our roommates?
+    - Do you know how I can choose my roommate?
+    - Do you know how I can choose my roommates?
+    - Can I choose who I want to stay in the room with?
+    - Do you know if I can choose who I want to stay in the room with?
+    - Do I have the option to choose my roommate?
+    - Do I have the option to choose my roommates?
+    - How can I choose my roommate?
+    - How can I choose my roommates?
+- intent: faq/ask_connectEduroamWiFi
+  examples: |
+    - How do I connect to Eduroam Wi-Fi networks?
+    - How can I connect to Eduroam Wi-Fi networks?
+    - Do you know how I can connect to Eduroam Wi-Fi networks?
+    - Do you have any idea how I can connect to Eduroam Wi-Fi networks?
+    - Can you explain to me how I can connect to Eduroam Wi-Fi networks?
+- intent: faq/ask_connectMoodle
+  examples: |
+    - How do I connect to Moodle?
+    - How can I connect to Moodle?
+    - What are the credentials to connect to Moodle?
+    - Do you have any idea how I can connect to Moodle?
+    - Do you have any idea how I connect to Moodle?
+    - Do you know how I can connect to Moodle?
+    - I don't know how to connect to Moodle!
+    - I don't know my credentials to log in to Moodle!
+    - Can you help me connect to Moodle?
+- intent: faq/ask_connectOutlook
+  examples: |
+    - How do I connect to Outlook?
+    - How can I connect to Outlook?
+    - What are the credentials to connect to Outlook?
+    - Do you have any idea how I can connect to Outlook?
+    - Do you have any idea how I could connect to Outlook?
+    - Do you know how to connect to Outlook?
+    - Do you know how I can connect to Outlook?
+    - I don't know how to connect to Outlook!
+    - I don't know my credentials to log in to Outlook!
+    - Can you help me connect to Outlook?
+- intent: faq/ask_docsSubmission
+  examples: |
+    - How do I submit the documents to the secretary?
+    - How do I submit my documents to the secretary?
+    - How do I send the documents to the secretary?
+    - How do I leave the documents at the secretary?
+    - I don't know how to submit the documents to the secretary.
+    - Do you have any idea how I can submit the documents to the secretary?
+    - What are the procedures for submitting documents to the secretary?
+    - Explain to me how to submit the documents to the secretary!
+    - Do you know how to send the documents to the secretary?
+    - I would like to hand over the documents to the secretary!
+- intent: faq/ask_downgradeToTaxe
+  examples: |
+    - Can I lose my budget?
+    - Is it possible to lose my place in the budget?
+    - Do you have any idea if I can lose my budget?
+    - How can I lose my budget?
+    - Do you know if I can lose my budget?
+    - Can I drop the fee?
+    - Is it possible to drop the fee?
+    - Do you have any idea if I can pay the fee?
+    - Do you know if I can pay the fee?
+- intent: faq/ask_explainStudyContract
+  examples: |
+    - What is the study contract?
+    - Can you explain to me what the study contract is?
+    - Do you know what the study contract is?
+    - Do you have any idea what the study contract is?
+    - What is the role of the study contract?
+    - What do I do with the study contract?
+    - Do you understand the study contract?
+    - What information do I find in the study contract?
+    - Can you help me understand the study contract?
+    - Help me understand the study contract!
+- intent: faq/ask_getContactSecretary
+  examples: |
+    - How can I contact the secretary?
+    - How do I contact the secretary?
+    - What's the phone number from the secretary?
+    - What are the contact details for the secretary?
+    - What's the secretary's email?
+    - At what email address can I contact the secretary?
+    - Can you help me contact the secretary?
+    - Do you know how I can contact the secretary?
+    - Do you know what the secretary's email is?
+    - Do you have any idea how I can contact the secretary?
+    - Is there any way that I can contact the secretary?
+    - Help me contact the secretary.
+    - Where can I contact the secretary?
+- intent: faq/ask_getCriteriaScholarship
+  examples: |
+    - What are the conditions for obtaining a scholarship?
+    - What are the minimum conditions to obtain a scholarship?
+    - Do you have any idea what the minimum conditions are for obtaining a scholarship?
+    - Do you know what the minimum conditions are for obtaining a scholarship?
+    - I want to know what are the minimum conditions to get a scholarship?
+    - Are there any criteria according to which the scholarships are offered?
+    - What are the scholarship regulations?
+    - Do you know the rules of the scholarships?
+    - How can I get a scholarship?
+    - How do I get a scholarship?
+    - How can I find out the criteria for obtaining scholarships?
+    - Do you know what criteria are so that I can get a scholarship?
+    - What does a student have to do to get a scholarship?
+    - Where are the conditions for scholarships specified?
+- intent: faq/ask_getGrades
+  examples: |
+    - Where do I see my grades?
+    - Where can I see my grades?
+    - Where can I view my grades?
+    - Where are the grades written?
+    - Is there an online catalogue?
+    - How can I access my grades?
+- intent: faq/ask_getScheduleSecretary
+  examples: |
+    - What is the program of the secretary?
+    - Do you know what the secretary's program is?
+    - Do you have any idea what the secretary's program is?
+    - What program does the secretary have?
+    - Do you know the time when I can go to the secretary?
+    - What time can I find the secretary available?
+    - When do I find the secretaries in the office?
+    - When does the secretary open?
+    - When could I go to the secretary?
+    - When can I go to the secretary?
+    - What time does the secretary open?
+- intent: faq/ask_getStudentCertificate
+  examples: |
+    - How can I get a student certificate?
+    - Where can I get a student certificate?
+    - Who do I ask for a student certificate?
+    - Do you know who I need to ask for a student certificate?
+    - Do you know how I can apply for a student certificate?
+    - How can I obtain a student certificate?
+    - Can you tell me where do I need to ask for a student certificate?
+    - What is the process of getting a student certificate?
+- intent: faq/ask_getTemplateApplication
+  examples: |
+    - How do I make an application request?
+    - Do you have a secretary application form?
+    - Is there a model application for the secretary?
+    - Can you show me an application form?
+    - Can you send me an application form?
+    - Which is the application form?
+    - I want you to send me an application form!
+    - Give me an application form!
+- intent: faq/ask_getTools
+  examples: |
+    - What resources do I need to learn online?
+    - What resources do I need to use in order to learn online?
+    - What programs do I need to install in order to carry out my online activity?
+    - What do I need to install to work online?
+    - What do I need in order to learn online?
+    - Tell me what to install in order to learn online!
+    - I want to know what I need to install in order to learn online!
+- intent: faq/ask_groupLeaderTasks
+  examples: |
+    - What are the tasks of a group leader?
+    - What are the responsibilities of a group leader?
+    - Do you know what the tasks of a group leader are?
+    - Do you have any idea what the tasks of a group leader are?
+    - Do you have any idea what the duties of a group leader are?
+    - Do you know what the tasks of a group leader are?
+    - Do you know what the duties of a group leader are?
+    - What does a group leader have to do?
+    - I want to know what tasks does a group leader have to do!
+    - I want to know what responsibilities a group leader has!
+- intent: faq/ask_internship
+  examples: |
+    - Where can I find more information about the internships?
+    - Can you help me with more information about the internships?
+    - I want you to give me more information about the internships!
+    - I want you to tell me the requirements for the internships!
+    - I need to know the requirments for the internships!
+    - Who can I talk to about the internship requirements?
+    - Please tell me about the requirements for the internships!
+- intent: faq/ask_openSupportTicket
+  examples: |
+    - How can I open a support ticket?
+    - How can I make a support ticket?
+    - Can you explain to me how to open a support ticket?
+    - Can you explain to me how to get a support ticket?
+    - Do you know how to open a support ticket?
+    - Do you know how to make a support ticket?
+    - Can you help me open a support ticket?
+    - Can you help me get a support ticket?
+- intent: faq/ask_SRLeaderTasks
+  examples: |
+    - What are the tasks of a series leader?
+    - What are the duties of a series leader?
+    - Do you know what the tasks of a series leader are?
+    - Do you have any idea what the duties of a series leader are?
+    - Do you know what the duties of a series leader are?
+    - Do you know what the responsibilities of a series leader are?
+    - What does a series leader have to do?
+    - Can you tell me what does a series leader have to do?
+    - I want to know what a series leader has to do!
+    - I want to know what the duties of a series leader are!
+- intent: faq/ask_tuitionFees
+  examples: |
+    - How much is the tuition fee this year?
+    - Can you tell me how much the tuition fee is this year?
+    - Tell me how much the tuition fee is this year!
+    - Do you have any idea about how much the tuition fee is this year?
+    - Do you have any idea what the tuition fee is?
+    - About the tuition fee?
+    - I don't know how much the tuition fee is.
+    - I can't find out how much the tuition fee is
+    - I want to know what the tuition fee is.
+    - Find out how much the tuition fee is!
+    - Where can I find the tuition fee?
+    - How much do I have to pay for the tuition fee?
+    - How much do I have to pay per year for the fee?
+    - Tell me how much I have to pay for the tuition fee!
+    - I want to know how much the tuition fee is!
+- intent: faq/ask_typesOfScholarship
+  examples: |
+    - What are the types of scholarships?
+    - What scholarships are defined for an academic year?
+    - Do you have any idea what types of scholarships a student can get?
+    - Do you have any idea about what types of scholarships there are?
+    - I don't know what scholarships exist in our faculty.
+    - What kind of scholarships can a student get?
+    - Can you tell me what the types of scholarships are?
+    - Explain the types of scholarships!
+    - Do you have information about scholarships?
+    - Show me the possible types of scholarships!
+    - Specify the types of scholarships available!
+    - Can you tell me what types of scholarships there are?
+    - I would like to know what the types of scholarships are!
+    - How's the scholarship?
+    - Tell me what the types of scolarships are!
+    - Which are the available types of scholarships for students?
+- intent: faq/ask_whoAreYou
+  examples: |
+    - What is your name?
+    - Who are you?
+    - Who am I talking to?
+    - Who am I speaking to?
+    - Tell me who you are!
+    - Tell me your name!
+- intent: faq/ask_whoCanSubmitDocs
+  examples: |
+    - Who can submit the documents to the secretary?
+    - Who can make a request to the secretary?
+    - Can someone else take the papers for me to the secretary?
+    - Can I send someone in my place to submit the documents to the secretary?
+    - Can I send someone in my place to make a request to the secretary?
+    - Can anyone apply for me at the secretary?
+    - Do you have any idea who can submit the documents to the secretary?
+    - Do you have any idea who can make a request to the secretary?
+    - Do you know who can submit the documents to the secretary?
+    - Do you know who can make a request to the secretary?
+    - I want to know if anyone else can file the documents for me at the secretary!
+    - I want to know if anyone can apply for me at the secretary!
+    - Is there any way that I can send somebody else to apply for me at the secretary?
+    - Is there any way that I can send somebody else to submit the documents for me at the secretary?
+    - Is there any way that I can send somebody else to make a request for me at the secretary?
+    - Can I make a request at the secretary through somebody else?
+    - Can I apply at the secretary through somebody else?
+    - Can I submit a document at the secretary through somebody else?
+- intent: get_course_grading
+  examples: |
+    - What is the score at [Robotica cognitiva](event)?
+    - What is the score on the subject [Psihologia educatiei](event)?
+    - What is the score on [Securitatea sistemelor informatice](event) [course](typeEvent)?
+    - What is the score at [Marketing strategic](event) [lab](typeEvent)?
+    - What is the score at [Calcul cluster si grid](event) [seminar](typeEvent)?
+    - Do you know the score at [Complemente de fizica](event)?
+    - Do you know the score on the subject [Procesarea semnalelor](event)?
+    - Do you know the score on [Introducere in analiza pietei financiare](event) [course](typeEvent)?
+    - Do you know the score at [Sisteme CAD/CASE](event) [laboratory](typeEvent)?
+    - Do you know the score at the [Sisteme de prelucrare grafica](event) [seminar](typeEvent)?
+    - Do you have any idea what the score at [Structuri avansate vlsi](event) is?
+    - Do you have any idea what the score is on the subject [Mecanica](event)?
+    - Do you have any idea what the score is for the [Economia firmei](event) [course](typeEvent)?
+    - Do you have any idea what the score is at [Prelucrari distribuite in Internet](event) [lab](typeEvent)?
+    - Do you have any idea what the score is at [Security of Information Systems](event) [seminar](typeEvent)?
+    - Do you have any idea what the notation at [E-commerce](event) is?
+    - Do you have any idea what grading is in the subject [Tehnici avansate de inteligenta artificiala](event)?
+    - Do you have any idea what grading is for [e-Sanatate](event) [course](typeEvent)?
+    - Do you have any idea what notation is like at [Metodologia pentru consultanta serviciilor informatice](event) [lab](typeEvent)?
+    - Do you have any idea what the grading at [Retele wireless de senzori](event) [seminar](typeEvent) is?
+    - Can you tell me the score at [Managementul fluxurilor de activitati](event)?
+    - Can you tell me what the score is on the subject [Managementul proiectelor de cercetare](event)?
+    - Can you tell me the score at [Generarea si managementul documentelor](event) [course](typeEvent)?
+    - Can you tell me the score at [Actionari](event) [lab](typeEvent)?
+    - Can you tell me what the score is at [Practica](event) [seminar](typeEvent)?
+    - Tell me what is the score at [Telemonitorizarea proceselor industriale](event)?
+    - Tell me what is the score on the subject [Fizica computationala](event)?
+    - Tell me, too, what is the score on [Managementul proiectelor de e-guvernare](event) [course](typeEvent)?
+    - Tell me what is the score at [Msr](event) [seminar](typeEvent)?
+    - Tell me what is the score at [Dst](event)?
+    - Tell me what is the score on the subject [C](event)?
+    - Tell me what is the score on [GMD](event) [course](typeEvent)?
+    - Tell me what is the score at [BM](event) [laboratory](typeEvent)?
+    - Tell me what is the score at [CCS](event) [seminar](typeEvent)?
+    - Tell me the score at [AC](event)?
+    - Tell me the score on the subject [ACI](event)?
+    - Tell me the score at the [APM](event) [course](typeEvent)?
+    - Tell me the score at [CMaCP](event) [lab](typeEvent)?
+    - Tell me the score at the [PA](event) [seminar](typeEvent)?
+    - Can you tell me what the notation at [AV](event) is?
+    - Can you tell me what the grade for [DAGDM](event) is?
+    - Can you tell me what the grade for [PPa](event) [course](typeEvent) is?
+    - Can you tell me what the notation at [EFS2](event) [lab](typeEvent) is?
+    - Can you tell me the grading at [PDN](event) [seminar](typeEvent)?
+    - Tell me what is the notation at [Srv](event)?
+    - Tell me what is the grading in the subject [DRWADP](event)?
+    - Tell me, too, what is the grade for [TD](event) [course](typeEvent)?
+    - Tell me what is the grading at [MFO](event) [lab](typeEvent)?
+    - Tell me what is the grading at [AHCI](event) [seminar](typeEvent)?
+    - Tell me what is the notation at [SABD](event)?
+    - Tell me, too, what is the grade for the subject [IPr](event)?
+    - Tell me, too, what is the grade for [PUES](event) [course](typeEvent)?
+    - Tell me what is the notation at [SPG](event) [laboratory](typeEvent)?
+    - Tell me what is the grading at [PJSW](event) [seminar](typeEvent)?
+    - Could you tell me what the grading is for [Sdbd](event)?
+    - Could you please tell me what the grading is for [TSM](event)?
+- intent: get_date_event
+  examples: |
+    - When is [Bazele stiintei serviciilor](event) held?
+    - When is the [course](typeEvent) of [Utilizarea sistemelor de operare](event) held?
+    - When is the [laboratory](typeEvent) of [Securizarea avansata a sistemelor de calcul](event) held?
+    - When is the [seminar](typeEvent) of [Proiectarea dispozitivelor numerice](event) held?
+    - When is [Programare orientata pe obiecte](event)?
+    - When is the [Utilizarea sistemelor de operare](event) [course](typeEvent)?
+    - When is the [Modelare 3D](event) [laboratory](typeEvent)?
+    - When is the [Sisteme multi-agent](event) [seminar](typeEvent)?
+    - When does [Implementarea sistemelor de conducere pentru mediu industrial](event) take place?
+    - When does the [Calculatoare numerice I](event) [course](typeEvent) take place?
+    - When does the [Sisteme informatice in industria chimica si biochimica](event) [laboratory](typeEvent) take place?
+    - When does the [Generarea si managementul documentelor](event) [seminar](typeEvent) take place?
+    - On what date is [Arhitectura si controlul circuitelor electronice de putere](event) held?
+    - On what date is the [Strategii in afaceri si infrastructuri informatice suport](event) [course](typeEvent) held?
+    - On what date is the [Complemente de fizica](event) [laboratory](typeEvent) held?
+    - On what date is the [Echipamente de calcul de inalta performanta](event) [seminar](typeEvent) held?
+    - On what date is [Instrumente pentru dezvoltarea programelor](event)?
+    - On what date is the [Bazele stiintei serviciilor](event) [course](typeEvent)?
+    - On what date is the [Elaborare lucrare de disertatie](event) [laboratory](typeEvent)?
+    - On what date is the [Sisteme suport pentru decizii](event) [seminar](typeEvent)?
+    - On what date does [Proiectare arhitecturi pentru informatizarea sistemelor de afaceri](event) take place?
+    - On what date does the [Sisteme de prelucrare grafica](event) [course](typeEvent) take place?
+    - On what date does the [Managementul si Marketing-ul serviciilor de sanatate](event) [laboratory](typeEvent) take place?
+    - On what date does the [Circuite inteligente bazate pe logica fuzzy](event) [seminar](typeEvent) take place?
+    - Can you tell me, please, on what date is [Tehnici avansate de identificare si prelucrare de semnal](event)?
+    - Can you tell me, please, on what date is the [Marketing industrial](event) [course](typeEvent)?
+    - Can you tell me, please, on what date is the [Algoritmi Paraleli si Distribuiti](event) [laboratory](typeEvent)?
+    - Can you tell me, please, on what date is the [Telemedicina](event) [seminar](typeEvent)?
+    - Can you tell me, please, on what date is [Utilizarea sistemelor de operare](event) held?
+    - Can you tell me, please, on what date is the [Sisteme de conducere a proceselor industriale](event) [course](typeEvent) held?
+    - Can you tell me, please, on what date is the [Managementul proiectelor software](event) [laboratory](typeEvent) held?
+    - Can you tell me, please, on what date is the [Proiectarea aplicatiilor J2EE](event) [seminar](typeEvent) held?
+    - Can you tell me the date [Integrarea sistemelor informatice](event) is taking place?
+    - Can you tell me the date the [Managementul proiectelor si serviciilor IT](event) [course](typeEvent) is taking place?
+    - Can you tell me the date the [Analiza algoritmilor](event) [laboratory](typeEvent) is taking place?
+    - Can you tell me the date the [Verificarea si validarea sistemelor software](event) [seminar](typeEvent) is taking place?
+    - Can you tell me when [Operatiuni in servicii si managementul relatiilor cu clientii](event) takes place?
+    - Can you tell me when the [Algoritmi distribuiti](event) [course](typeEvent) takes place?
+    - Can you tell me when the [Sisteme cu microprocesoare avansate](event) [laboratory](typeEvent) takes place?
+    - Can you tell me when the [Proprietatea intelectuala si antreprenoriat](event) [seminar](typeEvent) takes place?
+    - Please tell me when [Managementul serviciilor. Strategie si inovare](event) takes place?
+    - Please tell me when the [Data Mining pentru Informatica Financiara](event) [course](typeEvent) takes place?
+    - Please tell me when the [Studii de caz in sisteme complexe](event) [laboratory](typeEvent) takes place?
+    - Please tell me when the [Testare produse informatice, asigurarea calitatii](event) [seminar](typeEvent) takes place?
+    - Please tell me, on what date does [Prelucrari complexe in imagistica medicala](event) take place?
+    - Please tell me, on what date does the [Tehnici avansate de decizie](event) [course](typeEvent) take place?
+    - Please tell me, on what date does the [Fundamentele stiintei serviciilor](event) [laboratory](typeEvent) take place?
+    - Please tell me, on what date does the [Machine learning pentru aplicatii de predictie si control](event) [seminar](typeEvent) take place?
+    - Tell me, when does [Prelucrarea numerica a imaginilor in sisteme informatice geografice](event) take place?
+    - Tell me, when does the [Modelarea si simularea sistemelor cu evenimente discrete](event) [course](typeEvent) take place?
+    - Tell me, when does the [Telemonitorizarea proceselor industriale](event) [laboratory](typeEvent) take place?
+    - Tell me, when does the [Managementul proiectarii sistemelor de conducere avansate](event) [seminar](typeEvent) take place?
+    - Tell me, on what date does the [SHS](event) [course](typeEvent) take place?
+    - Tell me, on what date does the [MPIN](event) [laboratory](typeEvent) take place?
+    - Tell me, on what date does the [ICppabd](event) [seminar](typeEvent) take place?
+    - Tell me when [ACCEP](event) takes place!
+    - Tell me when the [MIPA](event) [course](typeEvent) takes place!
+    - Tell me when the [APPIDC](event) [laboratory](typeEvent) takes place!
+    - Tell me when the [DS](event) [seminar](typeEvent) takes place!
+    - Tell me when [SHS](event) is held!
+    - Tell me when the [Pcim](event) [course](typeEvent) is held!
+    - Tell me when the [FCp](event) [laboratory](typeEvent) is held!
+    - Tell me when the [IAu](event) [seminar](typeEvent) is held!
+    - Do you have any idea when [PCom](event) is being held?
+    - Do you have any idea when the [MCE](event) [course](typeEvent) is being held?
+    - Do you have any idea when the [MS](event) [laboratory](typeEvent) is being held?
+    - Do you have any idea when the [ES](event) [seminar](typeEvent) is being held?
+    - Do you have any idea when [PACME](event) takes place?
+    - Do you have any idea when the [LS3](event) [course](typeEvent) takes place?
+    - Do you have any idea when the [IOCLA](event) [laboratory](typeEvent) takes place?
+    - Do you have any idea when the [MCE](event) [seminar](typeEvent) takes place?
+    - Tell me the date when [Bchim](event) is held!
+    - Tell me the date when the [TS](event) [course](typeEvent) is held!
+    - Tell me the date when the [VVP](event) [laboratory](typeEvent) is held!
+    - Tell me the date when [PDN](event) is held!
+    - Please tell me when [CAPATR](event) is being held, please!
+    - Please tell me when the [MPSo](event) [course](typeEvent) is being held, please!
+    - Please tell me when the [Ciagis](event) [laboratory](typeEvent) is being held, please!
+    - Please tell me when the [M3D](event) [seminar](typeEvent) is being held, please!
+    - Can you find out the date [PniSIG](event) is being held?
+    - Can you find out the date the [PniSIG](event) [course](typeEvent) is being held?
+    - Can you find out the date the [EIM](event) [laboratory](typeEvent) is being held?
+    - Can you find out the date the [ED](event) [seminar](typeEvent) is being held?
+    - I want to know the date [BM](event) takes place!
+    - I want to know the date the [CIC](event) [course](typeEvent) takes place!
+    - I want to know the date the [MPCSI](event) [laboratory](typeEvent) takes place!
+    - I want to know the date the [SS](event) [seminar](typeEvent) takes place!
+    - I want to know the date when [SII](event) takes place!
+    - I want to know the date when the [IA](event) [course](typeEvent) takes place!
+    - I want to know the date when the [ASC](event) [laboratory](typeEvent) takes place!
+    - I want to know the date when the [FSSe](event) [seminar](typeEvent) takes place!
+    - I want to know the date when [LS4](event) is held!
+    - I want to know the date when the [Sptrm](event) [course](typeEvent) is held!
+    - I want to know the date when the [Ped1](event) [laboratory](typeEvent) is held!
+    - I want to know the date when the [MFO](event) [seminar](typeEvent) is held!
+    - I want to know when [M2](event) is being held!
+    - I want to know when the [SASC](event) [course](typeEvent) is being held!
+    - I want to know when the [PSD](event) [laboratory](typeEvent) is being held!
+    - I want to know when the [TPI](event) [seminar](typeEvent) is being held!
+    - Do you know when [MMEP](event) is held?
+    - Do you know when the [InsI](event) [course](typeEvent) is held?
+    - Do you know when the [Mctr](event) [laboratory](typeEvent) is held?
+    - Do you know when the [Ce](event) [seminar](typeEvent) is held?
+- intent: get_end_time_event
+  examples: |
+    - Can you tell me, please, when [Control avansat pentru aplicatii in timp real](event) ends?
+    - Can you tell me, please, when the [Tehnici de calcul in automatica si informatica](event) [course](typeEvent) ends?
+    - Can you tell me, please, when the [Tehnici avansate de decizie](event) [laboratory](typeEvent) ends?
+    - Can you tell me, please, when the [Optimizarea asistata de calculator a modulelor electronice](event) [seminar](typeEvent) ends?
+    - Can you tell me when [Programare java si servicii web](event) ends?
+    - Can you tell me when the [Haos si fractali](event) [course](typeEvent) ends?
+    - Can you tell me when the [Introducere in robotica](event) [laboratory](typeEvent) ends?
+    - Can you tell me when the [Managementul proiectelor si serviciilor IT](event) [seminar](typeEvent) ends?
+    - Can you tell me if [Arhitecturi informatice pentru sisteme complexe](event) is over?
+    - Can you tell me if the [Proiectarea sistemelor integrate - cyber physical systems](event) [course](typeEvent) is over?
+    - Can you tell me if the [Robotica cognitiva](event) [laboratory](typeEvent) is over?
+    - Can you tell me if the [Pedagogie I](event) [seminar](typeEvent) is over?
+    - Can you tell me, please, if [Planificarea resurselor intreprinderii](event) is over?
+    - Can you tell me, please, if the [Securitatea informatica](event) [course](typeEvent) is over?
+    - Can you tell me, please, if the [Analiza algoritmilor](event) [laboratory](typeEvent) is over?
+    - Can you tell me, please, if the [Sisteme de comunicatie si interoperabilitate](event) [seminar](typeEvent) is over?
+    - Tell me, please, if [Eservicii pentru administratie si afaceri](event) is over!
+    - Tell me, please, if the [Implementarea sistemelor de conducere pentru mediu industrial](event) [course](typeEvent) is over!
+    - Tell me, please, if the [Sisteme distribuite de baze de date](event) [laboratory](typeEvent) is over!
+    - Tell me, please, if the [Logica](event) [seminar](typeEvent) is over!
+    - Tell me, when [Sisteme de procesare in timp real cu microprocesoare](event) ends!
+    - Tell me, when the [Sisteme de e-sanatate](event) [course](typeEvent) ends!
+    - Tell me, when the [Sisteme de comunicatie si interoperabilitate](event) [laboratory](typeEvent) ends!
+    - Tell me, when the [Sisteme de operare pentru sisteme mobile](event) [seminar](typeEvent) ends!
+    - Do you have any idea when [Elemente de grafica pe calculator](event) ends?
+    - Do you have any idea when the [Limba straina 1](event) [course](typeEvent) ends?
+    - Do you have any idea when the [Algoritmi Paraleli si Distribuiti](event) [laboratory](typeEvent) ends?
+    - Do you have any idea when the [Actionari reglabile si elemente de executie](event) [seminar](typeEvent) ends?
+    - Do you know when [Retele locale](event) ends?
+    - Do you know when the [Utilizarea bazelor de date](event) [course](typeEvent) ends?
+    - Do you know when the [Structuri avansate vlsi](event) [laboratory](typeEvent) ends?
+    - Do you know when the [Securizarea avansata a sistemelor de calcul](event) [seminar](typeEvent) ends?
+    - What time does [Security of eHealth Systems / Securitatea sistemelor eHealth](event) end?
+    - What time does the [Metode categoriale si statistice in computer science](event) [course](typeEvent) end?
+    - What time does the [Logica](event) [laboratory](typeEvent) end?
+    - What time does the [Vizualizarea datelor volumetrice si animatie pe calculator](event) [seminar](typeEvent) end?
+    - How long does the [SMD](event) [course](typeEvent) end?
+    - How long does the [ABD](event) [laboratory](typeEvent) end?
+    - How long does the [CSPED](event) [seminar](typeEvent) end?
+    - Is [Bchim](event) over?
+    - Is the [PPa](event) [course](typeEvent) over?
+    - Is the [C](event) [laboratory](typeEvent) over?
+    - Is the [GMD](event) [seminar](typeEvent) over?
+    - Is [PDN](event) still taking place?
+    - Is the [NLP](event) [course](typeEvent) still taking place?
+    - Is the [ACI](event) [laboratory](typeEvent) still taking place?
+    - Is the [CCG](event) [seminar](typeEvent) still taking place?
+    - Is [PniSIG](event) still held?
+    - Is the [Sdbd](event) [course](typeEvent) still held?
+    - Is the [SCML](event) [laboratory](typeEvent) still held?
+    - Is the [MSI](event) [seminar](typeEvent) still held?
+    - How long does [Sdbd](event) last?
+    - How long does the [MACUN](event) [course](typeEvent) last?
+    - How long does the [GMD](event) [laboratory](typeEvent) last?
+    - How long does the [AD](event) [seminar](typeEvent) last?
+    - When does [PCom](event) end?
+    - When does the [TCS](event) [course](typeEvent) end?
+    - When does the [ACa](event) [laboratory](typeEvent) end?
+    - When does the [DS](event) [seminar](typeEvent) end?
+    - Can you tell me when [MPCSI](event) is ready?
+    - Can you tell me when the [TSAFPr](event) [course](typeEvent) is ready?
+    - Can you tell me when the [PsE](event) [laboratory](typeEvent) is ready?
+    - Can you tell me when the [MPIT](event) [seminar](typeEvent) is ready?
+    - Can you tell me when [OACME](event) is ready?
+    - Can you tell me what time [NLP](event) is ready?
+    - Can you tell me what time the [SCAR](event) [course](typeEvent) is ready?
+    - Can you tell me what time the [DEAP](event) [laboratory](typeEvent) is ready?
+    - Can you tell me what time the [PSICPS](event) [seminar](typeEvent) is ready?
+    - Can you tell me when [Msmr](event) is ready?
+    - Can you tell me when the [SSDE](event) [course](typeEvent) is ready?
+    - Can you tell me when the [PPBG](event) [laboratory](typeEvent) is ready?
+    - Can you tell me when the [EEA](event) [seminar](typeEvent) is ready?
+- intent: get_group_leader_name
+  examples: |
+    - Who is the leader of the [341](groupNr) [CA](srNr) group?
+    - What is the name of the head of the [323](groupNr) [C1](srNr) group?
+    - What is the name of the group leader at [334](groupNr) [C1](srNr)?
+    - Do you have any idea who the leader of the [323](groupNr) [C2](srNr) group is?
+    - Do you have any idea who the group leader is at the [332](groupNr) [C3](srNr) group?
+    - Do you have any idea what name the leader of the [331](groupNr) [CC](srNr) group has?
+    - Do you have any idea what the name of the group leader at the [331](groupNr) [C2](srNr) group is?
+    - Do you have any idea what the group leader is called at the [342](groupNr) [C5](srNr) group?
+    - Which leader does the [342](groupNr) [CD](srNr) group have?
+    - What is the name of the leader of the [314](groupNr) [C5](srNr) group?
+    - What is the name of the group leader from [315](groupNr) [CC](srNr) group?
+    - Who is the group leader at the [334](groupNr) [C2](srNr) group?
+    - Please tell me who the leader of the [325](groupNr) [CA](srNr) group is!
+    - Can you tell me who the leader of the [332](groupNr) [CD](srNr) group is?
+    - Tell me who the leader of the [314](groupNr) [C4](srNr) group is!
+- intent: get_min_conditions
+  examples: |
+    - What are the minimum promotion conditions for [Matematica 4](event)?
+    - What are the minimum promotion conditions for the subject [Sisteme de procesare in timp real cu microprocesoare](event)?
+    - What are the minimum promotion conditions for the [Sisteme multi-agent inteligente pentru asistenta ambientala](event) [course](typeEvent)?
+    - What are the minimum promotion conditions for the [Sisteme informatice in energetica](event) [laboratory](typeEvent)?
+    - What are the minimum promotion conditions for the [Prelucrari distribuite in Internet](event)?
+    - Do you know the minimum promotion conditions for [Sisteme de operare](event)?
+    - Do you know the minimum promotion conditions for the subject [Dosarul electronic al pacientului](event)?
+    - Do you know the minimum promotion conditions for the [Complemente de matematici](event) [course](typeEvent)?
+    - Do you know the minimum promotion conditions for the [Managementul cerintelor si modelarea proceselor de afaceri](event) [laboratory](typeEvent)?
+    - Do you know the minimum promotion conditions for the [Matematica 1](event)?
+    - Do you have any idea what the minimum promotion conditions are for [Programare paralela](event)?
+    - Do you have any idea what the minimum promotion conditions for the subject [Testarea securitatii sistemelor de calcul](event) are?
+    - Do you have any idea what the minimum promotion conditions are for the [Metode avansate de prelucrare a imaginilor complexe, analiza imaginilor 3d](event) [course](typeEvent)?
+    - Do you have any idea what the minimum promotion conditions are for the [Elemente avansate de ingineria programelor](event) [laboratory](typeEvent)?
+    - Do you have any idea what the minimum promotion conditions are for the [Practica](event)?
+    - Can you tell me the minimum promotion conditions for [Sisteme de operare](event)?
+    - Can you tell me the minimum promotion conditions for the subject [Motoare de grafica 3D in timp real](event)?
+    - Can you tell me the minimum promotion conditions for the [Marketing digital](event) [course](typeEvent)?
+    - Can you tell me the minimum promotion conditions for the [ACCEP](event)?
+    - Tell me what are the minimum promotion conditions for [ECISIM](event)?
+    - Tell me what are the minimum promotion conditions for the subject [SCF](event)?
+    - Tell me what are the minimum promotion conditions for the [FCp](event) [course](typeEvent)?
+    - Tell me what are the minimum promotion conditions for the [Bchim](event) [laboratory](typeEvent)?
+    - Tell me what are the minimum promotion conditions for the [E](event)?
+    - Tell me the minimum promotion conditions for [PATA](event)?
+    - Tell me the minimum promotion conditions for the subject [KESE](event)?
+    - Tell me the minimum promotion conditions for the [SMACI](event) [course](typeEvent)?
+    - Tell me the minimum promotion conditions for the [SII](event) [laboratory](typeEvent)?
+    - Tell me the minimum promotion conditions for the [RL](event)?
+    - What is the minimum score to pass at [Pcim](event)?
+    - What is the minimum promotion score per [course](typeEvent) at [SCAR](event)?
+    - What is the minimum promotion score per [laboratory](typeEvent) for [Mfda](event)?
+    - What is the minimum score [seminar](typeEvent) at [SCAR](event)?
+    - What do I need to do to pass the subject [CCCT](event)?
+    - What do I need to do to pass the [MASR](event) [course](typeEvent)?
+    - What do I need to do to pass the [Isbd](event) [laboratory](typeEvent)?
+- intent: get_min_nr_of_attendings
+  examples: |
+    - How many attendances are needed to pass [Procese, produse si servicii pentru finante si banci](event)?
+    - How many attendances are needed to pass the [Managementul fluxurilor de operatii](event) [course](typeEvent)?
+    - How many attendances are needed to pass the [Dezvoltarea aplicatiilor pentru internet](event) [laboratory](typeEvent)?
+    - How many attendances are needed to pass the subject [Topici avansate in securitatea calculatoarelor si retelelor](event)?
+    - How many attendances are needed to pass the [Aplicatii web semantice](event) [seminar](typeEvent)?
+    - How many attendances do I need to have to pass [Sisteme de incredere](event)?
+    - How many attendances do I need to pass the (typeEvent) [Educatie fizica si sport 1](event) course?
+    - How many attendances do I need to pass the [Sisteme de operare pentru sisteme mobile](event) [laboratory](typeEvent)?
+    - How many attendances do I need to pass the subject [Cultura si civilizatie](event)?
+    - How many attendances do I need to pass the [Operatiuni in servicii si managementul relatiilor cu clientii](event) [seminar](typeEvent)?
+    - What is the minimum number of attendances to pass [Conceptia jocurilor video](event)?
+    - What is the minimum number of attendances to pass the [Limba straina 3](event) [course](typeEvent)?
+    - What is the minimum number of attendances to pass the [Testare produse informatice, asigurarea calitatii](event) [laboratory](typeEvent)?
+    - What is the minimum number of attendances to pass the [Metode categoriale si statistice in computer science](event) [seminar](typeEvent)?
+    - What is the minimum number of attendances to pass the subject [Cercetare](event)?
+    - How many attendances do I need to have in order to pass [Practica](event)?
+    - How many attendances do I need to have in order to pass the [Arhitectura Calculatoarelor An 3](event) [course](typeEvent)?
+    - How many attendances do I need to have in order to pass the [Modelarea matematica a proceselor economice](event) [laboratory](typeEvent)?
+    - How many attendances should I have in order to pass the [Managementul incidentelor de securitate cibernetica](event) [seminar](typeEvent)?
+    - How many attendances should I have in order to pass the subject [Inteligenta artificiala aplicata prin automatizare rapida](event)?
+    - Around how many attendances should I have to pass the subject [Codificarea informatiei audio-video cu grad inalt de siguranta](event)?
+    - How many attendances should I have to pass [Implementarea sistemelor de conducere pentru mediu industrial](event)?
+    - Around how many attendances do I need to have in order to pass the [Security of eHealth Systems / Securitatea sistemelor eHealth](event) [course](typeEvent)?
+    - How many attendances do I need to have in order to pass the [Invatarea automata si inteligenta computationala](event) [laboratory](typeEvent)?
+    - Around how many attendances do I need to have in order to pass the [Tehnici de comunicare](event) [seminar](typeEvent)?
+    - How many attendances are sufficient to pass the subject [Dst](event)?
+    - How many attendances are enough to pass the [MLAPC](event) [course](typeEvent)?
+    - How many attendances are sufficient to pass the [DEAP](event) [laboratory](typeEvent)?
+    - How many attendances are enough to pass the [InsI](event) [seminar](typeEvent)?
+    - Do you know how many attendances are needed to pass [SINC](event)?
+    - Do you know how many attendances are needed to pass the subject [PniSIG](event)?
+    - Do you know how many attendances are needed to pass the [Cercetare](event) [course](typeEvent)?
+    - Do you know how many attendances are needed to pass the [SASC](event) [laboratory](typeEvent)?
+    - Do you know how many attendances are needed to pass the [ESAA](event) [seminar](typeEvent)?
+    - Do you have any idea about how many attendances are needed in order to pass [Sri](event)?
+    - Do you have any idea about how many attendances are needed in order to pass the subject [MCE](event)?
+    - Do you have any idea about how many attendances are needed in order to pass the [SMSI](event) [course](typeEvent)?
+    - Do you have any idea about how many attendances are needed in order to pass the [ASIOS](event) [laboratory](typeEvent)?
+    - Do you have any idea about how many attendances are needed in order to pass the [CIC](event) [seminar](typeEvent)?
+    - Do you know what the minimum number of attendances to pass [CIC](event) is?
+    - Do you know what the minimum number of attendances to pass the [Pcim](event) [course](typeEvent) is?
+    - Do you know what the minimum number of attendances to pass the [MN](event) [laboratory](typeEvent) is?
+    - Do you know what the minimum number of attendances to pass the [Sh](event) [seminar](typeEvent) is?
+    - Do you know what the minimum number of attendances to pass the subject [SI](event) is?
+    - Do you have any idea what the minimum number of attendances to pass [Mgtr](event) is?
+    - Do you have any idea what the minimum number of attendances to pass the [SSppi](event) [course](typeEvent) is?
+    - Do you have any idea what the minimum number of attendances to pass the [TO](event) [laboratory](typeEvent) is?
+    - Do you have any idea what the minimum number of attendances to pass the [TSA](event) [seminar](typeEvent) is?
+    - Do you have any idea what the minimum number of attendances to pass the subject [EP](event) is?
+- intent: get_SR_leader_name
+  examples: |
+    - Who is the head of the [C5](srNr) series?
+    - Who is the series leader of [CB](srNr)?
+    - Who is the boss of the [C2](srNr) series?
+    - What is the name of the head of the [C1](srNr) series?
+    - What is the name of the series leader at [C5](srNr)?
+    - Do you have any idea who is the head of the [C1](srNr) series?
+    - Do you have any idea who is the series leader at [C3](srNr)?
+    - Do you have any idea who the boss of the [C1](srNr) series is?
+    - Do you have any idea what the head of the [C4](srNr) series is called?
+    - Do you have any idea what the name of the head of the [CB](srNr) series is?
+    - What is the name of the series leader from the [CC](srNr) series?
+    - What's the name of the [C4](srNr) series boss?
+    - Who is the head of the series at [C3](srNr)?
+    - Please tell me, who is the head of the [C5](srNr) series?
+    - Can you tell me who the head of the [C3](srNr) series is?
+    - I want to know who the head of the [C5](srNr) series is!
+    - Tell me who the series leader at the [CD](srNr) series is!
+- intent: get_start_time_event
+  examples: |
+    - When does the [Sisteme paralele si distribuite](event) start?
+    - When does the [Ciclul de viata al sistemelor software bancare](event) [course](typeEvent) start?
+    - When does the [Sisteme de conducere a proceselor industriale](event) [laboratory](typeEvent) start?
+    - When does the [Sisteme SCADA pentru procese industriale](event) [seminar](typeEvent) start?
+    - When did [Metode numerice](event) start?
+    - When did the [Proiectarea si managementul programelor educationale](event) [course](typeEvent) start?
+    - When did the [Cultura si civilizatie](event) [laboratory](typeEvent) start?
+    - When did the [Servicii web si instrumente de dezvoltare](event) [seminar](typeEvent) start?
+    - Did [Management financiar](event) start?
+    - Did the [Instrumente CASE pentru proiectarea aplicatiilor cu baze de date](event) [course](typeEvent) start?
+    - Did the [Mecanica](event) [laboratory](typeEvent) start?
+    - Did the [Sisteme informatice cu arhitectura deschisa](event) [seminar](typeEvent) start?
+    - Can you please tell me if [Sisteme de operare pentru sisteme mobile](event) started?
+    - Can you please tell me if the [Prelucrare avansata a semnalelor prin transformate ortogonale](event) [course](typeEvent) started?
+    - Can you please tell me if the [Optimizarea asistata de calculator a modulelor electronice](event) [laboratory](typeEvent) started?
+    - Can you please tell me if the [Managementul lanturilor de aprovizionare si logistica](event) [seminar](typeEvent) started?
+    - Can you tell me if [Managementul informatic al proceselor de afaceri](event) started?
+    - Can you tell me if the [Actionari](event) [course](typeEvent) started?
+    - Can you tell me if the [Sisteme inteligente de fabricatie](event) [laboratory](typeEvent) started?
+    - Can you tell me if the [Securizarea avansata a sistemelor de calcul](event) [seminar](typeEvent) started?
+    - Tell me when the [Modelarea si analiza sistemelor de sisteme](event) starts!
+    - Tell me when the [Fundamentele stiintei serviciilor](event) [course](typeEvent) starts!
+    - Tell me when the [Sisteme dinamice cu evenimente discrete](event) [laboratory](typeEvent) starts!
+    - Tell me when the [Securizarea retelelor cu echipamente dedicate](event) [seminar](typeEvent) starts!
+    - Please tell me when [Haos si fractali](event) started!
+    - Please tell me when the [Elaborare lucrare disertatie](event) [course](typeEvent) started!
+    - Please tell me when the [Programare paralela pentru unitatea de procesare grafica](event) [laboratory](typeEvent) started!
+    - Please tell me when the [Metode categoriale si statistice in computer science](event) [seminar](typeEvent) started!
+    - Do you know when [Limba straina 3](event) started?
+    - Do you know when the [Sisteme informatice pentru asigurari de sanatate](event) [course](typeEvent) started?
+    - Do you know when the [Instrumente pentru dezvoltarea programelor](event) [laboratory](typeEvent) started?
+    - Do you know when the [Sisteme informatice cu arhitectura deschisa](event) [seminar](typeEvent) started?
+    - Do you know if the [Bchim](event) [course](typeEvent) started?
+    - Do you know if the [Mfda](event) [laboratory](typeEvent) started?
+    - Do you know if the [CN1](event) [seminar](typeEvent) started?
+    - Do you know when [SDi](event) is starting?
+    - Do you know when the [Dst](event) [course](typeEvent) is starting?
+    - Do you know when the [A](event) [laboratory](typeEvent) is starting?
+    - Do you know when the [A](event) [seminar](typeEvent) is starting?
+    - How long ago did [EP](event) start?
+    - How long ago did the [Sh](event) [course](typeEvent) start?
+    - How long ago did the [PASTO](event) [laboratory](typeEvent) start?
+    - How long ago did the [Dmdw](event) [seminar](typeEvent) start?
+    - How long until [Mf](event) starts?
+    - Can you tell me at what time [PI](event) starts?
+    - Can you tell me at what time the [SINF](event) [course](typeEvent) starts?
+    - Can you tell me at what time the [IPDP](event) [laboratory](typeEvent) starts?
+    - Can you tell me at what time the [IAAAR](event) [seminar](typeEvent) starts?
+    - Can you please tell me when [DS](event) starts?
+    - Can you please tell me when the [LS1](event) [course](typeEvent) starts?
+    - Can you please tell me when the [USO](event) [laboratory](typeEvent) starts?
+    - Can you please tell me when the [BSD](event) [seminar](typeEvent) starts?
+    - Can you tell me if [SCI](event) is starting?
+    - Can you tell me if the [Sh](event) [course](typeEvent) is starting?
+    - Can you tell me if the [TSAFPr](event) [laboratory](typeEvent) is starting?
+    - Can you tell me if the [CJV](event) [seminar](typeEvent) is starting?
+    - Do you have any idea when the [RWS](event) is scheduled?
+    - Do you have any idea when the [Srv](event) [course](typeEvent) is scheduled?
+    - Do you have any idea when the [ICppabd](event) [laboratory](typeEvent) is scheduled?
+    - Do you have any idea when the [SDED](event) [seminar](typeEvent) is scheduled?
+    - Could you tell me when does [DAPI](event) start?
+    - Could you tell me when does the [Tad](event) [course](typeEvent) start?
+    - Could you tell me when does the [Fmsfsi](event) [laboratory](typeEvent) start?
+    - Could you tell me when does the [ET](event) [seminar](typeEvent) start?
+- intent: get_teacher_name
+  examples: |
+    - Which teacher has a class in the [AN 034](classroom) classroom?
+    - What teacher has a laboratory in the [EG 405](classroom) classroom?
+    - Which teacher is teaching in the [EG404](classroom) classroom?
+    - Which teacher holds the laboratory in the [ED015](classroom) classroom?
+    - Which teacher holds the seminar in the [EG105A](classroom) classroom?
+    - Who keeps the laboratory in the [EG101](classroom) classroom?
+    - Who holds the seminar in the [EG004](classroom) classroom?
+    - Find my teacher's name in the classroom [EG 301](classroom)!
+    - Find me the name of the teacher who keeps the laboratory in the [AN 030](classroom) classroom!
+    - Find me the name of the teacher who teaches in the classroom [A 04](classroom) classroom!
+    - Find me the name of the teacher who runs the lab in the [EG105A](classroom) classroom!
+    - Find me the name of the teacher who holds the seminar in the [BN129](classroom) classroom!
+    - Please tell me the name of the teacher who has a laboratory in the [A02Leu](classroom) classroom!
+    - Please tell me the name of the teacher who is teaching in the [PR002](classroom) classroom!
+    - Can you please tell me the name of the teacher who has a laboratory in the [EG 303](classroom) classroom?
+    - Can you please tell me the name of the teacher who is teaching in the [PR 002](classroom) classroom?
+    - Can you please tell me the name of the teacher who is teaching a laboratory in the [EG 304a](classroom) classroom?
+    - Who is teaching in the [PR002](classroom) classroom?
+    - Who is teaching the laboratory in the [EG304](classroom) classroom?
+    - Who is teaching the seminar in the [ED 310a](classroom) classroom?
+    - What is the name of the teacher who is teaching in the [PR 103a](classroom) classroom?
+    - Who is the teacher who is teaching in the [EC 004](classroom) classroom?
+    - Who is teaching in the classroom [A 04](classroom) classroom?
+    - Do you know which teacher is teaching in the [EG207](classroom) classroom?
+    - I would like to know the name of the teacher in the [ED217](classroom) classroom!
+- intent: locate_classroom
+  examples: |
+    - Where is the [A02](classroom)?
+    - Where is the room [EG204](classroom)?
+    - Where can I find the classroom [ED 012a](classroom)?
+    - Where can I find the [ED310a](classroom)?
+    - Where is the classroom [BN 034](classroom) located?
+    - Can you explain to me where the [EG405](classroom) room is, please?
+    - Can you explain to me where the [PR106](classroom) room is?
+    - Can you tell me where [EG101](classroom) room is?
+    - Tell me where to find the room [PR002](classroom)!
+    - Tell me where the [eg101](classroom) room is?
+    - Tell me where the [PR 002] classroom is?
+    - Help me find the classroom [ED 012a](classroom)!
+    - Help me find out where the [PR106](classroom) room is!
+    - Where is the classroom [BN 033](classroom)?
+    - Where was the classroom [ED120](classroom)?
+    - Where do I find the classroom [BN129](classroom)?
+    - Tell me where is the room [AN213](classroom)?
+    - Do you know where the [EG304a] classroom is?
+    - Do you know where I find the room [PR 701](classroom)?
+    - Do you have any idea where I find the room [PR 001](classroom)?
+    - Do you have any idea where the room [EG 205](classroom) is?
+    - Where is [EG301](classroom) located?
+    - Please tell me, where is [BN 033](classroom)?
+    - Please tell me where [EG305](classroom) is located?
+    - Can you tell me where the [PR002](classroom) room was?
+    - I want to know where [EG204](classroom) is located.
+    - Can you tell me how to find room [BN033](classroom)?
+    - I need to know  where the [PR002](classroom) room is!
+    - I need to know how to get to [EG306](classroom)!
+- intent: locate_event
+  examples: |
+    - Where will [Strategii in afaceri si infrastructuri informatice suport](event) take place?
+    - Where will the [Sisteme cu microprocesoare avansate](event) [course](typeEvent) take place?
+    - Where will the [Sisteme incorporate](event) [laboratory](typeEvent) take place?
+    - Where will the [Ingineria cunoasterii si ecosisteme de servicii](event) [seminar](typeEvent) take place?
+    - Where does [Testare software si asigurarea calitatii](event) take place?
+    - Where does the [Sisteme internet inteligente](event) [course](typeEvent) take place?
+    - Where does the [Ingineria reglarii automate](event) [laboratory](typeEvent) take place?
+    - Where does the [Sisteme cu microprocesoare avansate](event) [seminar](typeEvent) take place?
+    - Where do I have to go to attend [Modelare si simulare](event)?
+    - Where do I have to go to attend the [Mineritul datelor](event) [course](typeEvent)?
+    - Where do I have to go to attend the [Sisteme inteligente pentru internet](event) [laboratory](typeEvent)?
+    - Where do I have to go to attend the [Programarea calculatoarelor](event) [seminar](typeEvent)?
+    - Where is [Tehnici aplicate de optimalitate](event) taught?
+    - Where is the [Sisteme de control inteligent si sisteme multi-agent](event) [course](typeEvent) taught?
+    - Where is the [Interactiunea om-calculator, aplicata](event) [laboratory](typeEvent) taught?
+    - Where is the [Codificarea informatiei audio-video cu grad inalt de siguranta](event) [seminar](typeEvent) taught?
+    - Please tell me, in which room can I participate in [Sisteme de e-sanatate](event)?
+    - Please tell me, in which room can I participate in the [Inginerie concurenta si managementul inovarii](event) [course](typeEvent)?
+    - Please tell me, in which room can I participate in the [Istoria religiilor](event) [laboratory](typeEvent)?
+    - Please tell me, in which room can I participate in the [Calculatoare numerice I](event) [seminar](typeEvent)?
+    - Please tell me, in which room will [Tehnici aplicate de optimalitate](event) be held?
+    - Please tell me, in which room will the [Tehnici avansate de conducere a proceselor](event) [course](typeEvent) be held?
+    - Please tell me, in which room will the [Practica](event) [laboratory](typeEvent) be held?
+    - Please tell me, in which room will the [Tehnologii de protectie a vietii private](event) [seminar](typeEvent) be held?
+    - Can you tell me, please, where will [Practica pedagogica in invatamantul preuniversitar obligatoriu](event) be held?
+    - Can you tell me, please, where will the [Introducere in criptologie](event) [course](typeEvent) be held?
+    - Can you tell me, please, where will the [Cercetare stiintifica si practica](event) [laboratory](typeEvent) be held?
+    - Can you tell me, please, where will the [Politici in sisteme distribuite](event) [seminar](typeEvent) be held?
+    - Can you tell me, please, where the [Procese, produse si servicii pentru finante si banci](event) takes place?
+    - Can you tell me, please, where the the [Economia firmei](event) [course](typeEvent) takes place?
+    - Can you tell me, please, where the the [Electronica](event) [laboratory](typeEvent) takes place?
+    - Can you tell me, please, where the the [Programare paralela pentru unitatea de procesare grafica](event) [seminar](typeEvent) takes place?
+    - Can you tell me, please, where will the [Computer vision](event) take place?
+    - Can you tell me, please, where will the the [Managementul informatic al proceselor de afaceri](event) [course](typeEvent) take place?
+    - Can you tell me, please, where will the the [Matematica 5](event) [laboratory](typeEvent) take place?
+    - Can you tell me, please, where will the the [Identificarea sistemelor](event) [seminar](typeEvent) take place?
+    - Do you know where [Metodologia pentru consultanta serviciilor informatice](event) will be held?
+    - Do you know where the [Haos si fractali](event) [course](typeEvent) will be held?
+    - Do you know where the [Examen de absolvire - Nivelul I](event) [laboratory](typeEvent) will be held?
+    - Do you know where the [Inteligenta artificiala](event) [seminar](typeEvent) will be held?
+    - Do you know where [Telemedicina](event) takes place?
+    - Do you know where the [Programare paralela pentru unitatea de procesare grafica](event) [course](typeEvent) takes place?
+    - Do you know where the [BDII](event) [seminar](typeEvent) takes place?
+    - Do you know where the [HF](event) will take place?
+    - Do you know where the the [TO](event) [course](typeEvent) will take place?
+    - Do you know where the the [MPI](event) [laboratory](typeEvent) will take place?
+    - Do you know where the the [SPRC](event) [seminar](typeEvent) will take place?
+    - Do you know where I have to go to participate in [SO](event)?
+    - Do you know where I have to go to participate in the [IPDP](event) [course](typeEvent)?
+    - Do you know where I have to go to participate in the [IRA](event) [laboratory](typeEvent)?
+    - Do you know where I have to go to participate in the [PL](event) [seminar](typeEvent)?
+    - Do you have any idea where [MS](event) takes place?
+    - Do you have any idea where the [Tfam](event) [course](typeEvent) takes place?
+    - Do you have any idea where the [EIM](event) [laboratory](typeEvent) takes place?
+    - Do you have any idea where the [PP/CE](event) [seminar](typeEvent) takes place?
+    - Do you have any idea where the [MaFPB](event) is taking place?
+    - Do you have any idea where the the [SMD](event) [course](typeEvent) is taking place?
+    - Do you have any idea where the the [PI](event) [laboratory](typeEvent) is taking place?
+    - Do you have any idea where the the [CCCT](event) [seminar](typeEvent) is taking place?
+    - Do you have any idea in which room I can participate in [SIICB](event)?
+    - Do you have any idea in which room I can participate in the [GMD](event) [course](typeEvent)?
+    - Do you have any idea in which room I can participate in the [Dm](event) [laboratory](typeEvent)?
+    - Do you have any idea in which room I can participate in the [Tacp](event) [seminar](typeEvent)?
+    - Do you have any idea where I have to go to attend [MaFPB](event)?
+    - Do you have any idea where I have to go to attend the [DMCF](event) [course](typeEvent)?
+    - Do you have any idea where I have to go to attend the [CFiz](event) [laboratory](typeEvent)?
+    - Do you have any idea where I have to go to attend the [ICppabd](event) [seminar](typeEvent)?
+    - In which room does [VI](event) take place?
+    - In which room does the [DCR](event) [course](typeEvent) take place?
+    - In which room does the [DEAP](event) [laboratory](typeEvent) take place?
+    - In which room does the [TCAI](event) [seminar](typeEvent) take place?
+    - In which room is [BSSLC](event) taught?
+    - In which room is the [MS](event) [course](typeEvent) taught?
+    - In which room is the [CSCS](event) [laboratory](typeEvent) taught?
+    - In which room is the [ISPM](event) [seminar](typeEvent) taught?
+    - Where is [MkS](event) held?
+    - Where is the [MASR](event) [course](typeEvent) held?
+    - Where is the [Mpa](event) [laboratory](typeEvent) held?
+    - Where is [PP/CE](event) held [seminar](typeEvent)?
+    - In which room can I participate in [MPIN](event)?
+    - In which room can I participate in the [Mssed](event) [course](typeEvent)?
+    - In which room can I participate in the [IPaE](event) [laboratory](typeEvent)?
+    - In which room can I participate in the [MtpHPC](event) [seminar](typeEvent)?
+- lookup: classroom
+  examples: |
+    -EG 301
+    -EG405
+    -ED120
+    -PR103b
+    -AN 213
+    -EC002
+    -PR103a
+    -Sala sport
+    -EG303
+    -EG305
+    -AN034
+    -ED313
+    -EG 405
+    -EG306
+    -EG 303
+    -EG410
+    -PR001
+    -EG105
+    -AN030
+    -A04 Leu
+    -AN 210
+    -AN213
+    -AN210
+    -ED202
+    -EG302
+    -ED 310
+    -EC 001S
+    -EC 002
+    -EG105B
+    -123
+    -PR 001
+    -PR 106
+    -ED 012a
+    -BN 034
+    -EG304
+    -EG311
+    -EG105A
+    -A04
+    -BN026
+    -ED308
+    -EC 004
+    -CB106
+    -EG106
+    -ED217
+    -EC101
+    -EC004
+    -ED015
+    -PR003
+    -ED112
+    -BN 034
+    -EG205
+    -ED 220
+    -A02Leu
+    -EG204
+    -CANTI CTI
+    -EG404
+    -ED013
+    -EG 205
+    -EG 207
+    -EC 105
+    -EG 105
+    -ED 120
+    -PR 003
+    -EG 302
+    -EG301
+    -A 04
+    -PR002
+    -EG 306
+    -PR 506
+    -ED 012a
+    -eg101
+    -BN 033
+    -AN 034
+    -PR106
+    -PR103
+    -AN 030
+    -EC105
+    -A02 Leu
+    -EG 304a
+    -EG 304b
+    -EG405 B
+    -EG105 A
+    -BN 219
+    -PR 103b
+    -PR 103a
+    -ED 313
+    -EG207
+    -BN034
+    -EG209
+    -PR704
+    -ED 310a
+    -EC 102
+    -ED007a
+    -EG 311
+    -BN 034
+    -EG105 B
+    -EC S001
+    -PR 103a
+    -ED220
+    -ED 310a
+    -EG 106
+    -EG405
+    -BN033
+    -AN203
+    -ED 203
+    -ED310b
+    -EG 303
+    -ED314
+    -ED302
+    -EG101
+    -EG 304
+    -EG 101
+    -PR 701
+    -ED310a
+    -EG004
+    -PR 002
+    -EC105A
+    -ED204
+    -A02
+    -ED205
+    -PR103A
+    -EG304b
+    -ED008b
+    -EG304a
+    -EC102
+    -AN203
+    -BN129
+    -BN033
+    -EC101
+    -EG120
+- lookup: event
+  examples: |
+    -Programarea calculatoarelor
+    -PC
+    -Proiectare Logica
+    -PL
+    -Utilizarea sistemelor de operare
+    -USO
+    -Istoria religiilor
+    -IR
+    -Logica
+    -L
+    -Biochimie
+    -Bchim
+    -Mecanica
+    -Mec
+    -Introducere in informatica
+    -IntI
+    -Grafica inginereasca
+    -GI
+    -Psihologia educatiei
+    -PsE
+    -Doctrine politice
+    -DP
+    -Cultura si civilizatie
+    -CC
+    -Istoria filosofiei
+    -IF
+    -Matematica 2
+    -M2
+    -Limba straina 1
+    -LS1
+    -Educatie fizica si sport 1
+    -EFS1
+    -Matematica 1
+    -M1
+    -Proiectare logica
+    -PL
+    -Bazele electrotehnicii
+    -BE
+    -Metode numerice
+    -MN
+    -Activitate de voluntariat
+    -AV
+    -Fizica computationala
+    -FCp
+    -Pedagogie I
+    -Ped1
+    -Prelucrarea informatiei
+    -PI
+    -Instrumente informatice
+    -InsI
+    -Tehnici de comunicare
+    -TC
+    -Limba straina 2
+    -LS2
+    -Fizica
+    -F
+    -Matematica 3
+    -M3
+    -Structuri de date
+    -SD
+    -Educatie fizica si sport 2
+    -EFS2
+    -Introducere in organizarea calculatoarelor si limbaj de asamblare
+    -IOCLA
+    -Analiza algoritmilor
+    -AA
+    -Programare orientata pe obiecte
+    -POO
+    -Electronica
+    -EEA
+    -Filosofie cognitivista
+    -FC
+    -Filosofia culturii tehnice
+    -FCT
+    -Politologie
+    -Pol
+    -Psihoinventica
+    -Psi
+    -Matematica 4
+    -M4
+    -Pedagogie II
+    -Ped2
+    -Complemente de fizica
+    -CFiz
+    -Elemente de electronica analogica
+    -EEA
+    -Teoria sistemelor
+    -TS
+    -Limba straina 3
+    -LS3
+    -Paradigme de programare
+    -PP
+    -Protocoale de comunicatii
+    -PCom
+    -Electronica digitala
+    -ED
+    -Proiectarea algoritmilor
+    -PA
+    -Achizitii de date si instrumentatie virtuala
+    -ADIV
+    -Didactica specialitatii
+    -DS
+    -Matematica 5
+    -MAT5
+    -Calculatoare numerice I
+    -CN1
+    -Limba straina 4
+    -LS4
+    -Arhitectura Calculatoarelor An 3
+    -ACa
+    -Calculatoare numerice II
+    -CN2
+    -Retele locale
+    -RL
+    -Algoritmi Paraleli si Distribuiti
+    -APD
+    -Tehnici de comunicare si scriere tehnica
+    -TCS
+    -Proiectarea asistata de calculator a modulelor electronice
+    -PACME
+    -Bioinginerie
+    -Bing
+    -Economie generala
+    -EG
+    -Economia firmei
+    -EF
+    -Instruire asistata de calculator
+    -IAC
+    -Practica pedagogica in invatamantul preuniversitar obligatoriu
+    -PPedII
+    -Algoritmi paraleli si distribuiti
+    -APD
+    -Elemente de grafica pe calculator
+    -EGC
+    -Limbaje formale si automate
+    -LFA
+    -Practica
+    -P
+    -Sisteme de operare
+    -SO
+    -Arhitectura sistemelor de calcul
+    -ASC
+    -Proiectarea cu microprocesoare
+    -PM
+    -Managementul clasei de elevi
+    -MCE
+    -Examen de absolvire - Nivelul I
+    -EAN1
+    -Ingineria calculatoarelor
+    -IC
+    -Fiabilitate software
+    -
+    -Optimizarea asistata de calculator a modulelor electronice
+    -OACME
+    -Ingineria programelor
+    -IPr
+    -Istoria ideilor si gandirii politice
+    -IIGP
+    -Marketing industrial
+    -MkI
+    -Marketing strategic
+    -MkS
+    -Baze de date I
+    -BD1
+    -Inteligenta artificiala
+    -IA
+    -Managementul proiectelor
+    -MP
+    -Proiectarea retelelor
+    -PR
+    -Arhitecturi si prelucrari paralele
+    -APPa
+    -Structuri multiprocesor
+    -SMu
+    -Sisteme cu microprocesoare
+    -SM
+    -Sisteme incorporate
+    -SI
+    -Procesarea semnalelor
+    -PrSe
+    -Sisteme de programe pentru retele de calculatoare
+    -SPRC
+    -Compilatoare
+    -Co
+    -Baze de Date II
+    -BDII
+    -Introducere in criptologie
+    -ICR
+    -Interactiunea om-calculator
+    -IO
+    -Sisteme de prelucrare grafica
+    -SPG
+    -Managementul proiectelor software
+    -MPSo
+    -Evaluarea performantelor
+    -EP
+    -Utilizarea bazelor de date
+    -UBD
+    -Integrarea sistemelor informatice
+    -ISI
+    -VLSI I
+    -VI
+    -Elemente de informatica mobila
+    -EIM
+    -Testarea securitatii sistemelor de calcul
+    -TSSC
+    -Sisteme incorporate inteligente
+    -SII
+    -Sisteme de operare II
+    -SOI
+    -Instrumente pentru dezvoltarea programelor
+    -IPDP
+    -Sisteme CAD/CASE
+    -SCAD/CASE
+    -Invatare automata
+    -IAu
+    -E-commerce
+    -E
+    -Programare web
+    -PW
+    -Elemente de informatica aplicata in ingineria sistemelor
+    -EIAIS
+    -Chimie
+    -C
+    -Structuri de date si algoritmi
+    -SDA
+    -Generarea si managementul documentelor
+    -GMD
+    -Tehnici de calcul in automatica si informatica
+    -TCAI
+    -Semnale si sisteme
+    -SS
+    -Electronica analogica
+    -EA
+    -Teoria sistemelor automate
+    -TSA
+    -Sisteme dinamice cu evenimente discrete
+    -SDED
+    -Tehnici de optimizare
+    -TO
+    -Actionari
+    -A
+    -Proiectarea dispozitivelor numerice
+    -PDN
+    -Bazele managementului
+    -BM
+    -Psihologia personalitatii / comunicare educationala
+    -PP/CE
+    -Telemonitorizarea proceselor industriale
+    -TPI
+    -Baze de date
+    -BD
+    -Modelare si simulare
+    -MS
+    -Traductoare si sisteme de masurare
+    -TSM
+    -Arhitectura calculatoarelor
+    -ACa
+    -Ingineria reglarii automate
+    -IRA
+    -Sisteme de calcul Cloud
+    -ClCo
+    -Managementul proiectarii sistemelor de conducere avansate
+    -MPSCA
+    -Transmisii de date
+    -TD
+    -Automate programabile si microprocesoare
+    -APM
+    -Sisteme de conducere a fabricatiei
+    -SCF
+    -Identificarea sistemelor
+    -IS
+    -Sisteme de conducere a proceselor industriale
+    -SCAPI
+    -Mecatronica
+    -Mctr
+    -Pregatire proiect de licenta
+    -PPL
+    -Geometrie Computationala
+    -GCO
+    -Reprezentarea cunostintelor
+    -RCN
+    -Sisteme paralele si distribuite
+    -Spdi
+    -Introducere in Big Data
+    -IBD
+    -Proiectarea si managementul programelor educationale
+    -PMPE
+    -Structuri avansate vlsi
+    -SaV1
+    -Datacenter computing
+    -DC
+    -Circuite inteligente bazate pe logica fuzzy
+    -Ciblf
+    -Cercetare stiintifica si practica
+    -CSP
+    -Sisteme Avansate de Baze de Date
+    -SABD
+    -Securitatea sistemelor informatice
+    -Ssi
+    -Implementarea sistemelor de baze de date
+    -Isbd
+    -Metode categoriale si statistice in computer science
+    -MCSCS
+    -Stiinta datelor
+    -DS
+    -Sisteme fizico-cibernetice
+    -SFC
+    -Geometrie computationala
+    -GCO
+    -Sisteme de tipuri si programare functionala
+    -TSAFPr
+    -Introducere in Realitatea Virtuala
+    -IRV
+    -Programarea jocurilor video
+    -PJV
+    -Modelare 3D
+    -M3D
+    -Programarea prelucrarilor in banda grafica
+    -PPBG
+    -Computer vision
+    -CV
+    -Mineritul datelor
+    -Dm
+    -Sisteme adaptive si colaborative
+    -SADC
+    -Sisteme internet inteligente
+    -SII
+    -Dezvoltarea de software in startup-uri
+    -DSS
+    -Managementul securitatii informatiei
+    -MSI
+    -Management financiar
+    -Mf
+    -Criptografie aplicata
+    -AC
+    -Security of Information Systems
+    -SIS
+    -Securitatea cibernetica a infrastructurilor critice
+    -CIC
+    -Protocoale de securitate
+    -SP
+    -Securitatea calculatoarelor si retelelor
+    -SCr
+    -Programare paralela
+    -PPa
+    -Data Mining pentru Informatica Financiara
+    -DMCF
+    -Introducere in analiza pietei financiare
+    -IFMA
+    -Proiectarea de software bancar
+    -BSD
+    -Securitatea calculatoarelor si a retelelor
+    -SCAR
+    -Securizarea retelelor cu echipamente dedicate
+    -SRE
+    -Fundamentele stiintei serviciilor
+    -FSSe
+    -E-Guvernare
+    -EGo
+    -Securitatea in sistemele grid si cloud
+    -SCGC
+    -Psihopedagogia adolescentilor, tinerilor si adultilor
+    -PATA
+    -Consiliere si orientare
+    -CO
+    -Sisteme cu microprocesoare avansate
+    -Sma
+    -Metode si tehnici de programare in calculul de inalta performanta
+    -MtpHPC
+    -Sisteme de procesare in timp real cu microprocesoare
+    -Sptrm
+    -Administrarea bazelor de date
+    -ABD
+    -Instrumente CASE pentru proiectarea aplicatiilor cu baze de date
+    -ICppabd
+    -Data mining si data warehousing
+    -Dmdw
+    -Notiuni avansate de baze de date
+    -NaBD
+    -Introducere in Quantum Computing
+    -IQC
+    -Introducere in robotica
+    -IR
+    -Securizarea avansata a sistemelor de calcul
+    -SASC
+    -Security of eHealth Systems / Securitatea sistemelor eHealth
+    -SHS
+    -Algoritmi pentru logica jocurilor video
+    -ALJV
+    -Conceptia jocurilor video
+    -CJV
+    -Prelucrarea imaginilor si a sunetului
+    -PIS
+    -Vizualizarea datelor volumetrice si animatie pe calculator
+    -VDVAC
+    -Sisteme multi-agent
+    -MS
+    -Invatare simbolica si statistica
+    -SaSL
+    -Prelucrarea limbajului natural
+    -NLP
+    -Aplicatii web semantice
+    -AWs
+    -Sisteme inteligente pentru internet
+    -SII
+    -Prelucrari distribuite in Internet
+    -PdI
+    -Antreprenoriat si inovare digitala
+    -AID
+    -Managementul informatic al proceselor de afaceri
+    -MIPA
+    -Elemente avansate de ingineria programelor
+    -EAIP
+    -Tehnologii de protectie a vietii private
+    -PET
+    -Securitatea dispozitivelor mobile
+    -SDM
+    -Cyberdefense si cyberintelligence. Tehnici de securitate cibernetica
+    -CCCT
+    -Sisteme distribuite
+    -SDi
+    -Calcul cluster si grid
+    -CCG
+    -Algoritmi distribuiti
+    -AD
+    -Ciclul de viata al sistemelor software bancare
+    -BSSLC
+    -Procese, produse si servicii pentru finante si banci
+    -PPSFB
+    -Auto-descoperirea si comunicarea eficienta
+    -SDEC
+    -Infrastructura si servicii pentru retele mobile
+    -ISPM
+    -Metodologia pentru consultanta serviciilor informatice
+    -MPCSI
+    -Dezvoltarea aplicatiilor pentru internet
+    -DAPI
+    -Psihologia utilizatorului de e-servicii
+    -PUES
+    -Managementul proiectelor de e-guvernare
+    -MPEG
+    -Sisteme de e-sanatate
+    -EH
+    -Didactica domeniului si dezvoltari in didactica specializarii
+    -DDDDS
+    -Sociologia educatiei
+    -SEd
+    -Retele wireless de senzori
+    -RWS
+    -Proiectarea aplicatiilor J2EE
+    -PAJ2
+    -Managementul proiectelor si serviciilor IT
+    -MPIT
+    -Ingineria cunoasterii si ecosisteme de servicii
+    -KESE
+    -Antreprenoriat, protectia proprietatii intelectuale si diseminare in cercetare
+    -APPIDC
+    -Analiza continutului imaginilor
+    -ACI
+    -Programare paralela pentru unitatea de procesare grafica
+    -GPGPU
+    -Dezvoltarea sistemelor de realitate virtuala
+    -DSRV
+    -Motoare de grafica 3D in timp real
+    -Mgtr
+    -Analiza si extragerea automata a continutului documentelor
+    -Aeacd
+    -Dezvoltarea aplicatiilor grafice pentru dispozitive mobile
+    -DAGDM
+    -Sisteme cu auto-organizare
+    -SS
+    -Verificarea si validarea sistemelor software
+    -VVP
+    -Retele neurale
+    -NN
+    -Tehnici avansate de inteligenta artificiala
+    -AAIT
+    -Securitatea informatica
+    -SINF
+    -Sisteme de regasire a informatiei
+    -Sri
+    -Politici si strategii de afaceri
+    -PSTR
+    -Managementul proiectelor IT
+    -MPI
+    -Strategii in afaceri si infrastructuri informatice suport
+    -SAIIS
+    -Marketing digital
+    -DM
+    -Managementul marketingului
+    -Mm
+    -Managementul incidentelor de securitate cibernetica
+    -CIM
+    -Proiectarea dispozitivelor criptografice folosind FPGA
+    -PDCFF
+    -Sisteme de incredere
+    -SINC
+    -Sisteme de operare pentru sisteme mobile
+    -SOSM
+    -Topici avansate in securitatea calculatoarelor si retelelor
+    -MASR
+    -Interactiunea om-calculator, aplicata
+    -AHCI
+    -Studii de caz din industria financiara
+    -IELF
+    -Fundamentele si analitici Big Data
+    -BDFA
+    -Invatarea automata si inteligenta computationala
+    -MLCI
+    -Auditarea securitatii retelelor
+    -Asre
+    -Integrarea si managementul serviciilor de afaceri
+    -IMS
+    -Sisteme suport pentru decizii
+    -SSD
+    -Politici in sisteme distribuite
+    -PSD
+    -Etica engleza(SEM, IA, SAS, SCPD, SPF)
+    -ET
+    -Etica
+    -ET
+    -Practica pedagogica
+    -PPILP
+    -Examen de absolvire, Nivelul II
+    -EAPPNII
+    -Cercetare stiintifica, practica si elaborare disertatie
+    -CSPED
+    -Elaborare lucrare disertatie
+    -ELDi
+    -Elaborare lucrare de disertatie
+    -ELD
+    -Instrumentatie de proces in sisteme informatice
+    -Ipsi
+    -Modelarea si simularea sistemelor cu evenimente discrete
+    -Mssed
+    -Complemente de teoria sistemelor si semnalelor
+    -Ctss
+    -Tehnici avansate de conducere a proceselor
+    -Tacp
+    -Cercetare
+    -Cercetare
+    -Dispozitive si retele wireless pentru automatizare dirijata de produs
+    -DRWADP
+    -SCADA si retele de automate
+    -SCRDAP
+    -Modelarea fluxurilor de date si retele de calcul
+    -MFDRC
+    -Managementul cerintelor si modelarea proceselor de afaceri
+    -MCMPA
+    -Arhitectura si controlul circuitelor electronice de putere
+    -ACCEP
+    -Tehnici avansate de identificare si prelucrare de semnal
+    -TAIPS
+    -SCADA, HIL, SIL
+    -SHS
+    -Proiectarea aplicatiilor de conducere in timp real
+    -PACTR
+    -Sisteme suport decizie
+    -SSDE
+    -Complemente de matematici
+    -CM
+    -Managementul proiectelor informatice
+    -MPIN
+    -Managementul fluxurilor de operatii
+    -MFO
+    -Criptografie si criptanaliza
+    -CcA
+    -Tehnici de cautare si regasire a informatiei
+    -Tcri
+    -Modelarea fluxurilor de date si de activitati
+    -Mfda
+    -Procesoare digitale de semnal si prelucrarea video si audio in timp real
+    -PDSPVATRe
+    -Metode avansate de prelucrare a imaginilor complexe, analiza imaginilor 3d
+    -Mapicai
+    -Arhitecturi orientate pe servicii si tehnologii WEB
+    -AOSTW
+    -Prelucrare avansata a semnalelor prin transformate ortogonale
+    -PASTO
+    -Modelarea si analiza sistemelor de sisteme
+    -SoSMA
+    -Tehnici de redactare a lucrarilor stiintifice
+    -SW
+    -Introducere in sisteme complexe
+    -ICS
+    -Calcul Evolutionar
+    -Ce
+    -Securitatea retelelor si a sistemelor
+    -NaSS
+    -Managementul comunicarii si psihologia cognitiva
+    -CMaCP
+    -Arhitectura sistemelor informationale orientate pe servicii
+    -ASIOS
+    -IOT si Tehnologii SCADA
+    -ITS
+    -Modelarea matematica a proceselor economice
+    -MMEP
+    -Procesarea paralela si distribuita a datelor si cunostintelor
+    -Ppddc
+    -Algoritmi si structuri avansate de conducere
+    -Asac
+    -Managementul cunostintelor
+    -MACUN
+    -Managementul fluxurilor de activitati
+    -MFA
+    -Sisteme integrate pentru aplicatii in timp real
+    -SIPATRe
+    -Sisteme de control inteligent si sisteme multi-agent
+    -Scism
+    -Echipamente complexe de investigatie in sisteme informatice in medicina
+    -ECISIM
+    -Sisteme multi-agent inteligente pentru asistenta ambientala
+    -SMAIPAA
+    -HPC
+    -H(PCSIM
+    -E-health
+    -EH
+    -e-Sanatate
+    -ES
+    -Sisteme SCADA pentru procese industriale
+    -SSppi
+    -Sisteme expert
+    -SE
+    -Diagnoza sistemelor tehnice
+    -Dst
+    -Actionari reglabile si elemente de executie
+    -AREEx
+    -Analiza informatiei si optimizarea deciziei in intreprindere
+    -AIODI
+    -Bazele stiintei serviciilor
+    -BSS
+    -Proiectarea si implementarea aplicatiilor software
+    -PIAS
+    -Planificarea resurselor intreprinderii
+    -PRI
+    -Implementarea sistemelor de conducere pentru mediu industrial
+    -ISCpMI
+    -Sisteme de mari dimensiuni
+    -SMD
+    -Tehnici aplicate de optimalitate
+    -TAO
+    -Programare eficienta in timp real
+    -PETR
+    -Sisteme integrate pentru managementul resurselor de intreprindere
+    -Sipmri
+    -Ingineria afacerilor in mediul electronic
+    -Iame
+    -Modelarea proceselor de afaceri
+    -Mpa
+    -Managementul strategic si de risc
+    -Msr
+    -Fiabilitatea, mentenanta si siguranta in functionare a sistemelor informatice
+    -Fmsfsi
+    -Management strategic si managementul riscului
+    -Msmr
+    -Echipamente de calcul de inalta performanta
+    -Ecip
+    -Testare software si asigurarea calitatii
+    -Tsac
+    -Codificarea informatiei audio-video cu grad inalt de siguranta
+    -Ciagis
+    -Tehnici fractale in aplicatii multimedia
+    -Tfam
+    -Prelucrari paralele in aplicatii multimedia
+    -Ppam
+    -Haos si fractali
+    -HF
+    -Tehnici de reducere a dimensiunii si a complexitatii
+    -DCR
+    -Optimizari pentru Big Data
+    -OBD
+    -Calcul pentru sisteme complexe
+    -CCS
+    -Servicii web si instrumente de dezvoltare
+    -WSDT
+    -Managementul serviciilor. Strategie si inovare
+    -SMSI
+    -Programare java si servicii web
+    -PJSW
+    -Managementul contabil si financiar pentru servicii
+    -AFMS
+    -Managementul lanturilor de aprovizionare si logistica
+    -SCML
+    -Tehnici avansate de decizie
+    -Tad
+    -Sisteme inteligente de conducere
+    -SIC
+    -Inginerie dirijata de modele pentru managementul informatiilor si al serviciilor
+    -Idmpmis
+    -Sisteme informatice cu arhitectura deschisa
+    -SIADS
+    -Sisteme distribuite de baze de date
+    -Sdbd
+    -Dosarul electronic al pacientului
+    -DEAP
+    -Senzori si instrumentatie de masura in sisteme informatice in medicina
+    -SIMSIM
+    -Managementul proiectelor de cercetare
+    -Mpc
+    -Sisteme multi-agent pentru controlul intreprinderii
+    -SMACI
+    -Cercetare stiintifica
+    -AR
+    -Sisteme informatice in energetica
+    -SiE
+    -Sisteme informatice in industria chimica si biochimica
+    -SIICB
+    -Modelarea si integrarea intreprinderii
+    -MII
+    -Baze de date distribuite si de cunostinte pentru productie
+    -BDDCP
+    -Inteligenta artificiala aplicata prin automatizare rapida
+    -IAAAR
+    -Lanturi de aprovizionare si logistica
+    -LAL
+    -Control avansat pentru aplicatii in timp real
+    -CAPATR
+    -Optimizare si decizii de conducere
+    -ODC
+    -Machine learning pentru aplicatii de predictie si control
+    -MLAPC
+    -Automatica industriala - studii de caz
+    -AISC
+    -Managementul inovarii
+    -Mi
+    -Managementul resurselor umane si tehnici de comunicare
+    -MRUTC
+    -Arhitecturi informatice pentru sisteme complexe
+    -AIPSC
+    -Proiectare arhitecturi pentru informatizarea sistemelor de afaceri
+    -PAISA
+    -Testare produse informatice, asigurarea calitatii
+    -Tpiac
+    -Protectia informatiei in e-sisteme
+    -PIES
+    -Fiabilitatea software-ului si benchmarking-ul dependabilitatii
+    -FSUBUD
+    -Inginerie concurenta si managementul inovarii
+    -Icmi
+    -Prelucrari complexe in imagistica medicala
+    -Pcim
+    -Prelucrarea numerica a imaginilor in sisteme informatice geografice
+    -PniSIG
+    -Planificarea aplicatiilor si management de proiect
+    -Pamp
+    -Sisteme de realitate virtuala
+    -Srv
+    -Studii de caz in sisteme complexe
+    -CSCS
+    -Conducerea sistemelor complexe
+    -CCS
+    -Agenti autonomi
+    -AA
+    -Sisteme de conducere neliniare
+    -NC
+    -Eservicii pentru administratie si afaceri
+    -ESAA
+    -Integrarea procesului afacerii si management
+    -BPIM
+    -Proprietatea intelectuala si antreprenoriat
+    -IPaE
+    -Marketing si performanta financiara a afacerii
+    -MaFPB
+    -Operatiuni in servicii si managementul relatiilor cu clientii
+    -SOACRM
+    -Sisteme inteligente de fabricatie
+    -Sif
+    -Robotica cognitiva
+    -RCO
+    -Sisteme hibride
+    -Sh
+    -Proiectarea sistemelor integrate - cyber physical systems
+    -PSICPS
+    -Tehnici de testare si asigurarea calitatii pentru aplicatii software
+    -TTQA
+    -Sisteme de comunicatie si interoperabilitate
+    -SCI
+    -Arhitecturi informatice orientate pe servicii pentru intreprinderea viitorului
+    -AOIV
+    -Sisteme informatice pentru asigurari de sanatate
+    -SIPAS
+    -Telemedicina
+    -TMED
+    -Informatizarea laboratoarelor de analize medicale
+    -ILAM
+    -Standarde pentru transmiterea informatiei in sisteme informatice in medicina
+    -SPTISIM
+    -Managementul si Marketing-ul serviciilor de sanatate
+    -MMUSS
+    -Telemedicina si gestiunea bolilor cronice. Echipamente mobile in sisteme informatice in medicina
+    -TGBCEMSIM
+    -Practica pentru elaborare disertatie
+    -PED
+- lookup: groupNr
+  examples: |
+    -311
+    -312
+    -313
+    -314
+    -315
+    -321
+    -322
+    -323
+    -324
+    -325
+    -331
+    -332
+    -333
+    -334
+    -335
+    -341
+    -342
+    -343
+- lookup: srNr
+  examples: |
+    -CA
+    -CB
+    -CC
+    -CD
+    -C1
+    -C2
+    -C3
+    -C4
+    -C5
