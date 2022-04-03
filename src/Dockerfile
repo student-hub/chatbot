@@ -7,13 +7,14 @@ RUN python -m pip install rasa==3.0.8 && \
     python3 -m spacy link ro_core_news_md ro && \
     pip install firebase_admin
 
-WORKDIR /app
-COPY . .
+COPY . /app
 
-# RUN rasa train nlu
+WORKDIR /app
+
+RUN rasa train
 
 USER 1001
 
 ENTRYPOINT ["rasa"]
 
-CMD ["run", "--enable-api", "--port", "5005"]
+CMD ["run", "-m", "app/models", "--enable-api", "--port", "5005"]

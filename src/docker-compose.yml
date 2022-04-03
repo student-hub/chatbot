@@ -3,8 +3,8 @@ services:
     image: rasa-src-ro
     ports:
       - 5005:5005
-    volumes:
-      - ./:/app
+    # volumes:
+    #   - ./:/app
     command:
       - run
   app:
