@@ -1,11 +1,11 @@
 services:
   rasa:
-    image: rasa-src-en
+    image: ancadavid/chatbot-polly:rasa-src-en
     ports:
       - 5006:5006
 
   appen:
-    image: rasa-src-en-actionserver
+    image: ancadavid/chatbot-polly:rasa-src-en-actionserver
     volumes:
       - ./actions:/app/actions
     ports:

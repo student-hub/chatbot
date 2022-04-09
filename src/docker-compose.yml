@@ -1,14 +1,12 @@
 services:
   rasa:
-    image: rasa-src-ro
+    image: ancadavid/chatbot-polly:rasa-src-ro
     ports:
       - 5005:5005
-    # volumes:
-    #   - ./:/app
     command:
       - run
   app:
-    image: rasa-src-ro-actionserver
+    image: ancadavid/chatbot-polly:rasa-src-ro-actionserver
     expose: 
     - 5055
 
