@@ -78,7 +78,7 @@ class ActionGetDateEvent(Action):
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
-                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent and currentEvent["calendar"] == "2021":
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):
@@ -126,7 +126,7 @@ class ActionGetEndTimeEvent(Action):
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
-                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent and currentEvent["calendar"] == "2021":
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):
@@ -175,12 +175,12 @@ class ActionLocateEvent(Action):
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
-                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent and currentEvent["calendar"] == "2021":
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):
                                 print(currentEvent["location"])
-                                if currentEvent["location"] is not None and currentEvent["rrule"] is not None:
+                                if currentEvent["location"] is not None and len(currentEvent["location"]) and currentEvent["rrule"] is not None:
                                     day, hour = helper.get_time(currentEvent)
                                     results_list.append(LocateEventInfo(day, hour, currentEvent["location"]))                          
 
@@ -292,7 +292,7 @@ class ActionGetStartTimeEvent(Action):
         for e in events:
             currentEvent = e.to_dict()
             if "class" in currentEvent.keys():
-                if currentEvent["class"] == event and currentEvent["type"] == typeEvent:
+                if currentEvent["class"] == event and currentEvent["type"] == typeEvent and currentEvent["calendar"] == "2021":
                     if currentEvent["relevance"] is not None:
                         for relevance in currentEvent["relevance"]:
                             if (relevance == sr or relevance == group or relevance == semigroup):

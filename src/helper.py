@@ -139,7 +139,7 @@ def get_time(currentEvent):
     day = get_day(day)
 
     temp = pd.Timestamp(currentEvent["start"])
-    hour = temp.hour + 3
+    hour = temp.hour + 2
     minute = temp.minute
     h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
     
@@ -153,7 +153,7 @@ def get_end_time(currentEvent):
     temp = pd.Timestamp(currentEvent["start"])
     if currentEvent["duration"] is not None:
         duration = currentEvent["duration"]["hours"]
-    hour = temp.hour + 3 + duration
+    hour = temp.hour + 2 + duration
     minute = temp.minute
     h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
     
