@@ -28,7 +28,7 @@ def get_entities(entities):
 
     if max_confidence_typeEvent is not None:
         for ent in entities:
-            if 'confidence_entity' in ent and ent['confidence_entity'] == max_confidence_event and ent['entity'] == 'typeEvent':
+            if 'confidence_entity' in ent and ent['confidence_entity'] == max_confidence_typeEvent and ent['entity'] == 'typeEvent':
                 typeEventEntity = ent['value']
                 break
 
@@ -104,7 +104,7 @@ def get_time(currentEvent):
     day = get_day(day)
 
     temp = pd.Timestamp(currentEvent["start"])
-    hour = temp.hour + 3
+    hour = temp.hour + 2
     minute = temp.minute
     h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
     
@@ -118,7 +118,7 @@ def get_end_time(currentEvent):
     temp = pd.Timestamp(currentEvent["start"])
     if currentEvent["duration"] is not None:
         duration = currentEvent["duration"]["hours"]
-    hour = temp.hour + 3 + duration
+    hour = temp.hour + 2 + duration
     minute = temp.minute
     h = str(hour) + str(minute) if minute > 0 else str(hour) + ":00"
     
