@@ -22,9 +22,6 @@ pipeline:
     epochs: 100
     retrieval_intent: faq
     constrain_similarities: True
-  - name: "RegexFeaturizer"
-    "case_sensitive": False
-    "use_word_boundaries": True
   - name: RegexEntityExtractor
     case_sensitive: False
     use_lookup_tables: True

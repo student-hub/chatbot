@@ -1322,7 +1322,6 @@ nlu:
     -Istoria religiilor
     -IR
     -Logica
-    -L
     -Biochimie
     -Bchim
     -Mecanica
@@ -1368,7 +1367,6 @@ nlu:
     -Limba straina 2
     -LS2
     -Fizica
-    -F
     -Matematica 3
     -M3
     -Structuri de date
@@ -1450,7 +1448,6 @@ nlu:
     -Limbaje formale si automate
     -LFA
     -Practica
-    -P
     -Sisteme de operare
     -SO
     -Arhitectura sistemelor de calcul
@@ -1529,13 +1526,11 @@ nlu:
     -Invatare automata
     -IAu
     -E-commerce
-    -E
     -Programare web
     -PW
     -Elemente de informatica aplicata in ingineria sistemelor
     -EIAIS
     -Chimie
-    -C
     -Structuri de date si algoritmi
     -SDA
     -Generarea si managementul documentelor
@@ -1553,7 +1548,6 @@ nlu:
     -Tehnici de optimizare
     -TO
     -Actionari
-    -A
     -Proiectarea dispozitivelor numerice
     -PDN
     -Bazele managementului
